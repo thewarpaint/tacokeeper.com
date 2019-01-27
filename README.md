@@ -16,3 +16,7 @@ Then serve the site:
 # Available at http://127.0.0.1:4000/
 bundle exec jekyll serve
 ```
+
+## References
+
+- https://developer.twitter.com/en/docs/accounts-and-users/user-profile-images-and-banners
