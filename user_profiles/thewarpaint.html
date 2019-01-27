@@ -1,6 +1,7 @@
 ---
 permalink: /u/thewarpaint
 ---
+{%- assign data = site.data['twitter-293902828'] -%}
 {%- assign postTitle = "@thewarpaint | TacoKeeper" -%}
 {%- assign postDescription = "Perfil de @thewarpaint. Monitorea tus actividades gastronómicas. Running is boring. Tacos are fun. 🌮🏃" -%}
 <!DOCTYPE html>
@@ -20,7 +21,10 @@ permalink: /u/thewarpaint
   </head>
 
   <body>
-    <h1>@thewarpaint</h1>
+    <h1>@{{ data.user.screen_name }}</h1>
+
+    <img src="{{ data.user.profile_image_url }}"
+         alt="@{{ data.user.screen_name }}">
 
     <h2>9 tacos desde enero 2019</h2>
 
