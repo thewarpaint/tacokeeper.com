@@ -361,7 +361,8 @@
       var optionsMap = getOptionsMap(optionsArray);
       var model = {};
       var twitterIntentUrl = 'https://twitter.com/intent/tweet?';
-      var targetUrl = 'https://eduardogarcia.xyz/tacokeeper';
+      var targetUrl = 'https://tacokeeper.com/';
+      var hashtag = '#tacokeeper';
 
       document.addEventListener('DOMContentLoaded', function (event) {
         $captureSection = document.getElementById('capture-section');
@@ -415,7 +416,7 @@
           })
           .join(', ');
 
-        tweetHref = tweetText + ' #tacokeeper ' +
+        tweetHref = tweetText + ' ' + hashtag + ' ' +
           targetUrl + '?t=' +
           getActiveModelKeys()
             .map(function (key) {
