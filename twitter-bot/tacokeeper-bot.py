@@ -13,7 +13,7 @@ demo_summary_file = './assets/tacokeeper-summary.png'
 query = '#tacokeeper'
 welcome_message = '¡Hola, @{screen_name}! Tu perfil estará disponible pronto en https://tacokeeper.com/u/{screen_name}'
 last_processed_id = '548595190118629377'
-user_data_path = './data/{user_id}.yml'
+user_data_path = '../_data/twitter-{user_id}.yml'
 
 def get_api():
     auth = tweepy.OAuthHandler(os.environ['TKB_CONSUMER_KEY'], os.environ['TKB_CONSUMER_SECRET'])
