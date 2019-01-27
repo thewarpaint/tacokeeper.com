@@ -5,6 +5,6 @@ activities:
     n prensado, 1 taco de papas con chorizo #tacokeeper https://t.co/zXum9bMQIJ"
   tk_url: https://tacokeeper.com/?t=PIC02ALA02CHP01PAP01
 user:
+  id: '293902828'
   profile_image_url: https://pbs.twimg.com/profile_images/935239780589363200/wb5rFABq_normal.jpg
-  user_id: '293902828'
-  user_screen_name: thewarpaint
+  screen_name: thewarpaint
