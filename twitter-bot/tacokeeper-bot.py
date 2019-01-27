@@ -14,6 +14,7 @@ query = '#tacokeeper'
 welcome_message = '¡Hola, @{screen_name}! Tu perfil estará disponible pronto en https://tacokeeper.com/u/{screen_name}'
 last_processed_id = '548595190118629377'
 user_data_path = '../_data/twitter-{user_id}.yml'
+tk_url_prefix = 'https://tacokeeper.com/?t='
 
 def get_api():
     auth = tweepy.OAuthHandler(os.environ['TKB_CONSUMER_KEY'], os.environ['TKB_CONSUMER_SECRET'])
@@ -49,20 +50,14 @@ def process_tweets(since_id):
         process_tweet(tweet)
 
 def process_tweet(tweet):
-    tweet_info = {
-        'id': tweet.id,
-        'created_at': str(tweet.created_at),
-        'text': tweet.full_text
-    }
+    tweet_info = get_tweet_info(tweet)
 
     if dry_run:
         print('Tweet retrieved successfully:', tweet_info)
         return
 
-    if len(tweet.entities['urls']) == 1:
-        tweet_info['tk_url'] = tweet.entities['urls'][0]['expanded_url']
-    else:
-        print('Tweet without TK link, skipping:', tweet_info)
+    if tweet_info['tk_data'] == '':
+        print('Tweet without TK data, skipping:', tweet_info)
         return
 
     data = load_data(tweet.user.id_str)
@@ -101,6 +96,21 @@ def get_user_info(tweet):
     }
 
     return user_info
+
+def get_tweet_info(tweet):
+    tweet_info = {
+        'id': tweet.id,
+        'created_at': str(tweet.created_at),
+        'text': tweet.full_text,
+        'tk_url': '',
+        'tk_data': ''
+    }
+
+    if len(tweet.entities['urls']) == 1:
+        tweet_info['tk_url'] = tweet.entities['urls'][0]['expanded_url']
+        tweet_info['tk_data'] = tweet_info['tk_url'].replace(tk_url_prefix, '')
+
+    return tweet_info
 
 
 if __name__ == '__main__':
