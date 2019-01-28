@@ -18,13 +18,32 @@ permalink: /u/thewarpaint
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700,900"
           rel="stylesheet">
+    <style>
+      .header {
+        background-color: black;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .header--onion {
+        background-image: url('https://c2.staticflickr.com/4/3040/2487528402_ceb91c48f9_o.jpg');
+      }
+
+      .header__profile-image {
+        border: .125rem solid white;
+        border-radius: 50%;
+      }
+    </style>
   </head>
 
   <body>
-    <h1>@{{ data.user.screen_name }}</h1>
-
-    <img src="{{ data.user.profile_image_url }}"
-         alt="@{{ data.user.screen_name }}">
+    <header class="header header--onion">
+      <img class="header__profile-image"
+           src="{{ data.user.profile_image_url }}"
+           alt="@{{ data.user.screen_name }}">
+      <h1>@{{ data.user.screen_name }}</h1>
+    </header>
 
     <h2>9 tacos desde enero 2019</h2>
 
