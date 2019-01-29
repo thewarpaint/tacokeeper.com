@@ -25,3 +25,5 @@ bundle exec jekyll serve
 ### Images
 
 - https://www.flickr.com/photos/waywuwei/2487528402/
+- https://flic.kr/p/cM8EdN
+- https://flic.kr/p/qLLkqS
