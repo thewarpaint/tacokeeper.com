@@ -24,6 +24,7 @@ permalink: /u/thewarpaint
       }
 
       .header {
+        text-align: center;
         background-color: black;
         background-repeat: no-repeat;
         background-size: cover;
@@ -35,9 +36,15 @@ permalink: /u/thewarpaint
       }
 
       .header__profile-image {
-        width: 2.5rem;
+        width: 7.5rem;
         border: .25rem solid white;
         border-radius: 50%;
+      }
+      
+      .header__screen-name {
+        display: inline-block;
+        background-color: black;
+        padding: .5rem;
       }
     </style>
   </head>
@@ -47,7 +54,7 @@ permalink: /u/thewarpaint
       <img class="header__profile-image"
            src="{{ data.user.profile_image_url }}"
            alt="@{{ data.user.screen_name }}">
-      <h1>@{{ data.user.screen_name }}</h1>
+      <h1 class="header__screen-name">@{{ data.user.screen_name }}</h1>
     </header>
 
     <h2>9 tacos desde enero 2019</h2>
