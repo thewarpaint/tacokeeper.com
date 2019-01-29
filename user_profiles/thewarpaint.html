@@ -18,6 +18,11 @@ permalink: /u/thewarpaint
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700,900"
           rel="stylesheet">
     <style>
+      html {
+        font-family: "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 16px;
+      }
+
       body {
         margin: 0;
       }
@@ -53,6 +58,25 @@ permalink: /u/thewarpaint
         background-color: white;
         color: black;
       }
+
+      .summary {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .summary__item {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .summary__title,
+      .summary__number {
+        text-align: center;
+      }
+
+      .summary__title {
+        text-transform: uppercase;
+      }
     </style>
   </head>
 
@@ -64,9 +88,37 @@ permalink: /u/thewarpaint
       <h1 class="header__screen-name">@{{ data.user.screen_name }}</h1>
     </header>
 
-    <h2>9 tacos desde enero 2019</h2>
+    <div class="summary">
+      <div class="summary__item">
+        <div class="summary__title">
+          Desde
+        </div>
 
-    <h2>4 variedades</h2>
+        <div class="summary__number">
+          Enero 2019
+        </div>
+      </div>
+
+      <div class="summary__item">
+        <div class="summary__title">
+          Tacos
+        </div>
+
+        <div class="summary__number">
+          6
+        </div>
+      </div>
+
+      <div class="summary__item">
+        <div class="summary__title">
+          Variedades
+        </div>
+
+        <div class="summary__number">
+          4
+        </div>
+      </div>
+    </div>
 
     <ul>
       <li>
