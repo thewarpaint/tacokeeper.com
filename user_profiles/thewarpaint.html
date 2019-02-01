@@ -100,6 +100,10 @@ permalink: /u/thewarpaint
         border-bottom: 1px solid #b0bec5; /* Blue Gray 200 */
       }
 
+      .summary--monthly {
+        background-color: #eceff1; /* Blue Gray 50 */
+      }
+
       .summary__item {
         display: flex;
         flex-direction: column;
@@ -202,15 +206,51 @@ permalink: /u/thewarpaint
 
       <ul class="activities">
         {%- for activity in data.activities -%}
-        <li class="activity">
-          <div class="activity__date">{{ activity.created_at_formatted }}</div>
+        {%- case activity.type -%}
+          {%- when 'daily' -%}
+          <li class="activity">
+            <div class="activity__date">{{ activity.created_at_formatted }}</div>
 
-          <ul class="activity__varieties">
-            {%- for entry in activity.entries -%}
-            <li>{{ entry.text }}</li>
-            {%- endfor -%}
-          </ul>
-        </li>
+            <ul class="activity__varieties">
+              {%- for entry in activity.entries -%}
+              <li>{{ entry.text }}</li>
+              {%- endfor -%}
+            </ul>
+          </li>
+
+          {%- when 'monthly' -%}
+          <li class="summary summary--monthly">
+            <div class="summary__item">
+              <div class="summary__title">
+                Durante
+              </div>
+
+              <div class="summary__number">
+                {{ activity.summary.date }}
+              </div>
+            </div>
+
+            <div class="summary__item">
+              <div class="summary__title">
+                Tacos
+              </div>
+
+              <div class="summary__number">
+                {{ activity.summary.total_tacos }}
+              </div>
+            </div>
+
+            <div class="summary__item">
+              <div class="summary__title">
+                Variedades
+              </div>
+
+              <div class="summary__number">
+                {{ activity.summary.varieties }}
+              </div>
+            </div>
+          </li>
+        {%- endcase -%}
         {%- endfor -%}
       </ul>
 

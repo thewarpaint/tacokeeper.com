@@ -1,4 +1,9 @@
 activities:
+- summary:
+    date: Enero
+    total_tacos: 6
+    varieties: 4
+  type: monthly
 - created_at: '2019-01-27 14:03:45'
   created_at_formatted: Enero 27
   entries:
@@ -11,6 +16,7 @@ activities:
     n prensado, 1 taco de papas con chorizo #tacokeeper https://t.co/zXum9bMQIJ"
   tk_data: PIC02ALA02CHP01PAP01
   tk_url: https://tacokeeper.com/?t=PIC02ALA02CHP01PAP01
+  type: daily
 user:
   id: '293902828'
   profile_image_url: https://pbs.twimg.com/profile_images/935239780589363200/wb5rFABq.jpg
