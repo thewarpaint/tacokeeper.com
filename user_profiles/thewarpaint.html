@@ -205,10 +205,24 @@ permalink: /u/thewarpaint
         text-align: right;
       }
     </style>
+
+
+    <script type="text/javascript">
+      // Testing purposes only
+      function pickCover(cover) {
+        document.querySelector('header').className = 'header header--' + cover;
+      }
+    </script>
   </head>
 
   <body>
     <div class="container">
+      <!--
+      {%- for coverImage in coverImages -%}
+      <button onclick="pickCover('{{ coverImage[0] }}');">{{ coverImage[0] }}</button></li>
+      {%- endfor -%}
+      -->
+
       <header class="header header--{{ data.user.coverImage }}">
         <img class="header__profile-image"
              src="{{ data.user.profile_image_url }}"
