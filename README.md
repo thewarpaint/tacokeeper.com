@@ -24,6 +24,6 @@ bundle exec jekyll serve
 
 ### Images
 
-- https://www.flickr.com/photos/waywuwei/2487528402/
-- https://flic.kr/p/cM8EdN
-- https://flic.kr/p/qLLkqS
+- ["Onions and Garlic" by waywuwei on Flickr](https://www.flickr.com/photos/waywuwei/2487528402/)
+- ["Jitomates" by armandoh2o on Flickr](https://flic.kr/p/cM8EdN)
+- ["Making Salsa with Leftover Ingredients" by omaromar on Flickr](https://flic.kr/p/qLLkqS)
