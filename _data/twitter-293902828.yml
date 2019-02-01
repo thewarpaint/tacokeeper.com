@@ -1,5 +1,6 @@
 activities:
 - summary:
+    categories: 1
     date: Enero
     total_tacos: 6
     varieties: 4
@@ -9,7 +10,7 @@ activities:
   badges:
     - text: 4 nuevas variedades
       type: variety
-    - text: "Nueva categoria: Guisado"
+    - text: "Nueva categoría: Guisado"
       type: category
   entries:
     - badges:
