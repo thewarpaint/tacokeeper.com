@@ -108,6 +108,31 @@ permalink: /u/thewarpaint
         font-weight: 700;
         letter-spacing: -1px;
       }
+
+      .activities,
+      .activity__varieties {
+        list-style-type: none;
+        padding-left: 0;
+      }
+
+      .activities {
+        margin: 0;
+      }
+
+      .activity {
+        padding: 2rem;
+        border-bottom: 1px solid #eceff1; /* Blue Gray 50 */
+      }
+
+      .activity__date {
+        color: #b0bec5; /* Blue Gray 200 */
+        margin-bottom: 1rem;
+      }
+
+      .activity__varieties {
+        font-size: 1.25rem;
+        line-height: 150%;
+      }
     </style>
   </head>
 
@@ -152,11 +177,11 @@ permalink: /u/thewarpaint
         </div>
       </div>
 
-      <ul>
-        <li>
-          <p>Enero 29</p>
+      <ul class="activities">
+        <li class="activity">
+          <div class="activity__date">Enero 29</div>
 
-          <ul>
+          <ul class="activity__varieties">
             <li>2 tacos de picadillo</li>
             <li>2 tacos de alambre</li>
             <li>1 taco de chicharrón prensado</li>
