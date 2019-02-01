@@ -25,6 +25,20 @@ permalink: /u/thewarpaint
 
       body {
         margin: 0;
+        background-color: black;
+      }
+
+      .container {
+        min-height: 100vh;
+        background-color: white;
+      }
+
+      @media(min-width: 640px) {
+        .container {
+          max-width: 608px; /* 640px - (2 * 16px) */
+          margin-left: auto;
+          margin-right: auto;
+        }
       }
 
       .header {
@@ -98,57 +112,59 @@ permalink: /u/thewarpaint
   </head>
 
   <body>
-    <header class="header header--making-salsa">
-      <img class="header__profile-image"
-           src="{{ data.user.profile_image_url }}"
-           alt="@{{ data.user.screen_name }}">
-      <h1 class="header__screen-name">@{{ data.user.screen_name }}</h1>
-    </header>
+    <div class="container">
+      <header class="header header--making-salsa">
+        <img class="header__profile-image"
+             src="{{ data.user.profile_image_url }}"
+             alt="@{{ data.user.screen_name }}">
+        <h1 class="header__screen-name">@{{ data.user.screen_name }}</h1>
+      </header>
 
-    <div class="summary">
-      <div class="summary__item">
-        <div class="summary__title">
-          Desde
+      <div class="summary">
+        <div class="summary__item">
+          <div class="summary__title">
+            Desde
+          </div>
+
+          <div class="summary__number">
+            Enero 2019
+          </div>
         </div>
 
-        <div class="summary__number">
-          Enero 2019
+        <div class="summary__item">
+          <div class="summary__title">
+            Tacos
+          </div>
+
+          <div class="summary__number">
+            6
+          </div>
+        </div>
+
+        <div class="summary__item">
+          <div class="summary__title">
+            Variedades
+          </div>
+
+          <div class="summary__number">
+            4
+          </div>
         </div>
       </div>
 
-      <div class="summary__item">
-        <div class="summary__title">
-          Tacos
-        </div>
+      <ul>
+        <li>
+          <p>Enero 29</p>
 
-        <div class="summary__number">
-          6
-        </div>
-      </div>
-
-      <div class="summary__item">
-        <div class="summary__title">
-          Variedades
-        </div>
-
-        <div class="summary__number">
-          4
-        </div>
-      </div>
+          <ul>
+            <li>2 tacos de picadillo</li>
+            <li>2 tacos de alambre</li>
+            <li>1 taco de chicharrón prensado</li>
+            <li>1 taco de papas con chorizo</li>
+          </ul>
+        </li>
+      </ul>
     </div>
-
-    <ul>
-      <li>
-        <p>Enero 29</p>
-
-        <ul>
-          <li>2 tacos de picadillo</li>
-          <li>2 tacos de alambre</li>
-          <li>1 taco de chicharrón prensado</li>
-          <li>1 taco de papas con chorizo</li>
-        </ul>
-      </li>
-    </ul>
 
     {%- include google-analytics.html -%}
   </body>
