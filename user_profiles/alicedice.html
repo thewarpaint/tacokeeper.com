@@ -1,0 +1,153 @@
+---
+permalink: /u/alicedice
+---
+{%- assign data = site.data['twitter-4518111'] -%}
+{%- assign postTitle = "@alicedice | TacoKeeper" -%}
+{%- assign postDescription = "Perfil de @alicedice. Monitorea tus actividades gastronómicas. Running is boring. Tacos are fun. 🌮🏃" -%}
+<!DOCTYPE html>
+<html lang="es-MX">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="{{ postTitle }}">
+    <meta name="description" content="{{ postDescription }}">
+    <meta name="theme-color" content="#000000">
+
+    <title>{{ postTitle }}</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,900"
+          rel="stylesheet">
+    <style>
+      html {
+        font-family: "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 16px;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: black;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 2rem;
+      }
+
+      .header--onion {
+        background-image: url('/assets/images/onions.jpg');
+      }
+
+      .header--making-salsa {
+        background-image: url('/assets/images/making-salsa.jpg');
+      }
+
+      .header__profile-image {
+        width: 7.5rem;
+        border: .25rem solid white;
+        border-radius: 50%;
+      }
+
+      .header__screen-name {
+        display: inline-block;
+        margin: 1rem 0 0;
+        padding: .5rem;
+        font-family: Montserrat, Helvetica, sans-serif;
+        font-size: 1.25rem;
+        letter-spacing: -1px;
+        background-color: white;
+        color: black;
+      }
+
+      .summary {
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid #b0bec5; /* Blue Gray 200 */
+      }
+
+      .summary__item {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem .5rem;
+      }
+
+      .summary__title,
+      .summary__number {
+        text-align: center;
+      }
+
+      .summary__title {
+        color: #b0bec5; /* Blue Gray 200 */
+        font-size: .75rem;
+        font-weight: light;
+        text-transform: uppercase;
+      }
+
+      .summary__number {
+        font-family: Montserrat;
+        font-size: 1.25rem;
+        font-weight: 700;
+        letter-spacing: -1px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="header header--making-salsa">
+      <img class="header__profile-image"
+           src="{{ data.user.profile_image_url }}"
+           alt="@{{ data.user.screen_name }}">
+      <h1 class="header__screen-name">@{{ data.user.screen_name }}</h1>
+    </header>
+
+    <div class="summary">
+      <div class="summary__item">
+        <div class="summary__title">
+          Desde
+        </div>
+
+        <div class="summary__number">
+          Enero 2019
+        </div>
+      </div>
+
+      <div class="summary__item">
+        <div class="summary__title">
+          Tacos
+        </div>
+
+        <div class="summary__number">
+          12
+        </div>
+      </div>
+
+      <div class="summary__item">
+        <div class="summary__title">
+          Variedades
+        </div>
+
+        <div class="summary__number">
+          2
+        </div>
+      </div>
+    </div>
+
+    <ul>
+      <li>
+        <p>Enero 31</p>
+
+        <ul>
+          <li>3 tacos de arrachera</li>
+          <li>9 tacos al pastor</li>
+        </ul>
+      </li>
+    </ul>
+
+    {%- include google-analytics.html -%}
+  </body>
+</html>
