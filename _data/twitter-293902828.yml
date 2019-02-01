@@ -6,11 +6,25 @@ activities:
   type: monthly
 - created_at: '2019-01-27 14:03:45'
   created_at_formatted: Enero 27
+  badges:
+    - text: 4 nuevas variedades
+      type: variety
+    - text: "Nueva categoria: Guisado"
+      type: category
   entries:
-    - text: 2 tacos de picadillo
-    - text: 2 tacos de alambre
-    - text: 1 taco de chicharrón prensado
-    - text: 1 taco de papas con chorizo
+    - badges:
+        - variety
+        - category
+      text: 2 tacos de picadillo
+    - badges:
+      - variety
+      text: 2 tacos de alambre
+    - badges:
+        - variety
+      text: 1 taco de chicharrón prensado
+    - badges:
+        - variety
+      text: 1 taco de papas con chorizo
   id: 1089524362561155072
   text: "Hoy com\xED 2 tacos de picadillo, 2 tacos de alambre, 1 taco de chicharr\xF3\
     n prensado, 1 taco de papas con chorizo #tacokeeper https://t.co/zXum9bMQIJ"

@@ -1,8 +1,9 @@
 ---
 permalink: /u/thewarpaint
 ---
-{%- assign data = site.data['twitter-293902828'] -%}
+{%- assign badges = site.data.badges -%}
 {%- assign coverImages = site.data.coverImages -%}
+{%- assign data = site.data['twitter-293902828'] -%}
 {%- assign postTitle = "@thewarpaint | TacoKeeper" -%}
 {%- assign postDescription = "Perfil de @thewarpaint. Monitorea tus actividades gastronómicas. Running is boring. Tacos are fun. 🌮🏃" -%}
 <!DOCTYPE html>
@@ -67,7 +68,7 @@ permalink: /u/thewarpaint
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        padding: 4rem 2rem;
+        padding: 3rem 2rem;
       }
 
       {%- for coverImage in coverImages -%}
@@ -129,7 +130,8 @@ permalink: /u/thewarpaint
       }
 
       .activities,
-      .activity__varieties {
+      .activity__varieties,
+      .activity__badges {
         list-style-type: none;
         padding-left: 0;
       }
@@ -139,7 +141,7 @@ permalink: /u/thewarpaint
       }
 
       .activity {
-        padding: 2rem;
+        padding: 1.5rem 1rem;
         border-bottom: 1px solid #eceff1; /* Blue Gray 50 */
       }
 
@@ -151,6 +153,43 @@ permalink: /u/thewarpaint
       .activity__varieties {
         font-size: 1.25rem;
         line-height: 150%;
+      }
+
+      .activity__badges {
+        margin-top: 1rem;
+      }
+
+      .badge {
+        display: inline-block;
+        width: .75rem;
+        height: .75rem;
+        border-radius: 50%;
+        margin-left: .25rem;
+      }
+
+      .badge--variety {
+        background-color: #ff9800; /* Orange 500 */
+      }
+
+      .badge--category {
+        background-color: #8bc34a; /* Light Green 500 */
+      }
+
+      .badge-full {
+        display: inline-block;
+        border-radius: 5rem;
+        margin: 0 .5rem .5rem 0;
+        padding: .5rem .75rem;
+      }
+
+      .badge-full--variety {
+        background-color: #fff3e0; /* Orange 50 */
+        color: #ff9800; /* Orange 500 */
+      }
+
+      .badge-full--category {
+        background-color: #f1f8e9; /* Light Green 50 */
+        color: #8bc34a; /* Light Green 500 */
       }
 
       .cover-image-credit {
@@ -208,13 +247,30 @@ permalink: /u/thewarpaint
         {%- case activity.type -%}
           {%- when 'daily' -%}
           <li class="activity">
-            <div class="activity__date">{{ activity.created_at_formatted }}</div>
+            <div class="activity__date">
+              {{ activity.created_at_formatted }}
+            </div>
 
             <ul class="activity__varieties">
               {%- for entry in activity.entries -%}
-              <li>{{ entry.text }}</li>
+              <li>
+                {{ entry.text }}
+                {%- for badge in entry.badges -%}
+                <span class="badge badge--{{ badge }}"></span>
+                {%- endfor -%}
+              </li>
               {%- endfor -%}
             </ul>
+
+            {%- if activity.badges -%}
+            <ul class="activity__badges">
+              {%- for badge in activity.badges -%}
+              <li class="badge-full badge-full--{{ badge.type }}">
+                {{ badge.text }}
+              </li>
+              {%- endfor -%}
+            </ul>
+            {%- endif -%}
           </li>
 
           {%- when 'monthly' -%}
