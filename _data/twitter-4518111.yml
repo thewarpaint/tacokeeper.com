@@ -1,5 +1,9 @@
 activities:
 - created_at: '2019-02-01 04:29:38'
+  created_at_formatted: Enero 31
+  entries:
+    - text: 3 tacos de arrachera
+    - text: 9 tacos al pastor
   id: 1091191823387758592
   text: "Hoy com\xED 3 tacos de arrachera, 9 tacos al pastor #tacokeeper https://t.co/mJiw5JenPx"
   tk_data: ARR03PAS09
@@ -8,3 +12,7 @@ user:
   id: '4518111'
   profile_image_url: https://pbs.twimg.com/profile_images/950913959560818688/VA8VoYZy.jpg
   screen_name: alicedice
+summary:
+  joined: Enero 2019
+  total_tacos: 12
+  varieties: 2

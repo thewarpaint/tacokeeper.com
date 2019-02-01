@@ -25,6 +25,20 @@ permalink: /u/alicedice
 
       body {
         margin: 0;
+        background-color: black;
+      }
+
+      .container {
+        min-height: 100vh;
+        background-color: white;
+      }
+
+      @media(min-width: 640px) {
+        .container {
+          max-width: 608px; /* 640px - (2 * 16px) */
+          margin-left: auto;
+          margin-right: auto;
+        }
       }
 
       .header {
@@ -36,7 +50,7 @@ permalink: /u/alicedice
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        padding: 2rem;
+        padding: 4rem 2rem;
       }
 
       .header--onion {
@@ -94,59 +108,103 @@ permalink: /u/alicedice
         font-weight: 700;
         letter-spacing: -1px;
       }
+
+      .activities,
+      .activity__varieties {
+        list-style-type: none;
+        padding-left: 0;
+      }
+
+      .activities {
+        margin: 0;
+      }
+
+      .activity {
+        padding: 2rem;
+        border-bottom: 1px solid #eceff1; /* Blue Gray 50 */
+      }
+
+      .activity__date {
+        color: #b0bec5; /* Blue Gray 200 */
+        margin-bottom: 1rem;
+      }
+
+      .activity__varieties {
+        font-size: 1.25rem;
+        line-height: 150%;
+      }
+
+      .cover-image-credit {
+        margin: 0;
+        padding: 1rem;
+        font-size: .75rem;
+        text-align: right;
+      }
     </style>
   </head>
 
   <body>
-    <header class="header header--making-salsa">
-      <img class="header__profile-image"
-           src="{{ data.user.profile_image_url }}"
-           alt="@{{ data.user.screen_name }}">
-      <h1 class="header__screen-name">@{{ data.user.screen_name }}</h1>
-    </header>
+    <div class="container">
+      <header class="header header--making-salsa">
+        <img class="header__profile-image"
+             src="{{ data.user.profile_image_url }}"
+             alt="@{{ data.user.screen_name }}">
+        <h1 class="header__screen-name">@{{ data.user.screen_name }}</h1>
+      </header>
 
-    <div class="summary">
-      <div class="summary__item">
-        <div class="summary__title">
-          Desde
+      <div class="summary">
+        <div class="summary__item">
+          <div class="summary__title">
+            Desde
+          </div>
+
+          <div class="summary__number">
+            {{ data.summary.joined }}
+          </div>
         </div>
 
-        <div class="summary__number">
-          Enero 2019
+        <div class="summary__item">
+          <div class="summary__title">
+            Tacos
+          </div>
+
+          <div class="summary__number">
+            {{ data.summary.total_tacos }}
+          </div>
+        </div>
+
+        <div class="summary__item">
+          <div class="summary__title">
+            Variedades
+          </div>
+
+          <div class="summary__number">
+            {{ data.summary.varieties }}
+          </div>
         </div>
       </div>
 
-      <div class="summary__item">
-        <div class="summary__title">
-          Tacos
-        </div>
+      <ul class="activities">
+        {%- for activity in data.activities -%}
+        <li class="activity">
+          <div class="activity__date">{{ activity.created_at_formatted }}</div>
 
-        <div class="summary__number">
-          12
-        </div>
-      </div>
+          <ul class="activity__varieties">
+            {%- for entry in activity.entries -%}
+            <li>{{ entry.text }}</li>
+            {%- endfor -%}
+          </ul>
+        </li>
+        {%- endfor -%}
+      </ul>
 
-      <div class="summary__item">
-        <div class="summary__title">
-          Variedades
-        </div>
-
-        <div class="summary__number">
-          2
-        </div>
-      </div>
+      <p class="cover-image-credit">
+        <a href="https://flic.kr/p/qLLkqS"
+           target="_blank">
+         Portada: "Making Salsa with Leftover Ingredients" por omaromar en Flickr
+       </a>
+      </p>
     </div>
-
-    <ul>
-      <li>
-        <p>Enero 31</p>
-
-        <ul>
-          <li>3 tacos de arrachera</li>
-          <li>9 tacos al pastor</li>
-        </ul>
-      </li>
-    </ul>
 
     {%- include google-analytics.html -%}
   </body>
