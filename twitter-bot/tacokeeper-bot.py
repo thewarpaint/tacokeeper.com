@@ -12,7 +12,7 @@ dry_run = False
 demo_summary_file = './assets/tacokeeper-summary.png'
 query = '#tacokeeper'
 welcome_message = '¡Hola, @{screen_name}! Tu perfil estará disponible pronto en https://tacokeeper.com/u/{screen_name}'
-last_processed_id = '548595190118629377'
+last_processed_id = '1091191823387758592'
 user_data_path = '../_data/twitter-{user_id}.yml'
 tk_url_prefix = 'https://tacokeeper.com/?t='
 
