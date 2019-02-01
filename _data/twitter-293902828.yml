@@ -1,7 +1,7 @@
 activities:
 - summary:
     categories: 1
-    date: Enero
+    month: enero
     total_tacos: 6
     varieties: 4
   type: monthly
