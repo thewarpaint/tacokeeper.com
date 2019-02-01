@@ -18,6 +18,7 @@ activities:
   tk_url: https://tacokeeper.com/?t=PIC02ALA02CHP01PAP01
   type: daily
 user:
+  coverImage: cilantro
   id: '293902828'
   profile_image_url: https://pbs.twimg.com/profile_images/935239780589363200/wb5rFABq.jpg
   screen_name: thewarpaint

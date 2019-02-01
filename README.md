@@ -28,6 +28,6 @@ bundle exec jekyll serve
 - ["Cilantro" by chrismar on Flickr](https://flic.kr/p/51UerY)
 - ["Habaneros" by gabofr on Flickr](https://flic.kr/p/9vjXLQ)
 - ["Jitomates" by armandoh2o on Flickr](https://flic.kr/p/cM8EdN)
-- ["Onions and Garlic" by waywuwei on Flickr](https://www.flickr.com/photos/waywuwei/2487528402/)
 - ["Making Salsa with Leftover Ingredients" by omaromar on Flickr](https://flic.kr/p/qLLkqS)
+- ["Onions and Garlic" by waywuwei on Flickr](https://flic.kr/p/4MPewJ)
 - ["Tomatillos" by GloomyCorp on Flickr](https://flic.kr/p/5oGRu)

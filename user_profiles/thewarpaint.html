@@ -2,6 +2,7 @@
 permalink: /u/thewarpaint
 ---
 {%- assign data = site.data['twitter-293902828'] -%}
+{%- assign coverImages = site.data.coverImages -%}
 {%- assign postTitle = "@thewarpaint | TacoKeeper" -%}
 {%- assign postDescription = "Perfil de @thewarpaint. Monitorea tus actividades gastronómicas. Running is boring. Tacos are fun. 🌮🏃" -%}
 <!DOCTYPE html>
@@ -69,29 +70,11 @@ permalink: /u/thewarpaint
         padding: 4rem 2rem;
       }
 
-      .header--chorizo {
-        background-image: url('/assets/images/chorizo.jpg');
+      {%- for coverImage in coverImages -%}
+      .{{ coverImage[1].class }} {
+        background-image: url('{{ coverImage[1].backgroundImage }}');
       }
-
-      .header--cilantro {
-        background-image: url('/assets/images/cilantro.jpg');
-      }
-
-      .header--habanero {
-        background-image: url('/assets/images/habanero.jpg');
-      }
-
-      .header--making-salsa {
-        background-image: url('/assets/images/making-salsa.jpg');
-      }
-
-      .header--onion {
-        background-image: url('/assets/images/onions.jpg');
-      }
-
-      .header--tomate {
-        background-image: url('/assets/images/tomate.jpg');
-      }
+      {%- endfor -%}
 
       .header__profile-image {
         width: 7.5rem;
@@ -181,7 +164,7 @@ permalink: /u/thewarpaint
 
   <body>
     <div class="container">
-      <header class="header header--cilantro">
+      <header class="header header--{{ data.user.coverImage }}">
         <img class="header__profile-image"
              src="{{ data.user.profile_image_url }}"
              alt="@{{ data.user.screen_name }}">
@@ -270,10 +253,11 @@ permalink: /u/thewarpaint
         {%- endfor -%}
       </ul>
 
+      {%- assign coverImage = coverImages[data.user.coverImage] -%}
       <p class="cover-image-credit">
-        <a href="https://flic.kr/p/qLLkqS"
+        <a href="{{ coverImage.creditLink }}"
            target="_blank">
-         Portada: "Making Salsa with Leftover Ingredients" por omaromar en Flickr
+         Portada: {{ coverImage.creditText }}
        </a>
       </p>
     </div>

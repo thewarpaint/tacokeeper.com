@@ -1,0 +1,41 @@
+chorizo:
+  backgroundImage: /assets/images/chorizo.jpg
+  class: "header--chorizo"
+  creditText: >
+    "Chorizo" por john_oshea en Flickr
+  creditLink: https://flic.kr/p/7KB5Cp
+
+cilantro:
+  backgroundImage: /assets/images/cilantro.jpg
+  class: "header--cilantro"
+  creditText: >
+    "Cilantro" por chrismar en Flickr
+  creditLink: https://flic.kr/p/51UerY
+
+habanero:
+  backgroundImage: /assets/images/habanero.jpg
+  class: "header--habanero"
+  creditText: >
+    "Habaneros" por gabofr en Flickr
+  creditLink: https://flic.kr/p/9vjXLQ
+
+making-salsa:
+  backgroundImage: /assets/images/making-salsa.jpg
+  class: "header--making-salsa"
+  creditText: >
+    "Making Salsa with Leftover Ingredients" por omaromar en Flickr
+  creditLink: https://flic.kr/p/qLLkqS
+
+onion:
+  backgroundImage: /assets/images/onions.jpg
+  class: "header--onion"
+  creditText: >
+    "Onions and Garlic" por waywuwei en Flickr
+  creditLink: https://flic.kr/p/4MPewJ
+
+tomate:
+  backgroundImage: /assets/images/tomate.jpg
+  class: "header--tomate"
+  creditText: >
+    "Tomatillos" por GloomyCorp en Flickr
+  creditLink: https://flic.kr/p/5oGRu
