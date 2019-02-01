@@ -17,6 +17,22 @@ permalink: /u/thewarpaint
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700,900"
           rel="stylesheet">
+
+    <!-- Twitter meta tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@tacokeeper">
+    <meta name="twitter:title" content="{{ postTitle }}">
+    <meta name="twitter:description" content="{{ postDescription }}">
+    <meta name="twitter:image" content="{{ data.user.profile_image_url }}">
+
+    <!-- Open Graph (Facebook) meta tags -->
+    <meta property="og:title" content="{{ postTitle }}">
+    <meta property="og:description" content="{{ postDescription }}">
+    <meta property="og:type" content="profile">
+    <meta property="og:profile:username" content="{{ data.user.screen_name }}">
+    <meta property="og:url" content="https://tacokeeper.com/u/{{ data.user.screen_name }}">
+    <meta property="og:image" content="{{ data.user.profile_image_url }}">
+
     <style>
       html {
         font-family: "Helvetica Neue", Helvetica, sans-serif;
