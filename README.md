@@ -24,6 +24,7 @@ bundle exec jekyll serve
 
 ### Images
 
+- ["Chorizo" by John O'Shea on Flickr](https://flic.kr/p/7KB5Cp)
 - ["Onions and Garlic" by waywuwei on Flickr](https://www.flickr.com/photos/waywuwei/2487528402/)
 - ["Jitomates" by armandoh2o on Flickr](https://flic.kr/p/cM8EdN)
 - ["Making Salsa with Leftover Ingredients" by omaromar on Flickr](https://flic.kr/p/qLLkqS)
