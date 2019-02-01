@@ -159,7 +159,7 @@ permalink: /u/thewarpaint
           </div>
 
           <div class="summary__number">
-            Enero 2019
+            {{ data.summary.joined }}
           </div>
         </div>
 
@@ -169,7 +169,7 @@ permalink: /u/thewarpaint
           </div>
 
           <div class="summary__number">
-            6
+            {{ data.summary.total_tacos }}
           </div>
         </div>
 
@@ -179,22 +179,23 @@ permalink: /u/thewarpaint
           </div>
 
           <div class="summary__number">
-            4
+            {{ data.summary.varieties }}
           </div>
         </div>
       </div>
 
       <ul class="activities">
+        {%- for activity in data.activities -%}
         <li class="activity">
-          <div class="activity__date">Enero 29</div>
+          <div class="activity__date">{{ activity.created_at_formatted }}</div>
 
           <ul class="activity__varieties">
-            <li>2 tacos de picadillo</li>
-            <li>2 tacos de alambre</li>
-            <li>1 taco de chicharrón prensado</li>
-            <li>1 taco de papas con chorizo</li>
+            {%- for entry in activity.entries -%}
+            <li>{{ entry.text }}</li>
+            {%- endfor -%}
           </ul>
         </li>
+        {%- endfor -%}
       </ul>
 
       <p class="cover-image-credit">
