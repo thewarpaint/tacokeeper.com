@@ -219,11 +219,7 @@ permalink: /u/thewarpaint
       <div class="summary">
         <div class="summary__item">
           <div class="summary__title">
-            Desde
-          </div>
-
-          <div class="summary__number">
-            {{ data.summary.joined }}
+            Desde {{ data.summary.joined }}:
           </div>
         </div>
 
@@ -234,6 +230,16 @@ permalink: /u/thewarpaint
 
           <div class="summary__number">
             {{ data.summary.total_tacos }}
+          </div>
+        </div>
+
+        <div class="summary__item">
+          <div class="summary__title">
+            Categorías
+          </div>
+
+          <div class="summary__number">
+            {{ data.summary.categories }}
           </div>
         </div>
 
