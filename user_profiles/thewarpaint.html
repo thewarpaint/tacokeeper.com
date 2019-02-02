@@ -1,6 +1,9 @@
 ---
 permalink: /u/thewarpaint
 ---
+<!-- Only enable for demo profile! -->
+{%- assign isDemo = true -%}
+
 {%- assign badges = site.data.badges -%}
 {%- assign coverImages = site.data.coverImages -%}
 {%- assign data = site.data['twitter-293902828'] -%}
@@ -205,7 +208,7 @@ permalink: /u/thewarpaint
         text-align: right;
       }
 
-      /* Only for testing purposes! */
+      {%- if isDemo -%}
       .pick-cover-btn {
         display: inline-block;
         width: .75rem;
@@ -216,15 +219,16 @@ permalink: /u/thewarpaint
         border: 0;
         padding: 0;
       }
+      {%- endif -%}
     </style>
 
-
+    {%- if isDemo -%}
     <script type="text/javascript">
-      // Only for testing purposes!
       function pickCover(cover) {
         document.querySelector('header').className = 'header header--' + cover;
       }
     </script>
+    {%- endif -%}
   </head>
 
   <body>
@@ -234,13 +238,15 @@ permalink: /u/thewarpaint
              src="{{ data.user.profile_image_url }}"
              alt="@{{ data.user.screen_name }}">
         <h1 class="header__screen-name">@{{ data.user.screen_name }}</h1>
-        <!-- Only for testing purposes! -->
+
+        {%- if isDemo -%}
         <div>
           {%- for coverImage in coverImages -%}
           <button class="pick-cover-btn"
                   onclick="pickCover('{{ coverImage[0] }}');"></button></li>
           {%- endfor -%}
         </div>
+        {%- endif -%}
       </header>
 
       <div class="summary">
