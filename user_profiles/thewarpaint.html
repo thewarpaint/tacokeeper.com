@@ -204,11 +204,23 @@ permalink: /u/thewarpaint
         font-size: .75rem;
         text-align: right;
       }
+
+      /* Only for testing purposes! */
+      .pick-cover-btn {
+        display: inline-block;
+        width: .75rem;
+        height: .75rem;
+        margin: 1rem .5rem;
+        background-color: white;
+        border-radius: 50%;
+        border: 0;
+        padding: 0;
+      }
     </style>
 
 
     <script type="text/javascript">
-      // Testing purposes only
+      // Only for testing purposes!
       function pickCover(cover) {
         document.querySelector('header').className = 'header header--' + cover;
       }
@@ -217,17 +229,18 @@ permalink: /u/thewarpaint
 
   <body>
     <div class="container">
-      <!--
-      {%- for coverImage in coverImages -%}
-      <button onclick="pickCover('{{ coverImage[0] }}');">{{ coverImage[0] }}</button></li>
-      {%- endfor -%}
-      -->
-
       <header class="header header--{{ data.user.coverImage }}">
         <img class="header__profile-image"
              src="{{ data.user.profile_image_url }}"
              alt="@{{ data.user.screen_name }}">
         <h1 class="header__screen-name">@{{ data.user.screen_name }}</h1>
+        <!-- Only for testing purposes! -->
+        <div>
+          {%- for coverImage in coverImages -%}
+          <button class="pick-cover-btn"
+                  onclick="pickCover('{{ coverImage[0] }}');"></button></li>
+          {%- endfor -%}
+        </div>
       </header>
 
       <div class="summary">
