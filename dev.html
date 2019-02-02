@@ -341,7 +341,7 @@
 
       .statistics__header,
       .statistics__paragraph {
-        margin: 1rem;
+        margin: 1.5rem;
       }
 
       .statistics__header {
@@ -361,6 +361,24 @@
 
       .statistics__number {
         font-weight: bold;
+      }
+
+      /* Full badges */
+      .badge-full {
+        display: inline-block;
+        border-radius: 5rem;
+        margin: 0 .5rem .5rem 0;
+        padding: .5rem .75rem;
+      }
+
+      .badge-full--variety {
+        background-color: #fff3e0; /* Orange 50 */
+        color: #ff9800; /* Orange 500 */
+      }
+
+      .badge-full--category {
+        background-color: #f1f8e9; /* Light Green 50 */
+        color: #8bc34a; /* Light Green 500 */
       }
     </style>
 
@@ -648,6 +666,46 @@
         <p class="statistics__paragraph">
           Tu racha más larga fue de <span class="statistics__number">5&nbsp;días consecutivos</span> comiendo tacos.
         </p>
+
+        <div class="statistics__paragraph">
+          <p>
+            3 nuevas categorías:
+          </p>
+
+          <div class="badge-full badge-full--category">
+            Carnitas
+          </div>
+
+          <div class="badge-full badge-full--category">
+            Guisado
+          </div>
+
+          <div class="badge-full badge-full--category">
+            Parrilla
+          </div>
+        </div>
+
+        <div class="statistics__paragraph">
+          <p>
+            4 nuevas variedades:
+          </p>
+
+          <div class="badge-full badge-full--variety">
+            Al pastor
+          </div>
+
+          <div class="badge-full badge-full--variety">
+            Campechanos
+          </div>
+
+          <div class="badge-full badge-full--variety">
+            Papas con chorizo
+          </div>
+
+          <div class="badge-full badge-full--variety">
+            Surtida
+          </div>
+        </div>
       </div>
     </section>
 
