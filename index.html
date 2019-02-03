@@ -10,25 +10,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="title" content="{{ postTitle }}">
     <meta name="description" content="{{ postDescription }}">
-    <!-- Yellow 900 -->
-    <meta name="theme-color" content="#f57f17">
+    <!-- Yellow 600 -->
+    <meta name="theme-color" content="#fdd835">
 
     <title>{{ postTitle }}</title>
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700,900"
           rel="stylesheet">
 
-    <!-- Twitter meta tags, missing: twitter:image -->
+    <!-- Twitter meta tags -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@tacokeeper">
     <meta name="twitter:title" content="{{ postTitle }}">
     <meta name="twitter:description" content="{{ postDescription }}">
+    <meta name="twitter:image" content="/assets/images/logo.png">
 
-    <!-- Open Graph (Facebook) meta tags, missing: og:image -->
+    <!-- Open Graph (Facebook) meta tags -->
     <meta property="og:title" content="{{ postTitle }}">
     <meta property="og:description" content="{{ postDescription }}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://tacokeeper.com/">
+    <meta property="og:image" content="/assets/images/logo.png">
 
     <style type="text/css">
       /* Material UI palettes: https://material.io/design/color/the-color-system.html#tools-for-picking-colors */
@@ -42,9 +44,9 @@
         color: #263238; /* Blue Gray 900 */
       }
 
-      @media(min-width: 480px) {
+      @media(min-width: 640px) {
         body {
-          max-width: 448px; /* 480px - (2 * 16px) */
+          max-width: 608px; /* 640px - (2 * 16px) */
           margin-left: auto;
           margin-right: auto;
         }
@@ -74,8 +76,8 @@
       /* Brand */
       .brand {
         padding: .75rem 1rem;
-        background-color: #f57f17; /* Yellow 900 */
-        color: white;
+        background-color: #fdd835; /* Yellow 600 */
+        color: #212121; /* Gray 900 */
       }
 
       .brand__name {
@@ -96,6 +98,32 @@
 
       .brand__slogan {
         font-size: .875rem;
+      }
+
+      /* Logo */
+      .logo {
+        display: none;
+        /*display: inline-block;*/
+        padding: 3.5rem 1rem;
+        font-family: Montserrat;
+        letter-spacing: -1px;
+        line-height: 250%;
+        background-color: #fdd835; /* Yellow 600 */
+        color: #212121; /* Gray 900 */
+      }
+
+      .logo__top,
+      .logo__bottom {
+        font-weight: 900;
+        margin: 0;
+      }
+
+      .logo__top {
+        font-size: 4rem;
+      }
+
+      .logo__bottom {
+        font-size: 2.625rem;
       }
 
       .capture--hidden,
@@ -292,15 +320,15 @@
       }
 
       .top-option--CAM {
-        background-image: url("../../assets/images/campechano.jpg");
+        background-image: url("/assets/images/campechano.jpg");
       }
 
       .top-option--PAS {
-        background-image: url("../../assets/images/pastor.jpg");
+        background-image: url("/assets/images/pastor.jpg");
       }
 
       .top-option--SUR {
-        background-image: url("../../assets/images/carnitas.jpg");
+        background-image: url("/assets/images/carnitas.jpg");
       }
 
       .top-option__place,
@@ -341,7 +369,7 @@
 
       .statistics__header,
       .statistics__paragraph {
-        margin: 1rem;
+        margin: 1.5rem;
       }
 
       .statistics__header {
@@ -361,6 +389,24 @@
 
       .statistics__number {
         font-weight: bold;
+      }
+
+      /* Full badges */
+      .badge-full {
+        display: inline-block;
+        border-radius: 5rem;
+        margin: 0 .5rem .5rem 0;
+        padding: .5rem .75rem;
+      }
+
+      .badge-full--variety {
+        background-color: #fff3e0; /* Orange 50 */
+        color: #ff9800; /* Orange 500 */
+      }
+
+      .badge-full--category {
+        background-color: #f1f8e9; /* Light Green 50 */
+        color: #8bc34a; /* Light Green 500 */
       }
     </style>
 
@@ -648,8 +694,53 @@
         <p class="statistics__paragraph">
           Tu racha más larga fue de <span class="statistics__number">5&nbsp;días consecutivos</span> comiendo tacos.
         </p>
+
+        <div class="statistics__paragraph">
+          <p>
+            3 nuevas categorías:
+          </p>
+
+          <div class="badge-full badge-full--category">
+            Carnitas
+          </div>
+
+          <div class="badge-full badge-full--category">
+            Guisado
+          </div>
+
+          <div class="badge-full badge-full--category">
+            Parrilla
+          </div>
+        </div>
+
+        <div class="statistics__paragraph">
+          <p>
+            4 nuevas variedades:
+          </p>
+
+          <div class="badge-full badge-full--variety">
+            Al pastor
+          </div>
+
+          <div class="badge-full badge-full--variety">
+            Campechanos
+          </div>
+
+          <div class="badge-full badge-full--variety">
+            Papas con chorizo
+          </div>
+
+          <div class="badge-full badge-full--variety">
+            Surtida
+          </div>
+        </div>
       </div>
     </section>
+
+    <div class="logo">
+      <h2 class="logo__top">Taco</h2>
+      <h2 class="logo__bottom">Keeper</h2>
+    </div>
 
     {%- include google-analytics.html -%}
   </body>
