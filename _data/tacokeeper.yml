@@ -132,6 +132,13 @@ options:
       singular: de chicharrón prensado
       plural: de chicharrón prensado
 
+  - key: CHL
+    name: chile relleno
+    category: guisado
+    forms:
+      singular: de chile relleno
+      plural: de chile relleno
+
   - key: CHO
     name: chorizo
     category: parrilla
@@ -383,6 +390,13 @@ options:
     forms:
       singular: de suadero
       plural: de suadero
+
+  - key: SUM
+    name: suadero en morita
+    category: guisado
+    forms:
+      singular: de suadero en morita
+      plural: de suadero en morita
 
   - key: SUR
     name: surtida
