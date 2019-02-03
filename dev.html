@@ -98,6 +98,32 @@
         font-size: .875rem;
       }
 
+      /* Logo */
+      .logo {
+        display: none;
+        /*display: inline-block;*/
+        padding: 3.5rem 1rem;
+        font-family: Montserrat;
+        letter-spacing: -1px;
+        line-height: 250%;
+        background-color: #fdd835; /* Yellow 600 */
+        color: #212121; /* Gray 900 */
+      }
+
+      .logo__top,
+      .logo__bottom {
+        font-weight: 900;
+        margin: 0;
+      }
+
+      .logo__top {
+        font-size: 4rem;
+      }
+
+      .logo__bottom {
+        font-size: 2.625rem;
+      }
+
       .capture--hidden,
       .statistics--hidden {
         display: none;
@@ -708,6 +734,11 @@
         </div>
       </div>
     </section>
+
+    <div class="logo">
+      <h2 class="logo__top">Taco</h2>
+      <h2 class="logo__bottom">Keeper</h2>
+    </div>
 
     {%- include google-analytics.html -%}
   </body>
