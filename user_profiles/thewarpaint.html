@@ -100,6 +100,9 @@ permalink: /u/thewarpaint
       .summary {
         display: flex;
         justify-content: space-around;
+      }
+
+      .summary--profile {
         border-bottom: 1px solid #b0bec5; /* Blue Gray 200 */
       }
 
@@ -258,7 +261,7 @@ permalink: /u/thewarpaint
         {%- endif -%}
       </header>
 
-      <div class="summary">
+      <div class="summary summary--profile">
         <div class="summary__item">
           <div class="summary__title">
             Desde {{ data.summary.joined }}:
