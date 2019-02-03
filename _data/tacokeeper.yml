@@ -29,14 +29,14 @@ options:
 
   - key: BAR
     name: barbacoa
-    category: otros
+    category: barbacoa
     forms:
       singular: de barbacoa
       plural: de barbacoa
 
   - key: BIR
     name: birria
-    category: otros
+    category: birria
     forms:
       singular: de birria
       plural: de birria
@@ -120,7 +120,14 @@ options:
 
   - key: CHP
     name: chicharrón prensado
-    category: canasta, guisado
+    category: canasta
+    forms:
+      singular: de chicharrón prensado
+      plural: de chicharrón prensado
+
+  - key: CHG
+    name: chicharrón prensado
+    category: guisado
     forms:
       singular: de chicharrón prensado
       plural: de chicharrón prensado
@@ -134,7 +141,14 @@ options:
 
   - key: COS
     name: costilla
-    category: carnitas, parrilla
+    category: carnitas
+    forms:
+      singular: de costilla
+      plural: de costilla
+
+  - key: CSP
+    name: costilla
+    category: parrilla
     forms:
       singular: de costilla
       plural: de costilla
@@ -176,14 +190,21 @@ options:
 
   - key: LAB
     name: labio
-    category: carnitas, al vapor
+    category: al vapor
     forms:
       singular: de labio
       plural: de labio
 
+  - key: LEV
+    name: lengua
+    category: al vapor
+    forms:
+      singular: de lengua
+      plural: de lengua
+
   - key: LEN
     name: lengua
-    category: carnitas, parrilla
+    category: carnitas
     forms:
       singular: de lengua
       plural: de lengua
@@ -208,6 +229,13 @@ options:
     forms:
       singular: de maciza
       plural: de maciza
+
+  - key: MIX
+    name: mixiote
+    category: mixiote
+    forms:
+      singular: de mixiote
+      plural: de mixiote
 
   - key: MIL
     name: milanesa
@@ -253,7 +281,14 @@ options:
 
   - key: OJO
     name: ojo
-    category: al vapor, carnitas
+    category: al vapor
+    forms:
+      singular: de ojo
+      plural: de ojo
+
+  - key: OJC
+    name: ojo
+    category: carnitas
     forms:
       singular: de ojo
       plural: de ojo
@@ -265,12 +300,33 @@ options:
       singular: de oreja
       plural: de oreja
 
-  - key: PAP
-    name: papas con chorizo
-    category: canasta, guisado
+  - key: PAN
+    name: pancita
+    category: barbacoa
     forms:
-      singular: de papas con chorizo
-      plural: de papas con chorizo
+      singular: de pancita
+      plural: de pancita
+
+  - key: PAP
+    name: papa
+    category: canasta
+    forms:
+      singular: de papa
+      plural: de papa
+
+  - key: PCC
+    name: papa con chorizo
+    category: canasta
+    forms:
+      singular: de papa con chorizo
+      plural: de papa con chorizo
+
+  - key: PCH
+    name: papa con chorizo
+    category: guisado
+    forms:
+      singular: de papa con chorizo
+      plural: de papa con chorizo
 
   - key: PAS
     name: pastor
