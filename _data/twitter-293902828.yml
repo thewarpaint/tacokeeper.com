@@ -1,4 +1,21 @@
 activities:
+- created_at: '2019-02-03 16:57'
+  created_at_formatted: Febrero 3
+  badges:
+    - text: 2 nuevas variedades
+      type: variety
+    - text: 2 nuevas rarezas
+      type: rarity
+  entries:
+    - badges:
+        - variety
+        - rarity
+      text: 2 × longaniza verde
+    - badges:
+        - variety
+        - rarity
+      text: 1 × obispo
+  type: daily
 - summary:
     categories: 1
     month: enero
@@ -40,5 +57,5 @@ user:
 summary:
   categories: 1
   joined: Enero 2019
-  total_tacos: 6
-  varieties: 4
+  total_tacos: 9
+  varieties: 6
