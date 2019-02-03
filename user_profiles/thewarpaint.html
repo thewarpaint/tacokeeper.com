@@ -99,7 +99,9 @@ permalink: /u/thewarpaint
 
       .summary {
         display: flex;
+        flex-flow: row wrap;
         justify-content: space-around;
+        padding: 1rem 0;
       }
 
       .summary--profile {
@@ -110,10 +112,15 @@ permalink: /u/thewarpaint
         background-color: #eceff1; /* Blue Gray 50 */
       }
 
+      .summary__header {
+        flex-basis: 100%;
+        margin-bottom: .5rem;
+      }
+
       .summary__item {
         display: flex;
         flex-direction: column;
-        padding: 1rem .5rem;
+        flex-basis: 33.3%;
       }
 
       .summary__title,
@@ -262,7 +269,7 @@ permalink: /u/thewarpaint
       </header>
 
       <div class="summary summary--profile">
-        <div class="summary__item">
+        <div class="summary__header">
           <div class="summary__title">
             Desde {{ data.summary.joined }}:
           </div>
@@ -332,7 +339,7 @@ permalink: /u/thewarpaint
 
           {%- when 'monthly' -%}
           <li class="summary summary--monthly">
-            <div class="summary__item">
+            <div class="summary__header">
               <div class="summary__title">
                 En {{ activity.summary.month }}:
               </div>
