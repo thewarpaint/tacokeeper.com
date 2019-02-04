@@ -13,6 +13,13 @@ options:
       singular: de alambre
       plural: de alambre
 
+  - key: ALB
+    name: albóndigas
+    category: guisado
+    forms:
+      singular: de albóndigas
+      plural: de albóndigas
+
   - key: ARR
     name: arrachera
     category: parrilla
@@ -47,6 +54,13 @@ options:
     forms:
       singular: de bistec
       plural: de bistec
+
+  - key: BSS
+    name: bistec en salsa
+    category: guisado
+    forms:
+      singular: de bistec en salsa
+      plural: de bistec en salsa
 
   - key: BUC
     name: buche
@@ -146,6 +160,20 @@ options:
       singular: de chorizo
       plural: de chorizo
 
+  - key: CHU
+    name: chuleta
+    category: parrilla
+    forms:
+      singular: de chuleta
+      plural: de chuleta
+
+  - key: CLS
+    name: chuleta en salsa
+    category: guisado
+    forms:
+      singular: de chuleta en salsa
+      plural: de chuleta en salsa
+
   - key: COS
     name: costilla
     category: carnitas
@@ -159,6 +187,27 @@ options:
     forms:
       singular: de costilla
       plural: de costilla
+
+  - key: CCP
+    name: costilla en chile pasilla
+    category: guisado
+    forms:
+      singular: de costilla en chile pasilla
+      plural: de costilla en chile pasilla
+
+  - key: CSS
+    name: costilla en salsa
+    category: guisado
+    forms:
+      singular: de costilla en salsa
+      plural: de costilla en salsa
+
+  - key: CST
+    name: costilla en salsa de tamarindo
+    category: guisado
+    forms:
+      singular: de costilla en salsa de tamarindo
+      plural: de costilla en salsa de tamarindo
 
   - key: CRI
     name: criadillas
@@ -222,6 +271,13 @@ options:
     forms:
       singular: de longaniza
       plural: de longaniza
+
+  - key: LNS
+    name: longaniza en salsa
+    category: guisado
+    forms:
+      singular: de longaniza en salsa
+      plural: de longaniza en salsa
 
   - key: MCH
     name: machitos
@@ -363,6 +419,13 @@ options:
       singular: de picadillo
       plural: de picadillo
 
+  - key: POL
+    name: pollo con mole
+    category: guisado
+    forms:
+      singular: de pollo con mole
+      plural: de pollo con mole
+
   - key: PUL
     name: pulpo
     category: frutos del mar
@@ -376,6 +439,13 @@ options:
     forms:
       singular: de rajas con crema
       plural: de rajas con crema
+
+  - key: ROL
+    name: rollito de jamón
+    category: guisado
+    forms:
+      singular: de rollito de jamón
+      plural: de rollito de jamón
 
   - key: SES
     name: sesos
@@ -411,6 +481,13 @@ options:
     forms:
       singular: de tinga
       plural: de tinga
+
+  - key: TOR
+    name: tortita de papa
+    category: guisado
+    forms:
+      singular: de tortita de papa
+      plural: de tortita de papa
 
   - key: TRI
     name: tripa
