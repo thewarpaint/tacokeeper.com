@@ -1,13 +1,11 @@
 ---
 permalink: /u/thewarpaint
+isDemo: true
+userFile: twitter-293902828
 ---
-<!-- Only enable for demo profile! -->
-{%- assign isDemo = true -%}
-{%- assign userFile = "twitter-293902828" -%}
-
 {%- assign badges = site.data.badges -%}
 {%- assign coverImages = site.data.coverImages -%}
-{%- assign data = site.data[userFile] -%}
+{%- assign data = site.data[page.userFile] -%}
 {%- assign title = "@{screen_name} | TacoKeeper" | replace: "{screen_name}", data.user.screen_name -%}
 {%- assign description = "Perfil de @{screen_name}. Monitorea tus actividades gastronómicas. Running is boring. Tacos are fun. 🌮🏃" | replace: "{screen_name}", data.user.screen_name -%}
 <!DOCTYPE html>
@@ -228,7 +226,7 @@ permalink: /u/thewarpaint
         text-align: right;
       }
 
-      {%- if isDemo -%}
+      {%- if page.isDemo -%}
       .pick-cover-btn {
         display: inline-block;
         width: .75rem;
@@ -242,7 +240,7 @@ permalink: /u/thewarpaint
       {%- endif -%}
     </style>
 
-    {%- if isDemo -%}
+    {%- if page.isDemo -%}
     <script type="text/javascript">
       function pickCover(cover) {
         document.querySelector('header').className = 'header header--' + cover;
@@ -259,7 +257,7 @@ permalink: /u/thewarpaint
              alt="@{{ data.user.screen_name }}">
         <h1 class="header__screen-name">@{{ data.user.screen_name }}</h1>
 
-        {%- if isDemo -%}
+        {%- if page.isDemo -%}
         <div>
           {%- for coverImage in coverImages -%}
           <button class="pick-cover-btn"
