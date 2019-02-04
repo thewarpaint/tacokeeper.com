@@ -3,22 +3,23 @@ permalink: /u/thewarpaint
 ---
 <!-- Only enable for demo profile! -->
 {%- assign isDemo = true -%}
+{%- assign userFile = "twitter-293902828" -%}
 
 {%- assign badges = site.data.badges -%}
 {%- assign coverImages = site.data.coverImages -%}
-{%- assign data = site.data['twitter-293902828'] -%}
-{%- assign postTitle = "@thewarpaint | TacoKeeper" -%}
-{%- assign postDescription = "Perfil de @thewarpaint. Monitorea tus actividades gastronómicas. Running is boring. Tacos are fun. 🌮🏃" -%}
+{%- assign data = site.data[userFile] -%}
+{%- assign title = "@{screen_name} | TacoKeeper" | replace: "{screen_name}", data.user.screen_name -%}
+{%- assign description = "Perfil de @{screen_name}. Monitorea tus actividades gastronómicas. Running is boring. Tacos are fun. 🌮🏃" | replace: "{screen_name}", data.user.screen_name -%}
 <!DOCTYPE html>
 <html lang="es-MX">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="title" content="{{ postTitle }}">
-    <meta name="description" content="{{ postDescription }}">
+    <meta name="title" content="{{ title }}">
+    <meta name="description" content="{{ description }}">
     <meta name="theme-color" content="#000000">
 
-    <title>{{ postTitle }}</title>
+    <title>{{ title }}</title>
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700,900"
           rel="stylesheet">
@@ -26,13 +27,13 @@ permalink: /u/thewarpaint
     <!-- Twitter meta tags -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@tacokeeper">
-    <meta name="twitter:title" content="{{ postTitle }}">
-    <meta name="twitter:description" content="{{ postDescription }}">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ description }}">
     <meta name="twitter:image" content="{{ data.user.profile_image_url }}">
 
     <!-- Open Graph (Facebook) meta tags -->
-    <meta property="og:title" content="{{ postTitle }}">
-    <meta property="og:description" content="{{ postDescription }}">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ description }}">
     <meta property="og:type" content="profile">
     <meta property="og:profile:username" content="{{ data.user.screen_name }}">
     <meta property="og:url" content="https://tacokeeper.com/u/{{ data.user.screen_name }}">
