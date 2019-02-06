@@ -1,0 +1,54 @@
+activities:
+- created_at_formatted: Febrero 3
+  badges:
+    - text: 2 nuevas variedades
+      type: variety
+    - text: 2 nuevas rarezas
+      type: rarity
+  entries:
+    - badges:
+        - variety
+        - rarity
+      text: 2 × longaniza verde
+    - badges:
+        - variety
+        - rarity
+      text: 1 × obispo
+  type: daily
+- summary:
+    categories: 1
+    month: enero
+    total_tacos: 6
+    varieties: 4
+  type: monthly
+- created_at_formatted: Enero 27
+  badges:
+    - text: 4 nuevas variedades
+      type: variety
+    - text: "Nueva categoría: Guisado"
+      type: category
+  entries:
+    - badges:
+        - variety
+        - category
+      text: 2 × picadillo
+    - badges:
+      - variety
+      text: 2 × alambre
+    - badges:
+        - variety
+      text: 1 × chicharrón prensado
+    - badges:
+        - variety
+      text: 1 × papas con chorizo
+  type: daily
+user:
+  coverImage: cilantro
+  id: '2355047899'
+  profile_image_url: https://pbs.twimg.com/profile_images/1092771156468346880/4BElepB-.jpg
+  screen_name: tacokeeper
+summary:
+  categories: 1
+  joined: Enero 2019
+  total_tacos: 9
+  varieties: 6
