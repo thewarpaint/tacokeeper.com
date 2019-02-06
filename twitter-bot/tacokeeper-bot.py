@@ -3,6 +3,7 @@
 
 import os
 import tweepy
+from textwrap import wrap
 import yaml
 
 # Testing stuff
@@ -15,6 +16,7 @@ welcome_message = '¡Hola, @{screen_name}! Tu perfil estará disponible pronto e
 last_processed_id = '1091191823387758592'
 user_data_path = '../_data/twitter-{user_id}.yml'
 tk_url_prefix = 'https://tacokeeper.com/?t='
+varieties = []
 
 def get_api():
     auth = tweepy.OAuthHandler(os.environ['TKB_CONSUMER_KEY'], os.environ['TKB_CONSUMER_SECRET'])
@@ -106,10 +108,45 @@ def get_tweet_info(tweet):
     if len(tweet.entities['urls']) == 1:
         tweet_info['tk_url'] = tweet.entities['urls'][0]['expanded_url']
         tweet_info['tk_data'] = tweet_info['tk_url'].replace(tk_url_prefix, '')
+        tweet_info['entries'] = get_activity(tweet_info['tk_data'])
 
     return tweet_info
+
+def get_activity(tk_data):
+    if len(tk_data) % 5 != 0:
+        print('TK data length must be a multiple of 5, skipping:', tk_data)
+        return
+
+    return map(lambda x: get_entry(x), wrap(tk_data, 5))
+
+def get_entry(variety_item):
+    entry_format = '{amount} × {variety}'
+    variety_key = variety_item[0:3]
+    variety_amount = int(variety_item[3:])
+    variety = get_variety(variety_key)
+
+    return {
+        'text': entry_format.format(amount = variety_amount, variety = variety['name'])
+    }
+
+def load_varieties():
+    options = []
+
+    try:
+        read_stream = file('../_data/tacokeeper.yml', 'r')
+        tacokeeper_data = yaml.safe_load(read_stream)
+        options = tacokeeper_data['options']
+    except IOError:
+        pass
+
+    return options
+
+def get_variety(key):
+    # TODO: Refactor this terribly expensive loop!
+    return next((variety for variety in varieties if variety['key'] == key), None)
 
 
 if __name__ == '__main__':
     api = get_api()
+    varieties = load_varieties()
     process_tweets(last_processed_id)
