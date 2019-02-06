@@ -504,14 +504,20 @@
 
       function addNormalisationsToOptions() {
         optionsArray.forEach(function (option) {
+          option.normalisedCategory = normaliseString(option.category);
           option.normalisedName = normaliseString(option.name);
         });
       }
 
       function updateOptionsFromSearch(search) {
+        var normalisedSearch = normaliseString(search);
+
         optionsArray.forEach(function (option) {
-          option.$element.classList.toggle('option--hidden',
-            option.normalisedName.indexOf(normaliseString(search)) === -1);
+          var isMatch =
+            option.normalisedName.indexOf(normalisedSearch) !== -1 ||
+            option.normalisedCategory.indexOf(normalisedSearch) !== -1;
+
+          option.$element.classList.toggle('option--hidden', !isMatch);
         });
       }
 
