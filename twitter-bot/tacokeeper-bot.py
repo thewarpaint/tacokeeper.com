@@ -6,7 +6,7 @@ import tweepy
 import yaml
 
 # Testing stuff
-dry_run = False
+dry_run = True
 
 # TODO: Remove as many global variables as possible
 demo_summary_file = './assets/tacokeeper-summary.png'
@@ -52,28 +52,25 @@ def process_tweets(since_id):
 def process_tweet(tweet):
     tweet_info = get_tweet_info(tweet)
 
-    if dry_run:
-        print('Tweet retrieved successfully:', tweet_info)
-        return
-
     if tweet_info['tk_data'] == '':
         print('Tweet without TK data, skipping:', tweet_info)
         return
 
     data = load_data(tweet.user.id_str)
 
-    if len(data['activities']) == 0:
-        send_welcome_tweet(tweet)
+    if not dry_run:
+        if len(data['activities']) == 0:
+            send_welcome_tweet(tweet)
 
-    data['user'] = get_user_info(tweet)
-    data['activities'].append(tweet_info)
+        data['user'] = get_user_info(tweet)
+        data['activities'].append(tweet_info)
 
-    dump_data(tweet.user.id_str, data)
+        dump_data(tweet.user.id_str, data)
 
-    try:
-        tweet.favorite()
-    except tweepy.TweepError:
-        pass
+        try:
+            tweet.favorite()
+        except tweepy.TweepError:
+            pass
 
     print('Tweet processed successfully:', tweet_info)
 
