@@ -1,11 +1,25 @@
-activities: []
+activities:
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  - text: "Nueva categoría: Parrilla"
+    type: category
+  created_at: '2019-02-07 19:59:30'
+  created_at_formatted: Febrero 7
+  entries:
+  - badges:
+    - variety
+    - category
+    text: "7 \xD7 suadero"
+  id: 1093600157445296129
+  type: daily
+summary:
+  categories: 1
+  joined: Febrero 2019
+  total_tacos: 1
+  varieties: 1
 user:
   coverImage: onion
   id: '762115'
   profile_image_url: https://pbs.twimg.com/profile_images/1059487026855186433/GxytH2e9.jpg
   screen_name: paranoideo
-summary:
-  categories: 0
-  joined: Febrero 2019
-  total_tacos: 0
-  varieties: 0
