@@ -61,6 +61,7 @@ userFile: twitter-293902828
         }
       }
 
+      /* Header */
       .header {
         display: flex;
         flex-direction: column;
@@ -70,7 +71,7 @@ userFile: twitter-293902828
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        padding: 3rem 2rem;
+        padding: 1rem 1rem 3.5rem;
       }
 
       {%- for coverImage in coverImages -%}
@@ -78,6 +79,30 @@ userFile: twitter-293902828
         background-image: url('{{ coverImage[1].backgroundImage }}');
       }
       {%- endfor -%}
+
+      /* TODO: Merge with .logo */
+      .header__home-link {
+        align-self: flex-start;
+        display: inline-block;
+        width: 2.5rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
+        font-family: Montserrat;
+        font-weight: 900;
+        font-size: 1.25rem;
+        text-decoration: none;
+        background-color: #fdd835; /* Yellow 600 */
+        color: #212121; /* Gray 900 */
+        transition-duration: .25s;
+        transition-timing-function: linear;
+        transition-property: background, color;
+      }
+
+      .header__home-link:hover,
+      .header__home-link:active {
+        background-color: #212121; /* Gray 900 */
+        color: #fdd835; /* Yellow 600 */
+      }
 
       .header__profile-image {
         width: 7.5rem;
@@ -252,6 +277,8 @@ userFile: twitter-293902828
   <body>
     <div class="container">
       <header class="header header--{{ data.user.coverImage }}">
+        <a class="header__home-link"
+           href="https://tacokeeper.com/">TK</a>
         <img class="header__profile-image"
              src="{{ data.user.profile_image_url }}"
              alt="@{{ data.user.screen_name }}">
