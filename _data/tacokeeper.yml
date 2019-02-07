@@ -377,6 +377,13 @@ options:
       singular: de papa
       plural: de papa
 
+  - key: PPD
+    name: papa
+    category: dorados
+    forms:
+      singular: de papa
+      plural: de papa
+
   - key: PCC
     name: papa con chorizo
     category: canasta
@@ -419,6 +426,13 @@ options:
       singular: de picadillo
       plural: de picadillo
 
+  - key: PLD
+    name: pollo
+    category: dorados
+    forms:
+      singular: de pollo
+      plural: de pollo
+
   - key: POL
     name: pollo con mole
     category: guisado
@@ -439,6 +453,13 @@ options:
     forms:
       singular: de rajas con crema
       plural: de rajas con crema
+
+  - key: RES
+    name: res
+    category: dorados
+    forms:
+      singular: de res
+      plural: de res
 
   - key: ROL
     name: rollito de jamón
