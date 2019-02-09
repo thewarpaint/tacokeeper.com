@@ -2,3 +2,4 @@ _site
 vendor
 .DS_Store
 twitter-bot/export_credentials.sh
+*.pyc

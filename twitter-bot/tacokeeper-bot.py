@@ -6,6 +6,9 @@ import tweepy
 from textwrap import wrap
 import yaml
 
+from tweepy_helper import get_api
+from yaml_helper import dump_user_data, user_data_path
+
 # Testing stuff
 dry_run = True
 
@@ -14,14 +17,8 @@ demo_summary_file = './assets/tacokeeper-summary.png'
 query = '#tacokeeper'
 welcome_message = '¡Hola, @{screen_name}! Tu perfil estará disponible pronto en https://tacokeeper.com/u/{screen_name}'
 last_processed_id = '1093600157445296129'
-user_data_path = '../_data/twitter-{user_id}.yml'
 tk_url_prefix = 'https://tacokeeper.com/?t='
 varieties = []
-
-def get_api():
-    auth = tweepy.OAuthHandler(os.environ['TKB_CONSUMER_KEY'], os.environ['TKB_CONSUMER_SECRET'])
-    auth.set_access_token(os.environ['TKB_ACCESS_TOKEN'], os.environ['TKB_ACCESS_TOKEN_SECRET'])
-    return tweepy.API(auth)
 
 def load_data(user_id):
     data = None
@@ -38,10 +35,6 @@ def load_data(user_id):
         }
 
     return data
-
-def dump_data(user_id, data):
-    write_stream = file(user_data_path.format(user_id = user_id), 'w')
-    yaml.safe_dump(data, write_stream, default_flow_style = False, encoding = 'utf-8')
 
 def process_tweets(since_id):
     for tweet in tweepy.Cursor(api.search,
@@ -67,7 +60,7 @@ def process_tweet(tweet):
         data['user'] = get_user_info(tweet)
         data['activities'].append(tweet_info)
 
-        dump_data(tweet.user.id_str, data)
+        dump_user_data(tweet.user.id_str, data)
 
         try:
             tweet.favorite()
