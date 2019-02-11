@@ -6,7 +6,7 @@ import tweepy
 from textwrap import wrap
 import yaml
 
-from tweepy_helper import get_api
+from tweepy_helper import get_api, get_user_info
 from yaml_helper import dump_user_data, user_data_path
 
 # Testing stuff
@@ -57,7 +57,7 @@ def process_tweet(tweet):
         if len(data['activities']) == 0:
             send_welcome_tweet(tweet)
 
-        data['user'] = get_user_info(tweet)
+        data['user'] = get_user_info(tweet.user)
         data['activities'].append(tweet_info)
 
         dump_user_data(tweet.user.id_str, data)
@@ -79,15 +79,6 @@ def send_welcome_tweet(tweet_to_reply_to):
                       in_reply_to_status_id = tweet_to_reply_to.id)
 
     print('Sent welcome tweet successfully', tweet_to_reply_to.user.name, tweet_to_reply_to.id)
-
-def get_user_info(tweet):
-    user_info = {
-        'id': tweet.user.id_str,
-        'profile_image_url': tweet.user.profile_image_url_https.replace('_normal', ''),
-        'screen_name': tweet.user.screen_name
-    }
-
-    return user_info
 
 def get_tweet_info(tweet):
     tweet_info = {

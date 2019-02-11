@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-from tweepy_helper import get_api
+from tweepy_helper import get_api, get_user_info
 from yaml_helper import dump_user_data
 
 user_profile_path = '../user_profiles/{screen_name}.html'
@@ -35,15 +35,6 @@ def create_user_profile_page(user):
 
     with open(user_profile_path.format(screen_name = user['screen_name']), 'w') as file:
         file.write(user_profile_md)
-
-def get_user_info(user):
-    user_info = {
-        'id': user.id_str,
-        'profile_image_url': user.profile_image_url_https.replace('_normal', ''),
-        'screen_name': user.screen_name.lower()
-    }
-
-    return user_info
 
 
 if __name__ == '__main__':
