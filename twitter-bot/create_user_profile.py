@@ -23,7 +23,13 @@ def run():
 
 def create_user_data_file(user_info):
     user_data = {
-        'user': user_info
+        'user': user_info,
+        'summary': {
+            'categories': 0,
+            'joined': 'Febrero 2019',
+            'total_tacos': 0,
+            'varieties': 0,
+        }
     }
 
     user_data['user']['cover_image'] = 'making-salsa'
