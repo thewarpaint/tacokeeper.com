@@ -1,11 +1,11 @@
 activities: []
-user:
-  coverImage: tomate
-  id: '1069902276'
-  profile_image_url: https://pbs.twimg.com/profile_images/3082717349/5b5b87d0d7f6c391bd58ede0fd3e6903.jpeg
-  screen_name: homer_beat
 summary:
   categories: 0
   joined: Febrero 2019
   total_tacos: 0
   varieties: 0
+user:
+  cover_image: tomate
+  id: '1069902276'
+  profile_image_url: https://pbs.twimg.com/profile_images/3082717349/5b5b87d0d7f6c391bd58ede0fd3e6903.jpeg
+  screen_name: homer_beat

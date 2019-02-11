@@ -25,13 +25,13 @@ activities:
   tk_data: ARR03PAS09
   tk_url: https://tacokeeper.com/?t=ARR03PAS09
   type: daily
-user:
-  coverImage: habanero
-  id: '4518111'
-  profile_image_url: https://pbs.twimg.com/profile_images/950913959560818688/VA8VoYZy.jpg
-  screen_name: alicedice
 summary:
   categories: 1
   joined: Enero 2019
   total_tacos: 12
   varieties: 2
+user:
+  cover_image: habanero
+  id: '4518111'
+  profile_image_url: https://pbs.twimg.com/profile_images/950913959560818688/VA8VoYZy.jpg
+  screen_name: alicedice

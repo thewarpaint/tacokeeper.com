@@ -1,11 +1,11 @@
 activities: []
-user:
-  coverImage: making-salsa
-  id: '3053791'
-  profile_image_url: https://pbs.twimg.com/profile_images/912574633374658560/HOTViXgO.jpg
-  screen_name: crater
 summary:
   categories: 0
   joined: Febrero 2019
   total_tacos: 0
   varieties: 0
+user:
+  cover_image: making-salsa
+  id: '3053791'
+  profile_image_url: https://pbs.twimg.com/profile_images/912574633374658560/HOTViXgO.jpg
+  screen_name: crater

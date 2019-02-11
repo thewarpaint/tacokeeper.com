@@ -271,7 +271,7 @@
 
   <body>
     <div class="container">
-      <header class="header header--{{ data.user.coverImage }}">
+      <header class="header header--{{ data.user.cover_image }}">
         <a class="header__home-link"
            href="https://tacokeeper.com/">TK</a>
         <img class="header__profile-image"
@@ -400,7 +400,7 @@
         {%- endfor -%}
       </ul>
 
-      {%- assign coverImage = coverImages[data.user.coverImage] -%}
+      {%- assign coverImage = coverImages[data.user.cover_image] -%}
       <p class="cover-image-credit">
         <a href="{{ coverImage.creditLink }}"
            target="_blank">

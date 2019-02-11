@@ -42,13 +42,13 @@ activities:
         - variety
       text: 1 × papas con chorizo
   type: daily
-user:
-  coverImage: cilantro
-  id: '2355047899'
-  profile_image_url: https://pbs.twimg.com/profile_images/1092771156468346880/4BElepB-.jpg
-  screen_name: tacokeeper
 summary:
   categories: 1
   joined: Enero 2019
   total_tacos: 9
   varieties: 6
+user:
+  cover_image: cilantro
+  id: '2355047899'
+  profile_image_url: https://pbs.twimg.com/profile_images/1092771156468346880/4BElepB-.jpg
+  screen_name: tacokeeper
