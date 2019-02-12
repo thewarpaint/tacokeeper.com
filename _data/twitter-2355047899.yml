@@ -5,10 +5,13 @@ activities:
       type: variety
     - text: 2 nuevas rarezas
       type: rarity
+    - text: "Nueva categoría: Parrilla"
+      type: category
   entries:
     - badges:
-        - variety
+        - category
         - rarity
+        - variety
       text: 2 × longaniza verde
     - badges:
         - variety
@@ -40,13 +43,23 @@ activities:
       text: 1 × chicharrón prensado
     - badges:
         - variety
-      text: 1 × papas con chorizo
+      text: 1 × papa con chorizo
   type: daily
 summary:
+  categories:
+    - Guisado
+    - Parrilla
   joined: Enero 2019
-  total_categories: 1
+  total_categories: 2
   total_tacos: 9
   total_varieties: 6
+  varieties:
+    - ALA
+    - CHG
+    - LOV
+    - OBI
+    - PCH
+    - PIC
 user:
   cover_image: cilantro
   id: '2355047899'

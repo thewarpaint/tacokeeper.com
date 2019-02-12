@@ -26,10 +26,15 @@ activities:
   tk_url: https://tacokeeper.com/?t=ARR03PAS09
   type: daily
 summary:
+  categories:
+    - Parrilla
   joined: Enero 2019
   total_categories: 1
   total_tacos: 12
   total_varieties: 2
+  varieties:
+    - ARR
+    - PAS
 user:
   cover_image: habanero
   id: '4518111'

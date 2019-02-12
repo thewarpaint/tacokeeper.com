@@ -14,10 +14,14 @@ activities:
   id: 1093600157445296129
   type: daily
 summary:
+  categories:
+    - Parrilla
   joined: Febrero 2019
   total_categories: 1
   total_tacos: 7
   total_varieties: 1
+  varieties:
+    - SUA
 user:
   cover_image: onion
   id: '762115'
