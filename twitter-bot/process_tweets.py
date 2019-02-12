@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+import locale
 import os
 import tweepy
 from textwrap import wrap
@@ -85,9 +86,10 @@ def get_tweet_info(tweet):
     tweet_info = {
         'id': tweet.id,
         'created_at': str(tweet.created_at),
+        'created_at_formatted': tweet.created_at.strftime('%B %d').capitalize(),
         'text': tweet.full_text,
         'tk_url': '',
-        'tk_data': ''
+        'tk_data': '',
     }
 
     if len(tweet.entities['urls']) == 1:
@@ -138,6 +140,7 @@ def get_variety(key):
 
 
 if __name__ == '__main__':
+    locale.setlocale(locale.LC_ALL, 'es_ES')
     api = get_api()
     varieties = load_varieties()
     process_tweets(last_processed_id)
