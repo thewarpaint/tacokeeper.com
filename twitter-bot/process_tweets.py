@@ -56,9 +56,9 @@ def process_tweet(tweet):
     if not dry_run:
         if len(data['activities']) == 0:
             send_welcome_tweet(tweet)
+            data['user'] = get_user_info(tweet.user)
 
-        data['user'] = get_user_info(tweet.user)
-        data['activities'].append(tweet_info)
+        data['activities'].insert(0, tweet_info)
 
         dump_user_data(tweet.user.id_str, data)
 
