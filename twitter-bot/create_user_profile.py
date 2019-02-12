@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+from datetime import date
+import locale
+
 from tweepy_helper import get_api, get_user_info
 from yaml_helper import dump_user_data
 
@@ -14,6 +17,7 @@ userFile: twitter-{id}
 """
 
 def run():
+    locale.setlocale(locale.LC_ALL, 'es_ES')
     screen_name = 'barackobama'
     api = get_api()
     user_info = get_user_info(api.get_user(screen_name = screen_name))
@@ -22,11 +26,13 @@ def run():
     create_user_profile_page(user_info)
 
 def create_user_data_file(user_info):
+    today = date.today()
+
     user_data = {
         'user': user_info,
         'summary': {
             'categories': [],
-            'joined': 'Febrero 2019',
+            'joined': today.strftime('%B %Y').capitalize(),
             'total_categories': 0,
             'total_tacos': 0,
             'total_varieties': 0,
