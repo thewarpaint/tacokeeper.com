@@ -14,10 +14,10 @@ activities:
   id: 1093600157445296129
   type: daily
 summary:
-  categories: 1
   joined: Febrero 2019
+  total_categories: 1
   total_tacos: 7
-  varieties: 1
+  total_varieties: 1
 user:
   cover_image: onion
   id: '762115'

@@ -1,9 +1,9 @@
 activities: []
 summary:
-  categories: 0
   joined: Enero 2019
+  total_categories: 0
   total_tacos: 0
-  varieties: 0
+  total_varieties: 0
 user:
   cover_image: cilantro
   id: '293902828'

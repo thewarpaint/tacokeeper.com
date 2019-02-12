@@ -43,10 +43,10 @@ activities:
       text: 1 × papas con chorizo
   type: daily
 summary:
-  categories: 1
   joined: Enero 2019
+  total_categories: 1
   total_tacos: 9
-  varieties: 6
+  total_varieties: 6
 user:
   cover_image: cilantro
   id: '2355047899'
