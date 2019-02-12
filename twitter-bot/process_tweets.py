@@ -11,7 +11,7 @@ from tweepy_helper import get_api, get_user_info
 from yaml_helper import dump_user_data, user_data_path
 
 # Testing stuff
-dry_run = True
+dry_run = False
 
 # TODO: Remove as many global variables as possible
 demo_summary_file = './assets/tacokeeper-summary.png'
@@ -61,6 +61,14 @@ def process_tweet(tweet):
 
         data['activities'].insert(0, tweet_info)
         data['summary']['total_tacos'] += tweet_info['total_tacos']
+
+        # Add variety badges to entries
+        for entry in tweet_info['entries']:
+            if not entry['variety_key'] in data['summary']['varieties']:
+                entry['badges'].append('variety')
+                data['summary']['varieties'].append(entry['variety_key'])
+
+        data['summary']['total_varieties'] = len(data['summary']['varieties'])
 
         dump_user_data(tweet.user.id_str, data)
 
@@ -118,6 +126,7 @@ def get_entry(variety_item):
 
     return {
         'amount': variety_amount,
+        'badges': [],
         'text': entry_format.format(amount = variety_amount, variety = variety['name']),
         'variety_key': variety['key'],
     }
