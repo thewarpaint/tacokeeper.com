@@ -272,6 +272,13 @@ options:
       singular: de longaniza
       plural: de longaniza
 
+  - key: LOV
+    name: longaniza verde
+    category: parrilla
+    forms:
+      singular: de longaniza verde
+      plural: de longaniza verde
+
   - key: LNS
     name: longaniza en salsa
     category: guisado
