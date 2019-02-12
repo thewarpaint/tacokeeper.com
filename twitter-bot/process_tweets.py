@@ -17,7 +17,7 @@ dry_run = False
 demo_summary_file = './assets/tacokeeper-summary.png'
 query = '#tacokeeper -filter:retweets'
 welcome_message = '¡Hola, @{screen_name}! Tu perfil estará disponible pronto en https://tacokeeper.com/u/{screen_name}'
-last_processed_id = '1093600157445296129'
+last_processed_id = '1095111140332453888'
 tk_url_prefix = 'https://tacokeeper.com/?t='
 varieties = []
 
@@ -103,6 +103,7 @@ def get_tweet_info(tweet):
         'text': tweet.full_text,
         'tk_url': '',
         'tk_data': '',
+        'type': 'daily',
     }
 
     if len(tweet.entities['urls']) == 1:
