@@ -2,6 +2,7 @@
 
 Source code of tacokeeper.com
 
+
 ## Development
 
 Install the dependencies:
@@ -17,10 +18,24 @@ Then serve the site:
 bundle exec jekyll serve
 ```
 
+
+## Scripts
+
+```sh
+cd twitter-bot
+. export_credentials.sh
+
+# Create a new user profile
+./create_user_profile.py
+
+# Process latest tweets
+./process_tweets.py
+```
+
+
 ## References
 
 - https://developer.twitter.com/en/docs/accounts-and-users/user-profile-images-and-banners
-
 
 ### Images
 
