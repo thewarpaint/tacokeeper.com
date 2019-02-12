@@ -14,7 +14,7 @@ dry_run = True
 
 # TODO: Remove as many global variables as possible
 demo_summary_file = './assets/tacokeeper-summary.png'
-query = '#tacokeeper'
+query = '#tacokeeper -filter:retweets'
 welcome_message = '¡Hola, @{screen_name}! Tu perfil estará disponible pronto en https://tacokeeper.com/u/{screen_name}'
 last_processed_id = '1093600157445296129'
 tk_url_prefix = 'https://tacokeeper.com/?t='
