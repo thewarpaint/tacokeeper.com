@@ -25,10 +25,12 @@ def create_user_data_file(user_info):
     user_data = {
         'user': user_info,
         'summary': {
+            'categories': [],
             'joined': 'Febrero 2019',
             'total_categories': 0,
             'total_tacos': 0,
             'total_varieties': 0,
+            'varieties': [],
         }
     }
 
