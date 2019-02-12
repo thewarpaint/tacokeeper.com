@@ -59,6 +59,7 @@ def process_tweet(tweet):
             data['user'] = get_user_info(tweet.user)
 
         data['activities'].insert(0, tweet_info)
+        data['summary']['total_tacos'] += tweet_info['total_tacos']
 
         dump_user_data(tweet.user.id_str, data)
 
@@ -92,7 +93,11 @@ def get_tweet_info(tweet):
     if len(tweet.entities['urls']) == 1:
         tweet_info['tk_url'] = tweet.entities['urls'][0]['expanded_url']
         tweet_info['tk_data'] = tweet_info['tk_url'].replace(tk_url_prefix, '')
-        tweet_info['entries'] = get_activity(tweet_info['tk_data'])
+
+        entries = get_activity(tweet_info['tk_data'])
+
+        tweet_info['entries'] = entries
+        tweet_info['total_tacos'] = reduce((lambda acc, entry: acc + entry['amount']), entries, 0)
 
     return tweet_info
 
@@ -110,7 +115,9 @@ def get_entry(variety_item):
     variety = get_variety(variety_key)
 
     return {
-        'text': entry_format.format(amount = variety_amount, variety = variety['name'])
+        'amount': variety_amount,
+        'text': entry_format.format(amount = variety_amount, variety = variety['name']),
+        'variety_key': variety['key'],
     }
 
 def load_varieties():
