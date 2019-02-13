@@ -321,7 +321,19 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        padding: 2rem 0;
+        padding: 1rem 0;
+      }
+
+      .top-option--1 {
+        background-color: #f57f17; /* Yellow 900 */
+      }
+
+      .top-option--2 {
+        background-color: #f9a825; /* Yellow 800 */
+      }
+
+      .top-option--3 {
+        background-color: #fbc02d; /* Yellow 700 */
       }
 
       .top-option--CAM {
@@ -360,6 +372,12 @@
         font-family: Montserrat, Helvetica, sans-serif;
         font-weight: 700;
         font-size: 1.5rem;
+      }
+
+      @media(min-width: 480px) {
+        .top-option__record {
+          font-size: 1.75rem;
+        }
       }
 
       .top-option__quantity {
@@ -412,6 +430,11 @@
       .badge-full--category {
         background-color: #f1f8e9; /* Light Green 50 */
         color: #8bc34a; /* Light Green 500 */
+      }
+
+      .badge-full--rarity {
+        background-color: #f3e5f5; /* Purple 50 */
+        color: #9c27b0; /* Purple 500 */
       }
     </style>
 
@@ -662,36 +685,33 @@
         </p>
 
         <div class="top">
-          <div class="top-option top-option--1 top-option--CAM">
+          <div class="top-option top-option--1">
             <div class="top-option__place">
               #<span class="top-option__digit">1</span>
             </div>
 
             <div class="top-option__record">
-              <span class="top-option__quantity">321</span> tacos<br>
-              campechanos
+              <span class="top-option__quantity">321</span> tacos campechanos
             </div>
           </div>
 
-          <div class="top-option top-option--2 top-option--PAS">
+          <div class="top-option top-option--2">
             <div class="top-option__place">
               #<span class="top-option__digit">2</span>
             </div>
 
             <div class="top-option__record">
-              <span class="top-option__quantity">234</span> tacos<br>
-              al pastor
+              <span class="top-option__quantity">234</span> tacos al pastor
             </div>
           </div>
 
-          <div class="top-option top-option--3 top-option--SUR">
+          <div class="top-option top-option--3">
             <div class="top-option__place">
               #<span class="top-option__digit">3</span>
             </div>
 
             <div class="top-option__record">
-              <span class="top-option__quantity">198</span> tacos<br>
-              de surtida
+              <span class="top-option__quantity">198</span> tacos de surtida
             </div>
           </div>
         </div>
@@ -745,6 +765,20 @@
 
           <div class="badge-full badge-full--variety">
             Surtida
+          </div>
+        </div>
+
+        <div class="statistics__paragraph">
+          <p>
+            2 nuevas rarezas:
+          </p>
+
+          <div class="badge-full badge-full--rarity">
+            Longaniza verde
+          </div>
+
+          <div class="badge-full badge-full--rarity">
+            Obispo
           </div>
         </div>
       </div>
