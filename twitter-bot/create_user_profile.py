@@ -3,6 +3,7 @@
 
 from datetime import date
 import locale
+import sys
 
 from tweepy_helper import get_api, get_user_info
 from yaml_helper import dump_user_data
@@ -17,8 +18,15 @@ userFile: twitter-{id}
 """
 
 def run():
+    screen_name = ''
+
+    try:
+        screen_name = sys.argv[1]
+    except IndexError:
+        print("Missing argument: screen name")
+        return
+
     locale.setlocale(locale.LC_ALL, 'es_ES')
-    screen_name = 'barackobama'
     api = get_api()
     user_info = get_user_info(api.get_user(screen_name = screen_name))
 
