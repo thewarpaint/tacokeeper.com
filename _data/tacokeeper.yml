@@ -55,6 +55,13 @@ options:
       singular: de bistec
       plural: de bistec
 
+  - key: BCT
+    name: bistec con tocino
+    category: parrilla
+    forms:
+      singular: de bistec con tocino
+      plural: de bistec con tocino
+
   - key: BSS
     name: bistec en salsa
     category: guisado
@@ -173,6 +180,13 @@ options:
     forms:
       singular: de chuleta en salsa
       plural: de chuleta en salsa
+
+  - key: CPB
+    name: cochinita pibil
+    category: guisado
+    forms:
+      singular: de cochinita pibil
+      plural: de cochinita pibil
 
   - key: COS
     name: costilla
