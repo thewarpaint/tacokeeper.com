@@ -125,7 +125,7 @@ def get_activity(tk_data):
     return map(lambda x: get_entry(x), wrap(tk_data, 5))
 
 def get_entry(variety_item):
-    entry_format = '{amount} × {variety}'
+    entry_format = u'{amount} × {variety}'
     variety_key = variety_item[0:3]
     variety_amount = int(variety_item[3:])
     variety = get_variety(variety_key)
