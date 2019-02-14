@@ -1,10 +1,65 @@
+activities:
+- badges:
+  - text: 5 nuevas variedades
+    type: variety
+  - text: "Nueva categoría: Carnitas"
+    type: category
+  - text: "Nueva categoría: Parrilla"
+    type: category
+  created_at: '2019-02-13 03:25:53'
+  created_at_formatted: Febrero 13
+  entries:
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: carnitas
+    text: "1 \xD7 cachete"
+    variety_key: CAC
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: parrilla
+    text: "1 \xD7 campechano"
+    variety_key: CAM
+  - amount: 2
+    badges:
+    - variety
+    category: parrilla
+    text: "2 \xD7 pastor"
+    variety_key: PAS
+  - amount: 3
+    badges:
+    - variety
+    category: parrilla
+    text: "3 \xD7 suadero"
+    variety_key: SUA
+  - amount: 2
+    badges:
+    - variety
+    category: parrilla
+    text: "2 \xD7 bistec"
+    variety_key: BIS
+  id: 1095886822935285761
+  tk_data: CAC01CAM01PAS02SUA03BIS02
+  tk_url: https://tacokeeper.com/?t=CAC01CAM01PAS02SUA03BIS02
+  total_tacos: 9
+  type: daily
 summary:
-  categories: []
+  categories:
+  - carnitas
+  - parrilla
   joined: Febrero 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 2
+  total_tacos: 9
+  total_varieties: 5
+  varieties:
+  - CAC
+  - CAM
+  - PAS
+  - SUA
+  - BIS
 user:
   cover_image: making-salsa
   id: '97132953'

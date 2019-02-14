@@ -1,10 +1,51 @@
+activities:
+- badges:
+  - text: 3 nuevas variedades
+    type: variety
+  - text: "Nueva categoría: Frutos del mar"
+    type: category
+  - text: "Nueva categoría: Guisado"
+    type: category
+  created_at: '2019-02-13 03:28:25'
+  created_at_formatted: Febrero 13
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: guisado
+    text: "2 \xD7 alambre"
+    variety_key: ALA
+  - amount: 1
+    badges:
+    - variety
+    category: guisado
+    text: "1 \xD7 chile relleno"
+    variety_key: CHL
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: frutos del mar
+    text: "1 \xD7 camar\xF3n"
+    variety_key: CMR
+  id: 1095887457705283584
+  tk_data: ALA02CHL01CMR01
+  tk_url: https://tacokeeper.com/?t=ALA02CHL01CMR01
+  total_tacos: 4
+  type: daily
 summary:
-  categories: []
+  categories:
+  - guisado
+  - frutos del mar
   joined: Febrero 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 2
+  total_tacos: 4
+  total_varieties: 3
+  varieties:
+  - ALA
+  - CHL
+  - CMR
 user:
   cover_image: tomate
   id: '1050818800784945154'
