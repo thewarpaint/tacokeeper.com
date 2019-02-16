@@ -19,18 +19,28 @@
           rel="stylesheet">
 
     <!-- Twitter meta tags -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@tacokeeper">
-    <meta name="twitter:title" content="{{ postTitle }}">
-    <meta name="twitter:description" content="{{ postDescription }}">
-    <meta name="twitter:image" content="{{ site.url }}/assets/images/logo.png">
+    <meta name="twitter:card"
+          content="summary">
+    <meta name="twitter:site"
+          content="@tacokeeper">
+    <meta name="twitter:title"
+          content="{{ postTitle }}">
+    <meta name="twitter:description"
+          content="{{ postDescription }}">
+    <meta name="twitter:image"
+          content="{{ site.url }}/assets/images/logo.png">
 
     <!-- Open Graph (Facebook) meta tags -->
-    <meta property="og:title" content="{{ postTitle }}">
-    <meta property="og:description" content="{{ postDescription }}">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://tacokeeper.com/">
-    <meta property="og:image" content="{{ site.url }}/assets/images/logo.png">
+    <meta property="og:title"
+          content="{{ postTitle }}">
+    <meta property="og:description"
+          content="{{ postDescription }}">
+    <meta property="og:type"
+          content="website">
+    <meta property="og:url"
+          content="https://tacokeeper.com/">
+    <meta property="og:image"
+          content="{{ site.url }}/assets/images/logo.png">
 
     <style type="text/css">
       /* Material UI palettes: https://material.io/design/color/the-color-system.html#tools-for-picking-colors */
@@ -186,8 +196,8 @@
       }
 
       .option--active .input {
-        border-bottom-color: #f57f17; /* Yellow 900 */
-        color: #f57f17; /* Yellow 900 */
+        border-bottom-color: #455a64; /* Blue Gray 700 */
+        color: #455a64; /* Blue Gray 700 */
       }
 
       .input::-webkit-inner-spin-button,
@@ -245,7 +255,7 @@
 
       .option--active .option__text,
       .option--active .input:focus + .option__text {
-        color: #f57f17; /* Yellow 900 */
+        color: #455a64; /* Blue Gray 700 */
       }
 
       .tweet-text {
@@ -276,13 +286,18 @@
         content: "”";
       }
 
-      .tweet-link {
-        display: block;
+      .tweet-link-wrapper {
         position: -webkit-sticky;
         position: sticky;
         bottom: .5rem;
         margin: 1.5rem .5rem .5rem;
-        padding: .875rem .75rem;
+        text-align: center;
+      }
+
+      .tweet-link {
+        display: inline-block;
+        padding: .875rem 1.5rem;
+        margin: 0 auto;
         color: #2196f3; /* Blue 500 */
         background-color: white;
         border: .125rem solid #2196f3; /* Blue 500 */
@@ -316,7 +331,19 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        padding: 2rem 0;
+        padding: 1rem 0;
+      }
+
+      .top-option--1 {
+        background-color: #f57f17; /* Yellow 900 */
+      }
+
+      .top-option--2 {
+        background-color: #f9a825; /* Yellow 800 */
+      }
+
+      .top-option--3 {
+        background-color: #fbc02d; /* Yellow 700 */
       }
 
       .top-option--CAM {
@@ -355,6 +382,12 @@
         font-family: Montserrat, Helvetica, sans-serif;
         font-weight: 700;
         font-size: 1.5rem;
+      }
+
+      @media(min-width: 480px) {
+        .top-option__record {
+          font-size: 1.75rem;
+        }
       }
 
       .top-option__quantity {
@@ -407,6 +440,11 @@
       .badge-full--category {
         background-color: #f1f8e9; /* Light Green 50 */
         color: #8bc34a; /* Light Green 500 */
+      }
+
+      .badge-full--rarity {
+        background-color: #f3e5f5; /* Purple 50 */
+        color: #9c27b0; /* Purple 500 */
       }
     </style>
 
@@ -463,19 +501,8 @@
       }
 
       function updateTweet() {
-        var tweetText = 'Hoy comí ';
-        var tweetHref = '';
-
-        tweetText += getActiveModelKeys()
-          .map(function (key) {
-            return model[key].toString() +
-              (model[key] === 1
-                ? ' taco ' + optionsMap[key].forms.singular
-                : ' tacos ' + optionsMap[key].forms.plural);
-          })
-          .join(', ');
-
-        tweetHref = tweetText + ' ' + hashtag + ' ' +
+        var tweetText = getTweetText();
+        var tweetHref = tweetText + ' ' + hashtag + ' ' +
           targetUrl + '?t=' +
           getActiveModelKeys()
             .map(function (key) {
@@ -504,14 +531,20 @@
 
       function addNormalisationsToOptions() {
         optionsArray.forEach(function (option) {
+          option.normalisedCategory = normaliseString(option.category);
           option.normalisedName = normaliseString(option.name);
         });
       }
 
       function updateOptionsFromSearch(search) {
+        var normalisedSearch = normaliseString(search);
+
         optionsArray.forEach(function (option) {
-          option.$element.classList.toggle('option--hidden',
-            option.normalisedName.indexOf(normaliseString(search)) === -1);
+          var isMatch =
+            option.normalisedName.indexOf(normalisedSearch) !== -1 ||
+            option.normalisedCategory.indexOf(normalisedSearch) !== -1;
+
+          option.$element.classList.toggle('option--hidden', !isMatch);
         });
       }
 
@@ -552,6 +585,31 @@
         return normalisedString;
       }
 
+      function getTweetText() {
+        var tweetText = 'Hoy comí ';
+
+        var tacoArray = getActiveModelKeys()
+          .map(function (key) {
+            return model[key].toString() +
+              (model[key] === 1
+                ? ' taco ' + optionsMap[key].forms.singular
+                : ' tacos ' + optionsMap[key].forms.plural);
+          });
+
+        return tweetText + formatList(tacoArray);
+      }
+
+      function formatList(terms) {
+        var conjunctionText = ' y ';
+
+        // Works for arrays with length 0 (empty string), 1 ('first'), or 2 ('first and second')
+        if (terms.length < 3) {
+          return terms.join(conjunctionText);
+        }
+
+        return terms.slice(0, terms.length - 1).join(', ') + conjunctionText + terms.slice(-1);
+      }
+
       function zeroPad(number) {
         if (number <= 9) {
           return '0' + number.toString();
@@ -579,7 +637,7 @@
                id="search-input"
                class="search__input"
                name="search"
-               placeholder="🔍 busca tu taco">
+               placeholder="🔍 busca tu taco o categoría">
       </div>
 
       <ul class="options">
@@ -623,10 +681,12 @@
         Hoy comí...
       </div>
 
-      <a href="https://twitter.com/intent/tweet"
-         class="tweet-link"
-         id="tweet-link"
-         target="_blank">Comparte en Twitter</a>
+      <div class="tweet-link-wrapper">
+        <a href="https://twitter.com/intent/tweet"
+           class="tweet-link"
+           id="tweet-link"
+           target="_blank">Comparte en Twitter</a>
+      </div>
     </section>
 
     <section id="statistics-section"
@@ -649,36 +709,33 @@
         </p>
 
         <div class="top">
-          <div class="top-option top-option--1 top-option--CAM">
+          <div class="top-option top-option--1">
             <div class="top-option__place">
               #<span class="top-option__digit">1</span>
             </div>
 
             <div class="top-option__record">
-              <span class="top-option__quantity">321</span> tacos<br>
-              campechanos
+              <span class="top-option__quantity">321</span> tacos campechanos
             </div>
           </div>
 
-          <div class="top-option top-option--2 top-option--PAS">
+          <div class="top-option top-option--2">
             <div class="top-option__place">
               #<span class="top-option__digit">2</span>
             </div>
 
             <div class="top-option__record">
-              <span class="top-option__quantity">234</span> tacos<br>
-              al pastor
+              <span class="top-option__quantity">234</span> tacos al pastor
             </div>
           </div>
 
-          <div class="top-option top-option--3 top-option--SUR">
+          <div class="top-option top-option--3">
             <div class="top-option__place">
               #<span class="top-option__digit">3</span>
             </div>
 
             <div class="top-option__record">
-              <span class="top-option__quantity">198</span> tacos<br>
-              de surtida
+              <span class="top-option__quantity">198</span> tacos de surtida
             </div>
           </div>
         </div>
@@ -732,6 +789,20 @@
 
           <div class="badge-full badge-full--variety">
             Surtida
+          </div>
+        </div>
+
+        <div class="statistics__paragraph">
+          <p>
+            2 nuevas rarezas:
+          </p>
+
+          <div class="badge-full badge-full--rarity">
+            Longaniza verde
+          </div>
+
+          <div class="badge-full badge-full--rarity">
+            Obispo
           </div>
         </div>
       </div>
