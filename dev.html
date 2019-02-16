@@ -483,7 +483,9 @@
       var optionsArray = {{ options | jsonify }};
       var optionsMap = getOptionsMap(optionsArray);
       var model = {};
-      var twitterIntentUrl = 'https://twitter.com/intent/tweet?';
+      // TODO: Restore before updating prod!
+      // var twitterIntentUrl = 'https://twitter.com/intent/tweet?';
+      var twitterIntentUrl = 'tweetbot://paranoideo/post?';
       var targetUrl = 'https://tacokeeper.com/';
       var hashtag = '#tacokeeper';
 
