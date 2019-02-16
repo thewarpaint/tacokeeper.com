@@ -57,7 +57,6 @@ def process_tweet(tweet):
     if not dry_run:
         if len(data['activities']) == 0:
             send_welcome_tweet(tweet)
-            data['user'] = get_user_info(tweet.user)
 
         data['activities'].insert(0, tweet_info)
         data['summary']['total_tacos'] += tweet_info['total_tacos']
