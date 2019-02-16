@@ -89,7 +89,7 @@ def send_welcome_tweet(tweet_to_reply_to):
     #                       status = welcome_message.format(screen_name = tweet_to_reply_to.user.screen_name),
     #                       in_reply_to_status_id = tweet_to_reply_to.id)
 
-    api.update_status(status = welcome_message.format(screen_name = tweet_to_reply_to.user.screen_name),
+    api.update_status(status = welcome_message.format(screen_name = tweet_to_reply_to.user.screen_name.lower()),
                       in_reply_to_status_id = tweet_to_reply_to.id)
 
     print('Sent welcome tweet successfully', tweet_to_reply_to.user.name, tweet_to_reply_to.id)
