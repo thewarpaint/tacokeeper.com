@@ -39,11 +39,11 @@ activities:
     badges:
     - variety
     category: parrilla
-    text: "2 \xD7 bistec"
-    variety_key: BIS
+    text: "2 \xD7 bistec con tocino"
+    variety_key: BCT
   id: 1095886822935285761
-  tk_data: CAC01CAM01PAS02SUA03BIS02
-  tk_url: https://tacokeeper.com/?t=CAC01CAM01PAS02SUA03BIS02
+  tk_data: CAC01CAM01PAS02SUA03BCT02
+  tk_url: https://tacokeeper.com/?t=CAC01CAM01PAS02SUA03BCT02
   total_tacos: 9
   type: daily
 summary:
@@ -59,7 +59,7 @@ summary:
   - CAM
   - PAS
   - SUA
-  - BIS
+  - BCT
 user:
   cover_image: making-salsa
   id: '97132953'
