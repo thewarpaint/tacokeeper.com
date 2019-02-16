@@ -501,19 +501,8 @@
       }
 
       function updateTweet() {
-        var tweetText = 'Hoy comí ';
-        var tweetHref = '';
-
-        tweetText += getActiveModelKeys()
-          .map(function (key) {
-            return model[key].toString() +
-              (model[key] === 1
-                ? ' taco ' + optionsMap[key].forms.singular
-                : ' tacos ' + optionsMap[key].forms.plural);
-          })
-          .join(', ');
-
-        tweetHref = tweetText + ' ' + hashtag + ' ' +
+        var tweetText = getTweetText();
+        var tweetHref = tweetText + ' ' + hashtag + ' ' +
           targetUrl + '?t=' +
           getActiveModelKeys()
             .map(function (key) {
@@ -594,6 +583,31 @@
         }
 
         return normalisedString;
+      }
+
+      function getTweetText() {
+        var tweetText = 'Hoy comí ';
+
+        var tacoArray = getActiveModelKeys()
+          .map(function (key) {
+            return model[key].toString() +
+              (model[key] === 1
+                ? ' taco ' + optionsMap[key].forms.singular
+                : ' tacos ' + optionsMap[key].forms.plural);
+          });
+
+        return tweetText + formatList(tacoArray);
+      }
+
+      function formatList(terms) {
+        var conjunctionText = ' y ';
+
+        // Works for arrays with length 0 (empty string), 1 ('first'), or 2 ('first and second')
+        if (terms.length < 3) {
+          return terms.join(conjunctionText);
+        }
+
+        return terms.slice(0, terms.length - 1).join(', ') + conjunctionText + terms.slice(-1);
       }
 
       function zeroPad(number) {
