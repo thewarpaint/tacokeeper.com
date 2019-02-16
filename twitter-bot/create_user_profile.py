@@ -37,6 +37,7 @@ def create_user_data_file(user_info):
     today = date.today()
 
     user_data = {
+        'activities': [],
         'user': user_info,
         'summary': {
             'categories': [],
@@ -45,7 +46,7 @@ def create_user_data_file(user_info):
             'total_tacos': 0,
             'total_varieties': 0,
             'varieties': [],
-        }
+        },
     }
 
     user_data['user']['cover_image'] = 'making-salsa'
