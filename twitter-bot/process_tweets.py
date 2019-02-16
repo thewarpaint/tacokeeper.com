@@ -100,7 +100,6 @@ def get_tweet_info(tweet):
         'id': tweet.id,
         'created_at': str(tweet.created_at),
         'created_at_formatted': tweet.created_at.strftime('%B %d').capitalize(),
-        'text': tweet.full_text,
         'tk_url': '',
         'tk_data': '',
         'type': 'daily',
