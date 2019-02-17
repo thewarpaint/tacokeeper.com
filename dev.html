@@ -483,9 +483,9 @@
       var optionsArray = {{ options | jsonify }};
       var optionsMap = getOptionsMap(optionsArray);
       var model = {};
-      // TODO: Restore before updating prod!
-      // var twitterIntentUrl = 'https://twitter.com/intent/tweet?';
-      var twitterIntentUrl = 'tweetbot://paranoideo/post?';
+      var twitterIntentUrl = getParameterByName('useTweetbotUrl')
+        ? 'tweetbot://' + getParameterByName('screenName') + '/post?'
+        : 'https://twitter.com/intent/tweet?';
       var targetUrl = 'https://tacokeeper.com/';
       var hashtag = '#tacokeeper';
 
@@ -644,6 +644,17 @@
         }
 
         return number.toString();
+      }
+
+      // From https://stackoverflow.com/a/901144
+      function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, '\\$&');
+        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, ' '));
       }
     </script>
   </head>
