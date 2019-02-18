@@ -1,10 +1,33 @@
+activities:
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  - text: "Nueva categoría: Parrilla"
+    type: category
+  created_at: '2019-02-18 04:50:11'
+  created_at_formatted: Febrero 18
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: parrilla
+    text: "2 \xD7 pastor"
+    variety_key: PAS
+  id: 1097357589296369664
+  tk_data: PAS02
+  tk_url: https://tacokeeper.com/?t=PAS02
+  total_tacos: 2
+  type: daily
 summary:
-  categories: []
+  categories:
+  - parrilla
   joined: Febrero 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 1
+  total_tacos: 2
+  total_varieties: 1
+  varieties:
+  - PAS
 user:
   cover_image: habanero
   id: '44833344'
