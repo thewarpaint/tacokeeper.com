@@ -14,5 +14,5 @@ pip install -r requirements.txt
 Run the bot script:
 
 ```sh
-./tacokeeper-bot.py
+./process_daily_activity.py
 ```
