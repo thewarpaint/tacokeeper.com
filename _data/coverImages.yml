@@ -12,12 +12,26 @@ cilantro:
     "Cilantro" por chrismar en Flickr
   creditLink: https://flic.kr/p/51UerY
 
+guacamole:
+  backgroundImage: /assets/images/guacamole.jpg
+  class: "header--guacamole"
+  creditText: >
+    "Guacamole" por bookgrl en Flickr
+  creditLink: https://flic.kr/p/63cgUh
+
 habanero:
   backgroundImage: /assets/images/habanero.jpg
   class: "header--habanero"
   creditText: >
     "Habaneros" por gabofr en Flickr
   creditLink: https://flic.kr/p/9vjXLQ
+
+limes:
+  backgroundImage: /assets/images/limes.jpg
+  class: "header--limes"
+  creditText: >
+    "Limes" por stevehopson en Flickr
+  creditLink: https://flic.kr/p/wVRAu
 
 making-salsa:
   backgroundImage: /assets/images/making-salsa.jpg
