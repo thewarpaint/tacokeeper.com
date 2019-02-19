@@ -10,8 +10,8 @@ from yaml_helper import dump_user_data
 
 user_profile_path = '../user_profiles/{screen_name}.html'
 user_profile_template = """---
-permalink: /u/{screen_name}
-isDemo: false
+permalink: /{screen_name}
+isDemo: true
 userFile: twitter-{id}
 ---
 {{% include user-profile.html %}}
