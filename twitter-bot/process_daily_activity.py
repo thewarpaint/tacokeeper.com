@@ -61,15 +61,30 @@ def process_tweet(tweet):
         data['activities'].insert(0, tweet_info)
         data['summary']['total_tacos'] += tweet_info['total_tacos']
 
+        new_varieties = 0
+
         # Add category and variety badges to entries
         for entry in tweet_info['entries']:
             if not entry['category'] in data['summary']['categories']:
                 entry['badges'].append('category')
                 data['summary']['categories'].append(entry['category'])
+                tweet_info['badges'].append({
+                    'text': 'Nueva categoría: ' + entry['category'].capitalize(),
+                    'type': 'category',
+                })
 
             if not entry['variety_key'] in data['summary']['varieties']:
                 entry['badges'].append('variety')
                 data['summary']['varieties'].append(entry['variety_key'])
+                new_varieties += 1
+
+        if new_varieties > 0:
+            new_varieties_text = '{number} nueva variedad' if new_varieties == 1 else '{number} nuevas variedades'
+
+            tweet_info['badges'].append({
+                'text': new_varieties_text.format(number = str(new_varieties)),
+                'type': 'variety',
+            })
 
         data['summary']['total_categories'] = len(data['summary']['categories'])
         data['summary']['total_varieties'] = len(data['summary']['varieties'])
@@ -101,6 +116,7 @@ def get_tweet_info(tweet):
         'created_at_formatted': tweet.created_at.strftime('%B %d').capitalize(),
         'tk_url': '',
         'tk_data': '',
+        'badges': [],
         'type': 'daily',
     }
 
