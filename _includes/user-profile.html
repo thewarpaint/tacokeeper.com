@@ -10,7 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="title" content="{{ title }}">
     <meta name="description" content="{{ description }}">
-    <meta name="theme-color" content="#000000">
+    <!-- Blue Gray 900 -->
+    <meta name="theme-color" content="#263238">
 
     <title>{{ title }}</title>
 
@@ -18,19 +19,30 @@
           rel="stylesheet">
 
     <!-- Twitter meta tags -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@tacokeeper">
-    <meta name="twitter:title" content="{{ title }}">
-    <meta name="twitter:description" content="{{ description }}">
-    <meta name="twitter:image" content="{{ data.user.profile_image_url }}">
+    <meta name="twitter:card"
+          content="summary">
+    <meta name="twitter:site"
+          content="@tacokeeper">
+    <meta name="twitter:title"
+          content="{{ title }}">
+    <meta name="twitter:description"
+          content="{{ description }}">
+    <meta name="twitter:image"
+          content="{{ data.user.profile_image_url }}">
 
     <!-- Open Graph (Facebook) meta tags -->
-    <meta property="og:title" content="{{ title }}">
-    <meta property="og:description" content="{{ description }}">
-    <meta property="og:type" content="profile">
-    <meta property="og:profile:username" content="{{ data.user.screen_name }}">
-    <meta property="og:url" content="https://tacokeeper.com/{{ data.user.screen_name }}">
-    <meta property="og:image" content="{{ data.user.profile_image_url }}">
+    <meta property="og:title"
+          content="{{ title }}">
+    <meta property="og:description"
+          content="{{ description }}">
+    <meta property="og:type"
+          content="profile">
+    <meta property="og:profile:username"
+          content="{{ data.user.screen_name }}">
+    <meta property="og:url"
+          content="https://tacokeeper.com/{{ data.user.screen_name }}">
+    <meta property="og:image"
+          content="{{ data.user.profile_image_url }}">
 
     <style>
       html {
@@ -40,7 +52,7 @@
 
       body {
         margin: 0;
-        background-color: black;
+        background-color: #263238; /* Blue Gray 900 */
       }
 
       .container {
@@ -127,13 +139,10 @@
         border-bottom: 1px solid #b0bec5; /* Blue Gray 200 */
       }
 
-      .summary--monthly {
-        background-color: #eceff1; /* Blue Gray 50 */
-      }
-
       .summary__header {
         flex-basis: 100%;
-        margin-bottom: .5rem;
+        margin-bottom: .75rem;
+        text-align: center;
       }
 
       .summary__item {
@@ -147,18 +156,36 @@
         text-align: center;
       }
 
+      .summary__header,
       .summary__title {
         color: #b0bec5; /* Blue Gray 200 */
+      }
+
+      .summary__title {
         font-size: .75rem;
         font-weight: light;
         text-transform: uppercase;
       }
 
       .summary__number {
+        color: #455a64; /* Blue Gray 700 */
         font-family: Montserrat;
         font-size: 1.25rem;
         font-weight: 700;
         letter-spacing: -1px;
+      }
+
+      .summary--monthly {
+        background-color: #e3f2fd; /* Blue 50 */
+      }
+
+      .summary--monthly .summary__header,
+      .summary--monthly .summary__title {
+        color: #2196f3; /* Blue 500 */
+      }
+
+      .summary--monthly .summary__number {
+        color: #1976d2; /* Blue 700 */
       }
 
       .activities,
@@ -174,7 +201,10 @@
 
       .activity {
         padding: 1rem;
-        border-bottom: 1px solid #eceff1; /* Blue Gray 50 */
+      }
+
+      .activity + .activity {
+        border-top: 1px solid #eceff1; /* Blue Gray 50 */
       }
 
       @media(min-width: 480px) {
@@ -246,6 +276,25 @@
         text-align: right;
       }
 
+      /* Congratulations */
+      .congratulations {
+        background-color: #e3f2fd; /* Blue 50 */
+        color: #2196f3; /* Blue 500 */
+        padding: 2rem 0;
+        text-align: center;
+      }
+
+      .congratulations__header {
+        margin: 0 0 1rem;
+        font-family: Montserrat;
+        font-size: 1.5rem;
+        letter-spacing: -1px;
+      }
+
+      .congratulations__icon {
+        font-size: 3rem;
+      }
+
       {%- if page.isDemo -%}
       .pick-cover-btn {
         display: inline-block;
@@ -291,9 +340,7 @@
 
       <div class="summary summary--profile">
         <div class="summary__header">
-          <div class="summary__title">
-            Desde {{ data.summary.joined }}:
-          </div>
+          Desde {{ data.summary.joined }}:
         </div>
 
         <div class="summary__item">
@@ -361,9 +408,7 @@
           {%- when 'monthly' -%}
           <li class="summary summary--monthly">
             <div class="summary__header">
-              <div class="summary__title">
-                En {{ activity.summary.month }}:
-              </div>
+              En {{ activity.summary.month }}:
             </div>
 
             <div class="summary__item">
@@ -398,6 +443,12 @@
           </li>
         {%- endcase -%}
         {%- endfor -%}
+
+        <li class="congratulations congratulations--joined">
+          <h2 class="congratulations__header">¡Te uniste a TacoKeeper!</h2>
+
+          <span class="congratulations__icon">🎉</span>
+        </li>
       </ul>
 
       {%- assign coverImage = coverImages[data.user.cover_image] -%}
