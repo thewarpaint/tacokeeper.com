@@ -27,6 +27,13 @@ options:
       singular: de arrachera
       plural: de arrachera
 
+  - key: ARV
+    name: arrachera vegana
+    category: vegano
+    forms:
+      singular: de arrachera
+      plural: de arrachera
+
   - key: ASA
     name: asada
     category: parrilla
@@ -40,6 +47,20 @@ options:
     forms:
       singular: de barbacoa
       plural: de barbacoa
+
+  - key: BAS
+    name: barbasoya
+    category: vegano
+    forms:
+      singular: de barbasoya
+      plural: de barbasoya
+
+  - key: BBS
+    name: barbasetas
+    category: vegano
+    forms:
+      singular: de barbasetas
+      plural: de barbasetas
 
   - key: BIR
     name: birria
@@ -159,6 +180,20 @@ options:
     forms:
       singular: de chile relleno
       plural: de chile relleno
+
+  - key: CHN
+    name: chorinoa
+    category: vegano
+    forms:
+      singular: de chorinoa
+      plural: de chorinoa
+
+  - key: CSO
+    name: chorisoya
+    category: vegano
+    forms:
+      singular: de chorisoya
+      plural: de chorisoya
 
   - key: CHO
     name: chorizo
@@ -328,6 +363,13 @@ options:
       singular: de milanesa
       plural: de milanesa
 
+  - key: MLT
+    name: milanesa de trigo
+    category: vegano
+    forms:
+      singular: de milanesa de trigo
+      plural: de milanesa de trigo
+
   - key: MOR
     name: moronga
     category: guisado
@@ -426,6 +468,13 @@ options:
       singular: al pastor
       plural: al pastor
 
+  - key: PSV
+    name: pastor vegano
+    category: vegano
+    forms:
+      singular: de pastor vegano
+      plural: de pastor vegano
+
   - key: PEC
     name: pechuga
     category: guisado
@@ -488,6 +537,13 @@ options:
     forms:
       singular: de rollito de jamón
       plural: de rollito de jamón
+
+  - key: SEI
+    name: seitán
+    category: vegano
+    forms:
+      singular: de seitán
+      plural: de seitán
 
   - key: SES
     name: sesos
