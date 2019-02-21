@@ -272,6 +272,22 @@
         text-align: right;
       }
 
+      .congratulations {
+        background-color: #e3f2fd; /* Blue 50 */
+        color: #2196f3; /* Blue 500 */
+        padding: 2rem 0;
+        text-align: center;
+      }
+
+      .congratulations__header {
+        margin: 0 0 1rem;
+        font-size: 1.5rem;
+      }
+
+      .congratulations__icon {
+        font-size: 3rem;
+      }
+
       {%- if page.isDemo -%}
       .pick-cover-btn {
         display: inline-block;
@@ -420,6 +436,12 @@
           </li>
         {%- endcase -%}
         {%- endfor -%}
+
+        <li class="congratulations congratulations--joined">
+          <h2 class="congratulations__header">¡Te uniste a TacoKeeper!</h2>
+
+          <span class="congratulations__icon">🎉</span>
+        </li>
       </ul>
 
       {%- assign coverImage = coverImages[data.user.cover_image] -%}
