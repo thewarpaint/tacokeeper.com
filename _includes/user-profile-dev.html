@@ -140,7 +140,8 @@
 
       .summary__header {
         flex-basis: 100%;
-        margin-bottom: .5rem;
+        margin-bottom: .75rem;
+        text-align: center;
       }
 
       .summary__item {
@@ -154,14 +155,19 @@
         text-align: center;
       }
 
+      .summary__header,
       .summary__title {
         color: #b0bec5; /* Blue Gray 200 */
+      }
+
+      .summary__title {
         font-size: .75rem;
         font-weight: light;
         text-transform: uppercase;
       }
 
       .summary__number {
+        color: #455a64; /* Blue Gray 700 */
         font-family: Montserrat;
         font-size: 1.25rem;
         font-weight: 700;
@@ -172,12 +178,13 @@
         background-color: #e3f2fd; /* Blue 50 */
       }
 
+      .summary--monthly .summary__header,
       .summary--monthly .summary__title {
         color: #2196f3; /* Blue 500 */
       }
 
       .summary--monthly .summary__number {
-        color: #0d47a1; /* Blue 900 */
+        color: #1976d2; /* Blue 700 */
       }
 
       .activities,
@@ -310,9 +317,7 @@
 
       <div class="summary summary--profile">
         <div class="summary__header">
-          <div class="summary__title">
-            Desde {{ data.summary.joined }}:
-          </div>
+          Desde {{ data.summary.joined }}:
         </div>
 
         <div class="summary__item">
@@ -380,9 +385,7 @@
           {%- when 'monthly' -%}
           <li class="summary summary--monthly">
             <div class="summary__header">
-              <div class="summary__title">
-                En {{ activity.summary.month }}:
-              </div>
+              En {{ activity.summary.month }}:
             </div>
 
             <div class="summary__item">
