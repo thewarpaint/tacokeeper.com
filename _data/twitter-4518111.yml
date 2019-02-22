@@ -1,25 +1,46 @@
 activities:
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-02-22 22:46:02'
+  created_at_formatted: Febrero 22
+  entries:
+  - amount: 4
+    category: parrilla
+    text: "4 \xD7 pastor"
+    variety_key: PAS
+  - amount: 2
+    badges:
+    - variety
+    category: parrilla
+    text: "2 \xD7 costilla"
+    variety_key: CSP
+  id: 1099077887414681600
+  tk_data: PAS04CSP02
+  tk_url: https://tacokeeper.com/?t=PAS04CSP02
+  total_tacos: 6
+  type: daily
 - summary:
     categories: 1
     month: enero
     total_tacos: 12
     varieties: 2
   type: monthly
-- created_at: '2019-02-01 04:29:38'
+- badges:
+  - text: 2 nuevas variedades
+    type: variety
+  - text: "Nueva categor\xEDa: Parrilla"
+    type: category
+  created_at: '2019-02-01 04:29:38'
   created_at_formatted: Enero 31
-  badges:
-    - text: 2 nuevas variedades
-      type: variety
-    - text: "Nueva categoría: Parrilla"
-      type: category
   entries:
-    - badges:
-        - variety
-        - category
-      text: 3 × arrachera
-    - badges:
-      - variety
-      text: 9 × al pastor
+  - badges:
+    - variety
+    - category
+    text: "3 \xD7 arrachera"
+  - badges:
+    - variety
+    text: "9 \xD7 pastor"
   id: 1091191823387758592
   text: "Hoy com\xED 3 tacos de arrachera, 9 tacos al pastor #tacokeeper https://t.co/mJiw5JenPx"
   tk_data: ARR03PAS09
@@ -27,14 +48,15 @@ activities:
   type: daily
 summary:
   categories:
-    - Parrilla
+  - parrilla
   joined: Enero 2019
   total_categories: 1
-  total_tacos: 12
-  total_varieties: 2
+  total_tacos: 18
+  total_varieties: 3
   varieties:
-    - ARR
-    - PAS
+  - ARR
+  - PAS
+  - CSP
 user:
   cover_image: habanero
   id: '4518111'
