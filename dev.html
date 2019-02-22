@@ -1,5 +1,7 @@
 ---
 isVegan: false
+# Yellow 600
+themeColour: "#fdd835"
 ---
 {%- assign options = site.data.tacokeeper.options -%}
 {%- assign postTitle = "TacoKeeper" -%}
@@ -11,8 +13,7 @@ isVegan: false
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="title" content="{{ postTitle }}">
     <meta name="description" content="{{ postDescription }}">
-    <!-- Yellow 600 -->
-    <meta name="theme-color" content="#fdd835">
+    <meta name="theme-color" content="{{ page.themeColour }}">
 
     <title>{{ postTitle }}</title>
 
