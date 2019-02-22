@@ -1,7 +1,5 @@
 activities:
 - badges:
-  - text: "Nueva categor\xEDa: Parrilla"
-    type: category
   - text: "Nueva categor\xEDa: Al vapor"
     type: category
   - text: 4 nuevas variedades
@@ -17,8 +15,6 @@ activities:
     text: "3 \xD7 adobada"
     variety_key: ADO
   - amount: 2
-    badges:
-    - variety
     category: parrilla
     text: "2 \xD7 asada"
     variety_key: ASA
@@ -40,13 +36,33 @@ activities:
   tk_url: https://tacokeeper.com/?t=ADO03ASA02CAB02CAM02
   total_tacos: 9
   type: daily
+- badges:
+  - text: "Nueva categor\xEDa: Parrilla"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-02-02 20:31:00'
+  created_at_formatted: Febrero 2
+  entries:
+  - amount: 5
+    badges:
+    - category
+    - variety
+    category: parrilla
+    text: "5 \xD7 asada"
+    variety_key: ASA
+  id: 1091781181199179776
+  tk_data: ASA05
+  tk_url: https://tacokeeper.com/?t=ASA05
+  total_tacos: 5
+  type: daily
 summary:
   categories:
   - parrilla
   - al vapor
   joined: Febrero 2019
   total_categories: 2
-  total_tacos: 9
+  total_tacos: 14
   total_varieties: 4
   varieties:
   - ADO
