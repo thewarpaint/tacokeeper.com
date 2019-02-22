@@ -574,7 +574,9 @@
             option.normalisedName.indexOf(normalisedSearch) !== -1 ||
             option.normalisedCategory.indexOf(normalisedSearch) !== -1;
 
-          option.$element.classList.toggle('option--hidden', !isMatch);
+          if (option.$element) {
+            option.$element.classList.toggle('option--hidden', !isMatch);
+          }
         });
       }
 
