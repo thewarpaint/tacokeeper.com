@@ -1,4 +1,5 @@
 ---
+isVegan: false
 ---
 {%- assign options = site.data.tacokeeper.options -%}
 {%- assign postTitle = "TacoKeeper" -%}
@@ -141,6 +142,11 @@
 
       .brand__slogan {
         font-size: .875rem;
+      }
+
+      .brand--vegan {
+        background-color: #43a047; /* Green 600 */
+        color: #ffffff;
       }
 
       /* Logo */
@@ -660,7 +666,7 @@
   </head>
 
   <body>
-    <div class="brand">
+    <div class="brand {% if page.isVegan %}brand--vegan{% endif %}">
       <h1 class="brand__name">
         TacoKeeper <span class="brand__alpha">alpha</span>
       </h1>
