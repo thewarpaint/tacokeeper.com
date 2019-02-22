@@ -141,6 +141,11 @@
         font-size: .875rem;
       }
 
+      .brand--vegan {
+        background-color: #43a047; /* Green 600 */
+        color: #ffffff;
+      }
+
       /* Logo */
       .logo {
         display: none;
@@ -658,7 +663,7 @@
   </head>
 
   <body>
-    <div class="brand">
+    <div class="brand {% if page.isVegan %}brand--vegan{% endif %}">
       <h1 class="brand__name">
         TacoKeeper <span class="brand__alpha">alpha</span>
       </h1>
@@ -693,31 +698,13 @@
       </div>
 
       <ul class="options">
+        <!-- I swear I tried to find a better way but there are no conditional assignments, not operator, etc. -->
         {%- for option in options -%}
-        <li class="option"
-            id="option-{{ option.key }}">
-          <label class="option__label">
-            <input type="number"
-                   class="input option__input"
-                   id="input-{{ option.key }}"
-                   name="input-{{ option.key }}"
-                   value=""
-                   min="0"
-                   max="99"
-                   placeholder="?">
-
-            <div class="option__text">
-              <div for="input-{{ option.key }}"
-                   class="option__name">
-                × {{ option.name }}
-              </div>
-
-              <div class="option__category">
-                {{ option.category }}
-              </div>
-            </div>
-          </label>
-        </li>
+        {%- if page.isVegan == false and option.category != 'vegano' -%}
+        {% include option-entry.html %}
+        {%- elsif page.isVegan == true and option.category == 'vegano' -%}
+        {% include option-entry.html %}
+        {%- endif -%}
         {%- endfor -%}
       </ul>
 
