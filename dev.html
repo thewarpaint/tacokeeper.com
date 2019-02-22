@@ -701,31 +701,13 @@ isVegan: false
       </div>
 
       <ul class="options">
+        <!-- I swear I tried to find a better way but there are no conditional assignments, not operator, etc. -->
         {%- for option in options -%}
-        <li class="option"
-            id="option-{{ option.key }}">
-          <label class="option__label">
-            <input type="number"
-                   class="input option__input"
-                   id="input-{{ option.key }}"
-                   name="input-{{ option.key }}"
-                   value=""
-                   min="0"
-                   max="99"
-                   placeholder="?">
-
-            <div class="option__text">
-              <div for="input-{{ option.key }}"
-                   class="option__name">
-                × {{ option.name }}
-              </div>
-
-              <div class="option__category">
-                {{ option.category }}
-              </div>
-            </div>
-          </label>
-        </li>
+        {%- if page.isVegan == false and option.category != 'vegano' -%}
+        {% include option-entry.html %}
+        {%- elsif page.isVegan == true and option.category == 'vegano' -%}
+        {% include option-entry.html %}
+        {%- endif -%}
         {%- endfor -%}
       </ul>
 

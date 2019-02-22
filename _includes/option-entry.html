@@ -1,0 +1,24 @@
+<li class="option"
+    id="option-{{ option.key }}">
+  <label class="option__label">
+    <input type="number"
+           class="input option__input"
+           id="input-{{ option.key }}"
+           name="input-{{ option.key }}"
+           value=""
+           min="0"
+           max="99"
+           placeholder="?">
+
+    <div class="option__text">
+      <div for="input-{{ option.key }}"
+           class="option__name">
+        × {{ option.name }}
+      </div>
+
+      <div class="option__category">
+        {{ option.category }}
+      </div>
+    </div>
+  </label>
+</li>
