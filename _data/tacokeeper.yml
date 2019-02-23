@@ -20,6 +20,13 @@ options:
       singular: de albóndigas
       plural: de albóndigas
 
+  - key: ARA
+    name: árabe
+    category: parrilla
+    forms:
+      singular: árabe
+      plural: árabes
+
   - key: ARR
     name: arrachera
     category: parrilla
