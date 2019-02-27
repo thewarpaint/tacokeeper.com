@@ -1,9 +1,73 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Parrilla"
+    type: category
+  - text: "Nueva categor\xEDa: Frutos del mar"
+    type: category
+  - text: "Nueva categor\xEDa: Carnitas"
+    type: category
+  - text: "Nueva categor\xEDa: Guisado"
+    type: category
+  - text: 5 nuevas variedades
+    type: variety
+  created_at: '2019-02-26 19:27:41'
+  created_at_formatted: Febrero 26
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: parrilla
+    text: "2 \xD7 campechano"
+    variety_key: CAM
+  - amount: 2
+    badges:
+    - variety
+    category: parrilla
+    text: "2 \xD7 suadero"
+    variety_key: SUA
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: frutos del mar
+    text: "1 \xD7 camar\xF3n"
+    variety_key: CMR
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: carnitas
+    text: "1 \xD7 lengua"
+    variety_key: LEN
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: guisado
+    text: "1 \xD7 cochinita pibil"
+    variety_key: CPB
+  id: 1100477521232039938
+  tk_data: CAM02SUA02CMR01LEN01CPB01
+  tk_url: https://tacokeeper.com/?t=CAM02SUA02CMR01LEN01CPB01
+  total_tacos: 7
+  type: daily
 summary:
+  categories:
+  - parrilla
+  - frutos del mar
+  - carnitas
+  - guisado
   joined: Enero 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
+  total_categories: 4
+  total_tacos: 7
+  total_varieties: 5
+  varieties:
+  - CAM
+  - SUA
+  - CMR
+  - LEN
+  - CPB
 user:
   cover_image: cilantro
   id: '293902828'
