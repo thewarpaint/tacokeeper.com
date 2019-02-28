@@ -1,11 +1,33 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Parrilla"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-02-28 23:05:55'
+  created_at_formatted: Febrero 28
+  entries:
+  - amount: 5
+    badges:
+    - category
+    - variety
+    category: parrilla
+    text: "5 \xD7 adobada"
+    variety_key: ADO
+  id: 1101257216831692801
+  tk_data: ADO05
+  tk_url: https://tacokeeper.com/?t=ADO05
+  total_tacos: 5
+  type: daily
 summary:
-  categories: []
+  categories:
+  - parrilla
   joined: Febrero 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 1
+  total_tacos: 5
+  total_varieties: 1
+  varieties:
+  - ADO
 user:
   cover_image: tomate
   id: '1075705619317952512'
