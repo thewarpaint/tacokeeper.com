@@ -12,8 +12,10 @@ def get_api():
 def get_user_info(user):
     user_info = {
         'id': user.id_str,
-        'profile_image_url': user.profile_image_url_https.replace('_normal', ''),
-        'screen_name': user.screen_name.lower()
+        'screen_name': user.screen_name.lower(),
     }
 
     return user_info
+
+def get_user_profile_image_url(user):
+    return user.profile_image_url_https.replace('_normal', '')
