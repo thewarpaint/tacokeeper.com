@@ -573,6 +573,13 @@ options:
       singular: de suadero en morita
       plural: de suadero en morita
 
+  - key: SUV
+    name: suadero vegano
+    category: vegano
+    forms:
+      singular: de suadero vegano
+      plural: de suadero vegano
+
   - key: SUR
     name: surtida
     category: carnitas
