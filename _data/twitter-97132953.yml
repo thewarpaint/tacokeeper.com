@@ -1,10 +1,27 @@
 activities:
 - badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-03-01 22:33:01'
+  created_at_formatted: Marzo 01
+  entries:
+  - amount: 2
+    badges:
+    - variety
+    category: parrilla
+    text: "2 \xD7 \xE1rabe"
+    variety_key: ARA
+  id: 1101611326600826888
+  tk_data: ARA02
+  tk_url: https://tacokeeper.com/?t=ARA02
+  total_tacos: 2
+  type: daily
+- badges:
   - text: 5 nuevas variedades
     type: variety
-  - text: "Nueva categoría: Carnitas"
+  - text: "Nueva categor\xEDa: Carnitas"
     type: category
-  - text: "Nueva categoría: Parrilla"
+  - text: "Nueva categor\xEDa: Parrilla"
     type: category
   created_at: '2019-02-13 03:25:53'
   created_at_formatted: Febrero 13
@@ -52,14 +69,15 @@ summary:
   - parrilla
   joined: Febrero 2019
   total_categories: 2
-  total_tacos: 9
-  total_varieties: 5
+  total_tacos: 11
+  total_varieties: 6
   varieties:
   - CAC
   - CAM
   - PAS
   - SUA
   - BCT
+  - ARA
 user:
   cover_image: making-salsa
   id: '97132953'
