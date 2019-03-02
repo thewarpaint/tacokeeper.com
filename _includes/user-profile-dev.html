@@ -2,7 +2,7 @@
 {%- assign coverImages = site.data.coverImages -%}
 {%- assign data = site.data[page.userFile] -%}
 {%- assign title = "@{screen_name} | TacoKeeper" | replace: "{screen_name}", data.user.screen_name -%}
-{%- assign description = "Perfil de @{screen_name}. Monitorea tus actividades gastronómicas. Running is boring. Tacos are fun. 🌮🏃" | replace: "{screen_name}", data.user.screen_name -%}
+{%- assign description = "@{screen_name} ha registrado {total_tacos} tacos, {total_varieties} variedades y {total_categories} categorías. Running is boring. Tacos are fun. 🌮🏃" | replace: "{screen_name}", data.user.screen_name | replace: "{total_tacos}", data.summary.total_tacos | replace: "{total_varieties}", data.summary.total_varieties | replace: "{total_categories}", data.summary.total_categories -%}
 <!DOCTYPE html>
 <html lang="es-MX">
   <head>
