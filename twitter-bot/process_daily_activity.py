@@ -104,10 +104,14 @@ def send_welcome_tweet(tweet_to_reply_to):
     #                       status = welcome_message.format(screen_name = tweet_to_reply_to.user.screen_name),
     #                       in_reply_to_status_id = tweet_to_reply_to.id)
 
-    api.update_status(status = welcome_message.format(screen_name = tweet_to_reply_to.user.screen_name.lower()),
-                      in_reply_to_status_id = tweet_to_reply_to.id)
+    try:
+        api.update_status(status = welcome_message.format(screen_name = tweet_to_reply_to.user.screen_name.lower()),
+                          in_reply_to_status_id = tweet_to_reply_to.id)
 
-    print('Sent welcome tweet successfully', tweet_to_reply_to.user.name, tweet_to_reply_to.id)
+        print('Sent welcome tweet successfully to {user}'.format(user = tweet_to_reply_to.user.name))
+    except tweepy.TweepError as exception:
+        print('Welcome tweet was probably sent already for {user}'.format(user = tweet_to_reply_to.user.name))
+        print(exception)
 
 def get_tweet_info(tweet):
     tweet_info = {
