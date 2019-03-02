@@ -493,10 +493,11 @@ themeColour: "#fdd835"
       var optionsArray = {{ options | jsonify }};
       var optionsMap = getOptionsMap(optionsArray);
       var model = {};
+      var screenName = getParameterByName('screenName');
       var twitterIntentUrl = getParameterByName('useTweetbotUrl')
-        ? 'tweetbot://' + getParameterByName('screenName') + '/post?'
+        ? 'tweetbot://' + screenName + '/post?'
         : 'https://twitter.com/intent/tweet?';
-      var targetUrl = 'https://tacokeeper.com/';
+      var targetUrl = 'https://tacokeeper.com/' + (screenName != null ? screenName : '');
       var hashtag = '#tacokeeper';
 
       document.addEventListener('DOMContentLoaded', function (event) {
