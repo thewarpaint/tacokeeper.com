@@ -18,6 +18,7 @@ demo_summary_file = './assets/tacokeeper-summary.png'
 query = '#tacokeeper -filter:retweets'
 welcome_message = '¡Hola, @{screen_name}! Tu perfil estará disponible pronto en https://tacokeeper.com/{screen_name}'
 last_processed_id = '1101744194513764353'
+tk_url_profile_prefix = 'https://tacokeeper.com/{screen_name}?t='
 tk_url_prefix = 'https://tacokeeper.com/?t='
 varieties = []
 
@@ -126,7 +127,7 @@ def get_tweet_info(tweet):
 
     if len(tweet.entities['urls']) == 1:
         tweet_info['tk_url'] = tweet.entities['urls'][0]['expanded_url']
-        tweet_info['tk_data'] = tweet_info['tk_url'].replace(tk_url_prefix, '')
+        tweet_info['tk_data'] = get_raw_tacokeeper_data(tweet.user.screen_name, tweet_info['tk_url'])
 
         entries = get_activity(tweet_info['tk_data'])
 
@@ -134,6 +135,11 @@ def get_tweet_info(tweet):
         tweet_info['total_tacos'] = reduce((lambda acc, entry: acc + entry['amount']), entries, 0)
 
     return tweet_info
+
+def get_raw_tacokeeper_data(screen_name, url):
+    profile_prefix = tk_url_profile_prefix.format(screen_name = screen_name)
+
+    return url.replace(tk_url_prefix, '').replace(profile_prefix, '')
 
 def get_activity(tk_data):
     if len(tk_data) % 5 != 0:
