@@ -1,11 +1,47 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Parrilla"
+    type: category
+  - text: 3 nuevas variedades
+    type: variety
+  created_at: '2019-03-02 06:40:33'
+  created_at_formatted: Marzo 02
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: parrilla
+    text: "2 \xD7 campechano"
+    variety_key: CAM
+  - amount: 1
+    badges:
+    - variety
+    category: parrilla
+    text: "1 \xD7 pastor"
+    variety_key: PAS
+  - amount: 1
+    badges:
+    - variety
+    category: parrilla
+    text: "1 \xD7 bistec"
+    variety_key: BIS
+  id: 1101734017215483904
+  tk_data: CAM02PAS01BIS01
+  tk_url: https://tacokeeper.com/?t=CAM02PAS01BIS01
+  total_tacos: 4
+  type: daily
 summary:
-  categories: []
+  categories:
+  - parrilla
   joined: Marzo 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 1
+  total_tacos: 4
+  total_varieties: 3
+  varieties:
+  - CAM
+  - PAS
+  - BIS
 user:
   cover_image: chorizo
   id: '14732496'

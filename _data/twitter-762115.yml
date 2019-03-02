@@ -1,4 +1,24 @@
 activities:
+- badges:
+  - text: "Nueva categor\xEDa: Guisado"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-03-02 04:37:39'
+  created_at_formatted: Marzo 02
+  entries:
+  - amount: 11
+    badges:
+    - category
+    - variety
+    category: guisado
+    text: "11 \xD7 chicharr\xF3n prensado"
+    variety_key: CHG
+  id: 1101703087041990656
+  tk_data: CHG11
+  tk_url: https://tacokeeper.com/?t=CHG11
+  total_tacos: 11
+  type: daily
 - badges: []
   created_at: '2019-02-28 21:33:41'
   created_at_formatted: Febrero 28
@@ -107,16 +127,18 @@ summary:
   categories:
   - parrilla
   - mixiote
+  - guisado
   joined: Febrero 2019
-  total_categories: 2
-  total_tacos: 37
-  total_varieties: 5
+  total_categories: 3
+  total_tacos: 48
+  total_varieties: 6
   varieties:
   - SUA
   - BIS
   - TRI
   - CAM
   - MIX
+  - CHG
 user:
   cover_image: onion
   id: '762115'

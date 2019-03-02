@@ -1,11 +1,55 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Parrilla"
+    type: category
+  - text: "Nueva categor\xEDa: Al vapor"
+    type: category
+  - text: "Nueva categor\xEDa: Carnitas"
+    type: category
+  - text: 3 nuevas variedades
+    type: variety
+  created_at: '2019-03-02 07:21:00'
+  created_at_formatted: Marzo 02
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: parrilla
+    text: "2 \xD7 pastor"
+    variety_key: PAS
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: al vapor
+    text: "1 \xD7 lengua"
+    variety_key: LEV
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: carnitas
+    text: "1 \xD7 surtida"
+    variety_key: SUR
+  id: 1101744194513764353
+  tk_data: PAS02LEV01SUR01
+  tk_url: https://tacokeeper.com/?t=PAS02LEV01SUR01
+  total_tacos: 4
+  type: daily
 summary:
-  categories: []
+  categories:
+  - parrilla
+  - al vapor
+  - carnitas
   joined: Febrero 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 3
+  total_tacos: 4
+  total_varieties: 3
+  varieties:
+  - PAS
+  - LEV
+  - SUR
 user:
   cover_image: cilantro
   id: '148751516'

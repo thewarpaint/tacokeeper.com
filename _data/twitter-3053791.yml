@@ -1,9 +1,44 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Guisado"
+    type: category
+  - text: "Nueva categor\xEDa: Parrilla"
+    type: category
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-03-02 05:15:47'
+  created_at_formatted: Marzo 02
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: guisado
+    text: "2 \xD7 chicharr\xF3n en salsa"
+    variety_key: CHS
+  - amount: 3
+    badges:
+    - category
+    - variety
+    category: parrilla
+    text: "3 \xD7 pastor"
+    variety_key: PAS
+  id: 1101712683504726018
+  tk_data: CHS02PAS03
+  tk_url: https://tacokeeper.com/?t=CHS02PAS03
+  total_tacos: 5
+  type: daily
 summary:
+  categories:
+  - guisado
+  - parrilla
   joined: Febrero 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
+  total_categories: 2
+  total_tacos: 5
+  total_varieties: 2
+  varieties:
+  - CHS
+  - PAS
 user:
   cover_image: making-salsa
   id: '3053791'
