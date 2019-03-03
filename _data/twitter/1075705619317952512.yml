@@ -1,5 +1,31 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Barbacoa"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-03-03 15:26:16'
+  created_at_formatted: Marzo 03
+  entries:
+  - amount: 5
+    badges:
+    - category
+    - variety
+    category: barbacoa
+    text: "5 \xD7 barbacoa"
+    variety_key: BAR
+  id: 1102228706708410368
+  tk_data: BAR05
+  tk_url: https://tacokeeper.com/?t=BAR05
+  total_tacos: 5
+  type: daily
+- summary:
+    month: febrero
+    total_categories: 1
+    total_tacos: 5
+    total_varieties: 1
+  type: monthly
+- badges:
   - text: "Nueva categor\xEDa: Parrilla"
     type: category
   - text: 1 nueva variedad
@@ -22,12 +48,14 @@ activities:
 summary:
   categories:
   - parrilla
+  - barbacoa
   joined: Febrero 2019
-  total_categories: 1
-  total_tacos: 5
-  total_varieties: 1
+  total_categories: 2
+  total_tacos: 10
+  total_varieties: 2
   varieties:
   - ADO
+  - BAR
 user:
   cover_image: tomate
   id: '1075705619317952512'
