@@ -24,6 +24,12 @@ activities:
   tk_url: https://tacokeeper.com/?t=ALA02PAS03
   total_tacos: 5
   type: daily
+- summary:
+    month: febrero
+    total_categories: 2
+    total_tacos: 4
+    total_varieties: 3
+  type: monthly
 - badges:
   - text: 3 nuevas variedades
     type: variety
