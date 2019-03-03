@@ -8,7 +8,7 @@ from textwrap import wrap
 import yaml
 
 from tweepy_helper import get_api, get_user_info
-from yaml_helper import dump_user_data, user_data_path
+from yaml_helper import dump_user_data, load_user_data
 
 # Testing stuff
 dry_run = False
@@ -21,22 +21,6 @@ last_processed_id = '1101744194513764353'
 tk_url_profile_prefix = 'https://tacokeeper.com/{screen_name}?t='
 tk_url_prefix = 'https://tacokeeper.com/?t='
 varieties = []
-
-def load_data(user_id):
-    data = None
-
-    try:
-        read_stream = file(user_data_path.format(user_id = user_id), 'r')
-        data = yaml.safe_load(read_stream)
-    except IOError:
-        pass
-
-    if data is None:
-        data = {
-            'activities': []
-        }
-
-    return data
 
 def process_tweets(since_id):
     for tweet in tweepy.Cursor(api.search,
@@ -53,7 +37,11 @@ def process_tweet(tweet):
         print('Tweet without TK data, skipping:', tweet_info)
         return
 
-    data = load_data(tweet.user.id_str)
+    data = load_user_data(tweet.user.id_str)
+
+    if data is None:
+        print('Please create the profile for user {screen_name} first'.format(screen_name = tweet.user.screen_name))
+        return
 
     if not dry_run:
         if len(data['activities']) == 0:
