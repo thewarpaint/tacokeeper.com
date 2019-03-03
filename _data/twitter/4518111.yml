@@ -13,6 +13,12 @@ activities:
   tk_url: https://tacokeeper.com/?t=PAS05
   total_tacos: 5
   type: daily
+- summary:
+    month: febrero
+    total_categories: 1
+    total_tacos: 6
+    total_varieties: 2
+  type: monthly
 - badges:
   - text: 1 nueva variedad
     type: variety
@@ -45,7 +51,7 @@ activities:
     type: variety
   - text: "Nueva categor\xEDa: Parrilla"
     type: category
-  created_at: '2019-02-01 04:29:38'
+  created_at: '2019-01-31 11:59:59'
   created_at_formatted: Enero 31
   entries:
   - badges:
@@ -59,6 +65,7 @@ activities:
   text: "Hoy com\xED 3 tacos de arrachera, 9 tacos al pastor #tacokeeper https://t.co/mJiw5JenPx"
   tk_data: ARR03PAS09
   tk_url: https://tacokeeper.com/?t=ARR03PAS09
+  total_tacos: 12
   type: daily
 summary:
   categories:
