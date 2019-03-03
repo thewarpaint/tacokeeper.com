@@ -17,7 +17,7 @@ dry_run = False
 demo_summary_file = './assets/tacokeeper-summary.png'
 query = '#tacokeeper -filter:retweets'
 welcome_message = '¡Hola, @{screen_name}! Tu perfil estará disponible pronto en https://tacokeeper.com/{screen_name}'
-last_processed_id = '1101744194513764353'
+last_processed_id = '1102234568747335682'
 tk_url_profile_prefix = 'https://tacokeeper.com/{screen_name}?t='
 tk_url_prefix = 'https://tacokeeper.com/?t='
 varieties = []
@@ -172,3 +172,6 @@ if __name__ == '__main__':
     api = get_api()
     varieties = load_varieties()
     process_tweets(last_processed_id)
+
+    # TODO: Add a command line option to process individual statuses
+    # process_tweet(api.get_status(1102234568747335682, tweet_mode = 'extended'))
