@@ -19,6 +19,12 @@ activities:
   tk_url: https://tacokeeper.com/?t=CEC03
   total_tacos: 3
   type: daily
+- summary:
+    month: febrero
+    total_categories: 1
+    total_tacos: 6
+    total_varieties: 1
+  type: monthly
 - badges:
   - text: "Nueva categor\xEDa: Canasta"
     type: category
