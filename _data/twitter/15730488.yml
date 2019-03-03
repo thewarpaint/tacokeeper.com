@@ -1,4 +1,10 @@
 activities:
+- summary:
+    month: febrero
+    total_categories: 2
+    total_tacos: 14
+    total_varieties: 4
+  type: monthly
 - badges:
   - text: "Nueva categor\xEDa: Al vapor"
     type: category
