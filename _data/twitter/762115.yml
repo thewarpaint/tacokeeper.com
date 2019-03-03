@@ -117,11 +117,15 @@ activities:
   created_at: '2019-02-07 19:59:30'
   created_at_formatted: Febrero 7
   entries:
-  - badges:
+  - amount: 7
+    badges:
     - variety
     - category
+    category: parrilla
     text: "7 \xD7 suadero"
+    variety_key: SUA
   id: 1093600157445296129
+  total_tacos: 7
   type: daily
 summary:
   categories:
