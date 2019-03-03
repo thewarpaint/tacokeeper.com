@@ -1,5 +1,25 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Carnitas"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-03-03 22:06:19'
+  created_at_formatted: Marzo 03
+  entries:
+  - amount: 3
+    badges:
+    - category
+    - variety
+    category: carnitas
+    text: "3 \xD7 maciza"
+    variety_key: MAC
+  id: 1102329380121001984
+  tk_data: MAC03
+  tk_url: https://tacokeeper.com/?t=MAC03
+  total_tacos: 3
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Parrilla"
     type: category
   - text: 1 nueva variedad
@@ -22,12 +42,14 @@ activities:
 summary:
   categories:
   - parrilla
+  - carnitas
   joined: Marzo 2019
-  total_categories: 1
-  total_tacos: 6
-  total_varieties: 1
+  total_categories: 2
+  total_tacos: 9
+  total_varieties: 2
   varieties:
   - PAS
+  - MAC
 user:
   cover_image: habanero
   id: '86873845'
