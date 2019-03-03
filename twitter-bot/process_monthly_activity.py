@@ -12,6 +12,8 @@ En {month} registraste {total_tacos} tacos de {total_categories} categorías y {
 Ya actualizamos tu actividad del mes en tu perfil: https://tacokeeper.com/{screen_name}
 '''
 
+send_summary_tweet = True
+
 def run():
     month_to_process = ''
     user_id = ''
@@ -41,7 +43,8 @@ def process_monthly_activity(month_to_process, user_id):
     user_data['activities'].insert(0, monthly_activity)
     dump_user_data(user_id, user_data)
 
-    send_monthly_summary_tweet(user_id, user_data['user']['screen_name'], monthly_activity)
+    if send_summary_tweet:
+        send_monthly_summary_tweet(user_id, user_data['user']['screen_name'], monthly_activity)
 
 def get_monthly_summary(month_to_process, user_data):
     # Using dictionaries to keep track of most frequent categories and varieties in the future
