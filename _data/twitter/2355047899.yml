@@ -19,10 +19,10 @@ activities:
       text: 1 × obispo
   type: daily
 - summary:
-    categories: 1
     month: enero
+    total_categories: 1
     total_tacos: 6
-    varieties: 4
+    total_varieties: 4
   type: monthly
 - created_at_formatted: Enero 27
   badges:

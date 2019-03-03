@@ -1,4 +1,10 @@
 activities:
+- summary:
+    month: febrero
+    total_categories: 4
+    total_tacos: 7
+    total_varieties: 5
+  type: monthly
 - badges:
   - text: "Nueva categor\xEDa: Parrilla"
     type: category
