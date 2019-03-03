@@ -19,6 +19,12 @@ activities:
   tk_url: https://tacokeeper.com/?t=CHG11
   total_tacos: 11
   type: daily
+- summary:
+    month: febrero
+    total_categories: 2
+    total_tacos: 37
+    total_varieties: 5
+  type: monthly
 - badges: []
   created_at: '2019-02-28 21:33:41'
   created_at_formatted: Febrero 28
