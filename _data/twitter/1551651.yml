@@ -1,5 +1,31 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Barbacoa"
+    type: category
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-03-03 18:26:07'
+  created_at_formatted: Marzo 03
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: barbacoa
+    text: "2 \xD7 barbacoa"
+    variety_key: BAR
+  - amount: 1
+    badges:
+    - variety
+    category: barbacoa
+    text: "1 \xD7 pancita"
+    variety_key: PAN
+  id: 1102273968197812225
+  tk_data: BAR02PAN01
+  tk_url: https://tacokeeper.com/?t=BAR02PAN01
+  total_tacos: 3
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Parrilla"
     type: category
   - text: 1 nueva variedad
@@ -48,13 +74,16 @@ summary:
   categories:
   - canasta
   - parrilla
+  - barbacoa
   joined: Febrero 2019
-  total_categories: 2
-  total_tacos: 9
-  total_varieties: 2
+  total_categories: 3
+  total_tacos: 12
+  total_varieties: 4
   varieties:
   - CHP
   - CEC
+  - BAR
+  - PAN
 user:
   cover_image: onion
   id: '1551651'
