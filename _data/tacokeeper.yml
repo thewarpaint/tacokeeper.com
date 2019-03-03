@@ -181,6 +181,13 @@ options:
       singular: de chicharrón prensado
       plural: de chicharrón prensado
 
+  - key: CHV
+    name: chicharrón
+    category: vegano
+    forms:
+      singular: de chicharrón
+      plural: de chicharrón
+
   - key: CHL
     name: chile relleno
     category: guisado
