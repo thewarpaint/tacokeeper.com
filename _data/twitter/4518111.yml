@@ -35,10 +35,10 @@ activities:
   total_tacos: 6
   type: daily
 - summary:
-    categories: 1
     month: enero
+    total_categories: 1
     total_tacos: 12
-    varieties: 2
+    total_varieties: 2
   type: monthly
 - badges:
   - text: 2 nuevas variedades
