@@ -6,6 +6,7 @@ import sys
 from tweepy_helper import get_api
 from yaml_helper import dump_user_data, load_user_data
 
+# TODO: Add pluralisation support!
 tweet_content = '''
 @{screen_name} ¡Gracias por registrar tus tacos con nosotros!
 En {month} registraste {total_tacos} tacos de {total_categories} categorías y {total_varieties} variedades.
