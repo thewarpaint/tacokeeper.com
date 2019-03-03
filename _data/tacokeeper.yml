@@ -510,6 +510,13 @@ options:
       singular: de picadillo
       plural: de picadillo
 
+  - key: PLA
+    name: placero
+    category: guisado
+    forms:
+      singular: placero
+      plural: placeros
+
   - key: PLD
     name: pollo
     category: dorados
