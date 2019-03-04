@@ -7,8 +7,10 @@ permalink: /tk/usuarios
     <a href="/{{ profile[1].user.screen_name }}">
       <img src="{{ profile[1].user.profile_image_url }}"
            style="width: 2.5rem; height: 2.5rem;">
-      @{{ profile[1].user.screen_name }}
-    </a>
+      @{{ profile[1].user.screen_name }}</a>
+
+    joined on {{ profile[1].summary.joined }},
+    has registered {{ profile[1].summary.total_tacos }} tacos
   </li>
   {%- endfor -%}
 </ul>
