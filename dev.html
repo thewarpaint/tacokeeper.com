@@ -293,12 +293,15 @@ themeColour: "#fdd835"
         text-transform: uppercase;
       }
 
-      .input:focus + .option__text {
+      .input:focus ~ .option__times,
+      .input:focus ~ .option__text {
         color: #78909c; /* Blue Gray 400 */
       }
 
+      .option--active .option__times,
       .option--active .option__text,
-      .option--active .input:focus + .option__text {
+      .option--active .input:focus ~ .option__times,
+      .option--active .input:focus ~ .option__text {
         color: #455a64; /* Blue Gray 700 */
       }
 
