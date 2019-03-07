@@ -287,10 +287,19 @@ themeColour: "#fdd835"
         font-size: 1.5rem;
       }
 
-      .option__category {
+      .option__tags {
         font-size: .75rem;
         font-weight: light;
         text-transform: uppercase;
+      }
+
+      .option__tag:not(:first-child) {
+        display: inline-block;
+        margin-left: .5rem;
+      }
+
+      .option__tag--favourite {
+        color: #fbc02d; /* Yellow 700 */
       }
 
       .input:focus ~ .option__times,
