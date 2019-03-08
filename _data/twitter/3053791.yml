@@ -1,5 +1,32 @@
 activities:
 - badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-03-08 22:07:38'
+  created_at_formatted: Marzo 08
+  entries:
+  - amount: 2
+    badges:
+    - variety
+    category: parrilla
+    text: "2 \xD7 bistec"
+    variety_key: BIS
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 pastor"
+    variety_key: PAS
+  - amount: 1
+    badges: []
+    category: guisado
+    text: "1 \xD7 chicharr\xF3n en salsa"
+    variety_key: CHS
+  id: 1104141654250917888
+  tk_data: BIS02PAS02CHS01
+  tk_url: https://tacokeeper.com/?t=BIS02PAS02CHS01
+  total_tacos: 5
+  type: daily
+- badges:
   - text: 2 nuevas variedades
     type: variety
   created_at: '2019-03-03 21:19:51'
@@ -58,13 +85,14 @@ summary:
   joined: 2019-03-02
   joined_formatted: marzo 2019
   total_categories: 2
-  total_tacos: 10
-  total_varieties: 4
+  total_tacos: 15
+  total_varieties: 5
   varieties:
   - CHS
   - PAS
   - CEC
   - CHO
+  - BIS
 user:
   cover_image: making-salsa
   id: '3053791'
