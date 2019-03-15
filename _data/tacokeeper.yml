@@ -202,6 +202,13 @@ options:
       singular: de costilla en chile pasilla
       plural: de costilla en chile pasilla
 
+  - key: CPI
+    name: cochinita pibil
+    category: guisado
+    forms:
+      singular: de cochinita pibil
+      plural: de cochinita pibil
+
   - key: CSS
     name: costilla en salsa
     category: guisado
