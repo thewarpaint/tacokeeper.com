@@ -531,6 +531,13 @@ options:
       singular: de pollo con mole
       plural: de pollo con mole
 
+  - key: PLC
+    name: pollo en salsa de chipotle
+    category: guisado
+    forms:
+      singular: de pollo en salsa de chipotle
+      plural: de pollo en salsa de chipotle
+
   - key: PUL
     name: pulpo
     category: frutos del mar
