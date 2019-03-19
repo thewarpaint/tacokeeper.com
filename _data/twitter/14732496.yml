@@ -1,4 +1,29 @@
 activities:
+- badges:
+  - text: "Nueva categor\xEDa: Al vapor"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-03-19 04:51:08'
+  created_at_formatted: Marzo 19
+  entries:
+  - amount: 3
+    badges: []
+    category: parrilla
+    text: "3 \xD7 campechano"
+    variety_key: CAM
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: al vapor
+    text: "2 \xD7 lengua"
+    variety_key: LEV
+  id: 1107867073773035520
+  tk_data: CAM03LEV02
+  tk_url: https://tacokeeper.com/?t=CAM03LEV02
+  total_tacos: 5
+  type: daily
 - badges: []
   created_at: '2019-03-04 06:52:24'
   created_at_formatted: Marzo 04
@@ -48,15 +73,17 @@ activities:
 summary:
   categories:
   - parrilla
+  - al vapor
   joined: 2019-03-02
   joined_formatted: marzo 2019
-  total_categories: 1
-  total_tacos: 9
-  total_varieties: 3
+  total_categories: 2
+  total_tacos: 14
+  total_varieties: 4
   varieties:
   - CAM
   - PAS
   - BIS
+  - LEV
 user:
   cover_image: chorizo
   id: '14732496'
