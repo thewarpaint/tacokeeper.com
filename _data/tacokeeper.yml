@@ -601,6 +601,13 @@ options:
       singular: de suadero vegano
       plural: de suadero vegano
 
+  - key: SRV
+    name: surtida
+    category: al vapor
+    forms:
+      singular: de surtida
+      plural: de surtida
+
   - key: SUR
     name: surtida
     category: carnitas
