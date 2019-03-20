@@ -382,9 +382,12 @@
         {%- for activity in data.activities -%}
         {%- case activity.type -%}
           {%- when 'daily' -%}
-          <li class="activity">
+          <li id="activity-{{ activity.id }}"
+              class="activity">
             <div class="activity__date">
-              {{ activity.created_at_formatted }}
+              <a href="#activity-{{ activity.id }}">
+                {{ activity.created_at_formatted }}
+              </a>
             </div>
 
             <ul class="activity__varieties">
