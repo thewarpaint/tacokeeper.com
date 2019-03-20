@@ -24,7 +24,7 @@ activities:
   total_tacos: 6
   type: daily
 - badges:
-  - text: "Nueva categor\xEDa: Carnitas"
+  - text: "Nueva categor\xEDa: Al vapor"
     type: category
   - text: 1 nueva variedad
     type: variety
@@ -40,12 +40,12 @@ activities:
     badges:
     - category
     - variety
-    category: carnitas
+    category: al vapor
     text: "3 \xD7 surtida"
-    variety_key: SUR
+    variety_key: SRV
   id: 1105338138925432832
   tk_data: CAM04SUR03
-  tk_url: https://tacokeeper.com/?t=CAM04SUR03
+  tk_url: https://tacokeeper.com/?t=CAM04SRV03
   total_tacos: 7
   type: daily
 - badges:
@@ -187,7 +187,7 @@ summary:
   - parrilla
   - mixiote
   - guisado
-  - carnitas
+  - al vapor
   joined: 2019-02-07
   joined_formatted: febrero 2019
   total_categories: 4
@@ -200,7 +200,7 @@ summary:
   - CAM
   - MIX
   - CHG
-  - SUR
+  - SRV
 user:
   cover_image: onion
   id: '762115'
