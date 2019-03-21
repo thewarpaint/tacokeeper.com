@@ -1,4 +1,18 @@
 activities:
+- badges: []
+  created_at: '2019-03-21 00:25:51'
+  created_at_formatted: Marzo 21
+  entries:
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 campechano"
+    variety_key: CAM
+  id: 1108525089845403648
+  tk_data: CAM02
+  tk_url: https://tacokeeper.com/?t=CAM02
+  total_tacos: 2
+  type: daily
 - badges:
   - text: 2 nuevas variedades
     type: variety
@@ -69,7 +83,7 @@ summary:
   joined: 2019-03-02
   joined_formatted: marzo 2019
   total_categories: 2
-  total_tacos: 15
+  total_tacos: 17
   total_varieties: 4
   varieties:
   - PAS
