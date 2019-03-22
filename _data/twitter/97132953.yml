@@ -1,5 +1,28 @@
 activities:
 - badges:
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-03-22 03:43:54'
+  created_at_formatted: Marzo 22
+  entries:
+  - amount: 2
+    badges:
+    - variety
+    category: carnitas
+    text: "2 \xD7 maciza"
+    variety_key: MAC
+  - amount: 2
+    badges:
+    - variety
+    category: parrilla
+    text: "2 \xD7 chuleta con tocino"
+    variety_key: CHT
+  id: 1108937319539568640
+  tk_data: MAC02CHT02
+  tk_url: https://tacokeeper.com/?t=MAC02CHT02
+  total_tacos: 4
+  type: daily
+- badges:
   - text: 1 nueva variedad
     type: variety
   created_at: '2019-03-01 22:33:01'
@@ -76,8 +99,8 @@ summary:
   joined: 2019-02-13
   joined_formatted: febrero 2019
   total_categories: 2
-  total_tacos: 11
-  total_varieties: 6
+  total_tacos: 15
+  total_varieties: 8
   varieties:
   - CAC
   - CAM
@@ -85,6 +108,8 @@ summary:
   - SUA
   - BCT
   - ARA
+  - MAC
+  - CHT
 user:
   cover_image: making-salsa
   id: '97132953'
