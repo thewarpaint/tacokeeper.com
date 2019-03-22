@@ -97,9 +97,10 @@ def send_welcome_tweet(tweet_to_reply_to):
         api.update_status(status = welcome_message.format(screen_name = tweet_to_reply_to.user.screen_name.lower()),
                           in_reply_to_status_id = tweet_to_reply_to.id)
 
-        print('Sent welcome tweet successfully to {user}'.format(user = tweet_to_reply_to.user.name))
+        # TODO: Fix "UnicodeEncodeError: 'ascii' codec can't encode character"
+        print('Sent welcome tweet successfully to {user}'.format(user = tweet_to_reply_to.user.screen_name))
     except tweepy.TweepError as exception:
-        print('Welcome tweet was probably sent already for {user}'.format(user = tweet_to_reply_to.user.name))
+        print('Welcome tweet was probably sent already for {user}'.format(user = tweet_to_reply_to.user.screen_name))
         print(exception)
 
 def get_tweet_info(tweet):
