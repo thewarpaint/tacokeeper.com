@@ -223,6 +223,13 @@ options:
       singular: de chuleta
       plural: de chuleta
 
+  - key: CHT
+    name: chuleta con tocino
+    category: parrilla
+    forms:
+      singular: de chuleta con tocino
+      plural: de chuleta con tocino
+
   - key: CLS
     name: chuleta en salsa
     category: guisado
