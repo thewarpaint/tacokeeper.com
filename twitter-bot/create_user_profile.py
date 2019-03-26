@@ -17,7 +17,7 @@ user_profile_path = '../user_profiles/{screen_name}.html'
 user_profile_template = """---
 permalink: /{screen_name}
 isDemo: true
-userFile: twitter-{id}
+userFile: "{id}"
 ---
 {{% include user-profile.html %}}
 """
