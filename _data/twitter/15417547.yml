@@ -1,11 +1,47 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Carnitas"
+    type: category
+  - text: 3 nuevas variedades
+    type: variety
+  created_at: '2019-03-26 21:49:26'
+  created_at_formatted: Marzo 26
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: carnitas
+    text: "2 \xD7 buche"
+    variety_key: BUC
+  - amount: 1
+    badges:
+    - variety
+    category: carnitas
+    text: "1 \xD7 chamorro"
+    variety_key: CHA
+  - amount: 1
+    badges:
+    - variety
+    category: carnitas
+    text: "1 \xD7 trompa"
+    variety_key: TRO
+  id: 1110660051977547782
+  tk_data: BUC02CHA01TRO01
+  tk_url: https://tacokeeper.com/?t=BUC02CHA01TRO01
+  total_tacos: 4
+  type: daily
 summary:
-  categories: []
+  categories:
+  - carnitas
   joined_formatted: Marzo 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 1
+  total_tacos: 4
+  total_varieties: 3
+  varieties:
+  - BUC
+  - CHA
+  - TRO
 user:
   cover_image: guacamole
   id: '15417547'
