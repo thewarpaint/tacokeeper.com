@@ -1,11 +1,33 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Parrilla"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-03-27 03:21:17'
+  created_at_formatted: Marzo 27
+  entries:
+  - amount: 3
+    badges:
+    - category
+    - variety
+    category: parrilla
+    text: "3 \xD7 suadero"
+    variety_key: SUA
+  id: 1110743567369003008
+  tk_data: SUA03
+  tk_url: https://tacokeeper.com/?t=SUA03
+  total_tacos: 3
+  type: daily
 summary:
-  categories: []
+  categories:
+  - parrilla
   joined_formatted: Marzo 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 1
+  total_tacos: 3
+  total_varieties: 1
+  varieties:
+  - SUA
 user:
   cover_image: tomate
   id: '15937688'

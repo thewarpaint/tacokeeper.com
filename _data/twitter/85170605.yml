@@ -1,11 +1,44 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Parrilla"
+    type: category
+  - text: "Nueva categor\xEDa: Birria"
+    type: category
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-03-27 05:40:51'
+  created_at_formatted: Marzo 27
+  entries:
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: parrilla
+    text: "1 \xD7 suadero"
+    variety_key: SUA
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: birria
+    text: "1 \xD7 birria"
+    variety_key: BIR
+  id: 1110778687820099585
+  tk_data: SUA01BIR01
+  tk_url: https://tacokeeper.com/?t=SUA01BIR01
+  total_tacos: 2
+  type: daily
 summary:
-  categories: []
+  categories:
+  - parrilla
+  - birria
   joined_formatted: Marzo 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 2
+  total_tacos: 2
+  total_varieties: 2
+  varieties:
+  - SUA
+  - BIR
 user:
   cover_image: onion
   id: '85170605'

@@ -1,11 +1,33 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Parrilla"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-03-27 05:27:35'
+  created_at_formatted: Marzo 27
+  entries:
+  - amount: 3
+    badges:
+    - category
+    - variety
+    category: parrilla
+    text: "3 \xD7 chuleta"
+    variety_key: CHU
+  id: 1110775351192571904
+  tk_data: CHU03
+  tk_url: https://tacokeeper.com/?t=CHU03
+  total_tacos: 3
+  type: daily
 summary:
-  categories: []
+  categories:
+  - parrilla
   joined_formatted: Marzo 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 1
+  total_tacos: 3
+  total_varieties: 1
+  varieties:
+  - CHU
 user:
   cover_image: making-salsa
   id: '715715811944468480'

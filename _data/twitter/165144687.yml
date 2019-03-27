@@ -1,11 +1,47 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Carnitas"
+    type: category
+  - text: 3 nuevas variedades
+    type: variety
+  created_at: '2019-03-27 04:26:51'
+  created_at_formatted: Marzo 27
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: carnitas
+    text: "2 \xD7 cachete"
+    variety_key: CAC
+  - amount: 2
+    badges:
+    - variety
+    category: carnitas
+    text: "2 \xD7 costilla"
+    variety_key: COS
+  - amount: 2
+    badges:
+    - variety
+    category: carnitas
+    text: "2 \xD7 maciza"
+    variety_key: MAC
+  id: 1110760068339818497
+  tk_data: CAC02COS02MAC02
+  tk_url: https://tacokeeper.com/?t=CAC02COS02MAC02
+  total_tacos: 6
+  type: daily
 summary:
-  categories: []
+  categories:
+  - carnitas
   joined_formatted: Marzo 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 1
+  total_tacos: 6
+  total_varieties: 3
+  varieties:
+  - CAC
+  - COS
+  - MAC
 user:
   cover_image: making-salsa
   id: '165144687'
