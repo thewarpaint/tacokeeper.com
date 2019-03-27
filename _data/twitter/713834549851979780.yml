@@ -1,11 +1,47 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Carnitas"
+    type: category
+  - text: 3 nuevas variedades
+    type: variety
+  created_at: '2019-03-27 15:44:16'
+  created_at_formatted: Marzo 27
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: carnitas
+    text: "2 \xD7 costilla"
+    variety_key: COS
+  - amount: 1
+    badges:
+    - variety
+    category: carnitas
+    text: "1 \xD7 buche"
+    variety_key: BUC
+  - amount: 1
+    badges:
+    - variety
+    category: carnitas
+    text: "1 \xD7 lengua"
+    variety_key: LEN
+  id: 1110930545209470976
+  tk_data: COS02BUC01LEN01
+  tk_url: https://tacokeeper.com/?t=COS02BUC01LEN01
+  total_tacos: 4
+  type: daily
 summary:
-  categories: []
+  categories:
+  - carnitas
   joined_formatted: Marzo 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 1
+  total_tacos: 4
+  total_varieties: 3
+  varieties:
+  - COS
+  - BUC
+  - LEN
 user:
   cover_image: cilantro
   id: '713834549851979780'

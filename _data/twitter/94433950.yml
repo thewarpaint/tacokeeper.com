@@ -1,11 +1,51 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Carnitas"
+    type: category
+  - text: "Nueva categor\xEDa: Al vapor"
+    type: category
+  - text: 3 nuevas variedades
+    type: variety
+  created_at: '2019-03-27 18:19:42'
+  created_at_formatted: Marzo 27
+  entries:
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: carnitas
+    text: "1 \xD7 oreja"
+    variety_key: ORE
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: al vapor
+    text: "1 \xD7 lengua"
+    variety_key: LEV
+  - amount: 1
+    badges:
+    - variety
+    category: carnitas
+    text: "1 \xD7 cachete"
+    variety_key: CAC
+  id: 1110969660353052672
+  tk_data: ORE01LEV01CAC01
+  tk_url: https://tacokeeper.com/?t=ORE01LEV01CAC01
+  total_tacos: 3
+  type: daily
 summary:
-  categories: []
+  categories:
+  - carnitas
+  - al vapor
   joined_formatted: Marzo 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 2
+  total_tacos: 3
+  total_varieties: 3
+  varieties:
+  - ORE
+  - LEV
+  - CAC
 user:
   cover_image: onion
   id: '94433950'
