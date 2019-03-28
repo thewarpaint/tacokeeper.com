@@ -1,5 +1,25 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Dorados"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-03-27 22:34:05'
+  created_at_formatted: Marzo 27
+  entries:
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: dorados
+    text: "1 \xD7 res"
+    variety_key: RES
+  id: 1111033679260848130
+  tk_data: RES01
+  tk_url: https://tacokeeper.com/?t=RES01
+  total_tacos: 1
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Carnitas"
     type: category
   - text: 3 nuevas variedades
@@ -34,14 +54,16 @@ activities:
 summary:
   categories:
   - carnitas
+  - dorados
   joined_formatted: Marzo 2019
-  total_categories: 1
-  total_tacos: 4
-  total_varieties: 3
+  total_categories: 2
+  total_tacos: 5
+  total_varieties: 4
   varieties:
   - BUC
   - CHA
   - TRO
+  - RES
 user:
   cover_image: guacamole
   id: '15417547'

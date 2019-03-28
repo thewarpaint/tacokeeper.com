@@ -1,4 +1,30 @@
 activities:
+- badges:
+  - text: "Nueva categor\xEDa: Carnitas"
+    type: category
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-03-27 22:53:25'
+  created_at_formatted: Marzo 27
+  entries:
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: carnitas
+    text: "1 \xD7 buche"
+    variety_key: BUC
+  - amount: 2
+    badges:
+    - variety
+    category: carnitas
+    text: "2 \xD7 maciza"
+    variety_key: MAC
+  id: 1111038543118389249
+  tk_data: BUC01MAC02
+  tk_url: https://tacokeeper.com/?t=BUC01MAC02
+  total_tacos: 3
+  type: daily
 - badges: []
   created_at: '2019-03-01 22:26:17'
   created_at_formatted: Marzo 01
@@ -70,15 +96,18 @@ activities:
 summary:
   categories:
   - parrilla
+  - carnitas
   joined: 2019-01-31
   joined_formatted: enero 2019
-  total_categories: 1
-  total_tacos: 23
-  total_varieties: 3
+  total_categories: 2
+  total_tacos: 26
+  total_varieties: 5
   varieties:
   - ARR
   - PAS
   - CSP
+  - BUC
+  - MAC
 user:
   cover_image: habanero
   id: '4518111'
