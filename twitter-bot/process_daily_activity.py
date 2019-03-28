@@ -17,7 +17,7 @@ dry_run = False
 demo_summary_file = './assets/tacokeeper-summary.png'
 query = '#tacokeeper -filter:retweets'
 welcome_message = '¡Hola, @{screen_name}! Tu perfil estará disponible pronto en https://tacokeeper.com/{screen_name}'
-last_processed_id = '1110975260994797568'
+last_processed_id = '1111301268994228225'
 tk_url_profile_prefix = 'https://tacokeeper.com/{screen_name}?t='
 tk_url_prefix = 'https://tacokeeper.com/?t='
 varieties = []
