@@ -1,5 +1,45 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Parrilla"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-03-29 04:36:29'
+  created_at_formatted: Marzo 29
+  entries:
+  - amount: 3
+    badges:
+    - category
+    - variety
+    category: parrilla
+    text: "3 \xD7 pastor"
+    variety_key: PAS
+  id: 1111487267149762561
+  tk_data: PAS03
+  tk_url: https://tacokeeper.com/?t=PAS03
+  total_tacos: 3
+  type: daily
+- badges:
+  - text: "Nueva categor\xEDa: Carnitas"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-03-28 22:50:03'
+  created_at_formatted: Marzo 28
+  entries:
+  - amount: 4
+    badges:
+    - category
+    - variety
+    category: carnitas
+    text: "4 \xD7 surtida"
+    variety_key: SUR
+  id: 1111400084044832768
+  tk_data: SUR04
+  tk_url: https://tacokeeper.com/?t=SUR04
+  total_tacos: 4
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Guisado"
     type: category
   - text: 1 nueva variedad
@@ -22,12 +62,16 @@ activities:
 summary:
   categories:
   - guisado
+  - parrilla
+  - carnitas
   joined_formatted: Marzo 2019
-  total_categories: 1
-  total_tacos: 1
-  total_varieties: 1
+  total_categories: 3
+  total_tacos: 8
+  total_varieties: 3
   varieties:
   - HUE
+  - PAS
+  - SUR
 user:
   cover_image: cilantro
   id: '101279432'
