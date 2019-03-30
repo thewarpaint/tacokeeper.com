@@ -1,11 +1,33 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Guisado"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-03-30 04:52:09'
+  created_at_formatted: Marzo 30
+  entries:
+  - amount: 4
+    badges:
+    - category
+    - variety
+    category: guisado
+    text: "4 \xD7 cochinita pibil"
+    variety_key: CPB
+  id: 1111853599041245184
+  tk_data: CPB04
+  tk_url: https://tacokeeper.com/?t=CPB04
+  total_tacos: 4
+  type: daily
 summary:
-  categories: []
+  categories:
+  - guisado
   joined_formatted: Marzo 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 1
+  total_tacos: 4
+  total_varieties: 1
+  varieties:
+  - CPB
 user:
   cover_image: making-salsa
   id: '55940347'
