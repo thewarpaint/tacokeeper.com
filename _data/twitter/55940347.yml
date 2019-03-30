@@ -1,5 +1,25 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Carnitas"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-03-30 17:20:56'
+  created_at_formatted: Marzo 30
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: carnitas
+    text: "2 \xD7 surtida"
+    variety_key: SUR
+  id: 1112042032833261568
+  tk_data: SUR02
+  tk_url: https://tacokeeper.com/?t=SUR02
+  total_tacos: 2
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Guisado"
     type: category
   - text: 1 nueva variedad
@@ -22,12 +42,14 @@ activities:
 summary:
   categories:
   - guisado
+  - carnitas
   joined_formatted: Marzo 2019
-  total_categories: 1
-  total_tacos: 4
-  total_varieties: 1
+  total_categories: 2
+  total_tacos: 6
+  total_varieties: 2
   varieties:
   - CPB
+  - SUR
 user:
   cover_image: making-salsa
   id: '55940347'
