@@ -1,4 +1,11 @@
 options:
+  - key: ACH
+    name: achicalada
+    category: carnitas
+    forms:
+      singular: de achicalada
+      plural: de achicalada
+
   - key: ADO
     name: adobada
     category: parrilla
@@ -369,6 +376,13 @@ options:
     forms:
       singular: de maciza
       plural: de maciza
+
+  - key: MAR
+    name: marlín
+    category: frutos del mar
+    forms:
+      singular: de marlín
+      plural: de marlín
 
   - key: MIX
     name: mixiote
