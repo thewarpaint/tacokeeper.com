@@ -1,11 +1,47 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Parrilla"
+    type: category
+  - text: 3 nuevas variedades
+    type: variety
+  created_at: '2019-03-31 19:44:27'
+  created_at_formatted: Marzo 31
+  entries:
+  - amount: 5
+    badges:
+    - category
+    - variety
+    category: parrilla
+    text: "5 \xD7 pastor"
+    variety_key: PAS
+  - amount: 2
+    badges:
+    - variety
+    category: parrilla
+    text: "2 \xD7 longaniza"
+    variety_key: LON
+  - amount: 1
+    badges:
+    - variety
+    category: parrilla
+    text: "1 \xD7 suadero"
+    variety_key: SUA
+  id: 1112440538144403459
+  tk_data: PAS05LON02SUA01
+  tk_url: https://tacokeeper.com/?t=PAS05LON02SUA01
+  total_tacos: 8
+  type: daily
 summary:
-  categories: []
+  categories:
+  - parrilla
   joined_formatted: Marzo 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 1
+  total_tacos: 8
+  total_varieties: 3
+  varieties:
+  - PAS
+  - LON
+  - SUA
 user:
   cover_image: guacamole
   id: '118179055'
