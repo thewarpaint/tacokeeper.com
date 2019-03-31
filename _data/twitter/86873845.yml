@@ -1,5 +1,31 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Frutos del mar"
+    type: category
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-03-30 23:21:10'
+  created_at_formatted: Marzo 30
+  entries:
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: frutos del mar
+    text: "1 \xD7 pescado"
+    variety_key: PES
+  - amount: 2
+    badges:
+    - variety
+    category: frutos del mar
+    text: "2 \xD7 camar\xF3n"
+    variety_key: CMR
+  id: 1112132692081020931
+  tk_data: PES01CMR02
+  tk_url: https://tacokeeper.com/?t=PES01CMR02
+  total_tacos: 3
+  type: daily
+- badges:
   - text: 1 nueva variedad
     type: variety
   created_at: '2019-03-27 03:07:44'
@@ -97,17 +123,20 @@ summary:
   categories:
   - parrilla
   - carnitas
+  - frutos del mar
   joined: 2019-03-02
   joined_formatted: marzo 2019
-  total_categories: 2
-  total_tacos: 20
-  total_varieties: 5
+  total_categories: 3
+  total_tacos: 23
+  total_varieties: 7
   varieties:
   - PAS
   - MAC
   - CAM
   - TRI
   - BIS
+  - PES
+  - CMR
 user:
   cover_image: habanero
   id: '86873845'
