@@ -1,11 +1,47 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Parrilla"
+    type: category
+  - text: 3 nuevas variedades
+    type: variety
+  created_at: '2019-03-27 04:33:27'
+  created_at_formatted: Marzo 27
+  entries:
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: parrilla
+    text: "1 \xD7 machitos"
+    variety_key: MCH
+  - amount: 2
+    badges:
+    - variety
+    category: parrilla
+    text: "2 \xD7 pastor"
+    variety_key: PAS
+  - amount: 1
+    badges:
+    - variety
+    category: parrilla
+    text: "1 \xD7 suadero"
+    variety_key: SUA
+  id: 1110761726616702976
+  tk_data: MCH01PAS02SUA01
+  tk_url: https://tacokeeper.com/?t=MCH01PAS02SUA01
+  total_tacos: 4
+  type: daily
 summary:
-  categories: []
+  categories:
+  - parrilla
   joined_formatted: Marzo 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 1
+  total_tacos: 4
+  total_varieties: 3
+  varieties:
+  - MCH
+  - PAS
+  - SUA
 user:
   cover_image: onion
   id: '1672035187'
