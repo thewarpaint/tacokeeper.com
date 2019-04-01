@@ -76,7 +76,7 @@ def get_monthly_summary(month_to_process, user_data):
     # TODO: Get month name from month_to_process
     return {
         'summary': {
-            'month': 'febrero',
+            'month': 'marzo',
             'total_categories': len(categories),
             'total_varieties': len(varieties),
             'total_tacos': total_tacos,
