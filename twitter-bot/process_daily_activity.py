@@ -7,6 +7,7 @@ import tweepy
 from textwrap import wrap
 import yaml
 
+from time import sleep
 from tweepy_helper import get_api, get_user_info
 from yaml_helper import dump_user_data, load_user_data
 
@@ -82,6 +83,9 @@ def process_tweet(tweet):
 
         try:
             tweet.favorite()
+
+            # Wait three seconds before continuing to avoid Twitter shadowbanning our favs :/
+            sleep(3)
         except tweepy.TweepError:
             pass
 
@@ -99,6 +103,10 @@ def send_welcome_tweet(tweet_to_reply_to):
 
         # TODO: Fix "UnicodeEncodeError: 'ascii' codec can't encode character"
         print('Sent welcome tweet successfully to {user}'.format(user = tweet_to_reply_to.user.screen_name))
+
+        # Wait three seconds before continuing to avoid Twitter shadowbanning our welcome tweets :/
+        sleep(3)
+
     except tweepy.TweepError as exception:
         print('Welcome tweet was probably sent already for {user}'.format(user = tweet_to_reply_to.user.screen_name))
         print(exception)
