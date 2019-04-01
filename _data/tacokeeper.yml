@@ -118,6 +118,13 @@ options:
       singular: de cabeza
       plural: de cabeza
 
+  - key: CAV
+    name: cachete
+    category: al vapor
+    forms:
+      singular: de cachete
+      plural: de cachete
+
   - key: CAC
     name: cachete
     category: carnitas
