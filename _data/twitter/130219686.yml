@@ -1,8 +1,8 @@
 activities:
 - badges:
-  - text: "Nueva categor\xEDa: Parrilla"
+  - text: "Nueva categor\xEDa: Al vapor"
     type: category
-  - text: "Nueva categor\xEDa: Carnitas"
+  - text: "Nueva categor\xEDa: Parrilla"
     type: category
   - text: 3 nuevas variedades
     type: variety
@@ -20,9 +20,9 @@ activities:
     badges:
     - category
     - variety
-    category: carnitas
+    category: al vapor
     text: "5 \xD7 cachete"
-    variety_key: CAC
+    variety_key: CAV
   - amount: 2
     badges:
     - variety
@@ -36,8 +36,8 @@ activities:
   type: daily
 summary:
   categories:
+  - al vapor
   - parrilla
-  - carnitas
   joined_formatted: Marzo 2019
   total_categories: 2
   total_tacos: 12
