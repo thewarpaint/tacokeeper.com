@@ -1,5 +1,25 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Guisado"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-04-01 00:28:39'
+  created_at_formatted: Abril 01
+  entries:
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: guisado
+    text: "1 \xD7 moronga"
+    variety_key: MOR
+  id: 1112512061894995968
+  tk_data: MOR01
+  tk_url: https://tacokeeper.com/?t=MOR01
+  total_tacos: 1
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Parrilla"
     type: category
   - text: "Nueva categor\xEDa: Al vapor"
@@ -42,15 +62,17 @@ summary:
   - parrilla
   - al vapor
   - carnitas
+  - guisado
   joined: 2019-03-02
   joined_formatted: marzo 2019
-  total_categories: 3
-  total_tacos: 4
-  total_varieties: 3
+  total_categories: 4
+  total_tacos: 5
+  total_varieties: 4
   varieties:
   - PAS
   - LEV
   - SUR
+  - MOR
 user:
   cover_image: cilantro
   id: '148751516'

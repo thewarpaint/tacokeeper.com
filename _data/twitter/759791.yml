@@ -1,11 +1,33 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Parrilla"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-04-01 00:20:03'
+  created_at_formatted: Abril 01
+  entries:
+  - amount: 4
+    badges:
+    - category
+    - variety
+    category: parrilla
+    text: "4 \xD7 \xE1rabe"
+    variety_key: ARA
+  id: 1112509895784443904
+  tk_data: ARA04
+  tk_url: https://tacokeeper.com/?t=ARA04
+  total_tacos: 4
+  type: daily
 summary:
-  categories: []
+  categories:
+  - parrilla
   joined_formatted: Abril 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 1
+  total_tacos: 4
+  total_varieties: 1
+  varieties:
+  - ARA
 user:
   cover_image: chorizo
   id: '759791'

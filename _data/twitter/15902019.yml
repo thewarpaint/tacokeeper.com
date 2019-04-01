@@ -1,11 +1,33 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Frutos del mar"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-04-01 01:26:15'
+  created_at_formatted: Abril 01
+  entries:
+  - amount: 3
+    badges:
+    - category
+    - variety
+    category: frutos del mar
+    text: "3 \xD7 camar\xF3n"
+    variety_key: CMR
+  id: 1112526555228459008
+  tk_data: CMR03
+  tk_url: https://tacokeeper.com/?t=CMR03
+  total_tacos: 3
+  type: daily
 summary:
-  categories: []
+  categories:
+  - frutos del mar
   joined_formatted: Abril 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 1
+  total_tacos: 3
+  total_varieties: 1
+  varieties:
+  - CMR
 user:
   cover_image: habanero
   id: '15902019'
