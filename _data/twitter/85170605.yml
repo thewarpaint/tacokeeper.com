@@ -1,5 +1,31 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Frutos del mar"
+    type: category
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-04-02 04:01:06'
+  created_at_formatted: Abril 02
+  entries:
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: frutos del mar
+    text: "1 \xD7 camar\xF3n"
+    variety_key: CMR
+  - amount: 2
+    badges:
+    - variety
+    category: frutos del mar
+    text: "2 \xD7 marl\xEDn"
+    variety_key: MAR
+  id: 1112927913656094721
+  tk_data: CMR01MAR02
+  tk_url: https://tacokeeper.com/?t=CMR01MAR02
+  total_tacos: 3
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Parrilla"
     type: category
   - text: "Nueva categor\xEDa: Birria"
@@ -32,13 +58,16 @@ summary:
   categories:
   - parrilla
   - birria
+  - frutos del mar
   joined_formatted: Marzo 2019
-  total_categories: 2
-  total_tacos: 2
-  total_varieties: 2
+  total_categories: 3
+  total_tacos: 5
+  total_varieties: 4
   varieties:
   - SUA
   - BIR
+  - CMR
+  - MAR
 user:
   cover_image: onion
   id: '85170605'

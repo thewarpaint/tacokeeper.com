@@ -1,11 +1,33 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Parrilla"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-04-02 01:43:13'
+  created_at_formatted: Abril 02
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: parrilla
+    text: "2 \xD7 longaniza"
+    variety_key: LON
+  id: 1112893213147348992
+  tk_data: LON02
+  tk_url: https://tacokeeper.com/?t=LON02
+  total_tacos: 2
+  type: daily
 summary:
-  categories: []
+  categories:
+  - parrilla
   joined_formatted: Abril 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 1
+  total_tacos: 2
+  total_varieties: 1
+  varieties:
+  - LON
 user:
   cover_image: chorizo
   id: '178978656'
