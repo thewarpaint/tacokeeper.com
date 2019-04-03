@@ -1,4 +1,23 @@
 activities:
+- badges: []
+  created_at: '2019-04-03 04:57:37'
+  created_at_formatted: Abril 03
+  entries:
+  - amount: 5
+    badges: []
+    category: parrilla
+    text: "5 \xD7 pastor"
+    variety_key: PAS
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 chuleta con tocino"
+    variety_key: CHT
+  id: 1113304522447904769
+  tk_data: PAS05CHT02
+  tk_url: https://tacokeeper.com/?t=PAS05CHT02
+  total_tacos: 7
+  type: daily
 - summary:
     month: marzo
     total_categories: 2
@@ -119,7 +138,7 @@ summary:
   joined: 2019-02-13
   joined_formatted: febrero 2019
   total_categories: 2
-  total_tacos: 20
+  total_tacos: 27
   total_varieties: 8
   varieties:
   - CAC

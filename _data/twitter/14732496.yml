@@ -1,4 +1,31 @@
 activities:
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-04-02 20:59:51'
+  created_at_formatted: Abril 02
+  entries:
+  - amount: 3
+    badges: []
+    category: al vapor
+    text: "3 \xD7 lengua"
+    variety_key: LEV
+  - amount: 2
+    badges:
+    - variety
+    category: parrilla
+    text: "2 \xD7 arrachera"
+    variety_key: ARR
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 pastor"
+    variety_key: PAS
+  id: 1113184292149112832
+  tk_data: LEV03ARR02PAS02
+  tk_url: https://tacokeeper.com/?t=LEV03ARR02PAS02
+  total_tacos: 7
+  type: daily
 - summary:
     month: marzo
     total_categories: 2
@@ -83,13 +110,14 @@ summary:
   joined: 2019-03-02
   joined_formatted: marzo 2019
   total_categories: 2
-  total_tacos: 14
-  total_varieties: 4
+  total_tacos: 21
+  total_varieties: 5
   varieties:
   - CAM
   - PAS
   - BIS
   - LEV
+  - ARR
 user:
   cover_image: chorizo
   id: '14732496'

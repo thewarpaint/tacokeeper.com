@@ -1,11 +1,47 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Parrilla"
+    type: category
+  - text: 3 nuevas variedades
+    type: variety
+  created_at: '2019-04-03 06:05:54'
+  created_at_formatted: Abril 03
+  entries:
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: parrilla
+    text: "1 \xD7 asada"
+    variety_key: ASA
+  - amount: 1
+    badges:
+    - variety
+    category: parrilla
+    text: "1 \xD7 chorizo"
+    variety_key: CHO
+  - amount: 1
+    badges:
+    - variety
+    category: parrilla
+    text: "1 \xD7 pastor"
+    variety_key: PAS
+  id: 1113321710239985667
+  tk_data: ASA01CHO01PAS01
+  tk_url: https://tacokeeper.com/?t=ASA01CHO01PAS01
+  total_tacos: 3
+  type: daily
 summary:
-  categories: []
+  categories:
+  - parrilla
   joined_formatted: Abril 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 1
+  total_tacos: 3
+  total_varieties: 3
+  varieties:
+  - ASA
+  - CHO
+  - PAS
 user:
   cover_image: onion
   id: '245223994'

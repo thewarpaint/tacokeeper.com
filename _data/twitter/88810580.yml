@@ -1,4 +1,28 @@
 activities:
+- badges: []
+  created_at: '2019-04-02 22:52:42'
+  created_at_formatted: Abril 02
+  entries:
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 chuleta"
+    variety_key: CHU
+  - amount: 1
+    badges: []
+    category: guisado
+    text: "1 \xD7 milanesa"
+    variety_key: MIL
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 adobada"
+    variety_key: ADO
+  id: 1113212691072585728
+  tk_data: CHU01MIL01ADO01
+  tk_url: https://tacokeeper.com/?t=CHU01MIL01ADO01
+  total_tacos: 3
+  type: daily
 - summary:
     month: marzo
     total_categories: 2
@@ -46,7 +70,7 @@ summary:
   - guisado
   joined_formatted: Marzo 2019
   total_categories: 2
-  total_tacos: 3
+  total_tacos: 6
   total_varieties: 3
   varieties:
   - ADO
