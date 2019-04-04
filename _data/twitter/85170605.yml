@@ -25,6 +25,12 @@ activities:
   tk_url: https://tacokeeper.com/?t=CMR01MAR02
   total_tacos: 3
   type: daily
+- summary:
+    month: marzo
+    total_categories: 2
+    total_tacos: 2
+    total_varieties: 2
+  type: monthly
 - badges:
   - text: "Nueva categor\xEDa: Parrilla"
     type: category

@@ -1,4 +1,10 @@
 activities:
+- summary:
+    month: marzo
+    total_categories: 2
+    total_tacos: 9
+    total_varieties: 3
+  type: monthly
 - badges:
   - text: "Nueva categor\xEDa: Carnitas"
     type: category
