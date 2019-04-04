@@ -1,16 +1,26 @@
 ---
 permalink: /tk/usuarios
 ---
-<ul>
-  {%- for profile in site.data.twitter -%}
-  <li>
-    <a href="/{{ profile[1].user.screen_name }}">
-      <img src="{{ profile[1].user.profile_image_url }}"
-           style="width: 2.5rem; height: 2.5rem;">
-      @{{ profile[1].user.screen_name }}</a>
+<!DOCTYPE html>
+<html lang="es-MX">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
 
-    joined on {{ profile[1].summary.joined }},
-    has registered {{ profile[1].summary.total_tacos }} tacos
-  </li>
-  {%- endfor -%}
-</ul>
+  <body>
+    <ul>
+      {%- for profile in site.data.twitter -%}
+      <li>
+        <a href="/{{ profile[1].user.screen_name }}">
+          <img src="{{ profile[1].user.profile_image_url }}"
+               style="width: 2.5rem; height: 2.5rem;">
+          @{{ profile[1].user.screen_name }}</a>
+
+        joined on {{ profile[1].summary.joined }},
+        has registered {{ profile[1].summary.total_tacos }} tacos
+      </li>
+      {%- endfor -%}
+    </ul>
+  </body>
+</html>
