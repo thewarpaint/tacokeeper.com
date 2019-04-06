@@ -1,5 +1,25 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Dorados"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-04-05 08:18:43'
+  created_at_formatted: Abril 05
+  entries:
+  - amount: 3
+    badges:
+    - category
+    - variety
+    category: dorados
+    text: "3 \xD7 pollo"
+    variety_key: PLD
+  id: 1114079910329507840
+  tk_data: PLD03
+  tk_url: https://tacokeeper.com/?t=PLD03
+  total_tacos: 3
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Parrilla"
     type: category
   - text: 1 nueva variedad
@@ -22,13 +42,15 @@ activities:
 summary:
   categories:
   - parrilla
+  - dorados
   joined: 2019-04-02
   joined_formatted: Abril 2019
-  total_categories: 1
-  total_tacos: 2
-  total_varieties: 1
+  total_categories: 2
+  total_tacos: 5
+  total_varieties: 2
   varieties:
   - LON
+  - PLD
 user:
   cover_image: chorizo
   id: '178978656'
