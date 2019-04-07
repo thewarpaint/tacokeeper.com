@@ -1,4 +1,26 @@
 activities:
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-04-06 20:58:46'
+  created_at_formatted: Abril 06
+  entries:
+  - amount: 4
+    badges: []
+    category: parrilla
+    text: "4 \xD7 campechano"
+    variety_key: CAM
+  - amount: 1
+    badges:
+    - variety
+    category: parrilla
+    text: "1 \xD7 suadero"
+    variety_key: SUA
+  id: 1114633569031327744
+  tk_data: CAM04SUA01
+  tk_url: https://tacokeeper.com/?t=CAM04SUA01
+  total_tacos: 5
+  type: daily
 - summary:
     month: marzo
     total_categories: 3
@@ -133,8 +155,8 @@ summary:
   joined: 2019-03-02
   joined_formatted: marzo 2019
   total_categories: 3
-  total_tacos: 23
-  total_varieties: 7
+  total_tacos: 28
+  total_varieties: 8
   varieties:
   - PAS
   - MAC
@@ -143,6 +165,7 @@ summary:
   - BIS
   - PES
   - CMR
+  - SUA
 user:
   cover_image: habanero
   id: '86873845'
