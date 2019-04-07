@@ -39,12 +39,6 @@ activities:
   tk_url: https://tacokeeper.com/?t=SUA02CAM01
   total_tacos: 3
   type: daily
-- summary:
-    month: marzo
-    total_categories: 3
-    total_tacos: 4
-    total_varieties: 3
-  type: monthly
 - badges:
   - text: "Nueva categor\xEDa: Guisado"
     type: category
@@ -65,6 +59,12 @@ activities:
   tk_url: https://tacokeeper.com/?t=MOR01
   total_tacos: 1
   type: daily
+- summary:
+    month: marzo
+    total_categories: 3
+    total_tacos: 4
+    total_varieties: 3
+  type: monthly
 - badges:
   - text: "Nueva categor\xEDa: Parrilla"
     type: category
