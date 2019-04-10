@@ -1,4 +1,32 @@
 activities:
+- badges:
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-04-09 07:07:44'
+  created_at_formatted: Abril 09
+  entries:
+  - amount: 6
+    badges: []
+    category: parrilla
+    text: "6 \xD7 pastor"
+    variety_key: PAS
+  - amount: 3
+    badges:
+    - variety
+    category: parrilla
+    text: "3 \xD7 campechano"
+    variety_key: CAM
+  - amount: 2
+    badges:
+    - variety
+    category: parrilla
+    text: "2 \xD7 suadero"
+    variety_key: SUA
+  id: 1115511594887335938
+  tk_data: PAS06CAM03SUA02
+  tk_url: https://tacokeeper.com/?t=PAS06CAM03SUA02
+  total_tacos: 11
+  type: daily
 - summary:
     month: marzo
     total_categories: 2
@@ -74,13 +102,15 @@ summary:
   joined: 2019-03-22
   joined_formatted: Marzo 2019
   total_categories: 2
-  total_tacos: 15
-  total_varieties: 4
+  total_tacos: 26
+  total_varieties: 6
   varieties:
   - LEV
   - TRI
   - PAS
   - BIS
+  - CAM
+  - SUA
 user:
   cover_image: onion
   id: '19756266'
