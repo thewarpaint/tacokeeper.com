@@ -1,11 +1,44 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Parrilla"
+    type: category
+  - text: "Nueva categor\xEDa: Barbacoa"
+    type: category
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-04-11 13:40:52'
+  created_at_formatted: Abril 11
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: parrilla
+    text: "2 \xD7 asada"
+    variety_key: ASA
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: barbacoa
+    text: "2 \xD7 barbacoa"
+    variety_key: BAR
+  id: 1116335308134477824
+  tk_data: ASA02BAR02
+  tk_url: https://tacokeeper.com/?t=ASA02BAR02
+  total_tacos: 4
+  type: daily
 summary:
-  categories: []
+  categories:
+  - parrilla
+  - barbacoa
   joined_formatted: Abril 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 2
+  total_tacos: 4
+  total_varieties: 2
+  varieties:
+  - ASA
+  - BAR
 user:
   cover_image: onion
   id: '716604949929414656'

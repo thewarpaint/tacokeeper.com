@@ -1,5 +1,33 @@
 activities:
 - badges:
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-04-11 03:00:41'
+  created_at_formatted: Abril 11
+  entries:
+  - amount: 1
+    badges:
+    - variety
+    category: parrilla
+    text: "1 \xD7 bistec"
+    variety_key: BIS
+  - amount: 1
+    badges: []
+    category: carnitas
+    text: "1 \xD7 lengua"
+    variety_key: LEN
+  - amount: 1
+    badges:
+    - variety
+    category: parrilla
+    text: "1 \xD7 suadero"
+    variety_key: SUA
+  id: 1116174199247319040
+  tk_data: BIS01LEN01SUA01
+  tk_url: https://tacokeeper.com/?t=BIS01LEN01SUA01
+  total_tacos: 3
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Carnitas"
     type: category
   - text: 1 nueva variedad
@@ -68,13 +96,15 @@ summary:
   joined: 2019-04-03
   joined_formatted: Abril 2019
   total_categories: 2
-  total_tacos: 6
-  total_varieties: 4
+  total_tacos: 9
+  total_varieties: 6
   varieties:
   - ASA
   - CHO
   - PAS
   - LEN
+  - BIS
+  - SUA
 user:
   cover_image: onion
   id: '245223994'
