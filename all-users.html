@@ -10,6 +10,14 @@ permalink: /tk/usuarios
 
   <body>
     <ul>
+      {% assign total_tacos = 0 %}
+
+      {%- for profile in site.data.twitter -%}
+      {% assign total_tacos = total_tacos | plus:profile[1].summary.total_tacos %}
+      {%- endfor -%}
+
+      <h2>{{ site.data.twitter | size }} users have registered {{ total_tacos }} tacos</h2>
+
       {%- for profile in site.data.twitter -%}
       <li>
         <a href="/{{ profile[1].user.screen_name }}">
