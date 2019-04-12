@@ -511,7 +511,7 @@ themeColour: "#fdd835"
         ? 'tweetbot://' + screenName + '/post?'
         : 'https://twitter.com/intent/tweet?';
       var targetUrl = 'https://tacokeeper.com/' + (screenName != null ? screenName : '');
-      var hashtag = '#tacokeeper';
+      var hashtagAndMention = '#tacokeeper @tacokeeperbot';
 
       document.addEventListener('DOMContentLoaded', function (event) {
         $captureSection = document.getElementById('capture-section');
@@ -554,7 +554,7 @@ themeColour: "#fdd835"
 
       function updateTweet() {
         var tweetText = getTweetText();
-        var tweetHref = tweetText + ' ' + hashtag + ' ' +
+        var tweetHref = tweetText + ' ' + hashtagAndMention + ' ' +
           targetUrl + '?t=' +
           getActiveModelKeys()
             .map(function (key) {
