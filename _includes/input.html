@@ -290,18 +290,30 @@
         font-size: 1.5rem;
       }
 
-      .option__category {
+      .option__tags {
         font-size: .75rem;
         font-weight: light;
         text-transform: uppercase;
       }
 
-      .input:focus + .option__text {
+      .option__tag:not(:first-child) {
+        display: inline-block;
+        margin-left: .5rem;
+      }
+
+      .option__tag--favourite {
+        color: #fbc02d; /* Yellow 700 */
+      }
+
+      .input:focus ~ .option__times,
+      .input:focus ~ .option__text {
         color: #78909c; /* Blue Gray 400 */
       }
 
+      .option--active .option__times,
       .option--active .option__text,
-      .option--active .input:focus + .option__text {
+      .option--active .input:focus ~ .option__times,
+      .option--active .input:focus ~ .option__text {
         color: #455a64; /* Blue Gray 700 */
       }
 
@@ -502,7 +514,7 @@
         ? 'tweetbot://' + screenName + '/post?'
         : 'https://twitter.com/intent/tweet?';
       var targetUrl = 'https://tacokeeper.com/' + (screenName != null ? screenName : '');
-      var hashtag = '#tacokeeper';
+      var hashtagAndMention = '#tacokeeper @tacokeeperbot';
 
       document.addEventListener('DOMContentLoaded', function (event) {
         $captureSection = document.getElementById('capture-section');
@@ -545,7 +557,7 @@
 
       function updateTweet() {
         var tweetText = getTweetText();
-        var tweetHref = tweetText + ' ' + hashtag + ' ' +
+        var tweetHref = tweetText + ' ' + hashtagAndMention + ' ' +
           targetUrl + '?t=' +
           getActiveModelKeys()
             .map(function (key) {
