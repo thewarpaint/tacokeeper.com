@@ -1,4 +1,31 @@
 activities:
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-04-13 04:17:07'
+  created_at_formatted: Abril 13
+  entries:
+  - amount: 2
+    badges:
+    - variety
+    category: vegano
+    text: "2 \xD7 arrachera vegana"
+    variety_key: ARV
+  - amount: 2
+    badges: []
+    category: vegano
+    text: "2 \xD7 pastor vegano"
+    variety_key: PSV
+  - amount: 1
+    badges: []
+    category: vegano
+    text: "1 \xD7 seit\xE1n"
+    variety_key: SEI
+  id: 1116918210278739968
+  tk_data: ARV02PSV02SEI01
+  tk_url: https://tacokeeper.com/?t=ARV02PSV02SEI01
+  total_tacos: 5
+  type: daily
 - summary:
     month: marzo
     total_categories: 2
@@ -69,13 +96,14 @@ summary:
   joined: 2019-03-01
   joined_formatted: marzo 2019
   total_categories: 1
-  total_tacos: 10
-  total_varieties: 4
+  total_tacos: 15
+  total_varieties: 5
   varieties:
   - PSV
   - SUV
   - MLT
   - SEI
+  - ARV
 user:
   cover_image: limes
   id: '14840908'

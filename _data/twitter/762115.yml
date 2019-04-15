@@ -1,5 +1,33 @@
 activities:
 - badges: []
+  created_at: '2019-04-14 05:09:32'
+  created_at_formatted: Abril 14
+  entries:
+  - amount: 5
+    badges: []
+    category: dorados
+    text: "5 \xD7 pollo"
+    variety_key: PLD
+  id: 1117293791298433026
+  tk_data: PLD05
+  tk_url: https://tacokeeper.com/?t=PLD05
+  total_tacos: 5
+  type: daily
+- badges: []
+  created_at: '2019-04-13 04:05:15'
+  created_at_formatted: Abril 13
+  entries:
+  - amount: 5
+    badges: []
+    category: dorados
+    text: "5 \xD7 pollo"
+    variety_key: PLD
+  id: 1116915225939316736
+  tk_data: PLD05
+  tk_url: https://tacokeeper.com/?t=PLD05
+  total_tacos: 5
+  type: daily
+- badges: []
   created_at: '2019-04-10 02:45:31'
   created_at_formatted: Abril 10
   entries:
@@ -313,7 +341,7 @@ summary:
   joined: 2019-02-07
   joined_formatted: febrero 2019
   total_categories: 6
-  total_tacos: 103
+  total_tacos: 113
   total_varieties: 10
   varieties:
   - SUA

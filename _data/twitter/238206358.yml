@@ -1,11 +1,33 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Parrilla"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-04-13 04:08:20'
+  created_at_formatted: Abril 13
+  entries:
+  - amount: 3
+    badges:
+    - category
+    - variety
+    category: parrilla
+    text: "3 \xD7 asada"
+    variety_key: ASA
+  id: 1116916001319333889
+  tk_data: ASA03
+  tk_url: https://tacokeeper.com/?t=ASA03
+  total_tacos: 3
+  type: daily
 summary:
-  categories: []
+  categories:
+  - parrilla
   joined_formatted: Abril 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 1
+  total_tacos: 3
+  total_varieties: 1
+  varieties:
+  - ASA
 user:
   cover_image: tomate
   id: '238206358'
