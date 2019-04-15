@@ -13,6 +13,12 @@ activities:
   tk_url: https://tacokeeper.com/?t=PAS03
   total_tacos: 3
   type: daily
+- summary:
+    month: marzo
+    total_categories: 2
+    total_tacos: 3
+    total_varieties: 3
+  type: monthly
 - badges:
   - text: 3 nuevas variedades
     type: variety
