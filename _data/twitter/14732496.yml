@@ -1,4 +1,18 @@
 activities:
+- badges: []
+  created_at: '2019-04-15 23:16:10'
+  created_at_formatted: Abril 15
+  entries:
+  - amount: 3
+    badges: []
+    category: al vapor
+    text: "3 \xD7 lengua"
+    variety_key: LEV
+  id: 1117929637043212288
+  tk_data: LEV03
+  tk_url: https://tacokeeper.com/?t=LEV03
+  total_tacos: 3
+  type: daily
 - badges:
   - text: 1 nueva variedad
     type: variety
@@ -110,7 +124,7 @@ summary:
   joined: 2019-03-02
   joined_formatted: marzo 2019
   total_categories: 2
-  total_tacos: 21
+  total_tacos: 24
   total_varieties: 5
   varieties:
   - CAM
