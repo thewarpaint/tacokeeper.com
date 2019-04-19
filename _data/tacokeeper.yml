@@ -55,6 +55,13 @@ options:
       singular: de asada
       plural: de asada
 
+  - key: ASO
+    name: asado de puerco
+    category: parrilla
+    forms:
+      singular: de asado de puerco
+      plural: de asado de puerco
+
   - key: BAR
     name: barbacoa
     category: barbacoa
@@ -279,6 +286,13 @@ options:
       singular: de costilla en chile pasilla
       plural: de costilla en chile pasilla
 
+  - key: CPI
+    name: cochinita pibil
+    category: guisado
+    forms:
+      singular: de cochinita pibil
+      plural: de cochinita pibil
+
   - key: CSS
     name: costilla en salsa
     category: guisado
@@ -307,12 +321,40 @@ options:
       singular: de cuerito
       plural: de cuerito
 
+  - key: DES
+    name: deshebrada
+    category: guisado
+    forms:
+      singular: de deshebrada
+      plural: de deshebrada
+
+  - key: DIS
+    name: discada
+    category: guisado
+    forms:
+      singular: de discada
+      plural: de discada
+
+  - key: FID
+    name: fideo
+    category: guisado
+    forms:
+      singular: de fideo
+      plural: de fideo
+
   - key: FRI
     name: frijol
     category: canasta
     forms:
       singular: de frijol
       plural: de frijol
+
+  - key: FYQ
+    name: frijolitos con queso
+    category: guisado
+    forms:
+      singular: de frijolitos con queso
+      plural: de frijolitos con queso
 
   - key: HIG
     name: hígado encebollado
@@ -327,6 +369,13 @@ options:
     forms:
       singular: de huevo en salsa
       plural: de huevo en salsa
+
+  - key: HUP
+    name: huevo con papa
+    category: guisado
+    forms:
+      singular: de huevo con papa
+      plural: de huevo con papa
 
   - key: LAB
     name: labio
@@ -376,6 +425,13 @@ options:
     forms:
       singular: de machitos
       plural: de machitos
+
+  - key: MAC
+    name: machacado
+    category: guisado
+    forms:
+      singular: de machacado
+      plural: de machacado
 
   - key: MAC
     name: maciza
@@ -572,6 +628,13 @@ options:
     forms:
       singular: de pulpo
       plural: de pulpo
+
+  - key: QUS
+    name: queso en salsa
+    category: guisado
+    forms:
+      singular: de queso en salsa
+      plural: de queso en salsa
 
   - key: RAJ
     name: rajas con crema
