@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+from datetime import date, datetime
+import locale
 import sys
 
 from tweepy_helper import get_api
@@ -15,6 +17,7 @@ Ya actualizamos la actividad del mes en tu perfil: https://tacokeeper.com/{scree
 send_summary_tweet = True
 
 def run():
+    locale.setlocale(locale.LC_ALL, 'es_ES')
     month_to_process = ''
     user_id = ''
 
@@ -72,10 +75,9 @@ def get_monthly_summary(month_to_process, user_data):
 
             categories[entry['category']] += entry['amount']
 
-    # TODO: Get month name from month_to_process
     return {
         'summary': {
-            'month': 'marzo',
+            'month': get_readable_month(month_to_process),
             'total_categories': len(categories),
             'total_varieties': len(varieties),
             'total_tacos': total_tacos,
@@ -106,6 +108,10 @@ def send_monthly_summary_tweet(user_id, screen_name, monthly_activity):
     except tweepy.TweepError as exception:
         print('Monthly activity tweet was probably sent already for {screen_name}'.format(screen_name = screen_name))
         print(exception)
+
+def get_readable_month(month_to_process):
+    first_day_of_month = datetime.strptime(month_to_process + '-01', '%Y-%m-%d')
+    return first_day_of_month.strftime('%B')
 
 if __name__ == '__main__':
     run()
