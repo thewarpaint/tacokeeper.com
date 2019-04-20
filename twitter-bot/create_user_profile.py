@@ -48,6 +48,7 @@ def create_user_data_file(user_info):
         'user': user_info,
         'summary': {
             'categories': [],
+            'joined': today.strftime('%Y-%m-%d'),
             'joined_formatted': today.strftime('%B %Y').capitalize(),
             'total_categories': 0,
             'total_tacos': 0,
