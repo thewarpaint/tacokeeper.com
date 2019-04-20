@@ -6,11 +6,10 @@ import sys
 from tweepy_helper import get_api
 from yaml_helper import dump_user_data, load_user_data
 
-# TODO: Add pluralisation support!
 tweet_content = '''
 @{screen_name} ¡Gracias por registrar tus tacos con nosotros!
-En {month} registraste {total_tacos} tacos de {total_categories} categorías y {total_varieties} variedades.
-Ya actualizamos tu actividad del mes en tu perfil: https://tacokeeper.com/{screen_name}
+En {month} registraste {total_tacos} tacos de {total_categories} {category_text} y {total_varieties} {variety_text}.
+Ya actualizamos la actividad del mes en tu perfil: https://tacokeeper.com/{screen_name}
 '''
 
 send_summary_tweet = True
@@ -87,10 +86,19 @@ def get_monthly_summary(month_to_process, user_data):
 def send_monthly_summary_tweet(user_id, screen_name, monthly_activity):
     api = get_api()
 
-    status_text = tweet_content.format(screen_name = screen_name, month = monthly_activity['summary']['month'],
+    # TODO: Move pluralisation forms to a YML file
+    category_text = 'categoría' if monthly_activity['summary']['total_categories'] == 1 else 'categorías'
+    variety_text = 'variedad' if monthly_activity['summary']['total_varieties'] == 1 else 'variedades'
+
+    status_text = tweet_content.format(
+        screen_name = screen_name,
+        month = monthly_activity['summary']['month'],
         total_tacos = monthly_activity['summary']['total_tacos'],
         total_categories = monthly_activity['summary']['total_categories'],
-        total_varieties = monthly_activity['summary']['total_varieties'])
+        category_text = category_text,
+        total_varieties = monthly_activity['summary']['total_varieties'],
+        variety_text = variety_text,
+    )
 
     try:
         api.update_status(status = status_text)
