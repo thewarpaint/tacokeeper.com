@@ -6,6 +6,13 @@ themeColour: "#fdd835"
 {%- assign options = site.data.tacokeeper.options -%}
 {%- assign postTitle = "TacoKeeper" -%}
 {%- assign postDescription = "Monitorea tus actividades gastronómicas. 50 usuarios han registrado 616 tacos con nosotros. ¡Faltas tú! Running is boring. Tacos are fun. 🌮🏃" -%}
+
+<!-- Total tacos calculation -->
+{% assign total_tacos = 0 %}
+{%- for profile in site.data.twitter -%}
+{% assign total_tacos = total_tacos | plus:profile[1].summary.total_tacos %}
+{%- endfor -%}
+
 <!DOCTYPE html>
 <html lang="es-MX">
   <head>
@@ -705,6 +712,8 @@ themeColour: "#fdd835"
 
     <section id="capture-section"
              class="capture">
+      <h2>¡{{ site.data.twitter | size }} usuarios han registrado {{ total_tacos }} tacos con nosotros!</h2>
+
       <div class="notification notification--info notification--padding-2x">
         <h2 class="notification__header">¿Cómo funciona?</h2>
 
