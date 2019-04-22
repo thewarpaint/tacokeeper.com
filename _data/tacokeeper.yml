@@ -650,6 +650,13 @@ options:
       singular: de rollito de jamón
       plural: de rollito de jamón
 
+  - key: SAL
+    name: sal
+    category: casero
+    forms:
+      singular: de sal
+      plural: de sal
+
   - key: SEI
     name: seitán
     category: vegano
