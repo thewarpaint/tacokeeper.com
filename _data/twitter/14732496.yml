@@ -1,5 +1,19 @@
 activities:
 - badges: []
+  created_at: '2019-04-22 18:15:55'
+  created_at_formatted: Abril 22
+  entries:
+  - amount: 3
+    badges: []
+    category: parrilla
+    text: "3 \xD7 arrachera"
+    variety_key: ARR
+  id: 1120390792546258944
+  tk_data: ARR03
+  tk_url: https://tacokeeper.com/?t=ARR03
+  total_tacos: 3
+  type: daily
+- badges: []
   created_at: '2019-04-15 23:16:10'
   created_at_formatted: Abril 15
   entries:
@@ -124,7 +138,7 @@ summary:
   joined: 2019-03-02
   joined_formatted: marzo 2019
   total_categories: 2
-  total_tacos: 24
+  total_tacos: 27
   total_varieties: 5
   varieties:
   - CAM
