@@ -1,4 +1,18 @@
 activities:
+- badges: []
+  created_at: '2019-04-23 13:18:07'
+  created_at_formatted: Abril 23
+  entries:
+  - amount: 6
+    badges: []
+    category: parrilla
+    text: "6 \xD7 bistec"
+    variety_key: BIS
+  id: 1120678236894183426
+  tk_data: BIS06
+  tk_url: https://tacokeeper.com/paranoideo?t=BIS06
+  total_tacos: 6
+  type: daily
 - badges:
   - text: 1 nueva variedad
     type: variety
@@ -375,7 +389,7 @@ summary:
   joined: 2019-02-07
   joined_formatted: febrero 2019
   total_categories: 6
-  total_tacos: 127
+  total_tacos: 133
   total_varieties: 12
   varieties:
   - SUA
