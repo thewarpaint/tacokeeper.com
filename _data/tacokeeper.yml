@@ -13,6 +13,13 @@ options:
       singular: de adobada
       plural: de adobada
 
+  - key: AGU
+    name: aguacate
+    category: casero
+    forms:
+      singular: de aguacate
+      plural: de aguacate
+
   - key: ALA
     name: alambre
     category: guisado
