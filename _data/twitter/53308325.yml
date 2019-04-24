@@ -1,12 +1,45 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Al vapor"
+    type: category
+  - text: "Nueva categor\xEDa: Carnitas"
+    type: category
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-04-24 05:11:28'
+  created_at_formatted: Abril 24
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: al vapor
+    text: "2 \xD7 cabeza"
+    variety_key: CAB
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: carnitas
+    text: "2 \xD7 lengua"
+    variety_key: LEN
+  id: 1120918155633799170
+  tk_data: CAB02LEN02
+  tk_url: https://tacokeeper.com/?t=CAB02LEN02
+  total_tacos: 4
+  type: daily
 summary:
-  categories: []
+  categories:
+  - al vapor
+  - carnitas
   joined: '2019-04-24'
   joined_formatted: Abril 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 2
+  total_tacos: 4
+  total_varieties: 2
+  varieties:
+  - CAB
+  - LEN
 user:
   cover_image: making-salsa
   id: '53308325'

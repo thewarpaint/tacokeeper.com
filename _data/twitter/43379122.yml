@@ -1,12 +1,41 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Parrilla"
+    type: category
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-04-24 07:33:29'
+  created_at_formatted: Abril 24
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: parrilla
+    text: "2 \xD7 bistec"
+    variety_key: BIS
+  - amount: 3
+    badges:
+    - variety
+    category: parrilla
+    text: "3 \xD7 pastor"
+    variety_key: PAS
+  id: 1120953895067504640
+  tk_data: BIS02PAS03
+  tk_url: https://tacokeeper.com/?t=BIS02PAS03
+  total_tacos: 5
+  type: daily
 summary:
-  categories: []
+  categories:
+  - parrilla
   joined: '2019-04-24'
   joined_formatted: Abril 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 1
+  total_tacos: 5
+  total_varieties: 2
+  varieties:
+  - BIS
+  - PAS
 user:
   cover_image: habanero
   id: '43379122'
