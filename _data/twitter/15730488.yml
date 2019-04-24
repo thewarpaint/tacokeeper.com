@@ -1,4 +1,26 @@
 activities:
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-04-24 17:24:57'
+  created_at_formatted: Abril 24
+  entries:
+  - amount: 3
+    badges: []
+    category: al vapor
+    text: "3 \xD7 cabeza"
+    variety_key: CAB
+  - amount: 3
+    badges:
+    - variety
+    category: parrilla
+    text: "3 \xD7 chorizo"
+    variety_key: CHO
+  id: 1121102741881806851
+  tk_data: CAB03CHO03
+  tk_url: https://tacokeeper.com/?t=CAB03CHO03
+  total_tacos: 6
+  type: daily
 - summary:
     month: febrero
     total_categories: 2
@@ -69,13 +91,14 @@ summary:
   joined: 2019-02-02
   joined_formatted: febrero 2019
   total_categories: 2
-  total_tacos: 14
-  total_varieties: 4
+  total_tacos: 20
+  total_varieties: 5
   varieties:
   - ADO
   - ASA
   - CAB
   - CAM
+  - CHO
 user:
   cover_image: tomate
   id: '15730488'
