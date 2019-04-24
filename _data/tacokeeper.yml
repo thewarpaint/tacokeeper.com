@@ -104,6 +104,13 @@ options:
       singular: de bistec
       plural: de bistec
 
+  - key: BEV
+    name: bistec encebollado
+    category: vegano
+    forms:
+      singular: de bistec encebollado
+      plural: de bistec encebollado
+
   - key: BCT
     name: bistec con tocino
     category: parrilla
@@ -243,6 +250,13 @@ options:
     forms:
       singular: de chorizo
       plural: de chorizo
+
+  - key: CQV
+    name: choriqueso
+    category: vegano
+    forms:
+      singular: de choriqueso
+      plural: de choriqueso
 
   - key: CHU
     name: chuleta
