@@ -2,6 +2,23 @@ activities:
 - badges:
   - text: 1 nueva variedad
     type: variety
+  created_at: '2019-04-25 19:54:16'
+  created_at_formatted: Abril 25
+  entries:
+  - amount: 7
+    badges:
+    - variety
+    category: guisado
+    text: "7 \xD7 alambre"
+    variety_key: ALA
+  id: 1121502705199935488
+  tk_data: ALA07
+  tk_url: https://tacokeeper.com/thewarpaint?t=ALA07
+  total_tacos: 7
+  type: daily
+- badges:
+  - text: 1 nueva variedad
+    type: variety
   created_at: '2019-04-23 03:56:54'
   created_at_formatted: Abril 23
   entries:
@@ -206,8 +223,8 @@ summary:
   joined: 2019-02-26
   joined_formatted: febrero 2019
   total_categories: 5
-  total_tacos: 31
-  total_varieties: 11
+  total_tacos: 38
+  total_varieties: 12
   varieties:
   - CAM
   - SUA
@@ -220,6 +237,7 @@ summary:
   - CAB
   - LEV
   - ADO
+  - ALA
 user:
   cover_image: cilantro
   id: '293902828'
