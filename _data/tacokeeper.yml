@@ -251,6 +251,13 @@ options:
       singular: de chorizo
       plural: de chorizo
 
+  - key: CVE
+    name: chorizo verde
+    category: parrilla
+    forms:
+      singular: de chorizo verde
+      plural: de chorizo verde
+
   - key: CQV
     name: choriqueso
     category: vegano
