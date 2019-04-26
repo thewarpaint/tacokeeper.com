@@ -1,6 +1,13 @@
 {%- assign options = site.data.tacokeeper.options -%}
 {%- assign postTitle = "TacoKeeper" -%}
-{%- assign postDescription = "Monitorea tus actividades gastronómicas. 50 usuarios han registrado 616 tacos con nosotros. ¡Faltas tú! Running is boring. Tacos are fun. 🌮🏃" -%}
+{%- assign postDescription = "Monitorea tus actividades gastronómicas. 53 usuarios han registrado 695 tacos con nosotros. ¡Faltas tú! Running is boring. Tacos are fun. 🌮🏃" -%}
+
+<!-- Total tacos calculation -->
+{% assign total_tacos = 0 %}
+{%- for profile in site.data.twitter -%}
+{% assign total_tacos = total_tacos | plus:profile[1].summary.total_tacos %}
+{%- endfor -%}
+
 <!DOCTYPE html>
 <html lang="es-MX">
   <head>
@@ -498,6 +505,17 @@
         background-color: #f3e5f5; /* Purple 50 */
         color: #9c27b0; /* Purple 500 */
       }
+
+      /* Made in CDMX */
+      .made-in-cdmx {
+        display: block;
+        text-align: center;
+        padding: 3rem .5rem;
+      }
+
+      .made-in-cdmx__heart {
+        color: #f44336; /* Red 500 */
+      }
     </style>
 
     <script type="text/javascript">
@@ -700,6 +718,8 @@
 
     <section id="capture-section"
              class="capture">
+      <h2>¡{{ site.data.twitter | size }} usuarios han registrado {{ total_tacos }} tacos con nosotros!</h2>
+
       <div class="notification notification--info notification--padding-2x">
         <h2 class="notification__header">¿Cómo funciona?</h2>
 
@@ -895,6 +915,15 @@
       <h2 class="logo__top">Taco</h2>
       <h2 class="logo__bottom">Keeper</h2>
     </div>
+
+    <footer>
+      <a href="https://www.instagram.com/explore/locations/9092794/angel-de-la-independencia/"
+         class="link made-in-cdmx"
+         target="_blank"
+         rel="noopener">
+        Hecho con <span class="made-in-cdmx__heart">❤</span> en CDMX
+      </a>
+    </footer>
 
     {%- include google-analytics.html -%}
   </body>
