@@ -1,5 +1,25 @@
 activities:
 - badges:
+  - text: 1 nueva rareza
+    type: rarity
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-04-26 00:22:24'
+  created_at_formatted: Abril 26
+  entries:
+  - amount: 1
+    badges:
+    - rarity
+    - variety
+    category: parrilla
+    text: "1 \xD7 chorizo verde"
+    variety_key: CVE
+  id: 1121570186505547776
+  tk_data: CVE01
+  tk_url: https://tacokeeper.com/?t=CVE01
+  total_tacos: 1
+  type: daily
+- badges:
   - text: 1 nueva variedad
     type: variety
   created_at: '2019-04-11 01:20:39'
@@ -129,8 +149,8 @@ summary:
   joined: 2019-03-02
   joined_formatted: marzo 2019
   total_categories: 4
-  total_tacos: 12
-  total_varieties: 8
+  total_tacos: 13
+  total_varieties: 9
   varieties:
   - PAS
   - LEV
@@ -140,6 +160,7 @@ summary:
   - CAM
   - BIS
   - ARA
+  - CHO
 user:
   cover_image: cilantro
   id: '148751516'

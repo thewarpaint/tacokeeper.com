@@ -1,4 +1,30 @@
 activities:
+- badges:
+  - text: "Nueva categor\xEDa: Guisado"
+    type: category
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-04-25 21:55:44'
+  created_at_formatted: Abril 25
+  entries:
+  - amount: 3
+    badges:
+    - variety
+    category: parrilla
+    text: "3 \xD7 asada"
+    variety_key: ASA
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: guisado
+    text: "1 \xD7 bistec en salsa"
+    variety_key: BSS
+  id: 1121533274474602501
+  tk_data: ASA03BSS01
+  tk_url: https://tacokeeper.com/?t=ASA03BSS01
+  total_tacos: 4
+  type: daily
 - badges: []
   created_at: '2019-04-22 18:15:55'
   created_at_formatted: Abril 22
@@ -135,17 +161,20 @@ summary:
   categories:
   - parrilla
   - al vapor
+  - guisado
   joined: 2019-03-02
   joined_formatted: marzo 2019
-  total_categories: 2
-  total_tacos: 27
-  total_varieties: 5
+  total_categories: 3
+  total_tacos: 31
+  total_varieties: 7
   varieties:
   - CAM
   - PAS
   - BIS
   - LEV
   - ARR
+  - ASA
+  - BSS
 user:
   cover_image: chorizo
   id: '14732496'
