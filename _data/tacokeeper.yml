@@ -55,6 +55,13 @@ options:
       singular: de arrachera
       plural: de arrachera
 
+  - key: ARZ
+    name: arroz
+    category: vegano
+    forms:
+      singular: de arroz
+      plural: de arroz
+
   - key: ASA
     name: asada
     category: parrilla
@@ -230,6 +237,13 @@ options:
       singular: de chile relleno
       plural: de chile relleno
 
+  - key: CPV
+    name: chile pasado con queso
+    category: vegano
+    forms:
+      singular: de chile pasado con queso
+      plural: de chile pasado con queso
+
   - key: CHN
     name: chorinoa
     category: vegano
@@ -352,6 +366,13 @@ options:
   - key: DIS
     name: discada
     category: guisado
+    forms:
+      singular: de discada
+      plural: de discada
+
+  - key: DIV
+    name: discada
+    category: vegano
     forms:
       singular: de discada
       plural: de discada
@@ -573,6 +594,13 @@ options:
       singular: de papa con chorizo
       plural: de papa con chorizo
 
+  - key: PCV
+    name: papa con chorizo
+    category: vegano
+    forms:
+      singular: de papa con chorizo
+      plural: de papa con chorizo
+
   - key: PCH
     name: papa con chorizo
     category: guisado
@@ -663,6 +691,13 @@ options:
     forms:
       singular: de rajas con crema
       plural: de rajas con crema
+
+  - key: RQV
+    name: rajas con queso
+    category: vegano
+    forms:
+      singular: de rajas con queso
+      plural: de rajas con queso
 
   - key: RES
     name: res
