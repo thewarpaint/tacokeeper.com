@@ -89,7 +89,15 @@ themeColour: "#fdd835"
 
       /* Helpers */
       .h-margin-bottom {
-        margin-bottom: 1rem;
+        margin-bottom: 1rem !important;
+      }
+
+      .h-margin-top-0 {
+        margin-top: 0 !important;
+      }
+
+      .h-padding-2x {
+        padding: 2rem !important;
       }
 
       /* Notifications */
@@ -122,10 +130,6 @@ themeColour: "#fdd835"
 
       .notification--centered {
         text-align: center;
-      }
-
-      .notification--padding-2x {
-        padding: 2rem;
       }
 
       /* Brand */
@@ -734,7 +738,7 @@ themeColour: "#fdd835"
         ¡{{ site.data.twitter | size }} usuarios han registrado {{ total_tacos }} tacos con nosotros!
       </h2>
 
-      <div class="notification notification--info notification--padding-2x">
+      <div class="notification notification--info h-padding-2x h-margin-top-0">
         <h2 class="notification__header">¿Cómo funciona?</h2>
 
         <p class="h-margin-bottom">
@@ -783,7 +787,7 @@ themeColour: "#fdd835"
         {%- endfor -%}
       </ul>
 
-      <div class="notification notification--info notification--centered notification--padding-2x">
+      <div class="notification notification--info notification--centered h-padding-2x">
         <h2 class="notification__header">¿No encontraste tu taco preferido?</h2>
 
         <a href="https://twitter.com/tacokeeper"
