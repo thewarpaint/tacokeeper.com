@@ -49,7 +49,7 @@ options:
       plural: de arrachera
 
   - key: ARV
-    name: arrachera vegana
+    name: arrachera
     category: vegano
     forms:
       singular: de arrachera
@@ -588,11 +588,11 @@ options:
       plural: al pastor
 
   - key: PSV
-    name: pastor vegano
+    name: pastor
     category: vegano
     forms:
-      singular: de pastor vegano
-      plural: de pastor vegano
+      singular: de pastor
+      plural: de pastor
 
   - key: PEC
     name: pechuga
@@ -714,11 +714,11 @@ options:
       plural: de suadero en morita
 
   - key: SUV
-    name: suadero vegano
+    name: suadero
     category: vegano
     forms:
-      singular: de suadero vegano
-      plural: de suadero vegano
+      singular: de suadero
+      plural: de suadero
 
   - key: SRV
     name: surtida
