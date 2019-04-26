@@ -199,6 +199,13 @@ themeColour: "#fdd835"
         display: none;
       }
 
+      /* Claim */
+      .claim {
+        margin: 0;
+        padding: 1rem;
+        text-align: center;
+      }
+
       /* Search */
       .search {
         position: -webkit-sticky;
@@ -723,7 +730,9 @@ themeColour: "#fdd835"
 
     <section id="capture-section"
              class="capture">
-      <h2>¡{{ site.data.twitter | size }} usuarios han registrado {{ total_tacos }} tacos con nosotros!</h2>
+      <h2 class="claim">
+        ¡{{ site.data.twitter | size }} usuarios han registrado {{ total_tacos }} tacos con nosotros!
+      </h2>
 
       <div class="notification notification--info notification--padding-2x">
         <h2 class="notification__header">¿Cómo funciona?</h2>
