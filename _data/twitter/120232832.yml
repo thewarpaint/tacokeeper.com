@@ -1,5 +1,36 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Barbacoa"
+    type: category
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-04-27 00:44:57'
+  created_at_formatted: Abril 27
+  entries:
+  - amount: 3
+    badges: []
+    category: parrilla
+    text: "3 \xD7 pastor"
+    variety_key: PAS
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: barbacoa
+    text: "2 \xD7 barbacoa"
+    variety_key: BAR
+  - amount: 1
+    badges:
+    - variety
+    category: parrilla
+    text: "1 \xD7 chorizo"
+    variety_key: CHO
+  id: 1121938248358514690
+  tk_data: PAS03BAR02CHO01
+  tk_url: https://tacokeeper.com/?t=PAS03BAR02CHO01
+  total_tacos: 6
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Frutos del mar"
     type: category
   - text: 2 nuevas variedades
@@ -76,16 +107,19 @@ summary:
   - dorados
   - parrilla
   - frutos del mar
+  - barbacoa
   joined: 2019-03-31
   joined_formatted: Marzo 2019
-  total_categories: 3
-  total_tacos: 14
-  total_varieties: 4
+  total_categories: 4
+  total_tacos: 20
+  total_varieties: 6
   varieties:
   - PPD
   - PAS
   - PES
   - BIS
+  - BAR
+  - CHO
 user:
   cover_image: tomate
   id: '120232832'

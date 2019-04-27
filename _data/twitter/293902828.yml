@@ -1,4 +1,18 @@
 activities:
+- badges: []
+  created_at: '2019-04-27 01:23:17'
+  created_at_formatted: Abril 27
+  entries:
+  - amount: 4
+    badges: []
+    category: guisado
+    text: "4 \xD7 cochinita pibil"
+    variety_key: CPB
+  id: 1121947894079033344
+  tk_data: CPB04
+  tk_url: https://tacokeeper.com/thewarpaint?t=CPB04
+  total_tacos: 4
+  type: daily
 - badges:
   - text: 1 nueva variedad
     type: variety
@@ -223,7 +237,7 @@ summary:
   joined: 2019-02-26
   joined_formatted: febrero 2019
   total_categories: 5
-  total_tacos: 38
+  total_tacos: 42
   total_varieties: 12
   varieties:
   - CAM
