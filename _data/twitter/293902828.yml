@@ -1,4 +1,30 @@
 activities:
+- badges:
+  - text: "Nueva categor\xEDa: Barbacoa"
+    type: category
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-04-27 15:42:51'
+  created_at_formatted: Abril 27
+  entries:
+  - amount: 3
+    badges:
+    - category
+    - variety
+    category: barbacoa
+    text: "3 \xD7 pancita"
+    variety_key: PAN
+  - amount: 1
+    badges:
+    - variety
+    category: barbacoa
+    text: "1 \xD7 barbacoa"
+    variety_key: BAR
+  id: 1122164212342517762
+  tk_data: PAN03BAR01
+  tk_url: https://tacokeeper.com/thewarpaint?t=PAN03BAR01
+  total_tacos: 4
+  type: daily
 - badges: []
   created_at: '2019-04-27 01:23:17'
   created_at_formatted: Abril 27
@@ -234,11 +260,12 @@ summary:
   - carnitas
   - guisado
   - al vapor
+  - barbacoa
   joined: 2019-02-26
   joined_formatted: febrero 2019
-  total_categories: 5
-  total_tacos: 42
-  total_varieties: 12
+  total_categories: 6
+  total_tacos: 46
+  total_varieties: 14
   varieties:
   - CAM
   - SUA
@@ -252,6 +279,8 @@ summary:
   - LEV
   - ADO
   - ALA
+  - PAN
+  - BAR
 user:
   cover_image: cilantro
   id: '293902828'

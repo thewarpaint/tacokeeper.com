@@ -1,5 +1,43 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Canasta"
+    type: category
+  - text: 4 nuevas variedades
+    type: variety
+  created_at: '2019-04-27 15:57:56'
+  created_at_formatted: Abril 27
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: canasta
+    text: "2 \xD7 papa"
+    variety_key: PAP
+  - amount: 2
+    badges:
+    - variety
+    category: canasta
+    text: "2 \xD7 papa con chorizo"
+    variety_key: PCC
+  - amount: 3
+    badges:
+    - variety
+    category: parrilla
+    text: "3 \xD7 arrachera"
+    variety_key: ARR
+  - amount: 1
+    badges:
+    - variety
+    category: parrilla
+    text: "1 \xD7 chorizo"
+    variety_key: CHO
+  id: 1122168009467072512
+  tk_data: PAP02PCC02ARR03CHO01
+  tk_url: https://tacokeeper.com/?t=PAP02PCC02ARR03CHO01
+  total_tacos: 8
+  type: daily
+- badges:
   - text: 1 nueva variedad
     type: variety
   created_at: '2019-04-06 20:58:46'
@@ -152,11 +190,12 @@ summary:
   - parrilla
   - carnitas
   - frutos del mar
+  - canasta
   joined: 2019-03-02
   joined_formatted: marzo 2019
-  total_categories: 3
-  total_tacos: 28
-  total_varieties: 8
+  total_categories: 4
+  total_tacos: 36
+  total_varieties: 12
   varieties:
   - PAS
   - MAC
@@ -166,6 +205,10 @@ summary:
   - PES
   - CMR
   - SUA
+  - PAP
+  - PCC
+  - ARR
+  - CHO
 user:
   cover_image: habanero
   id: '86873845'

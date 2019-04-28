@@ -1,4 +1,24 @@
 activities:
+- badges:
+  - text: "Nueva categor\xEDa: Mixiote"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-04-27 18:39:49'
+  created_at_formatted: Abril 27
+  entries:
+  - amount: 6
+    badges:
+    - category
+    - variety
+    category: mixiote
+    text: "6 \xD7 mixiote"
+    variety_key: MIX
+  id: 1122208747026300928
+  tk_data: MIX06
+  tk_url: https://tacokeeper.com/?t=MIX06
+  total_tacos: 6
+  type: daily
 - badges: []
   created_at: '2019-04-24 23:40:33'
   created_at_formatted: Abril 24
@@ -135,11 +155,12 @@ summary:
   - guisado
   - parrilla
   - al vapor
+  - mixiote
   joined: 2019-03-02
   joined_formatted: marzo 2019
-  total_categories: 3
-  total_tacos: 33
-  total_varieties: 8
+  total_categories: 4
+  total_tacos: 39
+  total_varieties: 9
   varieties:
   - CHS
   - PAS
@@ -149,6 +170,7 @@ summary:
   - SUA
   - LEV
   - LON
+  - MIX
 user:
   cover_image: making-salsa
   id: '3053791'
