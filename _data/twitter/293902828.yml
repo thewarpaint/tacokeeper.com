@@ -1,5 +1,44 @@
 activities:
 - badges:
+  - text: 3 nuevas variedades
+    type: variety
+  created_at: '2019-04-28 22:32:29'
+  created_at_formatted: Abril 28
+  entries:
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 pastor"
+    variety_key: PAS
+  - amount: 1
+    badges:
+    - variety
+    category: guisado
+    text: "1 \xD7 picadillo"
+    variety_key: PIC
+  - amount: 1
+    badges:
+    - variety
+    category: guisado
+    text: "1 \xD7 chicharr\xF3n prensado"
+    variety_key: CHG
+  - amount: 1
+    badges: []
+    category: guisado
+    text: "1 \xD7 cochinita pibil"
+    variety_key: CPB
+  - amount: 1
+    badges:
+    - variety
+    category: guisado
+    text: "1 \xD7 bistec en salsa"
+    variety_key: BSS
+  id: 1122629687409135616
+  tk_data: PAS02PIC01CHG01CPB01BSS01
+  tk_url: https://tacokeeper.com/thewarpaint?t=PAS02PIC01CHG01CPB01BSS01
+  total_tacos: 6
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Barbacoa"
     type: category
   - text: 2 nuevas variedades
@@ -264,8 +303,8 @@ summary:
   joined: 2019-02-26
   joined_formatted: febrero 2019
   total_categories: 6
-  total_tacos: 46
-  total_varieties: 14
+  total_tacos: 52
+  total_varieties: 17
   varieties:
   - CAM
   - SUA
@@ -281,6 +320,9 @@ summary:
   - ALA
   - PAN
   - BAR
+  - PIC
+  - CHG
+  - BSS
 user:
   cover_image: cilantro
   id: '293902828'

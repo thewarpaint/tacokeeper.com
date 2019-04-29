@@ -1,5 +1,25 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Guisado"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-04-28 23:55:58'
+  created_at_formatted: Abril 28
+  entries:
+  - amount: 4
+    badges:
+    - category
+    - variety
+    category: guisado
+    text: "4 \xD7 alambre"
+    variety_key: ALA
+  id: 1122650695491031045
+  tk_data: ALA04
+  tk_url: https://tacokeeper.com/?t=ALA04
+  total_tacos: 4
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Vegano"
     type: category
   - text: 1 nueva variedad
@@ -22,13 +42,15 @@ activities:
 summary:
   categories:
   - vegano
+  - guisado
   joined: '2019-04-27'
   joined_formatted: Abril 2019
-  total_categories: 1
-  total_tacos: 4
-  total_varieties: 1
+  total_categories: 2
+  total_tacos: 8
+  total_varieties: 2
   varieties:
   - DIV
+  - ALA
 user:
   cover_image: limes
   id: '27778183'
