@@ -27,6 +27,13 @@ options:
       singular: de alambre
       plural: de alambre
 
+  - key: ALV
+    name: alambre
+    category: vegano
+    forms:
+      singular: de alambre
+      plural: de alambre
+
   - key: ALB
     name: albóndigas
     category: guisado
