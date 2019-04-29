@@ -1,4 +1,18 @@
 activities:
+- badges: []
+  created_at: '2019-04-29 20:22:00'
+  created_at_formatted: Abril 29
+  entries:
+  - amount: 5
+    badges: []
+    category: guisado
+    text: "5 \xD7 alambre"
+    variety_key: ALA
+  id: 1122959238874066944
+  tk_data: ALA05
+  tk_url: https://tacokeeper.com/thewarpaint?t=ALA05
+  total_tacos: 5
+  type: daily
 - badges:
   - text: 2 nuevas variedades
     type: variety
@@ -326,7 +340,7 @@ summary:
   joined: 2019-02-26
   joined_formatted: febrero 2019
   total_categories: 6
-  total_tacos: 57
+  total_tacos: 62
   total_varieties: 19
   varieties:
   - CAM
