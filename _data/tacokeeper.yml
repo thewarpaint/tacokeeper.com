@@ -398,12 +398,26 @@ options:
       singular: de frijol
       plural: de frijol
 
+  - key: FRV
+    name: frijol
+    category: vegano
+    forms:
+      singular: de frijol
+      plural: de frijol
+
   - key: FYQ
     name: frijolitos con queso
     category: guisado
     forms:
       singular: de frijolitos con queso
       plural: de frijolitos con queso
+
+  - key: HAB
+    name: haba
+    category: vegano
+    forms:
+      singular: de haba
+      plural: de haba
 
   - key: HIG
     name: hígado encebollado
@@ -615,6 +629,13 @@ options:
       singular: de papa con chorizo
       plural: de papa con chorizo
 
+  - key: PCR
+    name: papa con rajas
+    category: vegano
+    forms:
+      singular: de papa con rajas
+      plural: de papa con rajas
+
   - key: PAS
     name: pastor
     category: parrilla
@@ -727,6 +748,13 @@ options:
       singular: de sal
       plural: de sal
 
+  - key: SCV
+    name: salchicha
+    category: vegano
+    forms:
+      singular: de salchicha
+      plural: de salchicha
+
   - key: SEI
     name: seitán
     category: vegano
@@ -782,6 +810,20 @@ options:
     forms:
       singular: de tinga
       plural: de tinga
+
+  - key: TFM
+    name: tofu a la mexicana
+    category: vegano
+    forms:
+      singular: de tofu a la mexicana
+      plural: de tofu a la mexicana
+
+  - key: TFR
+    name: tofu revuelto
+    category: vegano
+    forms:
+      singular: de tofu revuelto
+      plural: de tofu revuelto
 
   - key: TOR
     name: tortita de papa
