@@ -1,5 +1,28 @@
 activities:
 - badges:
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-04-29 03:03:04'
+  created_at_formatted: Abril 29
+  entries:
+  - amount: 3
+    badges:
+    - variety
+    category: guisado
+    text: "3 \xD7 placero"
+    variety_key: PLA
+  - amount: 2
+    badges:
+    - variety
+    category: parrilla
+    text: "2 \xD7 longaniza"
+    variety_key: LON
+  id: 1122697780642770945
+  tk_data: PLA03LON02
+  tk_url: https://tacokeeper.com/thewarpaint?t=PLA03LON02
+  total_tacos: 5
+  type: daily
+- badges:
   - text: 3 nuevas variedades
     type: variety
   created_at: '2019-04-28 22:32:29'
@@ -303,8 +326,8 @@ summary:
   joined: 2019-02-26
   joined_formatted: febrero 2019
   total_categories: 6
-  total_tacos: 52
-  total_varieties: 17
+  total_tacos: 57
+  total_varieties: 19
   varieties:
   - CAM
   - SUA
@@ -323,6 +346,8 @@ summary:
   - PIC
   - CHG
   - BSS
+  - PLA
+  - LON
 user:
   cover_image: cilantro
   id: '293902828'
