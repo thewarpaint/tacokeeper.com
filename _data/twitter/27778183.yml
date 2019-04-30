@@ -1,5 +1,25 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Casero"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-04-30 00:05:16'
+  created_at_formatted: Abril 30
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: casero
+    text: "2 \xD7 aguacate"
+    variety_key: AGU
+  id: 1123015425795788800
+  tk_data: AGU02
+  tk_url: https://tacokeeper.com/?t=AGU02
+  total_tacos: 2
+  type: daily
+- badges:
   - text: 1 nueva variedad
     type: variety
   created_at: '2019-04-28 23:55:58'
@@ -40,14 +60,16 @@ summary:
   categories:
   - vegano
   - guisado
+  - casero
   joined: '2019-04-27'
   joined_formatted: Abril 2019
-  total_categories: 2
-  total_tacos: 8
-  total_varieties: 2
+  total_categories: 3
+  total_tacos: 10
+  total_varieties: 3
   varieties:
   - DIV
   - ALA
+  - AGU
 user:
   cover_image: limes
   id: '27778183'

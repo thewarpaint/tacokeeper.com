@@ -1,12 +1,63 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Casero"
+    type: category
+  - text: "Nueva categor\xEDa: Canasta"
+    type: category
+  - text: "Nueva categor\xEDa: Guisado"
+    type: category
+  - text: 4 nuevas variedades
+    type: variety
+  created_at: '2019-04-30 01:10:30'
+  created_at_formatted: Abril 30
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: casero
+    text: "2 \xD7 aguacate"
+    variety_key: AGU
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: canasta
+    text: "2 \xD7 frijol"
+    variety_key: FRI
+  - amount: 3
+    badges:
+    - category
+    - variety
+    category: guisado
+    text: "3 \xD7 pechuga"
+    variety_key: PEC
+  - amount: 2
+    badges:
+    - variety
+    category: guisado
+    text: "2 \xD7 placero"
+    variety_key: PLA
+  id: 1123031840619618304
+  tk_data: AGU02FRI02PEC03PLA02
+  tk_url: https://tacokeeper.com/?t=AGU02FRI02PEC03PLA02
+  total_tacos: 9
+  type: daily
 summary:
-  categories: []
+  categories:
+  - casero
+  - canasta
+  - guisado
   joined: '2019-04-30'
   joined_formatted: Abril 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 3
+  total_tacos: 9
+  total_varieties: 4
+  varieties:
+  - AGU
+  - FRI
+  - PEC
+  - PLA
 user:
   cover_image: onion
   id: '790797'
