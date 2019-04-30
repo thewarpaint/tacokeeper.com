@@ -3,6 +3,7 @@
 
 import locale
 import os
+import sys
 import tweepy
 from textwrap import wrap
 import yaml
@@ -180,7 +181,8 @@ if __name__ == '__main__':
     locale.setlocale(locale.LC_ALL, 'es_ES')
     api = get_api()
     varieties = load_varieties()
-    process_tweets(last_processed_id)
 
-    # TODO: Add a command line option to process individual statuses
-    # process_tweet(api.get_status(1102234568747335682, tweet_mode = 'extended'))
+    if len(sys.argv) == 1:
+        process_tweets(last_processed_id)
+    else:
+        process_tweet(api.get_status(sys.argv[1], tweet_mode = 'extended'))
