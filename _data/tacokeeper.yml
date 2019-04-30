@@ -209,6 +209,20 @@ options:
       singular: de chamorro
       plural: de chamorro
 
+  - key: CMV
+    name: champiñones
+    category: vegano
+    forms:
+      singular: de champiñones
+      plural: de champiñones
+
+  - key: CHV
+    name: chicharrón
+    category: vegano
+    forms:
+      singular: de chicharrón
+      plural: de chicharrón
+
   - key: CHS
     name: chicharrón en salsa
     category: guisado
@@ -229,13 +243,6 @@ options:
     forms:
       singular: de chicharrón prensado
       plural: de chicharrón prensado
-
-  - key: CHV
-    name: chicharrón
-    category: vegano
-    forms:
-      singular: de chicharrón
-      plural: de chicharrón
 
   - key: CHL
     name: chile relleno
@@ -272,9 +279,23 @@ options:
       singular: de chorizo
       plural: de chorizo
 
+  - key: CRV
+    name: chorizo
+    category: vegano
+    forms:
+      singular: de chorizo
+      plural: de chorizo
+
   - key: CVE
     name: chorizo verde
     category: parrilla
+    forms:
+      singular: de chorizo verde
+      plural: de chorizo verde
+
+  - key: CVV
+    name: chorizo verde
+    category: vegano
     forms:
       singular: de chorizo verde
       plural: de chorizo verde
@@ -362,6 +383,13 @@ options:
     forms:
       singular: de cuerito
       plural: de cuerito
+
+  - key: CUV
+    name: cueritos
+    category: vegano
+    forms:
+      singular: de cueritos
+      plural: de cueritos
 
   - key: DES
     name: deshebrada
@@ -552,6 +580,13 @@ options:
       singular: de nenepil
       plural: de nenepil
 
+  - key: NOV
+    name: nopales
+    category: vegano
+    forms:
+      singular: de nopales
+      plural: de nopales
+
   - key: NOP
     name: nopales con longaniza
     category: guisado
@@ -713,6 +748,13 @@ options:
       singular: de queso en salsa
       plural: de queso en salsa
 
+  - key: QUI
+    name: quinoa
+    category: vegano
+    forms:
+      singular: de quinoa
+      plural: de quinoa
+
   - key: RAJ
     name: rajas con crema
     category: guisado
@@ -769,6 +811,13 @@ options:
       singular: de sesos
       plural: de sesos
 
+  - key: SET
+    name: setas
+    category: vegano
+    forms:
+      singular: de setas
+      plural: de setas
+
   - key: SUA
     name: suadero
     category: parrilla
@@ -817,6 +866,13 @@ options:
     forms:
       singular: de tofu a la mexicana
       plural: de tofu a la mexicana
+
+  - key: TFA
+    name: tofu asado
+    category: vegano
+    forms:
+      singular: de tofu asado
+      plural: de tofu asado
 
   - key: TFR
     name: tofu revuelto
