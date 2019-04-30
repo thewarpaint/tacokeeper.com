@@ -1,5 +1,22 @@
 activities:
 - badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-04-30 13:58:28'
+  created_at_formatted: Abril 30
+  entries:
+  - amount: 1
+    badges:
+    - variety
+    category: guisado
+    text: "1 \xD7 chile relleno"
+    variety_key: CHL
+  id: 1123225107479126017
+  tk_data: CHL01
+  tk_url: https://tacokeeper.com/?t=CHL01
+  total_tacos: 1
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Casero"
     type: category
   - text: 1 nueva variedad
@@ -64,12 +81,13 @@ summary:
   joined: '2019-04-27'
   joined_formatted: Abril 2019
   total_categories: 3
-  total_tacos: 10
-  total_varieties: 3
+  total_tacos: 11
+  total_varieties: 4
   varieties:
   - DIV
   - ALA
   - AGU
+  - CHL
 user:
   cover_image: limes
   id: '27778183'
