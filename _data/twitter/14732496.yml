@@ -27,6 +27,12 @@ activities:
   tk_url: https://tacokeeper.com/?t=BSS04
   total_tacos: 4
   type: daily
+- summary:
+    month: abril
+    total_categories: 3
+    total_tacos: 17
+    total_varieties: 5
+  type: monthly
 - badges:
   - text: "Nueva categor\xEDa: Guisado"
     type: category

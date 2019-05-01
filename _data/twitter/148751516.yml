@@ -23,6 +23,12 @@ activities:
   tk_url: https://tacokeeper.com/?t=PAS02LEV01CAB01
   total_tacos: 4
   type: daily
+- summary:
+    month: abril
+    total_categories: 5
+    total_tacos: 18
+    total_varieties: 12
+  type: monthly
 - badges:
   - text: "Nueva categor\xEDa: Barbacoa"
     type: category
