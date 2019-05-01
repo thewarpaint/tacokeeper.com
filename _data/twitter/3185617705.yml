@@ -1,5 +1,25 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Vegano"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-05-01 02:33:39'
+  created_at_formatted: Mayo 01
+  entries:
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: vegano
+    text: "1 \xD7 pastor"
+    variety_key: PSV
+  id: 1123415153456840704
+  tk_data: PSV01
+  tk_url: https://tacokeeper.com/?t=PSV01
+  total_tacos: 1
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Parrilla"
     type: category
   - text: 1 nueva variedad
@@ -22,13 +42,15 @@ activities:
 summary:
   categories:
   - parrilla
+  - vegano
   joined: '2019-04-26'
   joined_formatted: Abril 2019
-  total_categories: 1
-  total_tacos: 2
-  total_varieties: 1
+  total_categories: 2
+  total_tacos: 3
+  total_varieties: 2
   varieties:
   - TRI
+  - PSV
 user:
   cover_image: guacamole
   id: '3185617705'

@@ -2,6 +2,23 @@ activities:
 - badges:
   - text: 1 nueva variedad
     type: variety
+  created_at: '2019-05-01 03:22:29'
+  created_at_formatted: Mayo 01
+  entries:
+  - amount: 3
+    badges:
+    - variety
+    category: guisado
+    text: "3 \xD7 chicharr\xF3n en salsa"
+    variety_key: CHS
+  id: 1123427445066088448
+  tk_data: CHS03
+  tk_url: https://tacokeeper.com/?t=CHS03
+  total_tacos: 3
+  type: daily
+- badges:
+  - text: 1 nueva variedad
+    type: variety
   created_at: '2019-04-26 02:43:18'
   created_at_formatted: Abril 26
   entries:
@@ -149,8 +166,8 @@ summary:
   joined: 2019-01-31
   joined_formatted: enero 2019
   total_categories: 3
-  total_tacos: 33
-  total_varieties: 7
+  total_tacos: 36
+  total_varieties: 8
   varieties:
   - ARR
   - PAS
@@ -159,6 +176,7 @@ summary:
   - MAC
   - PIC
   - BIS
+  - CHS
 user:
   cover_image: habanero
   id: '4518111'
