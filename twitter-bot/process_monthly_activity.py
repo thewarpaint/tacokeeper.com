@@ -38,6 +38,9 @@ def run():
 def process_monthly_activity(month_to_process, user_id):
     user_data = load_user_data(user_id)
     processing_data_str = 'Processing data for month {month} and user {screen_name}'
+    # TODO: make sure this is a daily type entry and not a monthly one
+    in_reply_to_status_id = user_data['activities'][0]['id']
+
     print(processing_data_str.format(month = month_to_process, screen_name = user_data['user']['screen_name']))
 
     monthly_activity = get_monthly_summary(month_to_process, user_data)
@@ -47,7 +50,8 @@ def process_monthly_activity(month_to_process, user_id):
     dump_user_data(user_id, user_data)
 
     if send_summary_tweet:
-        send_monthly_summary_tweet(user_id, user_data['user']['screen_name'], monthly_activity)
+        send_monthly_summary_tweet(user_id, user_data['user']['screen_name'], monthly_activity,
+            in_reply_to_status_id)
 
 def get_monthly_summary(month_to_process, user_data):
     # Using dictionaries to keep track of most frequent categories and varieties in the future
@@ -85,7 +89,7 @@ def get_monthly_summary(month_to_process, user_data):
         'type': 'monthly',
     }
 
-def send_monthly_summary_tweet(user_id, screen_name, monthly_activity):
+def send_monthly_summary_tweet(user_id, screen_name, monthly_activity, in_reply_to_status_id):
     api = get_api()
 
     # TODO: Move pluralisation forms to a YML file
@@ -103,7 +107,8 @@ def send_monthly_summary_tweet(user_id, screen_name, monthly_activity):
     )
 
     try:
-        api.update_status(status = status_text)
+        api.update_status(status = status_text,
+                          in_reply_to_status_id = in_reply_to_status_id)
         print('Sent monthly activity tweet successfully to {screen_name}'.format(screen_name = screen_name))
     except tweepy.TweepError as exception:
         print('Monthly activity tweet was probably sent already for {screen_name}'.format(screen_name = screen_name))
