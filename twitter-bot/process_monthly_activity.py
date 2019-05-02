@@ -3,6 +3,7 @@
 
 from datetime import date, datetime
 import locale
+import tweepy
 import sys
 
 from tweepy_helper import get_api
