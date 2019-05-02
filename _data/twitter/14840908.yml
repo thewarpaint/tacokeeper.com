@@ -1,4 +1,10 @@
 activities:
+- summary:
+    month: abril
+    total_categories: 1
+    total_tacos: 12
+    total_varieties: 6
+  type: monthly
 - badges:
   - text: 2 nuevas variedades
     type: variety
