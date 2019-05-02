@@ -1,4 +1,10 @@
 activities:
+- summary:
+    month: abril
+    total_categories: 2
+    total_tacos: 15
+    total_varieties: 6
+  type: monthly
 - badges: []
   created_at: '2019-04-24 04:42:15'
   created_at_formatted: Abril 24

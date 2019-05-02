@@ -19,6 +19,12 @@ activities:
   tk_url: https://tacokeeper.com/?t=PSV01
   total_tacos: 1
   type: daily
+- summary:
+    month: abril
+    total_categories: 1
+    total_tacos: 2
+    total_varieties: 1
+  type: monthly
 - badges:
   - text: "Nueva categor\xEDa: Parrilla"
     type: category
