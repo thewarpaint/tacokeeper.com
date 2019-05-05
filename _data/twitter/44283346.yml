@@ -1,12 +1,45 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Barbacoa"
+    type: category
+  - text: "Nueva categor\xEDa: Canasta"
+    type: category
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-05-05 06:16:47'
+  created_at_formatted: Mayo 05
+  entries:
+  - amount: 3
+    badges:
+    - category
+    - variety
+    category: barbacoa
+    text: "3 \xD7 barbacoa"
+    variety_key: BAR
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: canasta
+    text: "2 \xD7 chicharr\xF3n prensado"
+    variety_key: CHP
+  id: 1124920860249341952
+  tk_data: BAR03CHP02
+  tk_url: https://tacokeeper.com/?t=BAR03CHP02
+  total_tacos: 5
+  type: daily
 summary:
-  categories: []
+  categories:
+  - barbacoa
+  - canasta
   joined: '2019-05-05'
   joined_formatted: Mayo 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 2
+  total_tacos: 5
+  total_varieties: 2
+  varieties:
+  - BAR
+  - CHP
 user:
   cover_image: habanero
   id: '44283346'

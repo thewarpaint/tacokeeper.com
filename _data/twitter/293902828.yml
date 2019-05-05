@@ -1,4 +1,45 @@
 activities:
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-05-02 03:08:51'
+  created_at_formatted: Mayo 02
+  entries:
+  - amount: 4
+    badges:
+    - variety
+    category: guisado
+    text: "4 \xD7 pechuga"
+    variety_key: PEC
+  id: 1123786398522388480
+  tk_data: PEC04
+  tk_url: https://tacokeeper.com/thewarpaint?t=PEC04
+  total_tacos: 4
+  type: daily
+- badges: []
+  created_at: '2019-05-03 04:17:30'
+  created_at_formatted: Mayo 03
+  entries:
+  - amount: 3
+    badges: []
+    category: parrilla
+    text: "3 \xD7 campechano"
+    variety_key: CAM
+  - amount: 3
+    badges: []
+    category: parrilla
+    text: "3 \xD7 pastor"
+    variety_key: PAS
+  - amount: 1
+    badges: []
+    category: al vapor
+    text: "1 \xD7 cabeza"
+    variety_key: CAB
+  id: 1124166066194661376
+  tk_data: CAM03PAS03CAB01
+  tk_url: https://tacokeeper.com/thewarpaint?t=CAM03PAS03CAB01
+  total_tacos: 7
+  type: daily
 - summary:
     month: abril
     total_categories: 4
@@ -346,8 +387,8 @@ summary:
   joined: 2019-02-26
   joined_formatted: febrero 2019
   total_categories: 6
-  total_tacos: 62
-  total_varieties: 19
+  total_tacos: 73
+  total_varieties: 20
   varieties:
   - CAM
   - SUA
@@ -368,6 +409,7 @@ summary:
   - BSS
   - PLA
   - LON
+  - PEC
 user:
   cover_image: cilantro
   id: '293902828'

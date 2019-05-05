@@ -1,4 +1,51 @@
 activities:
+- badges:
+  - text: 6 nuevas variedades
+    type: variety
+  created_at: '2019-05-02 10:21:06'
+  created_at_formatted: Mayo 02
+  entries:
+  - amount: 2
+    badges:
+    - variety
+    category: vegano
+    text: "2 \xD7 chicharr\xF3n"
+    variety_key: CHV
+  - amount: 1
+    badges:
+    - variety
+    category: vegano
+    text: "1 \xD7 tofu asado"
+    variety_key: TFA
+  - amount: 3
+    badges:
+    - variety
+    category: vegano
+    text: "3 \xD7 chorizo verde"
+    variety_key: CVV
+  - amount: 1
+    badges:
+    - variety
+    category: vegano
+    text: "1 \xD7 champi\xF1ones"
+    variety_key: CMV
+  - amount: 1
+    badges:
+    - variety
+    category: vegano
+    text: "1 \xD7 cueritos"
+    variety_key: CUV
+  - amount: 1
+    badges:
+    - variety
+    category: vegano
+    text: "1 \xD7 nopales"
+    variety_key: NOV
+  id: 1123895179059060736
+  tk_data: CHV02TFA01CVV03CMV01CUV01NOV01
+  tk_url: https://tacokeeper.com/?t=CHV02TFA01CVV03CMV01CUV01NOV01
+  total_tacos: 9
+  type: daily
 - summary:
     month: abril
     total_categories: 1
@@ -135,8 +182,8 @@ summary:
   joined: 2019-03-01
   joined_formatted: marzo 2019
   total_categories: 1
-  total_tacos: 22
-  total_varieties: 7
+  total_tacos: 31
+  total_varieties: 13
   varieties:
   - PSV
   - SUV
@@ -145,6 +192,12 @@ summary:
   - ARV
   - CQV
   - BEV
+  - CHV
+  - TFA
+  - CVV
+  - CMV
+  - CUV
+  - NOV
 user:
   cover_image: limes
   id: '14840908'

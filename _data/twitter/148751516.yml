@@ -1,4 +1,21 @@
 activities:
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-05-04 19:15:56'
+  created_at_formatted: Mayo 04
+  entries:
+  - amount: 3
+    badges:
+    - variety
+    category: frutos del mar
+    text: "3 \xD7 pulpo"
+    variety_key: PUL
+  id: 1124754549712068609
+  tk_data: PUL03
+  tk_url: https://tacokeeper.com/?t=PUL03
+  total_tacos: 3
+  type: daily
 - badges: []
   created_at: '2019-05-01 13:36:04'
   created_at_formatted: Mayo 01
@@ -271,8 +288,8 @@ summary:
   joined: 2019-03-02
   joined_formatted: marzo 2019
   total_categories: 6
-  total_tacos: 26
-  total_varieties: 14
+  total_tacos: 29
+  total_varieties: 15
   varieties:
   - PAS
   - LEV
@@ -288,6 +305,7 @@ summary:
   - CMR
   - BAR
   - CSP
+  - PUL
 user:
   cover_image: cilantro
   id: '148751516'
