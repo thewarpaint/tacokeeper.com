@@ -99,14 +99,19 @@ def send_welcome_tweet(tweet_to_reply_to):
     #                       in_reply_to_status_id = tweet_to_reply_to.id)
 
     try:
-        api.update_status(status = welcome_message.format(screen_name = tweet_to_reply_to.user.screen_name.lower()),
-                          in_reply_to_status_id = tweet_to_reply_to.id)
+        # TODO: fix read-only restriction to revert this :(
+        screen_name = tweet_to_reply_to.user.screen_name.lower()
+        print('TODO: send welcome tweet as reply to https://twitter.com/{screen_name}/status/{id}'
+            .format(screen_name = screen_name, id = tweet_to_reply_to.id))
+        print(welcome_message.format(screen_name = screen_name))
+        # api.update_status(status = welcome_message.format(screen_name = tweet_to_reply_to.user.screen_name.lower()),
+        #                   in_reply_to_status_id = tweet_to_reply_to.id)
 
         # TODO: Fix "UnicodeEncodeError: 'ascii' codec can't encode character"
-        print('Sent welcome tweet successfully to {user}'.format(user = tweet_to_reply_to.user.screen_name))
+        # print('Sent welcome tweet successfully to {user}'.format(user = tweet_to_reply_to.user.screen_name))
 
         # Wait three seconds before continuing to avoid Twitter shadowbanning our welcome tweets :/
-        sleep(3)
+        # sleep(3)
 
     except tweepy.TweepError as exception:
         print('Welcome tweet was probably sent already for {user}'.format(user = tweet_to_reply_to.user.screen_name))
