@@ -1,4 +1,36 @@
 activities:
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-05-05 23:35:12'
+  created_at_formatted: Mayo 05
+  entries:
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 bistec"
+    variety_key: BIS
+  - amount: 1
+    badges:
+    - variety
+    category: parrilla
+    text: "1 \xD7 cecina"
+    variety_key: CEC
+  - amount: 4
+    badges: []
+    category: parrilla
+    text: "4 \xD7 tripa"
+    variety_key: TRI
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 pastor"
+    variety_key: PAS
+  id: 1125182183923167238
+  tk_data: BIS01CEC01TRI04PAS01
+  tk_url: https://tacokeeper.com/?t=BIS01CEC01TRI04PAS01
+  total_tacos: 7
+  type: daily
 - summary:
     month: abril
     total_categories: 1
@@ -108,8 +140,8 @@ summary:
   joined: 2019-03-22
   joined_formatted: Marzo 2019
   total_categories: 2
-  total_tacos: 26
-  total_varieties: 6
+  total_tacos: 33
+  total_varieties: 7
   varieties:
   - LEV
   - TRI
@@ -117,6 +149,7 @@ summary:
   - BIS
   - CAM
   - SUA
+  - CEC
 user:
   cover_image: onion
   id: '19756266'

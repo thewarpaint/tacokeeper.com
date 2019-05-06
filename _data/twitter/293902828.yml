@@ -1,4 +1,26 @@
 activities:
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-05-06 03:12:51'
+  created_at_formatted: Mayo 06
+  entries:
+  - amount: 3
+    badges:
+    - variety
+    category: parrilla
+    text: "3 \xD7 chupacabras"
+    variety_key: CPC
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 pastor"
+    variety_key: PAS
+  id: 1125236959398379520
+  tk_data: CPC03PAS01
+  tk_url: https://tacokeeper.com/thewarpaint?t=CPC03PAS01
+  total_tacos: 4
+  type: daily
 - badges: []
   created_at: '2019-05-03 04:17:30'
   created_at_formatted: Mayo 03
@@ -387,8 +409,8 @@ summary:
   joined: 2019-02-26
   joined_formatted: febrero 2019
   total_categories: 6
-  total_tacos: 73
-  total_varieties: 20
+  total_tacos: 77
+  total_varieties: 21
   varieties:
   - CAM
   - SUA
@@ -410,6 +432,7 @@ summary:
   - PLA
   - LON
   - PEC
+  - CPC
 user:
   cover_image: cilantro
   id: '293902828'

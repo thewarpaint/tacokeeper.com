@@ -1,5 +1,25 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Barbacoa"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-05-05 18:42:17'
+  created_at_formatted: Mayo 05
+  entries:
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: barbacoa
+    text: "1 \xD7 barbacoa"
+    variety_key: BAR
+  id: 1125108468728205312
+  tk_data: BAR01
+  tk_url: https://tacokeeper.com/?t=BAR01
+  total_tacos: 1
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Vegano"
     type: category
   - text: 1 nueva variedad
@@ -49,14 +69,16 @@ summary:
   categories:
   - parrilla
   - vegano
+  - barbacoa
   joined: '2019-04-26'
   joined_formatted: Abril 2019
-  total_categories: 2
-  total_tacos: 3
-  total_varieties: 2
+  total_categories: 3
+  total_tacos: 4
+  total_varieties: 3
   varieties:
   - TRI
   - PSV
+  - BAR
 user:
   cover_image: guacamole
   id: '3185617705'
