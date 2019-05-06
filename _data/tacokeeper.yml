@@ -328,6 +328,13 @@ options:
       singular: de chuleta en salsa
       plural: de chuleta en salsa
 
+  - key: CPC
+    name: chupacabras
+    category: parrilla
+    forms:
+      singular: chupacabras
+      plural: chupacabras
+
   - key: CPB
     name: cochinita pibil
     category: guisado
