@@ -769,6 +769,13 @@ options:
       singular: de rajas con crema
       plural: de rajas con crema
 
+  - key: RIN
+    name: riñón
+    category: parrilla
+    forms:
+      singular: de riñón
+      plural: de riñón
+
   - key: RQV
     name: rajas con queso
     category: vegano
