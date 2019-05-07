@@ -1,0 +1,17 @@
+{
+  "short_name": "TacoKeeper",
+  "name": "TacoKeeper",
+  "icons": [
+    {
+      "src": "https://tacokeeper.com/assets/images/logo--128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "../..",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#fdd835",
+  "lang": "es-MX"
+}
