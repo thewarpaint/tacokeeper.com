@@ -2,6 +2,33 @@ activities:
 - badges:
   - text: 1 nueva variedad
     type: variety
+  created_at: '2019-05-07 01:38:23'
+  created_at_formatted: Mayo 07
+  entries:
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 campechano"
+    variety_key: CAM
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 adobada"
+    variety_key: ADO
+  - amount: 1
+    badges:
+    - variety
+    category: parrilla
+    text: "1 \xD7 ri\xF1\xF3n"
+    variety_key: RIN
+  id: 1125575573441368064
+  tk_data: CAM01ADO01RIN01
+  tk_url: https://tacokeeper.com/thewarpaint?t=CAM01ADO01RIN01
+  total_tacos: 3
+  type: daily
+- badges:
+  - text: 1 nueva variedad
+    type: variety
   created_at: '2019-05-06 03:12:51'
   created_at_formatted: Mayo 06
   entries:
@@ -409,8 +436,8 @@ summary:
   joined: 2019-02-26
   joined_formatted: febrero 2019
   total_categories: 6
-  total_tacos: 77
-  total_varieties: 21
+  total_tacos: 80
+  total_varieties: 22
   varieties:
   - CAM
   - SUA
@@ -433,6 +460,7 @@ summary:
   - LON
   - PEC
   - CPC
+  - RIN
 user:
   cover_image: cilantro
   id: '293902828'
