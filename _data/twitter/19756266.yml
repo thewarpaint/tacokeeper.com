@@ -1,4 +1,18 @@
 activities:
+- badges: []
+  created_at: '2019-05-07 04:51:47'
+  created_at_formatted: Mayo 07
+  entries:
+  - amount: 5
+    badges: []
+    category: parrilla
+    text: "5 \xD7 bistec"
+    variety_key: BIS
+  id: 1125624243029516288
+  tk_data: BIS05
+  tk_url: https://tacokeeper.com/?t=BIS05
+  total_tacos: 5
+  type: daily
 - badges:
   - text: 1 nueva variedad
     type: variety
@@ -140,7 +154,7 @@ summary:
   joined: 2019-03-22
   joined_formatted: Marzo 2019
   total_categories: 2
-  total_tacos: 33
+  total_tacos: 38
   total_varieties: 7
   varieties:
   - LEV
