@@ -1,5 +1,19 @@
 activities:
 - badges: []
+  created_at: '2019-05-09 03:02:12'
+  created_at_formatted: Mayo 09
+  entries:
+  - amount: 3
+    badges: []
+    category: parrilla
+    text: "3 \xD7 chorizo"
+    variety_key: CHO
+  id: 1126321441035579393
+  tk_data: CHO03
+  tk_url: https://tacokeeper.com/thewarpaint?t=CHO03
+  total_tacos: 3
+  type: daily
+- badges: []
   created_at: '2019-05-08 03:54:47'
   created_at_formatted: Mayo 08
   entries:
@@ -455,7 +469,7 @@ summary:
   joined: 2019-02-26
   joined_formatted: febrero 2019
   total_categories: 6
-  total_tacos: 82
+  total_tacos: 85
   total_varieties: 22
   varieties:
   - CAM
