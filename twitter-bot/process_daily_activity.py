@@ -9,7 +9,7 @@ from textwrap import wrap
 import yaml
 
 from time import sleep
-from tweepy_helper import get_api, get_user_info
+from tweepy_helper import download_user_profile_image, get_api, get_user_info
 from yaml_helper import dump_user_data, load_user_data
 
 # Testing stuff
@@ -81,6 +81,10 @@ def process_tweet(tweet):
         data['summary']['total_varieties'] = len(data['summary']['varieties'])
 
         dump_user_data(tweet.user.id_str, data)
+
+        screen_name = tweet.user.screen_name.lower()
+        user = api.get_user(screen_name = screen_name)
+        download_user_profile_image(user, screen_name)
 
         try:
             tweet.favorite()
