@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,900"
+          rel="stylesheet">
+
+    <style type="text/css">
+      /* Material UI palettes: https://material.io/design/color/the-color-system.html#tools-for-picking-colors */
+      html {
+        font-family: "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 16px;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .square {
+        display: flex;
+        width: 100vmin;
+        height: 100vmin;
+        font-size: 10vmin;
+        text-align: center;
+        color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .square--cilantro {
+        background-image: url("/assets/images/cilantro.jpg");
+      }
+
+      .square--habanero {
+        background-image: url("/assets/images/habanero.jpg");
+      }
+
+      .square-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-grow: 1;
+        background-color: rgba(0, 0, 0, .333);
+      }
+
+      .light {
+        font-size: 1.25em;
+        font-weight: 200;
+        text-transform: uppercase;
+      }
+
+      .heavy {
+        font-family: Montserrat;
+        font-size: 2.75em;
+        font-weight: 900;
+        letter-spacing: -4px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="square square--habanero">
+      <div class="square-inner">
+        <div>
+          <div class="light">Running is</div>
+          <div class="heavy">boring</div>
+        </div>
+
+        <div>
+          <div class="light">tacos are</div>
+          <div class="heavy">fun</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
