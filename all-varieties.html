@@ -1,0 +1,27 @@
+---
+permalink: /tk/variedades
+---
+<!DOCTYPE html>
+<html lang="es-MX">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <h1>Variedades</h1>
+
+    {%- for categoryEntry in site.data.varieties-grouped-by-category -%}
+    <h2>{{ categoryEntry.category | capitalize }}</h2>
+
+    <ul>
+
+      {%- for variety in categoryEntry.varieties -%}
+      <li>
+        {{ variety.name }}
+      </li>
+      {%- endfor -%}
+    </ul>
+    {%- endfor -%}
+  </body>
+</html>

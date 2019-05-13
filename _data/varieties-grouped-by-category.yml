@@ -1,0 +1,288 @@
+- category: carnitas
+  varieties:
+  - name: achicalada
+    key: ACH
+  - name: buche
+    key: BUC
+  - name: cachete
+    key: CAC
+  - name: chamorro
+    key: CHA
+  - name: costilla
+    key: COS
+  - name: criadillas
+    key: CRI
+  - name: cuerito
+    key: CUE
+  - name: lengua
+    key: LEN
+  - name: maciza
+    key: MAC
+  - name: nana
+    key: NAN
+  - name: ojo
+    key: OJC
+  - name: oreja
+    key: ORE
+  - name: surtida
+    key: SUR
+  - name: trompa
+    key: TRO
+  - name: viril
+    key: VIR
+- category: parrilla
+  varieties:
+  - name: adobada
+    key: ADO
+  - name: árabe
+    key: ARA
+  - name: arrachera
+    key: ARR
+  - name: asada
+    key: ASA
+  - name: asado de puerco
+    key: ASO
+  - name: bistec
+    key: BIS
+  - name: bistec con tocino
+    key: BCT
+  - name: campechano
+    key: CAM
+  - name: cecina
+    key: CEC
+  - name: chorizo
+    key: CHO
+  - name: chorizo verde
+    key: CVE
+  - name: chuleta
+    key: CHU
+  - name: chuleta con tocino
+    key: CHT
+  - name: chupacabras
+    key: CPC
+  - name: costilla
+    key: CSP
+  - name: longaniza
+    key: LON
+  - name: longaniza verde
+    key: LOV
+  - name: machitos
+    key: MCH
+  - name: nenepil
+    key: NEN
+  - name: obispo
+    key: OBI
+  - name: pastor
+    key: PAS
+  - name: riñón
+    key: RIN
+  - name: suadero
+    key: SUA
+  - name: tripa
+    key: TRI
+- category: casero
+  varieties:
+  - name: aguacate
+    key: AGU
+  - name: sal
+    key: SAL
+- category: guisado
+  varieties:
+  - name: alambre
+    key: ALA
+  - name: albóndigas
+    key: ALB
+  - name: bistec en salsa
+    key: BSS
+  - name: chicharrón en salsa
+    key: CHS
+  - name: chicharrón prensado
+    key: CHG
+  - name: chile relleno
+    key: CHL
+  - name: chuleta en salsa
+    key: CLS
+  - name: cochinita pibil
+    key: CPB
+  - name: costilla en chile pasilla
+    key: CCP
+  - name: costilla en salsa
+    key: CSS
+  - name: costilla en salsa de tamarindo
+    key: CST
+  - name: deshebrada
+    key: DES
+  - name: discada
+    key: DIS
+  - name: fideo
+    key: FID
+  - name: frijolitos con queso
+    key: FYQ
+  - name: hígado encebollado
+    key: HIG
+  - name: huevo en salsa
+    key: HUE
+  - name: huevo con papa
+    key: HUP
+  - name: longaniza en salsa
+    key: LNS
+  - name: machacado
+    key: MCC
+  - name: milanesa
+    key: MIL
+  - name: moronga
+    key: MOR
+  - name: nopales con longaniza
+    key: NOP
+  - name: papa con chorizo
+    key: PCH
+  - name: pechuga
+    key: PEC
+  - name: picadillo
+    key: PIC
+  - name: placero
+    key: PLA
+  - name: pollo con mole
+    key: POL
+  - name: pollo en salsa de chipotle
+    key: PLC
+  - name: queso en salsa
+    key: QUS
+  - name: rajas con crema
+    key: RAJ
+  - name: rollito de jamón
+    key: ROL
+  - name: suadero en morita
+    key: SUM
+  - name: tinga
+    key: TIN
+  - name: tortita de papa
+    key: TOR
+- category: vegano
+  varieties:
+  - name: alambre
+    key: ALV
+  - name: arrachera
+    key: ARV
+  - name: arroz
+    key: ARZ
+  - name: barbasoya
+    key: BAS
+  - name: barbasetas
+    key: BBS
+  - name: bistec encebollado
+    key: BEV
+  - name: champiñones
+    key: CMV
+  - name: chicharrón
+    key: CHV
+  - name: chile pasado con queso
+    key: CPV
+  - name: chorinoa
+    key: CHN
+  - name: chorisoya
+    key: CSO
+  - name: chorizo
+    key: CRV
+  - name: chorizo verde
+    key: CVV
+  - name: choriqueso
+    key: CQV
+  - name: cueritos
+    key: CUV
+  - name: discada
+    key: DIV
+  - name: frijol
+    key: FRV
+  - name: haba
+    key: HAB
+  - name: milanesa de trigo
+    key: MLT
+  - name: nopales
+    key: NOV
+  - name: papa con chorizo
+    key: PCV
+  - name: papa con rajas
+    key: PCR
+  - name: pastor
+    key: PSV
+  - name: quinoa
+    key: QUI
+  - name: rajas con queso
+    key: RQV
+  - name: salchicha
+    key: SCV
+  - name: seitán
+    key: SEI
+  - name: setas
+    key: SET
+  - name: suadero
+    key: SUV
+  - name: tofu a la mexicana
+    key: TFM
+  - name: tofu asado
+    key: TFA
+  - name: tofu revuelto
+    key: TFR
+- category: barbacoa
+  varieties:
+  - name: barbacoa
+    key: BAR
+  - name: pancita
+    key: PAN
+- category: birria
+  varieties:
+  - name: birria
+    key: BIR
+- category: al vapor
+  varieties:
+  - name: cabeza
+    key: CAB
+  - name: cachete
+    key: CAV
+  - name: carnaza
+    key: CAR
+  - name: labio
+    key: LAB
+  - name: lengua
+    key: LEV
+  - name: ojo
+    key: OJO
+  - name: sesos
+    key: SES
+  - name: surtida
+    key: SRV
+- category: frutos del mar
+  varieties:
+  - name: calamar
+    key: CAL
+  - name: camarón
+    key: CMR
+  - name: marlín
+    key: MAR
+  - name: pescado
+    key: PES
+  - name: pulpo
+    key: PUL
+- category: canasta
+  varieties:
+  - name: chicharrón prensado
+    key: CHP
+  - name: frijol
+    key: FRI
+  - name: papa
+    key: PAP
+  - name: papa con chorizo
+    key: PCC
+- category: mixiote
+  varieties:
+  - name: mixiote
+    key: MIX
+- category: dorados
+  varieties:
+  - name: papa
+    key: PPD
+  - name: pollo
+    key: PLD
+  - name: res
+    key: RES
