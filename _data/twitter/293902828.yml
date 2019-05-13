@@ -1,5 +1,65 @@
 activities:
 - badges: []
+  created_at: '2019-05-12 15:26:21'
+  created_at_formatted: Mayo 12
+  entries:
+  - amount: 1
+    badges: []
+    category: barbacoa
+    text: "1 \xD7 pancita"
+    variety_key: PAN
+  - amount: 2
+    badges: []
+    category: barbacoa
+    text: "2 \xD7 barbacoa"
+    variety_key: BAR
+  id: 1127595878363975680
+  tk_data: PAN01BAR02
+  tk_url: https://tacokeeper.com/thewarpaint?t=PAN01BAR02
+  total_tacos: 3
+  type: daily
+- badges:
+  - text: 5 nuevas variedades
+    type: variety
+  created_at: '2019-05-12 01:07:50'
+  created_at_formatted: Mayo 12
+  entries:
+  - amount: 1
+    badges:
+    - variety
+    category: carnitas
+    text: "1 \xD7 maciza"
+    variety_key: MAC
+  - amount: 1
+    badges:
+    - variety
+    category: carnitas
+    text: "1 \xD7 cuerito"
+    variety_key: CUE
+  - amount: 1
+    badges:
+    - variety
+    category: carnitas
+    text: "1 \xD7 costilla"
+    variety_key: COS
+  - amount: 1
+    badges:
+    - variety
+    category: carnitas
+    text: "1 \xD7 buche"
+    variety_key: BUC
+  - amount: 1
+    badges:
+    - variety
+    category: carnitas
+    text: "1 \xD7 surtida"
+    variety_key: SUR
+  id: 1127379825352695808
+  tk_data: MAC01CUE01COS01BUC01SUR01
+  tk_url: https://tacokeeper.com/thewarpaint?t=MAC01CUE01COS01BUC01SUR01
+  total_tacos: 5
+  type: daily
+- badges: []
   created_at: '2019-05-09 03:02:12'
   created_at_formatted: Mayo 09
   entries:
@@ -469,8 +529,8 @@ summary:
   joined: 2019-02-26
   joined_formatted: febrero 2019
   total_categories: 6
-  total_tacos: 85
-  total_varieties: 22
+  total_tacos: 93
+  total_varieties: 27
   varieties:
   - CAM
   - SUA
@@ -494,6 +554,11 @@ summary:
   - PEC
   - CPC
   - RIN
+  - MAC
+  - CUE
+  - COS
+  - BUC
+  - SUR
 user:
   cover_image: cilantro
   id: '293902828'

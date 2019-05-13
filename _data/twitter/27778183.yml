@@ -1,5 +1,29 @@
 activities:
 - badges: []
+  created_at: '2019-05-12 22:58:45'
+  created_at_formatted: Mayo 12
+  entries:
+  - amount: 3
+    badges: []
+    category: guisado
+    text: "3 \xD7 chile relleno"
+    variety_key: CHL
+  - amount: 2
+    badges: []
+    category: casero
+    text: "2 \xD7 aguacate"
+    variety_key: AGU
+  - amount: 2
+    badges: []
+    category: vegano
+    text: "2 \xD7 discada"
+    variety_key: DIV
+  id: 1127709725758386177
+  tk_data: CHL03AGU02DIS02
+  tk_url: https://tacokeeper.com/?t=CHL03AGU02DIS02
+  total_tacos: 7
+  type: daily
+- badges: []
   created_at: '2019-05-09 00:03:18'
   created_at_formatted: Mayo 09
   entries:
@@ -123,7 +147,7 @@ summary:
   joined: '2019-04-27'
   joined_formatted: Abril 2019
   total_categories: 3
-  total_tacos: 19
+  total_tacos: 26
   total_varieties: 5
   varieties:
   - DIV
