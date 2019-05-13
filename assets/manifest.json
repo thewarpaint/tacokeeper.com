@@ -7,6 +7,11 @@
       "src": "https://tacokeeper.com/assets/images/logo--128.png",
       "sizes": "128x128",
       "type": "image/png"
+    },
+    {
+      "src": "https://tacokeeper.com/assets/images/logo--480.png",
+      "sizes": "480x480",
+      "type": "image/png"
     }
   ],
   "start_url": "../..",
