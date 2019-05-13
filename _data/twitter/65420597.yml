@@ -1,4 +1,24 @@
 activities:
+- badges:
+  - text: "Nueva categor\xEDa: Guisado"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-05-13 15:47:42'
+  created_at_formatted: Mayo 13
+  entries:
+  - amount: 3
+    badges:
+    - category
+    - variety
+    category: guisado
+    text: "3 \xD7 pechuga"
+    variety_key: PEC
+  id: 1127963637757485058
+  tk_data: PEC03
+  tk_url: https://tacokeeper.com/?t=PEC03
+  total_tacos: 3
+  type: daily
 - summary:
     month: abril
     total_categories: 2
@@ -38,14 +58,16 @@ summary:
   categories:
   - al vapor
   - parrilla
+  - guisado
   joined: 2019-04-04
   joined_formatted: Abril 2019
-  total_categories: 2
-  total_tacos: 3
-  total_varieties: 2
+  total_categories: 3
+  total_tacos: 6
+  total_varieties: 3
   varieties:
   - LEV
   - CAM
+  - PEC
 user:
   cover_image: tomate
   id: '65420597'
