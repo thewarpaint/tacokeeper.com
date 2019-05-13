@@ -18,17 +18,31 @@ permalink: /tk/usuarios
 
       <h2>{{ site.data.twitter | size }} users have registered {{ total_tacos }} tacos</h2>
 
-      {%- for profile in site.data.twitter -%}
-      <li>
-        <a href="/{{ profile[1].user.screen_name }}">
-          <img src="{{ profile[1].user.profile_image_url }}"
-               style="width: 2.5rem; height: 2.5rem;">
-          @{{ profile[1].user.screen_name }}</a>
+      {%- for monthEntry in site.data.twitter-users-by-joined-date -%}
+      <h2>{{ monthEntry.month | capitalize }} ({{ monthEntry.users | size }} users)</h2>
 
-        joined on {{ profile[1].summary.joined }},
-        has registered {{ profile[1].summary.total_tacos }} tacos
+      {%- for profile in monthEntry.users -%}
+      {% assign profile_data = site.data.twitter[profile.id] %}
+      <li>
+        <a href="/{{ profile_data.user.screen_name }}">
+          <img src="{{ profile_data.user.profile_image_url }}"
+               style="width: 2.5rem; height: 2.5rem;">
+          @{{ profile_data.user.screen_name }}</a>
+
+        joined on {{ profile_data.summary.joined }},
+        has registered {{ profile_data.summary.total_tacos }} tacos
       </li>
       {%- endfor -%}
+      {%- endfor -%}
+
+      <!-- [
+      {%- for profile in site.data.twitter -%}
+        {
+          id: '{{profile[1].user.id}}',
+          joined: '{{ profile[1].summary.joined }}',
+        },
+      {%- endfor -%}
+      ] -->
     </ul>
   </body>
 </html>
