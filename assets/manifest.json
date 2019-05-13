@@ -1,6 +1,7 @@
 {
   "short_name": "TacoKeeper",
   "name": "TacoKeeper",
+  "description": "Monitorea tus actividades gastronómicas. Running is boring. Tacos are fun.",
   "icons": [
     {
       "src": "https://tacokeeper.com/assets/images/logo--128.png",
@@ -11,7 +12,7 @@
   "start_url": "../..",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#ffffff",
+  "background_color": "#fdd835",
   "theme_color": "#fdd835",
   "lang": "es-MX"
 }
