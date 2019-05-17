@@ -1,5 +1,22 @@
 activities:
 - badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-05-16 06:07:35'
+  created_at_formatted: Mayo 16
+  entries:
+  - amount: 4
+    badges:
+    - variety
+    category: parrilla
+    text: "4 \xD7 costilla"
+    variety_key: CSP
+  id: 1128904811666124801
+  tk_data: CSP04
+  tk_url: https://tacokeeper.com/?t=CSP04
+  total_tacos: 4
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Barbacoa"
     type: category
   - text: 1 nueva variedad
@@ -73,12 +90,13 @@ summary:
   joined: '2019-04-26'
   joined_formatted: Abril 2019
   total_categories: 3
-  total_tacos: 4
-  total_varieties: 3
+  total_tacos: 8
+  total_varieties: 4
   varieties:
   - TRI
   - PSV
   - BAR
+  - CSP
 user:
   cover_image: guacamole
   id: '3185617705'
