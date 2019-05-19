@@ -1,4 +1,24 @@
 activities:
+- badges:
+  - text: "Nueva categor\xEDa: Canasta"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-05-19 01:07:53'
+  created_at_formatted: Mayo 19
+  entries:
+  - amount: 5
+    badges:
+    - category
+    - variety
+    category: canasta
+    text: "5 \xD7 papa"
+    variety_key: PAP
+  id: 1129916553007378434
+  tk_data: PAP05
+  tk_url: https://tacokeeper.com/?t=PAP05
+  total_tacos: 5
+  type: daily
 - badges: []
   created_at: '2019-05-12 22:58:45'
   created_at_formatted: Mayo 12
@@ -144,17 +164,19 @@ summary:
   - vegano
   - guisado
   - casero
+  - canasta
   joined: '2019-04-27'
   joined_formatted: Abril 2019
-  total_categories: 3
-  total_tacos: 26
-  total_varieties: 5
+  total_categories: 4
+  total_tacos: 31
+  total_varieties: 6
   varieties:
   - DIV
   - ALA
   - AGU
   - CHL
   - FYQ
+  - PAP
 user:
   cover_image: limes
   id: '27778183'

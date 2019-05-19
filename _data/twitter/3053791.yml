@@ -1,4 +1,31 @@
 activities:
+- badges:
+  - text: 2 nuevas rarezas
+    type: rarity
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-05-19 04:19:35'
+  created_at_formatted: Mayo 19
+  entries:
+  - amount: 1
+    badges:
+    - rarity
+    - variety
+    category: parrilla
+    text: "1 \xD7 obispo"
+    variety_key: OBI
+  - amount: 2
+    badges:
+    - rarity
+    - variety
+    category: parrilla
+    text: "2 \xD7 longaniza verde"
+    variety_key: LOV
+  id: 1129964795933933569
+  tk_data: OBI01LOV02
+  tk_url: https://tacokeeper.com/?t=OBI01LOV02
+  total_tacos: 3
+  type: daily
 - summary:
     month: abril
     total_categories: 3
@@ -165,8 +192,8 @@ summary:
   joined: 2019-03-02
   joined_formatted: marzo 2019
   total_categories: 4
-  total_tacos: 39
-  total_varieties: 9
+  total_tacos: 42
+  total_varieties: 11
   varieties:
   - CHS
   - PAS
@@ -177,6 +204,8 @@ summary:
   - LEV
   - LON
   - MIX
+  - OBI
+  - LOV
 user:
   cover_image: making-salsa
   id: '3053791'

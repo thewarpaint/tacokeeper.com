@@ -1,4 +1,36 @@
 activities:
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-05-19 00:43:12'
+  created_at_formatted: Mayo 19
+  entries:
+  - amount: 1
+    badges: []
+    category: vegano
+    text: "1 \xD7 pastor"
+    variety_key: PSV
+  - amount: 1
+    badges: []
+    category: vegano
+    text: "1 \xD7 suadero"
+    variety_key: SUV
+  - amount: 1
+    badges: []
+    category: vegano
+    text: "1 \xD7 bistec encebollado"
+    variety_key: BEV
+  - amount: 1
+    badges:
+    - variety
+    category: vegano
+    text: "1 \xD7 pibil"
+    variety_key: PIV
+  id: 1129910339447996416
+  tk_data: PSV01SUV01BEV01
+  tk_url: https://tacokeeper.com/?t=PSV01SUV01BEV01
+  total_tacos: 4
+  type: daily
 - badges: []
   created_at: '2019-05-17 03:38:37'
   created_at_formatted: Mayo 17
@@ -201,8 +233,8 @@ summary:
   joined: 2019-03-01
   joined_formatted: marzo 2019
   total_categories: 1
-  total_tacos: 35
-  total_varieties: 13
+  total_tacos: 38
+  total_varieties: 14
   varieties:
   - PSV
   - SUV
@@ -217,6 +249,7 @@ summary:
   - CMV
   - CUV
   - NOV
+  - PIV
 user:
   cover_image: limes
   id: '14840908'
