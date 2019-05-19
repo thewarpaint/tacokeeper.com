@@ -706,6 +706,13 @@ options:
       singular: de pescado
       plural: de pescado
 
+  - key: PIV
+    name: pibil
+    category: vegano
+    forms:
+      singular: de pibil
+      plural: de pibil
+
   - key: PIC
     name: picadillo
     category: guisado
