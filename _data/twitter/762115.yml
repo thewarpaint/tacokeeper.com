@@ -1,5 +1,52 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Carnitas"
+    type: category
+  - text: 3 nuevas variedades
+    type: variety
+  created_at: '2019-05-23 05:35:10'
+  created_at_formatted: Mayo 23
+  entries:
+  - amount: 5
+    badges:
+    - variety
+    category: al vapor
+    text: "5 \xD7 lengua"
+    variety_key: LEV
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: carnitas
+    text: "1 \xD7 trompa"
+    variety_key: TRO
+  - amount: 6
+    badges:
+    - variety
+    category: guisado
+    text: "6 \xD7 alambre"
+    variety_key: ALA
+  - amount: 3
+    badges: []
+    category: guisado
+    text: "3 \xD7 pechuga"
+    variety_key: PEC
+  - amount: 3
+    badges: []
+    category: parrilla
+    text: "3 \xD7 pastor"
+    variety_key: PAS
+  - amount: 3
+    badges: []
+    category: parrilla
+    text: "3 \xD7 suadero"
+    variety_key: SUA
+  id: 1131433367336050693
+  tk_data: LEV05TRO01ALA06PEC03PAS03SUA03
+  tk_url: https://tacokeeper.com/paranoideo?t=LEV05TRO01ALA06PEC03PAS03SUA03
+  total_tacos: 21
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Barbacoa"
     type: category
   - text: 2 nuevas variedades
@@ -510,11 +557,12 @@ summary:
   - canasta
   - dorados
   - barbacoa
+  - carnitas
   joined: 2019-02-07
   joined_formatted: febrero 2019
-  total_categories: 7
-  total_tacos: 173
-  total_varieties: 16
+  total_categories: 8
+  total_tacos: 194
+  total_varieties: 19
   varieties:
   - SUA
   - BIS
@@ -532,6 +580,9 @@ summary:
   - BSS
   - BAR
   - PAN
+  - LEV
+  - TRO
+  - ALA
 user:
   cover_image: onion
   id: '762115'

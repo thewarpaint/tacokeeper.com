@@ -1,4 +1,42 @@
 activities:
+- badges: []
+  created_at: '2019-05-23 13:51:18'
+  created_at_formatted: Mayo 23
+  entries:
+  - amount: 1
+    badges: []
+    category: vegano
+    text: "1 \xD7 chicharr\xF3n"
+    variety_key: CHV
+  id: 1131558221737537536
+  tk_data: CHV01
+  tk_url: https://tacokeeper.com/?t=CHV01
+  total_tacos: 1
+  type: daily
+- badges: []
+  created_at: '2019-05-21 03:42:00'
+  created_at_formatted: Mayo 21
+  entries:
+  - amount: 2
+    badges: []
+    category: vegano
+    text: "2 \xD7 suadero"
+    variety_key: SUV
+  - amount: 2
+    badges: []
+    category: vegano
+    text: "2 \xD7 pastor"
+    variety_key: PSV
+  - amount: 2
+    badges: []
+    category: vegano
+    text: "2 \xD7 milanesa de trigo"
+    variety_key: MLT
+  id: 1130680113320865798
+  tk_data: SUV02PSV02MLT02
+  tk_url: https://tacokeeper.com/?t=SUV02PSV02MLT02
+  total_tacos: 6
+  type: daily
 - badges:
   - text: 1 nueva variedad
     type: variety
@@ -233,7 +271,7 @@ summary:
   joined: 2019-03-01
   joined_formatted: marzo 2019
   total_categories: 1
-  total_tacos: 38
+  total_tacos: 45
   total_varieties: 14
   varieties:
   - PSV

@@ -1,5 +1,19 @@
 activities:
 - badges: []
+  created_at: '2019-05-23 20:09:03'
+  created_at_formatted: Mayo 23
+  entries:
+  - amount: 3
+    badges: []
+    category: frutos del mar
+    text: "3 \xD7 pescado"
+    variety_key: PES
+  id: 1131653289228066816
+  tk_data: PES03
+  tk_url: https://tacokeeper.com/?t=PES03
+  total_tacos: 3
+  type: daily
+- badges: []
   created_at: '2019-05-03 13:19:28'
   created_at_formatted: Mayo 03
   entries:
@@ -145,7 +159,7 @@ summary:
   joined: 2019-03-31
   joined_formatted: Marzo 2019
   total_categories: 4
-  total_tacos: 29
+  total_tacos: 32
   total_varieties: 6
   varieties:
   - PPD
