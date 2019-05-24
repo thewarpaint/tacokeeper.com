@@ -1,4 +1,18 @@
 activities:
+- badges: []
+  created_at: '2019-05-24 03:04:18'
+  created_at_formatted: Mayo 24
+  entries:
+  - amount: 2
+    badges: []
+    category: guisado
+    text: "2 \xD7 frijolitos con queso"
+    variety_key: FYQ
+  id: 1131757788995248130
+  tk_data: FYQ02
+  tk_url: https://tacokeeper.com/?t=FYQ02
+  total_tacos: 2
+  type: daily
 - badges:
   - text: "Nueva categor\xEDa: Canasta"
     type: category
@@ -168,7 +182,7 @@ summary:
   joined: '2019-04-27'
   joined_formatted: Abril 2019
   total_categories: 4
-  total_tacos: 31
+  total_tacos: 33
   total_varieties: 6
   varieties:
   - DIV
