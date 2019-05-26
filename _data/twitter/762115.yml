@@ -1,4 +1,28 @@
 activities:
+- badges: []
+  created_at: '2019-05-25 16:01:44'
+  created_at_formatted: Mayo 25
+  entries:
+  - amount: 4
+    badges: []
+    category: parrilla
+    text: "4 \xD7 tripa"
+    variety_key: TRI
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 suadero"
+    variety_key: SUA
+  - amount: 6
+    badges: []
+    category: guisado
+    text: "6 \xD7 pechuga"
+    variety_key: PEC
+  id: 1132315823907987456
+  tk_data: TRI04SUA02PEC06
+  tk_url: https://tacokeeper.com/?t=TRI04SUA02PEC06
+  total_tacos: 12
+  type: daily
 - badges:
   - text: "Nueva categor\xEDa: Carnitas"
     type: category
@@ -561,7 +585,7 @@ summary:
   joined: 2019-02-07
   joined_formatted: febrero 2019
   total_categories: 8
-  total_tacos: 194
+  total_tacos: 206
   total_varieties: 19
   varieties:
   - SUA
