@@ -445,6 +445,9 @@ activities:
   tk_url: https://tacokeeper.com/thewarpaint?t=CPB04
   total_tacos: 4
   type: daily
+  venue:
+    id: 0948c079af550000
+    name: "La Casa de To\xf1o"
 - badges:
   - text: 1 nueva variedad
     type: variety

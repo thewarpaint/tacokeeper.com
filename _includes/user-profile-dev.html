@@ -385,9 +385,10 @@
           <li id="activity-{{ activity.id }}"
               class="activity">
             <div class="activity__date">
-              <a href="#activity-{{ activity.id }}">
-                {{ activity.created_at_formatted }}
-              </a>
+              <a href="#activity-{{ activity.id }}">{{ activity.created_at_formatted }}</a>
+              {% if activity.venue %}
+              en {{ activity.venue.name }}
+              {% endif %}
             </div>
 
             <ul class="activity__varieties">
