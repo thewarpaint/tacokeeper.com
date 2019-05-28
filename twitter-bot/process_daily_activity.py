@@ -132,6 +132,11 @@ def get_tweet_info(tweet):
         'type': 'daily',
     }
 
+    venue_info = get_venue_info(tweet)
+
+    if venue_info is not None:
+        tweet_info['venue'] = venue_info
+
     if len(tweet.entities['urls']) == 1:
         tweet_info['tk_url'] = tweet.entities['urls'][0]['expanded_url']
         tweet_info['tk_data'] = get_raw_tacokeeper_data(tweet.user.screen_name, tweet_info['tk_url'])
@@ -142,6 +147,15 @@ def get_tweet_info(tweet):
         tweet_info['total_tacos'] = reduce((lambda acc, entry: acc + entry['amount']), entries, 0)
 
     return tweet_info
+
+def get_venue_info(tweet):
+    if tweet.place is None:
+        return None
+
+    return {
+        'id': tweet.place.id,
+        'name': tweet.place.name,
+    }
 
 def get_raw_tacokeeper_data(screen_name, url):
     profile_prefix = tk_url_profile_prefix.format(screen_name = screen_name)
