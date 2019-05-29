@@ -555,7 +555,7 @@
         $tweetText = document.getElementById('tweet-text');
         $searchInput = document.getElementById('search-input');
 
-        addInputListeners(document.querySelectorAll('.option__input'));
+        addInputDelegateListener(document.getElementById('options'));
         addElementsToOptions();
         addNormalisationsToOptions();
 
@@ -570,20 +570,18 @@
         });
       });
 
-      function addInputListeners(inputs) {
-        for (var i = 0; i < inputs.length; i++) {
-          inputs[i].addEventListener('input', function (event) {
-            var value = parseInt(this.value, 10);
+      function addInputDelegateListener($optionsContainer) {
+        $optionsContainer.addEventListener('input', function (event) {
+          var value = parseInt(event.target.value, 10);
 
-            if (isNaN(value)) {
-              value = 0;
-            }
+          if (isNaN(value)) {
+            value = 0;
+          }
 
-            model[this.name.replace('input-', '')] = value;
-            updateTweet();
-            updateActiveOptions();
-          });
-        }
+          model[event.target.name.replace('input-', '')] = value;
+          updateTweet();
+          updateActiveOptions();
+        });
       }
 
       function updateTweet() {
@@ -773,7 +771,8 @@
                placeholder="🔍 busca tu taco o categoría">
       </div>
 
-      <ul class="options">
+      <ul id="options"
+          class="options">
         <!-- I swear I tried to find a better way but there are no conditional assignments, not operator, etc. -->
         {%- for option in options -%}
         {%- if page.isVegan == false and option.category != 'vegano' -%}
