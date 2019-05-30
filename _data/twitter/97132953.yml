@@ -1,4 +1,35 @@
 activities:
+- badges:
+  - text: "Nueva categor\xEDa: Casero"
+    type: category
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-05-30 01:19:54'
+  created_at_formatted: Mayo 30
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: casero
+    text: "2 \xD7 aguacate"
+    variety_key: AGU
+  - amount: 1
+    badges:
+    - variety
+    category: parrilla
+    text: "1 \xD7 bistec"
+    variety_key: BIS
+  - amount: 4
+    badges: []
+    category: parrilla
+    text: "4 \xD7 chuleta con tocino"
+    variety_key: CHT
+  id: 1133905842649161732
+  tk_data: AGU02BIS01CHT04
+  tk_url: https://tacokeeper.com/?t=AGU02BIS01CHT04
+  total_tacos: 7
+  type: daily
 - badges: []
   created_at: '2019-05-26 04:31:42'
   created_at_formatted: Mayo 26
@@ -283,11 +314,12 @@ summary:
   - carnitas
   - parrilla
   - frutos del mar
+  - casero
   joined: 2019-02-13
   joined_formatted: febrero 2019
-  total_categories: 3
-  total_tacos: 65
-  total_varieties: 11
+  total_categories: 4
+  total_tacos: 72
+  total_varieties: 13
   varieties:
   - CAC
   - CAM
@@ -300,6 +332,8 @@ summary:
   - CMR
   - MAR
   - PES
+  - AGU
+  - BIS
 user:
   cover_image: making-salsa
   id: '97132953'

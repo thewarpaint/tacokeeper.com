@@ -1,4 +1,24 @@
 activities:
+- badges:
+  - text: "Nueva categor\xEDa: Frutos del mar"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-05-30 01:37:51'
+  created_at_formatted: Mayo 30
+  entries:
+  - amount: 3
+    badges:
+    - category
+    - variety
+    category: frutos del mar
+    text: "3 \xD7 pescado"
+    variety_key: PES
+  id: 1133910360405266432
+  tk_data: PES03
+  tk_url: https://tacokeeper.com/?t=PES03
+  total_tacos: 3
+  type: daily
 - badges: []
   created_at: '2019-05-12 23:43:41'
   created_at_formatted: Mayo 12
@@ -183,11 +203,12 @@ summary:
   - parrilla
   - carnitas
   - guisado
+  - frutos del mar
   joined: 2019-01-31
   joined_formatted: enero 2019
-  total_categories: 3
-  total_tacos: 39
-  total_varieties: 8
+  total_categories: 4
+  total_tacos: 42
+  total_varieties: 9
   varieties:
   - ARR
   - PAS
@@ -197,6 +218,7 @@ summary:
   - PIC
   - BIS
   - CHS
+  - PES
 user:
   cover_image: habanero
   id: '4518111'

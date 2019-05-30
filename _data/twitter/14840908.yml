@@ -1,5 +1,24 @@
 activities:
 - badges: []
+  created_at: '2019-05-30 15:33:41'
+  created_at_formatted: Mayo 30
+  entries:
+  - amount: 2
+    badges: []
+    category: vegano
+    text: "2 \xD7 milanesa de trigo"
+    variety_key: MLT
+  - amount: 2
+    badges: []
+    category: vegano
+    text: "2 \xD7 pastor"
+    variety_key: PSV
+  id: 1134120703379345408
+  tk_data: MLT02PSV02
+  tk_url: https://tacokeeper.com/?t=MLT02PSV02
+  total_tacos: 4
+  type: daily
+- badges: []
   created_at: '2019-05-28 02:00:35'
   created_at_formatted: Mayo 28
   entries:
@@ -285,7 +304,7 @@ summary:
   joined: 2019-03-01
   joined_formatted: marzo 2019
   total_categories: 1
-  total_tacos: 46
+  total_tacos: 50
   total_varieties: 14
   varieties:
   - PSV
