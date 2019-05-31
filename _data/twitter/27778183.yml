@@ -1,4 +1,26 @@
 activities:
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-05-30 21:45:39'
+  created_at_formatted: Mayo 30
+  entries:
+  - amount: 2
+    badges:
+    - variety
+    category: guisado
+    text: "2 \xD7 nopales con hongos"
+    variety_key: NOH
+  - amount: 2
+    badges: []
+    category: guisado
+    text: "2 \xD7 chile relleno"
+    variety_key: CHL
+  id: 1134214314292678657
+  tk_data: NOH02CHL02
+  tk_url: https://tacokeeper.com/?t=NOH02CHL02
+  total_tacos: 4
+  type: daily
 - badges: []
   created_at: '2019-05-24 03:04:18'
   created_at_formatted: Mayo 24
@@ -182,8 +204,8 @@ summary:
   joined: '2019-04-27'
   joined_formatted: Abril 2019
   total_categories: 4
-  total_tacos: 33
-  total_varieties: 6
+  total_tacos: 37
+  total_varieties: 7
   varieties:
   - DIV
   - ALA
@@ -191,6 +213,7 @@ summary:
   - CHL
   - FYQ
   - PAP
+  - NOH
 user:
   cover_image: limes
   id: '27778183'
