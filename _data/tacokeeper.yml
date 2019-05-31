@@ -594,6 +594,13 @@ options:
       singular: de nopales
       plural: de nopales
 
+  - key: NOH
+    name: nopales con hongos
+    category: vegano
+    forms:
+      singular: de nopales con hongos
+      plural: de nopales con hongos
+
   - key: NOP
     name: nopales con longaniza
     category: guisado
