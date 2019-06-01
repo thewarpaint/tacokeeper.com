@@ -1,4 +1,26 @@
 activities:
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-05-31 23:21:37'
+  created_at_formatted: Mayo 31
+  entries:
+  - amount: 3
+    badges: []
+    category: al vapor
+    text: "3 \xD7 cabeza"
+    variety_key: CAB
+  - amount: 3
+    badges:
+    - variety
+    category: al vapor
+    text: "3 \xD7 carnaza"
+    variety_key: CAR
+  id: 1134600850733654016
+  tk_data: CAB03CAR03
+  tk_url: https://tacokeeper.com/?t=CAB03CAR03
+  total_tacos: 6
+  type: daily
 - summary:
     month: abril
     total_categories: 2
@@ -97,14 +119,15 @@ summary:
   joined: 2019-02-02
   joined_formatted: febrero 2019
   total_categories: 2
-  total_tacos: 20
-  total_varieties: 5
+  total_tacos: 26
+  total_varieties: 6
   varieties:
   - ADO
   - ASA
   - CAB
   - CAM
   - CHO
+  - CAR
 user:
   cover_image: tomate
   id: '15730488'
