@@ -1,4 +1,10 @@
 activities:
+- summary:
+    month: mayo
+    total_categories: 3
+    total_tacos: 31
+    total_varieties: 8
+  type: monthly
 - badges:
   - text: "Nueva categor\xEDa: Casero"
     type: category

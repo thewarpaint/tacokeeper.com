@@ -1,4 +1,10 @@
 activities:
+- summary:
+    month: mayo
+    total_categories: 5
+    total_tacos: 63
+    total_varieties: 23
+  type: monthly
 - badges: []
   created_at: '2019-05-30 04:01:15'
   created_at_formatted: Mayo 30
