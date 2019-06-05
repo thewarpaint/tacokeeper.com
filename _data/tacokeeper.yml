@@ -258,6 +258,13 @@ options:
       singular: de chile pasado con queso
       plural: de chile pasado con queso
 
+  - key: CRR
+    name: chistorra
+    category: parrilla
+    forms:
+      singular: de chistorra
+      plural: de chistorra
+
   - key: CHN
     name: chorinoa
     category: vegano
@@ -285,6 +292,13 @@ options:
     forms:
       singular: de chorizo
       plural: de chorizo
+
+  - key: CAG
+    name: chorizo argentino
+    category: parrilla
+    forms:
+      singular: de chorizo argentino
+      plural: de chorizo argentino
 
   - key: CVE
     name: chorizo verde
