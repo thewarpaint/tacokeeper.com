@@ -90,6 +90,13 @@ options:
       singular: de barbacoa
       plural: de barbacoa
 
+  - key: BAD
+    name: barbacoa
+    category: dorados
+    forms:
+      singular: de barbacoa
+      plural: de barbacoa
+
   - key: BAS
     name: barbasoya
     category: vegano
@@ -488,6 +495,13 @@ options:
     forms:
       singular: de huevo con papa
       plural: de huevo con papa
+
+  - key: JAQ
+    name: jamón con queso
+    category: dorados
+    forms:
+      singular: de jamón con queso
+      plural: de jamón con queso
 
   - key: LAB
     name: labio
