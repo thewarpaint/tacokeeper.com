@@ -59,6 +59,51 @@
         font-weight: 900;
         letter-spacing: -4px;
       }
+
+      /* Logo */
+      .logo {
+        display: inline-block;
+        padding: 3.5rem 1rem;
+        font-family: Montserrat;
+        letter-spacing: -1px;
+        line-height: 250%;
+        background-color: #fdd835; /* Yellow 600 */
+        color: #212121; /* Gray 900 */
+      }
+
+      .logo__top,
+      .logo__bottom {
+        font-weight: 900;
+        margin: 0;
+      }
+
+      .logo__top {
+        font-size: 4rem;
+      }
+
+      .logo__bottom {
+        font-size: 2.625rem;
+      }
+
+      .logo--cilantro {
+        color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: url("/assets/images/cilantro.jpg");
+      }
+
+      .logo--lgbt {
+        transform: scale(3, 3);
+        transform-origin: left top;
+        background: linear-gradient(180deg, #f28560, #f28560 16.67%,
+                                            #f2b560 16.67%, #f2b560 33.33%,
+                                            #f2cd60 33.33%, #f2cd60 50%,
+                                            #56d88c 50%, #56d88c 66.67%,
+                                            #60c1f2 66.67%, #60c1f2 83.33%,
+                                            #bd93d8 83.33%, #bd93d8);
+        color: white;
+      }
     </style>
   </head>
 
@@ -75,6 +120,11 @@
           <div class="heavy">fun</div>
         </div>
       </div>
+    </div>
+
+    <div class="logo logo--lgbt">
+      <h2 class="logo__top">Taco</h2>
+      <h2 class="logo__bottom">Keeper</h2>
     </div>
   </body>
 </html>
