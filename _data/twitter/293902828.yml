@@ -1,4 +1,23 @@
 activities:
+- badges: []
+  created_at: '2019-06-03 21:03:45'
+  created_at_formatted: Junio 03
+  entries:
+  - amount: 1
+    badges: []
+    category: barbacoa
+    text: "1 \xD7 pancita"
+    variety_key: PAN
+  - amount: 1
+    badges: []
+    category: barbacoa
+    text: "1 \xD7 barbacoa"
+    variety_key: BAR
+  id: 1135653318615740416
+  tk_data: PAN01BAR01
+  tk_url: https://tacokeeper.com/thewarpaint?t=PAN01BAR01
+  total_tacos: 2
+  type: daily
 - summary:
     month: mayo
     total_categories: 5
@@ -703,7 +722,7 @@ summary:
   joined: 2019-02-26
   joined_formatted: febrero 2019
   total_categories: 6
-  total_tacos: 125
+  total_tacos: 127
   total_varieties: 32
   varieties:
   - CAM

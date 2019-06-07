@@ -1,4 +1,28 @@
 activities:
+- badges: []
+  created_at: '2019-06-06 21:29:20'
+  created_at_formatted: Junio 06
+  entries:
+  - amount: 3
+    badges: []
+    category: vegano
+    text: "3 \xD7 pastor"
+    variety_key: PSV
+  - amount: 1
+    badges: []
+    category: vegano
+    text: "1 \xD7 milanesa de trigo"
+    variety_key: MLT
+  - amount: 1
+    badges: []
+    category: vegano
+    text: "1 \xD7 suadero"
+    variety_key: SUV
+  id: 1136746920859377680
+  tk_data: PSV03MLT01SUV01
+  tk_url: https://tacokeeper.com/?t=PSV03MLT01SUV01
+  total_tacos: 5
+  type: daily
 - summary:
     month: mayo
     total_categories: 1
@@ -310,7 +334,7 @@ summary:
   joined: 2019-03-01
   joined_formatted: marzo 2019
   total_categories: 1
-  total_tacos: 50
+  total_tacos: 55
   total_varieties: 14
   varieties:
   - PSV
