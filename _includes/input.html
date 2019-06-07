@@ -136,6 +136,21 @@
         color: #212121; /* Gray 900 */
       }
 
+      .brand--vegan {
+        background-color: #43a047; /* Green 600 */
+        color: #ffffff;
+      }
+
+      .brand--lgbt {
+        background: linear-gradient(180deg, #f28560, #f28560 16.67%,
+                                            #f2b560 16.67%, #f2b560 33.33%,
+                                            #f2cd60 33.33%, #f2cd60 50%,
+                                            #56d88c 50%, #56d88c 66.67%,
+                                            #60c1f2 66.67%, #60c1f2 83.33%,
+                                            #bd93d8 83.33%, #bd93d8);
+        color: #212121; /* Gray 900 */
+      }
+
       .brand__name {
         margin: 0;
         font-family: Montserrat;
@@ -154,11 +169,6 @@
 
       .brand__slogan {
         font-size: .875rem;
-      }
-
-      .brand--vegan {
-        background-color: #43a047; /* Green 600 */
-        color: #ffffff;
       }
 
       .capture--hidden,
@@ -684,7 +694,7 @@
   </head>
 
   <body>
-    <div class="brand {% if page.isVegan %}brand--vegan{% endif %}">
+    <div class="brand brand--lgbt {% if page.isVegan %}brand--vegan{% endif %}">
       <h1 class="brand__name">
         TacoKeeper <span class="brand__alpha">alpha</span>
       </h1>
