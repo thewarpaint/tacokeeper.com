@@ -47,6 +47,11 @@
         background-color: rgba(0, 0, 0, .333);
       }
 
+      .square--lgbt .square-inner {
+        background: none;
+        color: #212121; /* Gray 900 */
+      }
+
       .light {
         font-size: 1.25em;
         font-weight: 200;
@@ -58,6 +63,14 @@
         font-size: 2.75em;
         font-weight: 900;
         letter-spacing: -4px;
+      }
+
+      .square--lgbt .light {
+        font-size: 1.125em;
+      }
+
+      .square--lgbt .heavy {
+        font-size: 1.6875em;
       }
 
       /* Logo */
@@ -96,13 +109,19 @@
       .logo--lgbt {
         transform: scale(3, 3);
         transform-origin: left top;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: #212121; /* Gray 900 */
+      }
+
+      .square--lgbt,
+      .logo--lgbt {
         background: linear-gradient(180deg, #f28560, #f28560 16.67%,
                                             #f2b560 16.67%, #f2b560 33.33%,
                                             #f2cd60 33.33%, #f2cd60 50%,
                                             #56d88c 50%, #56d88c 66.67%,
                                             #60c1f2 66.67%, #60c1f2 83.33%,
                                             #bd93d8 83.33%, #bd93d8);
-        color: white;
       }
     </style>
   </head>
@@ -118,6 +137,15 @@
         <div>
           <div class="light">tacos are</div>
           <div class="heavy">fun</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="square square--lgbt">
+      <div class="square-inner">
+        <div>
+          <div class="light">tacos con t de</div>
+          <div class="heavy">tolerancia</div>
         </div>
       </div>
     </div>
