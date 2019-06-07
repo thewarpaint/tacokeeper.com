@@ -1,4 +1,10 @@
 activities:
+- summary:
+    month: mayo
+    total_categories: 2
+    total_tacos: 13
+    total_varieties: 4
+  type: monthly
 - badges:
   - text: 1 nueva variedad
     type: variety

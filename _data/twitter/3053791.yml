@@ -7,7 +7,7 @@ activities:
   entries:
   - amount: 3
     badges:
-      - variety
+    - variety
     category: parrilla
     text: "3 \xD7 chorizo argentino"
     variety_key: CAG
@@ -16,6 +16,12 @@ activities:
   tk_url: https://tacokeeper.com/?t=CAG03
   total_tacos: 3
   type: daily
+- summary:
+    month: mayo
+    total_categories: 1
+    total_tacos: 3
+    total_varieties: 2
+  type: monthly
 - badges:
   - text: 2 nuevas rarezas
     type: rarity
