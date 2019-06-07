@@ -108,8 +108,10 @@ def send_monthly_summary_tweet(user_id, screen_name, monthly_activity, in_reply_
     )
 
     try:
-        api.update_status(status = status_text,
-                          in_reply_to_status_id = in_reply_to_status_id)
+        # TODO: Restore the app's write access :(
+        print(status_text)
+        # api.update_status(status = status_text,
+        #                   in_reply_to_status_id = in_reply_to_status_id)
         print('Sent monthly activity tweet successfully to {screen_name}'.format(screen_name = screen_name))
     except tweepy.TweepError as exception:
         print('Monthly activity tweet was probably sent already for {screen_name}'.format(screen_name = screen_name))
