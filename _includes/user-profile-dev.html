@@ -231,6 +231,16 @@
         margin-top: 1rem;
       }
 
+      .activity__media {
+        display: block;
+        width: auto;
+        height: 20rem;
+        margin: 1rem -2rem -2rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
       .badge {
         display: inline-block;
         width: .75rem;
@@ -410,6 +420,14 @@
               </li>
               {%- endfor -%}
             </ul>
+            {%- endif -%}
+
+            {%- if activity.mediaUrl -%}
+            <a href="{{ activity.mediaUrl }}"
+               class="activity__media"
+               style="background-image: url('{{ activity.mediaUrl }}');"
+               target="_blank">
+            </a>
             {%- endif -%}
           </li>
 
