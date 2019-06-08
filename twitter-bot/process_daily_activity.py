@@ -137,10 +137,10 @@ def get_tweet_info(tweet):
     if venue_info is not None:
         tweet_info['venue'] = venue_info
 
-    media_url = get_first_media_url(tweet)
+    photo_url = get_first_photo_url(tweet)
 
-    if media_url is not None:
-        tweet_info['mediaUrl'] = media_url
+    if photo_url is not None:
+        tweet_info['photoUrl'] = photo_url
 
     if len(tweet.entities['urls']) == 1:
         tweet_info['tk_url'] = tweet.entities['urls'][0]['expanded_url']
@@ -162,7 +162,7 @@ def get_venue_info(tweet):
         'name': tweet.place.name,
     }
 
-def get_first_media_url(tweet):
+def get_first_photo_url(tweet):
     if not 'media' in tweet.entities:
         return None
 
