@@ -137,6 +137,11 @@ def get_tweet_info(tweet):
     if venue_info is not None:
         tweet_info['venue'] = venue_info
 
+    media_url = get_first_media_url(tweet)
+
+    if media_url is not None:
+        tweet_info['mediaUrl'] = media_url
+
     if len(tweet.entities['urls']) == 1:
         tweet_info['tk_url'] = tweet.entities['urls'][0]['expanded_url']
         tweet_info['tk_data'] = get_raw_tacokeeper_data(tweet.user.screen_name, tweet_info['tk_url'])
@@ -156,6 +161,12 @@ def get_venue_info(tweet):
         'id': tweet.place.id,
         'name': tweet.place.name,
     }
+
+def get_first_media_url(tweet):
+    if not 'media' in tweet.entities:
+        return None
+
+    return tweet.entities['media'][0]['media_url_https']
 
 def get_raw_tacokeeper_data(screen_name, url):
     profile_prefix = tk_url_profile_prefix.format(screen_name = screen_name)
