@@ -166,7 +166,12 @@ def get_first_media_url(tweet):
     if not 'media' in tweet.entities:
         return None
 
-    return tweet.entities['media'][0]['media_url_https']
+    photos = list(filter(lambda m: m['type'] == 'photo', tweet.entities['media']))
+
+    if len(photos) == 0:
+        return None
+
+    return photos[0]['media_url_https']
 
 def get_raw_tacokeeper_data(screen_name, url):
     profile_prefix = tk_url_profile_prefix.format(screen_name = screen_name)
