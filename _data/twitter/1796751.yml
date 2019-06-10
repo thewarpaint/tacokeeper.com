@@ -1,4 +1,29 @@
 activities:
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-06-10 02:00:49'
+  created_at_formatted: Junio 10
+  entries:
+  - amount: 2
+    badges: []
+    category: barbacoa
+    text: "2 \xD7 barbacoa"
+    variety_key: BAR
+  - amount: 1
+    badges:
+    - variety
+    category: barbacoa
+    text: "1 \xD7 pancita"
+    variety_key: PAN
+  id: 1137902406925242368
+  tk_data: BAR02PAN01
+  tk_url: https://tacokeeper.com/?t=BAR02PAN01
+  total_tacos: 3
+  type: daily
+  venue:
+    id: 7d93122509633720
+    name: "Benito Ju\xE1rez"
 - summary:
     month: abril
     total_categories: 1
@@ -58,11 +83,12 @@ summary:
   joined: 2019-03-27
   joined_formatted: marzo 2019
   total_categories: 2
-  total_tacos: 6
-  total_varieties: 2
+  total_tacos: 9
+  total_varieties: 3
   varieties:
   - MIL
   - BAR
+  - PAN
 user:
   cover_image: making-salsa
   id: '1796751'

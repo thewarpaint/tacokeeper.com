@@ -1,4 +1,18 @@
 activities:
+- badges: []
+  created_at: '2019-06-08 13:24:23'
+  created_at_formatted: Junio 08
+  entries:
+  - amount: 5
+    badges: []
+    category: vegano
+    text: "5 \xD7 discada"
+    variety_key: DIV
+  id: 1137349653857525762
+  tk_data: DIV05
+  tk_url: https://tacokeeper.com/?t=DIV05
+  total_tacos: 5
+  type: daily
 - badges:
   - text: 1 nueva variedad
     type: variety
@@ -205,7 +219,7 @@ summary:
   joined: '2019-04-27'
   joined_formatted: Abril 2019
   total_categories: 4
-  total_tacos: 37
+  total_tacos: 42
   total_varieties: 7
   varieties:
   - DIV
