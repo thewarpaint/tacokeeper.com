@@ -1,4 +1,24 @@
 activities:
+- badges:
+  - text: "Nueva categor\xEDa: Guisado"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-06-11 04:13:52'
+  created_at_formatted: Junio 11
+  entries:
+  - amount: 3
+    badges:
+    - category
+    - variety
+    category: guisado
+    text: "3 \xD7 papa con chorizo"
+    variety_key: PCH
+  id: 1138298275180810240
+  tk_data: PCH03
+  tk_url: https://tacokeeper.com/?t=PCH03
+  total_tacos: 3
+  type: daily
 - summary:
     month: mayo
     total_categories: 3
@@ -321,11 +341,12 @@ summary:
   - parrilla
   - frutos del mar
   - casero
+  - guisado
   joined: 2019-02-13
   joined_formatted: febrero 2019
-  total_categories: 4
-  total_tacos: 72
-  total_varieties: 13
+  total_categories: 5
+  total_tacos: 75
+  total_varieties: 14
   varieties:
   - CAC
   - CAM
@@ -340,6 +361,7 @@ summary:
   - PES
   - AGU
   - BIS
+  - PCH
 user:
   cover_image: making-salsa
   id: '97132953'

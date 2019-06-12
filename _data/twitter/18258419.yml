@@ -1,5 +1,33 @@
 activities:
 - badges:
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-06-11 17:50:10'
+  created_at_formatted: Junio 11
+  entries:
+  - amount: 3
+    badges:
+    - variety
+    category: canasta
+    text: "3 \xD7 frijol"
+    variety_key: FRI
+  - amount: 2
+    badges: []
+    category: canasta
+    text: "2 \xD7 papa con chorizo"
+    variety_key: PCC
+  - amount: 2
+    badges:
+    - variety
+    category: canasta
+    text: "2 \xD7 chicharr\xF3n prensado"
+    variety_key: CHP
+  id: 1138503704599048192
+  tk_data: FRI03PCC02CHP02
+  tk_url: https://tacokeeper.com/?t=FRI03PCC02CHP02
+  total_tacos: 7
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Parrilla"
     type: category
   - text: 1 nueva variedad
@@ -46,11 +74,13 @@ summary:
   joined: '2019-05-17'
   joined_formatted: Mayo 2019
   total_categories: 2
-  total_tacos: 13
-  total_varieties: 2
+  total_tacos: 20
+  total_varieties: 4
   varieties:
   - PCC
   - PAS
+  - FRI
+  - CHP
 user:
   cover_image: tomate
   id: '18258419'

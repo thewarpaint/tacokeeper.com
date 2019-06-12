@@ -1,4 +1,38 @@
 activities:
+- badges:
+  - text: "Nueva categor\xEDa: Frutos del mar"
+    type: category
+  - text: "Nueva categor\xEDa: Barbacoa"
+    type: category
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-06-11 17:56:02'
+  created_at_formatted: Junio 11
+  entries:
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: frutos del mar
+    text: "1 \xD7 pescado"
+    variety_key: PES
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 pastor"
+    variety_key: PAS
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: barbacoa
+    text: "1 \xD7 barbacoa"
+    variety_key: BAR
+  id: 1138505180289404928
+  tk_data: PES01PAS01BAR01
+  tk_url: https://tacokeeper.com/?t=PES01PAS01BAR01
+  total_tacos: 3
+  type: daily
 - badges: []
   created_at: '2019-05-05 08:14:01'
   created_at_formatted: Mayo 05
@@ -156,11 +190,13 @@ summary:
   categories:
   - parrilla
   - carnitas
+  - frutos del mar
+  - barbacoa
   joined: 2019-04-03
   joined_formatted: Abril 2019
-  total_categories: 2
-  total_tacos: 20
-  total_varieties: 6
+  total_categories: 4
+  total_tacos: 23
+  total_varieties: 8
   varieties:
   - ASA
   - CHO
@@ -168,6 +204,8 @@ summary:
   - LEN
   - BIS
   - SUA
+  - PES
+  - BAR
 user:
   cover_image: onion
   id: '245223994'

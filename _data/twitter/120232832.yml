@@ -1,4 +1,24 @@
 activities:
+- badges:
+  - text: "Nueva categor\xEDa: Guisado"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-06-11 00:31:14'
+  created_at_formatted: Junio 11
+  entries:
+  - amount: 5
+    badges:
+    - category
+    - variety
+    category: guisado
+    text: "5 \xD7 cochinita pibil"
+    variety_key: CPB
+  id: 1138242249286750209
+  tk_data: CPB05
+  tk_url: https://tacokeeper.com/?t=CPB05
+  total_tacos: 5
+  type: daily
 - summary:
     month: mayo
     total_categories: 1
@@ -162,11 +182,12 @@ summary:
   - parrilla
   - frutos del mar
   - barbacoa
+  - guisado
   joined: 2019-03-31
   joined_formatted: Marzo 2019
-  total_categories: 4
-  total_tacos: 32
-  total_varieties: 6
+  total_categories: 5
+  total_tacos: 37
+  total_varieties: 7
   varieties:
   - PPD
   - PAS
@@ -174,6 +195,7 @@ summary:
   - BIS
   - BAR
   - CHO
+  - CPB
 user:
   cover_image: tomate
   id: '120232832'
