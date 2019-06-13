@@ -1,5 +1,31 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Guisado"
+    type: category
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-06-13 16:55:58'
+  created_at_formatted: Junio 13
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: guisado
+    text: "2 \xD7 picadillo"
+    variety_key: PIC
+  - amount: 1
+    badges:
+    - variety
+    category: guisado
+    text: "1 \xD7 papa con chorizo"
+    variety_key: PCH
+  id: 1139214841296674816
+  tk_data: PIC02PCH01
+  tk_url: https://tacokeeper.com/?t=PIC02PCH01
+  total_tacos: 3
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Barbacoa"
     type: category
   - text: "Nueva categor\xEDa: Parrilla"
@@ -32,14 +58,17 @@ summary:
   categories:
   - barbacoa
   - parrilla
+  - guisado
   joined: '2019-06-07'
   joined_formatted: Junio 2019
-  total_categories: 2
-  total_tacos: 6
-  total_varieties: 2
+  total_categories: 3
+  total_tacos: 9
+  total_varieties: 4
   varieties:
   - BAR
   - PAS
+  - PIC
+  - PCH
 user:
   cover_image: limes
   id: '25403391'
