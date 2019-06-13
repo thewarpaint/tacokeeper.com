@@ -1,5 +1,20 @@
 activities:
 - badges: []
+  created_at: '2019-06-13 06:33:15'
+  created_at_formatted: Junio 13
+  entries:
+  - amount: 2
+    badges: []
+    category: vegano
+    text: "2 \xD7 pastor"
+    variety_key: PSV
+  id: 1139058129780531200
+  tk_data: PSV02
+  tk_url: https://tacokeeper.com/?t=PSV02
+  total_tacos: 2
+  photoUrl: https://pbs.twimg.com/media/D86_VsKW4AA1MRi.jpg
+  type: daily
+- badges: []
   created_at: '2019-06-06 21:29:20'
   created_at_formatted: Junio 06
   entries:
@@ -334,7 +349,7 @@ summary:
   joined: 2019-03-01
   joined_formatted: marzo 2019
   total_categories: 1
-  total_tacos: 55
+  total_tacos: 57
   total_varieties: 14
   varieties:
   - PSV
