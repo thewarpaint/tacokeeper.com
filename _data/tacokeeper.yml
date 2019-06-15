@@ -622,6 +622,13 @@ options:
       singular: de nenepil
       plural: de nenepil
 
+  - key: NPL
+    name: nopales
+    category: parrilla
+    forms:
+      singular: de nopales
+      plural: de nopales
+
   - key: NOV
     name: nopales
     category: vegano
