@@ -1,5 +1,32 @@
 activities:
 - badges: []
+  created_at: '2019-06-15 03:34:57'
+  created_at_formatted: Junio 15
+  entries:
+  - amount: 2
+    badges: []
+    category: vegano
+    text: "2 \xD7 pastor"
+    variety_key: PSV
+  - amount: 1
+    badges: []
+    category: vegano
+    text: "1 \xD7 chicharr\xF3n"
+    variety_key: CHV
+  - amount: 1
+    badges: []
+    category: vegano
+    text: "1 \xD7 milanesa de trigo"
+    variety_key: MLT
+  id: 1139738032888659977
+  tk_data: PSV02CHV01MLT01
+  tk_url: https://tacokeeper.com/?t=PSV02CHV01MLT01#
+  total_tacos: 4
+  type: daily
+  venue:
+    id: 0fc28593b3941000
+    name: "Por Siempre Vegana Taquer\xEDa"
+- badges: []
   created_at: '2019-06-13 06:33:15'
   created_at_formatted: Junio 13
   entries:
@@ -9,10 +36,10 @@ activities:
     text: "2 \xD7 pastor"
     variety_key: PSV
   id: 1139058129780531200
+  photoUrl: https://pbs.twimg.com/media/D86_VsKW4AA1MRi.jpg
   tk_data: PSV02
   tk_url: https://tacokeeper.com/?t=PSV02
   total_tacos: 2
-  photoUrl: https://pbs.twimg.com/media/D86_VsKW4AA1MRi.jpg
   type: daily
 - badges: []
   created_at: '2019-06-06 21:29:20'
@@ -349,7 +376,7 @@ summary:
   joined: 2019-03-01
   joined_formatted: marzo 2019
   total_categories: 1
-  total_tacos: 57
+  total_tacos: 61
   total_varieties: 14
   varieties:
   - PSV

@@ -1,4 +1,33 @@
 activities:
+- badges: []
+  created_at: '2019-06-15 02:16:50'
+  created_at_formatted: Junio 15
+  entries:
+  - amount: 1
+    badges: []
+    category: guisado
+    text: "1 \xD7 papa con chorizo"
+    variety_key: PCH
+  - amount: 1
+    badges: []
+    category: guisado
+    text: "1 \xD7 picadillo"
+    variety_key: PIC
+  - amount: 1
+    badges: []
+    category: guisado
+    text: "1 \xD7 chicharr\xF3n prensado"
+    variety_key: CHG
+  - amount: 1
+    badges: []
+    category: guisado
+    text: "1 \xD7 tinga"
+    variety_key: TIN
+  id: 1139718376878723072
+  tk_data: PCH01PIC01CHG01TIN01
+  tk_url: https://tacokeeper.com/thewarpaint?t=PCH01PIC01CHG01TIN01
+  total_tacos: 4
+  type: daily
 - badges:
   - text: 1 nueva variedad
     type: variety
@@ -875,7 +904,7 @@ summary:
   joined: 2019-02-26
   joined_formatted: febrero 2019
   total_categories: 7
-  total_tacos: 149
+  total_tacos: 153
   total_varieties: 38
   varieties:
   - CAM
