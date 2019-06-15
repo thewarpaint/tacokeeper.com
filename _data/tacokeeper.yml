@@ -230,6 +230,13 @@ options:
       singular: de chicharrón
       plural: de chicharrón
 
+  - key: CSE
+    name: chicharrón seco
+    category: casero
+    forms:
+      singular: de chicharrón seco
+      plural: de chicharrón seco
+
   - key: CHS
     name: chicharrón en salsa
     category: guisado
