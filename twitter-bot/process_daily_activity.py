@@ -176,7 +176,7 @@ def get_first_photo_url(tweet):
 def get_raw_tacokeeper_data(screen_name, url):
     profile_prefix = tk_url_profile_prefix.format(screen_name = screen_name)
 
-    return url.replace(tk_url_prefix, '').replace(profile_prefix, '')
+    return url.replace(tk_url_prefix, '').replace(profile_prefix, '').replace('#', '')
 
 def get_activity(tk_data):
     if len(tk_data) % 5 != 0:
