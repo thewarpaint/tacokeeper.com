@@ -13,6 +13,13 @@ options:
       singular: de adobada
       plural: de adobada
 
+  - key: ADB
+    name: adobo
+    category: canasta
+    forms:
+      singular: de adobo
+      plural: de adobo
+
   - key: AGU
     name: aguacate
     category: casero
