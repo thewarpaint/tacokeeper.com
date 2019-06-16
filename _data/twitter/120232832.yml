@@ -1,5 +1,25 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Birria"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-06-15 22:28:32'
+  created_at_formatted: Junio 15
+  entries:
+  - amount: 5
+    badges:
+    - category
+    - variety
+    category: birria
+    text: "5 \xD7 birria"
+    variety_key: BIR
+  id: 1140023308722855936
+  tk_data: BIR05
+  tk_url: https://tacokeeper.com/?t=BIR05
+  total_tacos: 5
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Guisado"
     type: category
   - text: 1 nueva variedad
@@ -183,11 +203,12 @@ summary:
   - frutos del mar
   - barbacoa
   - guisado
+  - birria
   joined: 2019-03-31
   joined_formatted: Marzo 2019
-  total_categories: 5
-  total_tacos: 37
-  total_varieties: 7
+  total_categories: 6
+  total_tacos: 42
+  total_varieties: 8
   varieties:
   - PPD
   - PAS
@@ -196,6 +217,7 @@ summary:
   - BAR
   - CHO
   - CPB
+  - BIR
 user:
   cover_image: tomate
   id: '120232832'

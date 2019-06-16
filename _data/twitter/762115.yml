@@ -1,4 +1,41 @@
 activities:
+- badges:
+  - text: "Nueva categor\xEDa: Casero"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-06-15 22:26:07'
+  created_at_formatted: Junio 15
+  entries:
+  - amount: 12
+    badges:
+    - category
+    - variety
+    category: casero
+    text: "12 \xD7 chicharr\xF3n seco"
+    variety_key: CSE
+  id: 1140022704277508097
+  tk_data: CSE12
+  tk_url: https://tacokeeper.com/?t=CSE12
+  total_tacos: 12
+  type: daily
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-06-15 21:08:35'
+  created_at_formatted: Junio 15
+  entries:
+  - amount: 2
+    badges:
+    - variety
+    category: carnitas
+    text: "2 \xD7 maciza"
+    variety_key: MAC
+  id: 1140003189258891264
+  tk_data: MAC02
+  tk_url: https://tacokeeper.com/?t=MAC02
+  total_tacos: 2
+  type: daily
 - badges: []
   created_at: '2019-06-09 04:42:48'
   created_at_formatted: Junio 09
@@ -654,11 +691,12 @@ summary:
   - dorados
   - barbacoa
   - carnitas
+  - casero
   joined: 2019-02-07
   joined_formatted: febrero 2019
-  total_categories: 8
-  total_tacos: 239
-  total_varieties: 19
+  total_categories: 9
+  total_tacos: 253
+  total_varieties: 21
   varieties:
   - SUA
   - BIS
@@ -679,6 +717,8 @@ summary:
   - LEV
   - TRO
   - ALA
+  - CSE
+  - MAC
 user:
   cover_image: onion
   id: '762115'
