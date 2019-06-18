@@ -538,6 +538,13 @@ options:
       singular: de lengua
       plural: de lengua
 
+  - key: LES
+    name: lengua (setas)
+    category: vegano
+    forms:
+      singular: de lengua (setas)
+      plural: de lengua (setas)
+
   - key: LON
     name: longaniza
     category: parrilla
