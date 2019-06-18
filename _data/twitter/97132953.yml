@@ -1,4 +1,24 @@
 activities:
+- badges:
+  - text: "Nueva categor\xEDa: Birria"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-06-17 16:12:00'
+  created_at_formatted: Junio 17
+  entries:
+  - amount: 4
+    badges:
+    - category
+    - variety
+    category: birria
+    text: "4 \xD7 birria"
+    variety_key: BIR
+  id: 1140653327820173312
+  tk_data: BIR04
+  tk_url: https://tacokeeper.com/?t=BIR04
+  total_tacos: 4
+  type: daily
 - badges: []
   created_at: '2019-06-14 04:10:26'
   created_at_formatted: Junio 14
@@ -366,11 +386,12 @@ summary:
   - frutos del mar
   - casero
   - guisado
+  - birria
   joined: 2019-02-13
   joined_formatted: febrero 2019
-  total_categories: 5
-  total_tacos: 83
-  total_varieties: 14
+  total_categories: 6
+  total_tacos: 87
+  total_varieties: 15
   varieties:
   - CAC
   - CAM
@@ -386,6 +407,7 @@ summary:
   - AGU
   - BIS
   - PCH
+  - BIR
 user:
   cover_image: making-salsa
   id: '97132953'

@@ -1,4 +1,37 @@
 activities:
+- badges:
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-06-16 03:14:41'
+  created_at_formatted: Junio 16
+  entries:
+  - amount: 2
+    badges: []
+    category: vegano
+    text: "2 \xD7 pastor"
+    variety_key: PSV
+  - amount: 1
+    badges: []
+    category: vegano
+    text: "1 \xD7 arrachera"
+    variety_key: ARV
+  - amount: 1
+    badges:
+    - variety
+    category: vegano
+    text: "1 \xD7 chorizo"
+    variety_key: CRV
+  - amount: 1
+    badges:
+    - variety
+    category: vegano
+    text: "1 \xD7 lengua (setas)"
+    variety_key: LES
+  id: 1140095322665783297
+  tk_data: PSV02ARV01CRV01LES01
+  tk_url: https://tacokeeper.com/?t=PSV02ARV01CRV01LES01
+  total_tacos: 5
+  type: daily
 - badges: []
   created_at: '2019-06-15 03:34:57'
   created_at_formatted: Junio 15
@@ -376,8 +409,8 @@ summary:
   joined: 2019-03-01
   joined_formatted: marzo 2019
   total_categories: 1
-  total_tacos: 61
-  total_varieties: 14
+  total_tacos: 66
+  total_varieties: 16
   varieties:
   - PSV
   - SUV
@@ -393,6 +426,8 @@ summary:
   - CUV
   - NOV
   - PIV
+  - CRV
+  - LES
 user:
   cover_image: limes
   id: '14840908'
