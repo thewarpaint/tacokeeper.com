@@ -1,33 +1,124 @@
-.App {
-  text-align: center;
+html {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  background-color: #263238; /* Blue Gray 900 */
 }
 
-.App-header {
-  background-color: #282c34;
+.container {
   min-height: 100vh;
+  background-color: white;
+}
+
+@media(min-width: 640px) {
+  .container {
+    max-width: 608px; /* 640px - (2 * 16px) */
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Header */
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 1rem 1rem 3.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.header--habanero {
+  background-image: url('https://tacokeeper.com/assets/images/habanero.jpg');
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* TODO: Merge with .logo */
+.header__home-link {
+  align-self: flex-start;
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 1.25rem;
+  text-decoration: none;
+  background-color: #fdd835; /* Yellow 600 */
+  color: #212121; /* Gray 900 */
+  transition-duration: .25s;
+  transition-timing-function: linear;
+  transition-property: background, color;
+}
+
+.header__home-link:hover,
+.header__home-link:active {
+  background-color: #212121; /* Gray 900 */
+  color: #fdd835; /* Yellow 600 */
+}
+
+.header__profile-image {
+  width: 7.5rem;
+  height: 7.5rem;
+  border: .25rem solid white;
+  border-radius: 50%;
+}
+
+.header__screen-name {
+  display: inline-block;
+  margin: 1rem 0 0;
+  padding: .5rem;
+  font-family: Montserrat, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: -1px;
+  background-color: white;
+  color: black;
+}
+
+/* Taco Match */
+.taco-match {
+  padding: 1rem;
+}
+
+@media(min-width: 480px) {
+  .taco-match {
+    padding: 2rem;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+/* Variety match list */
+.variety-match-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Variety */
+.variety {
+  margin: .25rem 0;
+}
+
+.variety__label {
+  display: flex;
+  align-items: baseline;
+}
+
+.variety__text {
+  margin-left: .5rem;
+  color: #455a64; /* Blue Gray 700 */
+  transition: .25s linear color;
+}
+
+.variety__name {
+  font-size: 1.5rem;
+}
+
+.variety__category {
+  font-size: .75rem;
+  font-weight: light;
+  text-transform: uppercase;
 }
