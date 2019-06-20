@@ -40,6 +40,10 @@ body {
   background-image: url('https://tacokeeper.com/assets/images/habanero.jpg');
 }
 
+.header--onions {
+  background-image: url('https://tacokeeper.com/assets/images/onions.jpg');
+}
+
 /* TODO: Merge with .logo */
 .header__home-link {
   align-self: flex-start;
