@@ -1,5 +1,28 @@
 activities:
 - badges:
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-06-19 23:35:18'
+  created_at_formatted: Junio 19
+  entries:
+  - amount: 2
+    badges:
+    - variety
+    category: carnitas
+    text: "2 \xD7 maciza con cuerito"
+    variety_key: MCU
+  - amount: 1
+    badges:
+    - variety
+    category: carnitas
+    text: "1 \xD7 barriga"
+    variety_key: BRG
+  id: 1141489664710365184
+  tk_data: MCU02BRG01
+  tk_url: https://tacokeeper.com/?t=MCU02BRG01
+  total_tacos: 3
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Al vapor"
     type: category
   - text: 1 nueva variedad
@@ -256,8 +279,8 @@ summary:
   joined: 2019-03-02
   joined_formatted: marzo 2019
   total_categories: 5
-  total_tacos: 47
-  total_varieties: 13
+  total_tacos: 50
+  total_varieties: 15
   varieties:
   - PAS
   - MAC
@@ -272,6 +295,8 @@ summary:
   - ARR
   - CHO
   - LEV
+  - MCU
+  - BRG
 user:
   cover_image: habanero
   id: '86873845'
