@@ -6,20 +6,21 @@ permalink: /tk/usuarios
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style type="text/css">
+      ul {
+        padding-left: 0;
+        list-style-type: none;
+      }
+    </style>
   </head>
 
   <body>
     <ul>
-      {% assign total_tacos = 0 %}
-
-      {%- for profile in site.data.twitter -%}
-      {% assign total_tacos = total_tacos | plus:profile[1].summary.total_tacos %}
-      {%- endfor -%}
-
-      <h2>{{ site.data.twitter | size }} users have registered {{ total_tacos }} tacos</h2>
+      <h1>TacoKeeper</h1>
 
       {%- for monthEntry in site.data.twitter-users-by-joined-date -%}
-      <h2>{{ monthEntry.month | capitalize }} ({{ monthEntry.users | size }} users)</h2>
+      <h2>{{ monthEntry.month | capitalize }} ({{ monthEntry.users | size }} usuarios)</h2>
 
       {%- for profile in monthEntry.users -%}
       {% assign profile_data = site.data.twitter[profile.id] %}
@@ -29,8 +30,8 @@ permalink: /tk/usuarios
                style="width: 2.5rem; height: 2.5rem;">
           @{{ profile_data.user.screen_name }}</a>
 
-        joined on {{ profile_data.summary.joined }},
-        has registered {{ profile_data.summary.total_tacos }} tacos
+        se unió el {{ profile_data.summary.joined }},
+        ha registrado {{ profile_data.summary.total_tacos }} tacos
       </li>
       {%- endfor -%}
       {%- endfor -%}
