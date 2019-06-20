@@ -148,3 +148,27 @@ body {
   color: #1976d2; /* Blue 700 */
   border-color: #1976d2; /* Blue 700 */
 }
+
+/* Match result */
+.match-result {
+  display: inline-block;
+  padding: .5rem .75rem;
+  transition-duration: .25s;
+  transition-timing-function: linear;
+  transition-property: background, color;
+}
+
+.match-result--low {
+  background-color: #ffebee; /* Red 50 */
+  color: #d32f2f; /* Red 700 */
+}
+
+.match-result--medium {
+  background-color: #fff8e1; /* Yellow 50 */
+  color: #ffa000; /* Yellow 700 */
+}
+
+.match-result--high {
+  background-color: #f1f8e9; /* Light Green 50 */
+  color: #689f38; /* Light Green 700 */
+}

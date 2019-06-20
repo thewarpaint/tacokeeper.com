@@ -1,10 +1,10 @@
 import React from 'react';
 
-import {getMatchText} from '../helpers';
+import {getMatchContent} from '../helpers';
 
 const MatchResult = ({username, varieties}) => {
   return (
-    <h2>{getMatchText(varieties, username)}</h2>
+    <h2>{getMatchContent(varieties, username)}</h2>
   );
 };
 
