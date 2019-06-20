@@ -1,4 +1,18 @@
 activities:
+- badges: []
+  created_at: '2019-06-20 04:14:37'
+  created_at_formatted: Junio 20
+  entries:
+  - amount: 3
+    badges: []
+    category: carnitas
+    text: "3 \xD7 surtida"
+    variety_key: SUR
+  id: 1141559956786692096
+  tk_data: SUR03
+  tk_url: https://tacokeeper.com/?t=SUR03
+  total_tacos: 3
+  type: daily
 - summary:
     month: mayo
     total_categories: 2
@@ -114,7 +128,7 @@ summary:
   joined: 2019-03-27
   joined_formatted: Marzo 2019
   total_categories: 3
-  total_tacos: 21
+  total_tacos: 24
   total_varieties: 7
   varieties:
   - SUA
