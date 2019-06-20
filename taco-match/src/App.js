@@ -1,6 +1,7 @@
 import React, {Component, Fragment} from 'react';
 
 import MatchResult from './components/MatchResult';
+import TweetLink from './components/TweetLink';
 import VarietyMatchList from './components/VarietyMatchList';
 import {VARIETIES} from './varieties.config';
 import './App.css';
@@ -43,6 +44,11 @@ class App extends Component {
         />
 
         <MatchResult
+          varieties={this.state.varieties}
+          username={username}
+        />
+
+        <TweetLink
           varieties={this.state.varieties}
           username={username}
         />

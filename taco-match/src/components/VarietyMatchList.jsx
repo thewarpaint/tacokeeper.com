@@ -16,12 +16,12 @@ const VarietyMatchList = ({onChange, varieties}) => {
                   onChange={(event) => onChange(event.target.checked, variety)}
                 />
 
-                <div class="variety__text">
-                  <div class="variety__name">
+                <div className="variety__text">
+                  <div className="variety__name">
                     {variety.name}
                   </div>
 
-                  <div class="variety__category">
+                  <div className="variety__category">
                     {variety.category}
                   </div>
                 </div>

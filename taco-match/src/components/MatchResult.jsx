@@ -1,17 +1,11 @@
 import React from 'react';
 
-function getMatchPercent(varieties) {
-	return varieties
-		.filter(variety => variety.isMatch)
-		.reduce((acc, variety) => acc + variety.weight, 0);
-}
+import {getMatchText} from '../helpers';
 
 const MatchResult = ({username, varieties}) => {
-	return (
-		<h2>
-			¡Soy un {getMatchPercent(varieties)}% tacompatible con @{username}!
-		</h2>
-	);
+  return (
+    <h2>{getMatchText(varieties, username)}</h2>
+  );
 };
 
 export default MatchResult;

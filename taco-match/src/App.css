@@ -122,3 +122,29 @@ body {
   font-weight: light;
   text-transform: uppercase;
 }
+
+/* Tweet link */
+.tweet-link-wrapper {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.tweet-link {
+  display: inline-block;
+  padding: .875rem 1.5rem;
+  color: #2196f3; /* Blue 500 */
+  background-color: white;
+  border: .125rem solid #2196f3; /* Blue 500 */
+  border-radius: 5rem;
+  font-size: 1.125rem;
+  font-family: Montserrat, Helvetica, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.tweet-link:hover {
+  color: #1976d2; /* Blue 700 */
+  border-color: #1976d2; /* Blue 700 */
+}
