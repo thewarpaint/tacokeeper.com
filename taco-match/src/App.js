@@ -1,8 +1,11 @@
 import React, {Component, Fragment} from 'react';
 
+import MatchResult from './components/MatchResult';
 import VarietyMatchList from './components/VarietyMatchList';
 import {VARIETIES} from './varieties.config';
 import './App.css';
+
+const username = 'diegokermit';
 
 class App extends Component {
   constructor() {
@@ -39,6 +42,11 @@ class App extends Component {
         <VarietyMatchList
           varieties={this.state.varieties}
           onChange={this.handleChange}
+        />
+
+        <MatchResult
+          varieties={this.state.varieties}
+          username={username}
         />
       </Fragment>
     );
