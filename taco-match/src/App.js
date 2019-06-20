@@ -3,7 +3,6 @@ import React, {Component, Fragment} from 'react';
 import MatchResult from './components/MatchResult';
 import TweetLink from './components/TweetLink';
 import VarietyMatchList from './components/VarietyMatchList';
-import {VARIETIES} from './varieties.config';
 import './App.css';
 
 const username = 'diegokermit';
@@ -13,7 +12,7 @@ class App extends Component {
     super();
 
     this.state = {
-      varieties: VARIETIES.map(variety => ({
+      varieties: window.varieties.map(variety => ({
         ...variety,
         isMatch: false,
       })),
