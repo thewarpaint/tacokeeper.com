@@ -118,6 +118,13 @@ options:
       singular: de barbasetas
       plural: de barbasetas
 
+  - key: BRG
+    name: barriga
+    category: carnitas
+    forms:
+      singular: de barriga
+      plural: de barriga
+
   - key: BIR
     name: birria
     category: birria
@@ -586,6 +593,13 @@ options:
     forms:
       singular: de maciza
       plural: de maciza
+
+  - key: MCU
+    name: maciza con cuerito
+    category: carnitas
+    forms:
+      singular: de maciza con cuerito
+      plural: de maciza con cuerito
 
   - key: MAR
     name: marlín
