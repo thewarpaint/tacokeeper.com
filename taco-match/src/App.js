@@ -5,7 +5,7 @@ import TweetLink from './components/TweetLink';
 import VarietyMatchList from './components/VarietyMatchList';
 import './App.css';
 
-const username = 'diegokermit';
+const username = window.username;
 
 class App extends Component {
   constructor() {
