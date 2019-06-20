@@ -2,7 +2,7 @@ import React from 'react';
 
 const VarietyMatchList = ({onChange, varieties}) => {
 	return (
-		<ul>
+		<ul className="variety-match-list">
       {
         varieties.map(variety => {
           return (

@@ -37,8 +37,6 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <h1>TacoMatch</h1>
-
         <VarietyMatchList
           varieties={this.state.varieties}
           onChange={this.handleChange}
