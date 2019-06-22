@@ -36,12 +36,36 @@ body {
   padding: 1rem 1rem 3.5rem;
 }
 
+.header--chorizo {
+  background-image: url('https://tacokeeper.com/assets/images/chorizo.jpg');
+}
+
+.header--cilantro {
+  background-image: url('https://tacokeeper.com/assets/images/cilantro.jpg');
+}
+
+.header--guacamole {
+  background-image: url('https://tacokeeper.com/assets/images/guacamole.jpg');
+}
+
 .header--habanero {
   background-image: url('https://tacokeeper.com/assets/images/habanero.jpg');
 }
 
-.header--onions {
+.header--limes {
+  background-image: url('https://tacokeeper.com/assets/images/limes.jpg');
+}
+
+.header--making-salsa {
+  background-image: url('https://tacokeeper.com/assets/images/making-salsa.jpg');
+}
+
+.header--onion {
   background-image: url('https://tacokeeper.com/assets/images/onions.jpg');
+}
+
+.header--tomate {
+  background-image: url('https://tacokeeper.com/assets/images/tomate.jpg');
 }
 
 /* TODO: Merge with .logo */
