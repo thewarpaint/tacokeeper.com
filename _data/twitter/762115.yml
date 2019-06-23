@@ -1,4 +1,33 @@
 activities:
+- badges: []
+  created_at: '2019-06-23 15:36:04'
+  created_at_formatted: Junio 23
+  entries:
+  - amount: 10
+    badges: []
+    category: barbacoa
+    text: "10 \xD7 barbacoa"
+    variety_key: BAR
+  - amount: 5
+    badges: []
+    category: parrilla
+    text: "5 \xD7 bistec"
+    variety_key: BIS
+  - amount: 3
+    badges: []
+    category: al vapor
+    text: "3 \xD7 surtida"
+    variety_key: SRV
+  - amount: 5
+    badges: []
+    category: al vapor
+    text: "5 \xD7 lengua"
+    variety_key: LEV
+  id: 1142818611536572416
+  tk_data: BAR10BIS05SRV03LEV05
+  tk_url: https://tacokeeper.com/paranoideo?t=BAR10BIS05SRV03LEV05
+  total_tacos: 23
+  type: daily
 - badges:
   - text: "Nueva categor\xEDa: Casero"
     type: category
@@ -695,7 +724,7 @@ summary:
   joined: 2019-02-07
   joined_formatted: febrero 2019
   total_categories: 9
-  total_tacos: 253
+  total_tacos: 276
   total_varieties: 21
   varieties:
   - SUA
