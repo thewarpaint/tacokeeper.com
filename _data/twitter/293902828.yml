@@ -1,5 +1,62 @@
 activities:
 - badges:
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-06-24 03:35:00'
+  created_at_formatted: Junio 24
+  entries:
+  - amount: 1
+    badges:
+    - variety
+    category: parrilla
+    text: "1 \xD7 chorizo argentino"
+    variety_key: CAG
+  - amount: 1
+    badges:
+    - variety
+    category: parrilla
+    text: "1 \xD7 chistorra"
+    variety_key: CRR
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 chuleta"
+    variety_key: CHU
+  id: 1142999537218392064
+  tk_data: CAG01CRR01CHU01
+  tk_url: https://tacokeeper.com/thewarpaint?t=CAG01CRR01CHU01
+  total_tacos: 3
+  type: daily
+- badges: []
+  created_at: '2019-06-23 23:39:19'
+  created_at_formatted: Junio 23
+  entries:
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 campechano"
+    variety_key: CAM
+  - amount: 1
+    badges: []
+    category: guisado
+    text: "1 \xD7 chicharr\xF3n prensado"
+    variety_key: CHG
+  - amount: 2
+    badges: []
+    category: guisado
+    text: "2 \xD7 papa con chorizo"
+    variety_key: PCH
+  - amount: 1
+    badges: []
+    category: guisado
+    text: "1 \xD7 picadillo"
+    variety_key: PIC
+  id: 1142940224714149888
+  tk_data: CAM02CHG01PCH02PIC01
+  tk_url: https://tacokeeper.com/thewarpaint?t=CAM02CHG01PCH02PIC01
+  total_tacos: 6
+  type: daily
+- badges:
   - text: 1 nueva variedad
     type: variety
   created_at: '2019-06-20 00:13:34'
@@ -1002,8 +1059,8 @@ summary:
   joined: 2019-02-26
   joined_formatted: febrero 2019
   total_categories: 8
-  total_tacos: 166
-  total_varieties: 43
+  total_tacos: 175
+  total_varieties: 45
   varieties:
   - CAM
   - SUA
@@ -1048,6 +1105,8 @@ summary:
   - FRI
   - PAP
   - TRO
+  - CAG
+  - CRR
 user:
   cover_image: cilantro
   id: '293902828'

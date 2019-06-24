@@ -1,5 +1,39 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Parrilla"
+    type: category
+  - text: "Nueva categor\xEDa: Guisado"
+    type: category
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-06-24 15:18:58'
+  created_at_formatted: Junio 24
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: parrilla
+    text: "2 \xD7 bistec"
+    variety_key: BIS
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: guisado
+    text: "1 \xD7 discada"
+    variety_key: DIS
+  - amount: 1
+    badges: []
+    category: birria
+    text: "1 \xD7 birria"
+    variety_key: BIR
+  id: 1143176695886884864
+  tk_data: BIS02DIS01BIR01
+  tk_url: https://tacokeeper.com/?t=BIS02DIS01BIR01
+  total_tacos: 4
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Birria"
     type: category
   - text: 1 nueva variedad
@@ -22,13 +56,17 @@ activities:
 summary:
   categories:
   - birria
+  - parrilla
+  - guisado
   joined: '2019-06-20'
   joined_formatted: Junio 2019
-  total_categories: 1
-  total_tacos: 5
-  total_varieties: 1
+  total_categories: 3
+  total_tacos: 9
+  total_varieties: 3
   varieties:
   - BIR
+  - BIS
+  - DIS
 user:
   cover_image: tomate
   id: '555488729'
