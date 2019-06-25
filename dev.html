@@ -5,7 +5,7 @@ themeColour: "#fdd835"
 ---
 {%- assign options = site.data.tacokeeper.options -%}
 {%- assign postTitle = "TacoKeeper" -%}
-{%- assign postDescription = "Monitorea tus actividades gastronómicas. 57 usuarios han registrado 797 tacos con nosotros. ¡Solo faltas tú! Running is boring. Tacos are fun. 🌮🏃" -%}
+{%- assign postDescription = "Monitorea tus actividades gastronómicas. 69 usuarios han registrado 1439 tacos con nosotros. ¡Solo faltas tú! Running is boring. Tacos are fun. 🌮🏃" -%}
 
 <!-- Total tacos calculation -->
 {% assign total_tacos = 0 %}
@@ -29,6 +29,8 @@ themeColour: "#fdd835"
     <link href="{{ site.url }}/assets/images/logo--64.png"
           rel="shortcut icon"
           type="image/png">
+    <link href="{{ site.url }}/assets/manifest.json"
+          rel="manifest">
 
     <!-- Twitter meta tags -->
     <meta name="twitter:card"
@@ -53,6 +55,8 @@ themeColour: "#fdd835"
           content="https://tacokeeper.com/">
     <meta property="og:image"
           content="{{ site.url }}/assets/images/logo.png">
+
+    {%- include sentry.html -%}
 
     <style type="text/css">
       /* Material UI palettes: https://material.io/design/color/the-color-system.html#tools-for-picking-colors */
@@ -139,6 +143,21 @@ themeColour: "#fdd835"
         color: #212121; /* Gray 900 */
       }
 
+      .brand--vegan {
+        background-color: #43a047; /* Green 600 */
+        color: #ffffff;
+      }
+
+      .brand--lgbt {
+        background: linear-gradient(180deg, #f28560, #f28560 16.67%,
+                                            #f2b560 16.67%, #f2b560 33.33%,
+                                            #f2cd60 33.33%, #f2cd60 50%,
+                                            #56d88c 50%, #56d88c 66.67%,
+                                            #60c1f2 66.67%, #60c1f2 83.33%,
+                                            #bd93d8 83.33%, #bd93d8);
+        color: #212121; /* Gray 900 */
+      }
+
       .brand__name {
         margin: 0;
         font-family: Montserrat;
@@ -157,45 +176,6 @@ themeColour: "#fdd835"
 
       .brand__slogan {
         font-size: .875rem;
-      }
-
-      .brand--vegan {
-        background-color: #43a047; /* Green 600 */
-        color: #ffffff;
-      }
-
-      /* Logo */
-      .logo {
-        display: none;
-        /*display: inline-block;*/
-        padding: 3.5rem 1rem;
-        font-family: Montserrat;
-        letter-spacing: -1px;
-        line-height: 250%;
-        background-color: #fdd835; /* Yellow 600 */
-        color: #212121; /* Gray 900 */
-      }
-
-      .logo__top,
-      .logo__bottom {
-        font-weight: 900;
-        margin: 0;
-      }
-
-      .logo__top {
-        font-size: 4rem;
-      }
-
-      .logo__bottom {
-        font-size: 2.625rem;
-      }
-
-      .logo--cilantro {
-        color: white;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-image: url("/assets/images/cilantro.jpg");
       }
 
       .capture--hidden,
@@ -558,7 +538,7 @@ themeColour: "#fdd835"
         $tweetText = document.getElementById('tweet-text');
         $searchInput = document.getElementById('search-input');
 
-        addInputListeners(document.querySelectorAll('.option__input'));
+        addInputDelegateListener(document.getElementById('options'));
         addElementsToOptions();
         addNormalisationsToOptions();
 
@@ -573,20 +553,18 @@ themeColour: "#fdd835"
         });
       });
 
-      function addInputListeners(inputs) {
-        for (var i = 0; i < inputs.length; i++) {
-          inputs[i].addEventListener('input', function (event) {
-            var value = parseInt(this.value, 10);
+      function addInputDelegateListener($optionsContainer) {
+        $optionsContainer.addEventListener('input', function (event) {
+          var value = parseInt(event.target.value, 10);
 
-            if (isNaN(value)) {
-              value = 0;
-            }
+          if (isNaN(value)) {
+            value = 0;
+          }
 
-            model[this.name.replace('input-', '')] = value;
-            updateTweet();
-            updateActiveOptions();
-          });
-        }
+          model[event.target.name.replace('input-', '')] = value;
+          updateTweet();
+          updateActiveOptions();
+        });
       }
 
       function updateTweet() {
@@ -723,7 +701,7 @@ themeColour: "#fdd835"
   </head>
 
   <body>
-    <div class="brand {% if page.isVegan %}brand--vegan{% endif %}">
+    <div class="brand brand--lgbt {% if page.isVegan %}brand--vegan{% endif %}">
       <h1 class="brand__name">
         TacoKeeper <span class="brand__alpha">alpha</span>
       </h1>
@@ -768,6 +746,11 @@ themeColour: "#fdd835"
         </p>
       </div>
 
+      <div id="tweet-text"
+           class="tweet-text">
+        Hoy comí...
+      </div>
+
       <div class="search">
         <input type="search"
                id="search-input"
@@ -776,7 +759,8 @@ themeColour: "#fdd835"
                placeholder="🔍 busca tu taco o categoría">
       </div>
 
-      <ul class="options">
+      <ul id="options"
+          class="options">
         <!-- I swear I tried to find a better way but there are no conditional assignments, not operator, etc. -->
         {%- for option in options -%}
         {%- if page.isVegan == false and option.category != 'vegano' -%}
@@ -794,11 +778,6 @@ themeColour: "#fdd835"
            class="link"
            target="_blank"
            rel="noopener">¡Envíanos tus sugerencias en Twitter!</a>
-      </div>
-
-      <div id="tweet-text"
-           class="tweet-text">
-        Hoy comí...
       </div>
 
       <div class="tweet-link-wrapper">
@@ -928,11 +907,6 @@ themeColour: "#fdd835"
         </div>
       </div>
     </section>
-
-    <div class="logo">
-      <h2 class="logo__top">Taco</h2>
-      <h2 class="logo__bottom">Keeper</h2>
-    </div>
 
     <footer>
       <a href="https://www.instagram.com/explore/locations/9092794/angel-de-la-independencia/"
