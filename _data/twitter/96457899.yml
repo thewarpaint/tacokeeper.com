@@ -1,5 +1,25 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Dorados"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-06-28 00:19:11'
+  created_at_formatted: Junio 28
+  entries:
+  - amount: 4
+    badges:
+    - category
+    - variety
+    category: dorados
+    text: "4 \xD7 barbacoa"
+    variety_key: BAD
+  id: 1144399809819959296
+  tk_data: BAD04
+  tk_url: https://tacokeeper.com/?t=BAD04
+  total_tacos: 4
+  type: daily
+- badges:
   - text: 1 nueva variedad
     type: variety
   created_at: '2019-06-25 21:37:22'
@@ -39,14 +59,16 @@ activities:
 summary:
   categories:
   - parrilla
+  - dorados
   joined: '2019-06-23'
   joined_formatted: Junio 2019
-  total_categories: 1
-  total_tacos: 7
-  total_varieties: 2
+  total_categories: 2
+  total_tacos: 11
+  total_varieties: 3
   varieties:
   - CAM
   - ASA
+  - BAD
 user:
   cover_image: guacamole
   id: '96457899'

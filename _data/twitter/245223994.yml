@@ -1,4 +1,21 @@
 activities:
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-06-27 01:21:03'
+  created_at_formatted: Junio 27
+  entries:
+  - amount: 2
+    badges:
+    - variety
+    category: parrilla
+    text: "2 \xD7 adobada"
+    variety_key: ADO
+  id: 1144052993035264003
+  tk_data: ADO02
+  tk_url: https://tacokeeper.com/?t=ADO02
+  total_tacos: 2
+  type: daily
 - badges: []
   created_at: '2019-06-25 03:52:42'
   created_at_formatted: Junio 25
@@ -243,8 +260,8 @@ summary:
   joined: 2019-04-03
   joined_formatted: Abril 2019
   total_categories: 4
-  total_tacos: 30
-  total_varieties: 8
+  total_tacos: 32
+  total_varieties: 9
   varieties:
   - ASA
   - CHO
@@ -254,6 +271,7 @@ summary:
   - SUA
   - PES
   - BAR
+  - ADO
 user:
   cover_image: onion
   id: '245223994'

@@ -1,4 +1,26 @@
 activities:
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-06-26 23:22:46'
+  created_at_formatted: Junio 26
+  entries:
+  - amount: 2
+    badges:
+    - variety
+    category: carnitas
+    text: "2 \xD7 maciza con cuerito"
+    variety_key: MCU
+  - amount: 6
+    badges: []
+    category: dorados
+    text: "6 \xD7 pollo"
+    variety_key: PLD
+  id: 1144023223497048064
+  tk_data: MCU02PLD06
+  tk_url: https://tacokeeper.com/?t=MCU02PLD06
+  total_tacos: 8
+  type: daily
 - badges: []
   created_at: '2019-06-23 15:36:04'
   created_at_formatted: Junio 23
@@ -724,8 +746,8 @@ summary:
   joined: 2019-02-07
   joined_formatted: febrero 2019
   total_categories: 9
-  total_tacos: 276
-  total_varieties: 21
+  total_tacos: 284
+  total_varieties: 22
   varieties:
   - SUA
   - BIS
@@ -748,6 +770,7 @@ summary:
   - ALA
   - CSE
   - MAC
+  - MCU
 user:
   cover_image: onion
   id: '762115'

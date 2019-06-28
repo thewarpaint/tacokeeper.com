@@ -1,4 +1,23 @@
 activities:
+- badges: []
+  created_at: '2019-06-27 01:01:08'
+  created_at_formatted: Junio 27
+  entries:
+  - amount: 1
+    badges: []
+    category: guisado
+    text: "1 \xD7 picadillo"
+    variety_key: PIC
+  - amount: 1
+    badges: []
+    category: guisado
+    text: "1 \xD7 tinga"
+    variety_key: TIN
+  id: 1144047980493676544
+  tk_data: PIC01TIN01
+  tk_url: https://tacokeeper.com/thewarpaint?t=PIC01TIN01
+  total_tacos: 2
+  type: daily
 - badges:
   - text: 2 nuevas variedades
     type: variety
@@ -1059,7 +1078,7 @@ summary:
   joined: 2019-02-26
   joined_formatted: febrero 2019
   total_categories: 8
-  total_tacos: 175
+  total_tacos: 177
   total_varieties: 45
   varieties:
   - CAM
