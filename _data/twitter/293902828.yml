@@ -1,5 +1,24 @@
 activities:
 - badges: []
+  created_at: '2019-06-29 01:49:42'
+  created_at_formatted: Junio 29
+  entries:
+  - amount: 3
+    badges: []
+    category: guisado
+    text: "3 \xD7 papa con chorizo"
+    variety_key: PCH
+  - amount: 2
+    badges: []
+    category: guisado
+    text: "2 \xD7 rajas con crema"
+    variety_key: RAJ
+  id: 1144784978603106304
+  tk_data: PCH03RAJ02
+  tk_url: https://tacokeeper.com/thewarpaint?t=PCH03RAJ02
+  total_tacos: 5
+  type: daily
+- badges: []
   created_at: '2019-06-27 01:01:08'
   created_at_formatted: Junio 27
   entries:
@@ -1078,7 +1097,7 @@ summary:
   joined: 2019-02-26
   joined_formatted: febrero 2019
   total_categories: 8
-  total_tacos: 177
+  total_tacos: 182
   total_varieties: 45
   varieties:
   - CAM

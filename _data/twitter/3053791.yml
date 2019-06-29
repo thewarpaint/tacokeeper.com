@@ -1,4 +1,32 @@
 activities:
+- badges:
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-06-28 23:41:38'
+  created_at_formatted: Junio 28
+  entries:
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 bistec"
+    variety_key: BIS
+  - amount: 2
+    badges:
+    - variety
+    category: guisado
+    text: "2 \xD7 chicharr\xF3n prensado"
+    variety_key: CHG
+  - amount: 2
+    badges:
+    - variety
+    category: guisado
+    text: "2 \xD7 papa con chorizo"
+    variety_key: PCH
+  id: 1144752747788607490
+  tk_data: BIS01CHG02PCH02
+  tk_url: https://tacokeeper.com/?t=BIS01CHG02PCH02
+  total_tacos: 5
+  type: daily
 - badges: []
   created_at: '2019-06-27 02:11:20'
   created_at_formatted: Junio 27
@@ -257,8 +285,8 @@ summary:
   joined: 2019-03-02
   joined_formatted: marzo 2019
   total_categories: 4
-  total_tacos: 72
-  total_varieties: 11
+  total_tacos: 77
+  total_varieties: 13
   varieties:
   - CHS
   - PAS
@@ -271,6 +299,8 @@ summary:
   - MIX
   - OBI
   - LOV
+  - CHG
+  - PCH
 user:
   cover_image: making-salsa
   id: '3053791'
