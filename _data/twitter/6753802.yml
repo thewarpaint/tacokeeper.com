@@ -1,4 +1,10 @@
 activities:
+- summary:
+    month: junio
+    total_categories: 1
+    total_tacos: 5
+    total_varieties: 1
+  type: monthly
 - badges: []
   created_at: '2019-06-23 01:14:25'
   created_at_formatted: Junio 23

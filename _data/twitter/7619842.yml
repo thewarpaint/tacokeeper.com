@@ -1,4 +1,10 @@
 activities:
+- summary:
+    month: junio
+    total_categories: 1
+    total_tacos: 2
+    total_varieties: 1
+  type: monthly
 - badges:
   - text: "Nueva categor\xEDa: Parrilla"
     type: category
@@ -19,6 +25,12 @@ activities:
   tk_url: https://tacokeeper.com/?t=CAM02
   total_tacos: 2
   type: daily
+- summary:
+    month: mayo
+    total_categories: 1
+    total_tacos: 2
+    total_varieties: 1
+  type: monthly
 - badges:
   - text: "Nueva categor\xEDa: Casero"
     type: category

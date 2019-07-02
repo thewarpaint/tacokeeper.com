@@ -1,4 +1,10 @@
 activities:
+- summary:
+    month: mayo
+    total_categories: 2
+    total_tacos: 5
+    total_varieties: 2
+  type: monthly
 - badges:
   - text: "Nueva categor\xEDa: Barbacoa"
     type: category
