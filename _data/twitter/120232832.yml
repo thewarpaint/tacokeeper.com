@@ -1,4 +1,18 @@
 activities:
+- badges: []
+  created_at: '2019-06-30 03:23:38'
+  created_at_formatted: Junio 30
+  entries:
+  - amount: 5
+    badges: []
+    category: parrilla
+    text: "5 \xD7 pastor"
+    variety_key: PAS
+  id: 1145171003284316160
+  tk_data: PAS05
+  tk_url: https://tacokeeper.com/?t=PAS05
+  total_tacos: 5
+  type: daily
 - badges:
   - text: 1 nueva variedad
     type: variety
@@ -229,7 +243,7 @@ summary:
   joined: 2019-03-31
   joined_formatted: Marzo 2019
   total_categories: 6
-  total_tacos: 46
+  total_tacos: 51
   total_varieties: 9
   varieties:
   - PPD
