@@ -1,4 +1,10 @@
 activities:
+- summary:
+    month: junio
+    total_categories: 3
+    total_tacos: 15
+    total_varieties: 5
+  type: monthly
 - badges:
   - text: "Nueva categor\xEDa: Birria"
     type: category
