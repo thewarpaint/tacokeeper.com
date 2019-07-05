@@ -1,4 +1,61 @@
 activities:
+- badges: []
+  created_at: '2019-07-04 04:25:05'
+  created_at_formatted: Julio 04
+  entries:
+  - amount: 3
+    badges: []
+    category: parrilla
+    text: "3 \xD7 campechano"
+    variety_key: CAM
+  - amount: 4
+    badges: []
+    category: parrilla
+    text: "4 \xD7 pastor"
+    variety_key: PAS
+  id: 1146636019049160706
+  tk_data: CAM03PAS04
+  tk_url: https://tacokeeper.com/?t=CAM03PAS04
+  total_tacos: 7
+  type: daily
+- badges: []
+  created_at: '2019-07-03 04:56:29'
+  created_at_formatted: Julio 03
+  entries:
+  - amount: 4
+    badges: []
+    category: guisado
+    text: "4 \xD7 alambre"
+    variety_key: ALA
+  - amount: 4
+    badges: []
+    category: barbacoa
+    text: "4 \xD7 barbacoa"
+    variety_key: BAR
+  - amount: 1
+    badges: []
+    category: barbacoa
+    text: "1 \xD7 pancita"
+    variety_key: PAN
+  id: 1146281533134778369
+  tk_data: ALA04BAR04PAN01
+  tk_url: https://tacokeeper.com/paranoideo?t=ALA04BAR04PAN01
+  total_tacos: 9
+  type: daily
+- badges: []
+  created_at: '2019-07-02 03:32:23'
+  created_at_formatted: Julio 02
+  entries:
+  - amount: 4
+    badges: []
+    category: guisado
+    text: "4 \xD7 alambre"
+    variety_key: ALA
+  id: 1145897984489660416
+  tk_data: ALA04
+  tk_url: https://tacokeeper.com/?t=ALA04
+  total_tacos: 4
+  type: daily
 - summary:
     month: junio
     total_categories: 6
@@ -752,7 +809,7 @@ summary:
   joined: 2019-02-07
   joined_formatted: febrero 2019
   total_categories: 9
-  total_tacos: 284
+  total_tacos: 304
   total_varieties: 22
   varieties:
   - SUA

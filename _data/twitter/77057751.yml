@@ -1,12 +1,56 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Carnitas"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-07-04 23:53:52'
+  created_at_formatted: Julio 04
+  entries:
+  - amount: 3
+    badges:
+    - category
+    - variety
+    category: carnitas
+    text: "3 \xD7 maciza"
+    variety_key: MAC
+  id: 1146930153185873920
+  tk_data: MAC03
+  tk_url: https://tacokeeper.com/?t=MAC03
+  total_tacos: 3
+  type: daily
+- badges:
+  - text: "Nueva categor\xEDa: Parrilla"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-07-04 11:04:01'
+  created_at_formatted: Julio 04
+  entries:
+  - amount: 3
+    badges:
+    - category
+    - variety
+    category: parrilla
+    text: "3 \xD7 chuleta con tocino"
+    variety_key: CHT
+  id: 1146736414543028224
+  tk_data: CHT03
+  tk_url: https://tacokeeper.com/?t=CHT03
+  total_tacos: 3
+  type: daily
 summary:
-  categories: []
+  categories:
+  - carnitas
+  - parrilla
   joined: '2019-07-04'
   joined_formatted: Julio 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 2
+  total_tacos: 6
+  total_varieties: 2
+  varieties:
+  - MAC
+  - CHT
 user:
   cover_image: guacamole
   id: '77057751'
