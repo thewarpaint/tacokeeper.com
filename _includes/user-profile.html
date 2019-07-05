@@ -209,6 +209,10 @@
         padding: 1rem;
       }
 
+      .activity:target {
+        background-color: #fffde7; /* Yellow 50 */
+      }
+
       .activity + .activity {
         border-top: 1px solid #eceff1; /* Blue Gray 50 */
       }
@@ -219,9 +223,13 @@
         }
       }
 
-      .activity__date {
-        color: #b0bec5; /* Blue Gray 200 */
+      .activity__date-venue {
         margin-bottom: 1rem;
+      }
+
+      .activity__date-venue,
+      .activity__permalink {
+        color: #b0bec5; /* Blue Gray 200 */
       }
 
       .activity__varieties {
@@ -396,8 +404,9 @@
           {%- when 'daily' -%}
           <li id="activity-{{ activity.id }}"
               class="activity">
-            <div class="activity__date">
-              <a href="#activity-{{ activity.id }}">{{ activity.created_at_formatted }}</a>
+            <div class="activity__date-venue">
+              <a class="activity__permalink"
+                 href="#activity-{{ activity.id }}">{{ activity.created_at_formatted }}</a>
               {% if activity.venue %}
               en {{ activity.venue.name }}
               {% endif %}
