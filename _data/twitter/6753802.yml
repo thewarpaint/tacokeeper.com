@@ -1,4 +1,44 @@
 activities:
+- badges:
+  - text: "Nueva categor\xEDa: Carnitas"
+    type: category
+  - text: "Nueva categor\xEDa: Al vapor"
+    type: category
+  - text: 3 nuevas variedades
+    type: variety
+  created_at: '2019-07-05 20:38:25'
+  created_at_formatted: Julio 05
+  entries:
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: carnitas
+    text: "1 \xD7 buche"
+    variety_key: BUC
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: al vapor
+    text: "1 \xD7 cabeza"
+    variety_key: CAB
+  - amount: 1
+    badges:
+    - variety
+    category: al vapor
+    text: "1 \xD7 cachete"
+    variety_key: CAV
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 tripa"
+    variety_key: TRI
+  id: 1147243355463704576
+  tk_data: BUC01CAB01CAV01TRI02
+  tk_url: https://tacokeeper.com/?t=BUC01CAB01CAV01TRI02
+  total_tacos: 5
+  type: daily
 - summary:
     month: junio
     total_categories: 1
@@ -48,13 +88,18 @@ activities:
 summary:
   categories:
   - parrilla
+  - carnitas
+  - al vapor
   joined: '2019-04-26'
   joined_formatted: Abril 2019
-  total_categories: 1
-  total_tacos: 7
-  total_varieties: 1
+  total_categories: 3
+  total_tacos: 12
+  total_varieties: 4
   varieties:
   - TRI
+  - BUC
+  - CAB
+  - CAV
 user:
   cover_image: onion
   id: '6753802'
