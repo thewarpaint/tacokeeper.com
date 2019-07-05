@@ -157,7 +157,8 @@
         color: #212121; /* Gray 900 */
       }
 
-      .logo--cocuyos {
+      .logo--cocuyos,
+      .logo--cocuyos-alt {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -170,7 +171,9 @@
       }
 
       .logo--cocuyos .logo__top,
-      .logo--cocuyos .logo__bottom {
+      .logo--cocuyos .logo__bottom,
+      .logo--cocuyos-alt .logo__top,
+      .logo--cocuyos-alt .logo__bottom {
         text-transform: uppercase;
       }
 
@@ -183,6 +186,17 @@
       .logo--cocuyos .logo__bottom {
         font-family: hobo-std;
         font-size: 1.125em;
+      }
+
+      .logo--cocuyos-alt .logo__top {
+        font-family: hobo-std;
+        font-size: 1.625em;
+      }
+
+      .logo--cocuyos-alt .logo__bottom {
+        font-weight: 300;
+        font-size: .75em;
+        letter-spacing: 10px;
       }
 
       .logo--cilantro {
@@ -303,6 +317,11 @@
     <div class="logo logo--cocuyos">
       <h2 class="logo__top">Taquería</h2>
       <h2 class="logo__bottom">Los Cocuyos</h2>
+    </div>
+
+    <div class="logo logo--cocuyos-alt">
+      <h2 class="logo__top">Los<br>Cocuyos</h2>
+      <h2 class="logo__bottom">Taquería</h2>
     </div>
 
     <div class="logo logo--tacokeeper logo--lgbt">
