@@ -6,6 +6,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700,900"
           rel="stylesheet">
+    <link href="https://use.typekit.net/ueu3xxh.css"
+          rel="stylesheet">
 
     <style type="text/css">
       /* Material UI palettes: https://material.io/design/color/the-color-system.html#tools-for-picking-colors */
@@ -129,13 +131,6 @@
 
       /* Logo */
       .logo {
-        display: inline-block;
-        padding: 3.5rem 1rem;
-        font-family: Montserrat;
-        letter-spacing: -1px;
-        line-height: 250%;
-        background-color: #fdd835; /* Yellow 600 */
-        color: #212121; /* Gray 900 */
       }
 
       .logo__top,
@@ -150,6 +145,44 @@
 
       .logo__bottom {
         font-size: 2.625rem;
+      }
+
+      .logo--tacokeeper {
+        display: inline-block;
+        padding: 3.5rem 1rem;
+        font-family: Montserrat;
+        letter-spacing: -1px;
+        line-height: 250%;
+        background-color: #fdd835; /* Yellow 600 */
+        color: #212121; /* Gray 900 */
+      }
+
+      .logo--cocuyos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vmin;
+        height: 100vmin;
+        font-size: 10vmin;
+        text-align: center;
+        background-color: black;
+        color: #ff6f00; /* Amber 900 */
+      }
+
+      .logo--cocuyos .logo__top,
+      .logo--cocuyos .logo__bottom {
+        text-transform: uppercase;
+      }
+
+      .logo--cocuyos .logo__top {
+        font-weight: 300;
+        font-size: .75em;
+        letter-spacing: 10px;
+      }
+
+      .logo--cocuyos .logo__bottom {
+        font-family: hobo-std;
+        font-size: 1.125em;
       }
 
       .logo--cilantro {
@@ -267,7 +300,12 @@
       </div>
     </div>
 
-    <div class="logo logo--lgbt">
+    <div class="logo logo--cocuyos">
+      <h2 class="logo__top">Taquería</h2>
+      <h2 class="logo__bottom">Los Cocuyos</h2>
+    </div>
+
+    <div class="logo logo--tacokeeper logo--lgbt">
       <h2 class="logo__top">Taco</h2>
       <h2 class="logo__bottom">Keeper</h2>
     </div>
