@@ -1,4 +1,26 @@
 activities:
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-07-06 00:41:06'
+  created_at_formatted: Julio 06
+  entries:
+  - amount: 6
+    badges: []
+    category: barbacoa
+    text: "6 \xD7 barbacoa"
+    variety_key: BAR
+  - amount: 2
+    badges:
+    - variety
+    category: guisado
+    text: "2 \xD7 pollo con mole"
+    variety_key: POL
+  id: 1147304427767787520
+  tk_data: BAR06POL02
+  tk_url: https://tacokeeper.com/?t=BAR06POL02
+  total_tacos: 8
+  type: daily
 - summary:
     month: junio
     total_categories: 5
@@ -249,8 +271,8 @@ summary:
   joined: 2019-03-31
   joined_formatted: Marzo 2019
   total_categories: 6
-  total_tacos: 51
-  total_varieties: 9
+  total_tacos: 59
+  total_varieties: 10
   varieties:
   - PPD
   - PAS
@@ -261,6 +283,7 @@ summary:
   - CPB
   - BIR
   - BAD
+  - POL
 user:
   cover_image: tomate
   id: '120232832'
