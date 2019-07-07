@@ -1,4 +1,32 @@
 activities:
+- badges: []
+  created_at: '2019-07-07 00:39:45'
+  created_at_formatted: Julio 07
+  entries:
+  - amount: 4
+    badges: []
+    category: frutos del mar
+    text: "4 \xD7 pescado"
+    variety_key: PES
+  id: 1147666475395633152
+  tk_data: PES04
+  tk_url: https://tacokeeper.com/?t=PES04
+  total_tacos: 4
+  type: daily
+- badges: []
+  created_at: '2019-07-06 17:15:31'
+  created_at_formatted: Julio 06
+  entries:
+  - amount: 4
+    badges: []
+    category: barbacoa
+    text: "4 \xD7 barbacoa"
+    variety_key: BAR
+  id: 1147554680903557126
+  tk_data: BAR04
+  tk_url: https://tacokeeper.com/?t=BAR04
+  total_tacos: 4
+  type: daily
 - badges:
   - text: 1 nueva variedad
     type: variety
@@ -271,7 +299,7 @@ summary:
   joined: 2019-03-31
   joined_formatted: Marzo 2019
   total_categories: 6
-  total_tacos: 59
+  total_tacos: 67
   total_varieties: 10
   varieties:
   - PPD

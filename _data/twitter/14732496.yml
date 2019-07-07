@@ -1,4 +1,23 @@
 activities:
+- badges: []
+  created_at: '2019-07-06 11:29:10'
+  created_at_formatted: Julio 06
+  entries:
+  - amount: 3
+    badges: []
+    category: al vapor
+    text: "3 \xD7 lengua"
+    variety_key: LEV
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 bistec"
+    variety_key: BIS
+  id: 1147467518849814528
+  tk_data: LEV03BIS01
+  tk_url: https://tacokeeper.com/?t=LEV03BIS01
+  total_tacos: 4
+  type: daily
 - summary:
     month: junio
     total_categories: 1
@@ -261,7 +280,7 @@ summary:
   joined: 2019-03-02
   joined_formatted: marzo 2019
   total_categories: 3
-  total_tacos: 48
+  total_tacos: 52
   total_varieties: 8
   varieties:
   - CAM
