@@ -1,4 +1,29 @@
 activities:
+- badges:
+  - text: "Nueva categor\xEDa: Al vapor"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-07-08 01:50:19'
+  created_at_formatted: Julio 08
+  entries:
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 tripa"
+    variety_key: TRI
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: al vapor
+    text: "1 \xD7 cabeza"
+    variety_key: CAB
+  id: 1148046625190940673
+  tk_data: TRI01CAB01
+  tk_url: https://tacokeeper.com/?t=TRI01CAB01
+  total_tacos: 2
+  type: daily
 - summary:
     month: mayo
     total_categories: 3
@@ -93,16 +118,18 @@ summary:
   - parrilla
   - vegano
   - barbacoa
+  - al vapor
   joined: '2019-04-26'
   joined_formatted: Abril 2019
-  total_categories: 3
-  total_tacos: 8
-  total_varieties: 4
+  total_categories: 4
+  total_tacos: 10
+  total_varieties: 5
   varieties:
   - TRI
   - PSV
   - BAR
   - CSP
+  - CAB
 user:
   cover_image: guacamole
   id: '3185617705'
