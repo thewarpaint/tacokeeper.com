@@ -629,6 +629,13 @@ options:
       singular: de milanesa de trigo
       plural: de milanesa de trigo
 
+  - key: MPM
+    name: mole con plátano macho
+    category: vegano
+    forms:
+      singular: de mole con plátano macho
+      plural: de mole con plátano macho
+
   - key: MOR
     name: moronga
     category: guisado
