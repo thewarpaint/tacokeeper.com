@@ -497,11 +497,28 @@
         color: #9c27b0; /* Purple 500 */
       }
 
+      /* Footer */
+      .footer {
+        margin: 4rem 0 2rem;
+      }
+
+      .footer__social-media {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        padding-left: 0;
+        margin: 1rem 0;
+      }
+
+      .footer__social-media-icon {
+        width: 2.5rem;
+      }
+
       /* Made in CDMX */
       .made-in-cdmx {
         display: block;
         text-align: center;
-        padding: 3rem .5rem;
+        padding: 1rem .5rem;
       }
 
       .made-in-cdmx__heart {
@@ -903,7 +920,31 @@
       </div>
     </section>
 
-    <footer>
+    <footer class="footer">
+      <ul class="footer__social-media">
+        <li>
+          <a href="https://www.instagram.com/tacokeepercom"
+             class="footer__social-media-item"
+             target="_blank"
+             rel="noopener">
+            <img src="{{ site.url }}/assets/images/social/instagram.svg"
+                 alt="@tacokeepercom en Instagram"
+                 class="footer__social-media-icon">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.twitter.com/tacokeeper"
+             class="footer__social-media-item"
+             target="_blank"
+             rel="noopener">
+            <img src="{{ site.url }}/assets/images/social/twitter.svg"
+                 alt="@tacokeeper en Twitter"
+                 class="footer__social-media-icon">
+          </a>
+        </li>
+      </ul>
+
       <a href="https://www.instagram.com/explore/locations/9092794/angel-de-la-independencia/"
          class="link made-in-cdmx"
          target="_blank"
