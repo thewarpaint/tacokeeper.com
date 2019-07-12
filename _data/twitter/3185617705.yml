@@ -1,5 +1,25 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Mixiote"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-07-10 21:14:20'
+  created_at_formatted: Julio 10
+  entries:
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: mixiote
+    text: "1 \xD7 mixiote"
+    variety_key: MIX
+  id: 1149064335106433024
+  tk_data: MIX01
+  tk_url: https://tacokeeper.com/?t=MIX01
+  total_tacos: 1
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Al vapor"
     type: category
   - text: 1 nueva variedad
@@ -119,17 +139,19 @@ summary:
   - vegano
   - barbacoa
   - al vapor
+  - mixiote
   joined: '2019-04-26'
   joined_formatted: Abril 2019
-  total_categories: 4
-  total_tacos: 10
-  total_varieties: 5
+  total_categories: 5
+  total_tacos: 11
+  total_varieties: 6
   varieties:
   - TRI
   - PSV
   - BAR
   - CSP
   - CAB
+  - MIX
 user:
   cover_image: guacamole
   id: '3185617705'
