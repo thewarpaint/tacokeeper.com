@@ -1,4 +1,24 @@
 activities:
+- badges:
+  - text: "Nueva categor\xEDa: Guisado"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-07-13 00:14:17'
+  created_at_formatted: Julio 13
+  entries:
+  - amount: 6
+    badges:
+    - category
+    - variety
+    category: guisado
+    text: "6 \xD7 huevo en salsa"
+    variety_key: HUE
+  id: 1149834395391537152
+  tk_data: HUE06
+  tk_url: https://tacokeeper.com/?t=HUE06
+  total_tacos: 6
+  type: daily
 - summary:
     month: junio
     total_categories: 3
@@ -99,11 +119,12 @@ summary:
   - parrilla
   - dorados
   - al vapor
+  - guisado
   joined: '2019-06-23'
   joined_formatted: Junio 2019
-  total_categories: 3
-  total_tacos: 16
-  total_varieties: 6
+  total_categories: 4
+  total_tacos: 22
+  total_varieties: 7
   varieties:
   - CAM
   - ASA
@@ -111,6 +132,7 @@ summary:
   - OJO
   - LEV
   - SRV
+  - HUE
 user:
   cover_image: guacamole
   id: '96457899'
