@@ -37,6 +37,10 @@
         background-image: url("/assets/images/cilantro.jpg");
       }
 
+      .square--cocuyos {
+        background-image: url("/assets/images/cocuyos.jpg");
+      }
+
       .square--guacamole {
         background-image: url("/assets/images/guacamole.jpg");
       }
@@ -135,6 +139,23 @@
 
       .square--cocuyos-100 .light {
         font-size: 1.375em;
+      }
+
+      .square--cocuyos-250 .heavy,
+      .square--cocuyos-250 .light {
+        /*opacity: .75;*/
+      }
+
+      .square--cocuyos-250 .heavy {
+        font-size: 4.25em;
+        color: rgba(255, 255, 255, 0);
+        -webkit-text-stroke-width: 8px;
+        -webkit-text-stroke-color: white;
+      }
+
+      .square--cocuyos-250 .light {
+        font-size: 1.3125em;
+        /*color: rgba(255, 255, 255, .75);*/
       }
 
       .square--cocuyos-forever {
@@ -361,6 +382,15 @@
         <div>
           <div class="heavy">cocuyos</div>
           <div class="heavy">forever</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="square square--cocuyos square--cocuyos-250">
+      <div class="square-inner">
+        <div>
+          <div class="heavy">250</div>
+          <div class="light">Seguidores</div>
         </div>
       </div>
     </div>
