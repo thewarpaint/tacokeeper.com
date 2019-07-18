@@ -1,4 +1,30 @@
 activities:
+- badges:
+  - text: "Nueva categor\xEDa: Carnitas"
+    type: category
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-07-14 15:59:53'
+  created_at_formatted: Julio 14
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: carnitas
+    text: "2 \xD7 buche"
+    variety_key: BUC
+  - amount: 1
+    badges:
+    - variety
+    category: carnitas
+    text: "1 \xD7 maciza con cuerito"
+    variety_key: MCU
+  id: 1150434753641762816
+  tk_data: BUC02MCU01
+  tk_url: https://tacokeeper.com/?t=BUC02MCU01
+  total_tacos: 3
+  type: daily
 - summary:
     month: marzo
     total_categories: 2
@@ -44,15 +70,18 @@ summary:
   categories:
   - al vapor
   - parrilla
+  - carnitas
   joined: 2019-03-31
   joined_formatted: Marzo 2019
-  total_categories: 2
-  total_tacos: 12
-  total_varieties: 3
+  total_categories: 3
+  total_tacos: 15
+  total_varieties: 5
   varieties:
   - PAS
   - CAC
   - SUA
+  - BUC
+  - MCU
 user:
   cover_image: limes
   id: '130219686'
