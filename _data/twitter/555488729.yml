@@ -1,4 +1,27 @@
 activities:
+- badges:
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-07-19 15:17:31'
+  created_at_formatted: Julio 19
+  entries:
+  - amount: 1
+    badges:
+    - variety
+    category: parrilla
+    text: "1 \xD7 pastor"
+    variety_key: PAS
+  - amount: 4
+    badges:
+    - variety
+    category: parrilla
+    text: "4 \xD7 asada"
+    variety_key: ASA
+  id: 1152236029555957760
+  tk_data: PAS01ASA04
+  tk_url: https://tacokeeper.com/?t=PAS01ASA04
+  total_tacos: 5
+  type: daily
 - summary:
     month: junio
     total_categories: 3
@@ -67,12 +90,14 @@ summary:
   joined: '2019-06-20'
   joined_formatted: Junio 2019
   total_categories: 3
-  total_tacos: 9
-  total_varieties: 3
+  total_tacos: 14
+  total_varieties: 5
   varieties:
   - BIR
   - BIS
   - DIS
+  - PAS
+  - ASA
 user:
   cover_image: tomate
   id: '555488729'
