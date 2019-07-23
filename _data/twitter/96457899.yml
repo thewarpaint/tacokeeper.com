@@ -1,4 +1,23 @@
 activities:
+- badges: []
+  created_at: '2019-07-21 16:31:18'
+  created_at_formatted: Julio 21
+  entries:
+  - amount: 2
+    badges: []
+    category: al vapor
+    text: "2 \xD7 ojo"
+    variety_key: OJO
+  - amount: 2
+    badges: []
+    category: al vapor
+    text: "2 \xD7 lengua"
+    variety_key: LEV
+  id: 1152979371583582208
+  tk_data: OJO02LEV02
+  tk_url: https://tacokeeper.com/?t=OJO02LEV02
+  total_tacos: 4
+  type: daily
 - badges:
   - text: "Nueva categor\xEDa: Guisado"
     type: category
@@ -123,7 +142,7 @@ summary:
   joined: '2019-06-23'
   joined_formatted: Junio 2019
   total_categories: 4
-  total_tacos: 22
+  total_tacos: 26
   total_varieties: 7
   varieties:
   - CAM
