@@ -2,6 +2,28 @@ activities:
 - badges:
   - text: 1 nueva variedad
     type: variety
+  created_at: '2019-07-25 03:24:42'
+  created_at_formatted: Julio 25
+  entries:
+  - amount: 3
+    badges:
+    - variety
+    category: al vapor
+    text: "3 \xD7 ojo"
+    variety_key: OJO
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 suadero"
+    variety_key: SUA
+  id: 1154230968724541441
+  tk_data: OJO03SUA02
+  tk_url: https://tacokeeper.com/?t=OJO03SUA02
+  total_tacos: 5
+  type: daily
+- badges:
+  - text: 1 nueva variedad
+    type: variety
   created_at: '2019-07-06 03:24:01'
   created_at_formatted: Julio 06
   entries:
@@ -216,8 +238,8 @@ summary:
   joined: 2019-02-24
   joined_formatted: febrero 2019
   total_categories: 6
-  total_tacos: 31
-  total_varieties: 13
+  total_tacos: 36
+  total_varieties: 14
   varieties:
   - CHP
   - CEC
@@ -232,6 +254,7 @@ summary:
   - ORE
   - CAM
   - CSP
+  - OJO
 user:
   cover_image: onion
   id: '1551651'

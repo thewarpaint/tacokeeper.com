@@ -1,4 +1,32 @@
 activities:
+- badges:
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-07-23 02:53:03'
+  created_at_formatted: Julio 23
+  entries:
+  - amount: 3
+    badges:
+    - variety
+    category: parrilla
+    text: "3 \xD7 arrachera"
+    variety_key: ARR
+  - amount: 2
+    badges:
+    - variety
+    category: parrilla
+    text: "2 \xD7 asada"
+    variety_key: ASA
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 longaniza"
+    variety_key: LON
+  id: 1153498230317096960
+  tk_data: ARR03ASA02LON01
+  tk_url: https://tacokeeper.com/thewarpaint?t=ARR03ASA02LON01
+  total_tacos: 6
+  type: daily
 - badges: []
   created_at: '2019-07-08 00:24:17'
   created_at_formatted: Julio 08
@@ -1174,8 +1202,8 @@ summary:
   joined: 2019-02-26
   joined_formatted: febrero 2019
   total_categories: 8
-  total_tacos: 194
-  total_varieties: 47
+  total_tacos: 200
+  total_varieties: 49
   varieties:
   - CAM
   - SUA
@@ -1224,6 +1252,8 @@ summary:
   - CRR
   - BRG
   - MCU
+  - ARR
+  - ASA
 user:
   cover_image: cilantro
   id: '293902828'
