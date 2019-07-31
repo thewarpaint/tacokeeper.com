@@ -1,4 +1,31 @@
 activities:
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-07-27 16:44:14'
+  created_at_formatted: Julio 27
+  entries:
+  - amount: 8
+    badges:
+    - variety
+    category: casero
+    text: "8 \xD7 aguacate"
+    variety_key: AGU
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 suadero"
+    variety_key: SUA
+  - amount: 4
+    badges: []
+    category: parrilla
+    text: "4 \xD7 tripa"
+    variety_key: TRI
+  id: 1155156953754230785
+  tk_data: AGU08SUA02TRI04
+  tk_url: https://tacokeeper.com/paranoideo?t=AGU08SUA02TRI04
+  total_tacos: 14
+  type: daily
 - badges: []
   created_at: '2019-07-04 04:25:05'
   created_at_formatted: Julio 04
@@ -809,8 +836,8 @@ summary:
   joined: 2019-02-07
   joined_formatted: febrero 2019
   total_categories: 9
-  total_tacos: 304
-  total_varieties: 22
+  total_tacos: 318
+  total_varieties: 23
   varieties:
   - SUA
   - BIS
@@ -834,6 +861,7 @@ summary:
   - CSE
   - MAC
   - MCU
+  - AGU
 user:
   cover_image: onion
   id: '762115'

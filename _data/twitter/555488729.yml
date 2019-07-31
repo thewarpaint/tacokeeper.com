@@ -1,4 +1,18 @@
 activities:
+- badges: []
+  created_at: '2019-07-26 02:18:21'
+  created_at_formatted: Julio 26
+  entries:
+  - amount: 5
+    badges: []
+    category: al vapor
+    text: "5 \xD7 carnaza"
+    variety_key: CAR
+  id: 1154576661486231553
+  tk_data: CAR05
+  tk_url: https://tacokeeper.com/?t=CAR05
+  total_tacos: 5
+  type: daily
 - badges:
   - text: "Nueva categor\xEDa: Al vapor"
     type: category
@@ -122,7 +136,7 @@ summary:
   joined: '2019-06-20'
   joined_formatted: Junio 2019
   total_categories: 4
-  total_tacos: 21
+  total_tacos: 26
   total_varieties: 7
   varieties:
   - BIR
