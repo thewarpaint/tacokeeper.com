@@ -1,5 +1,25 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Carnitas"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-08-12 19:53:13'
+  created_at_formatted: Agosto 12
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: carnitas
+    text: "2 \xD7 barriga"
+    variety_key: BRG
+  id: 1161002721555689472
+  tk_data: BRG02
+  tk_url: https://tacokeeper.com/?t=BRG02
+  total_tacos: 2
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Guisado"
     type: category
   - text: 1 nueva variedad
@@ -22,13 +42,15 @@ activities:
 summary:
   categories:
   - guisado
+  - carnitas
   joined: '2019-07-30'
   joined_formatted: Julio 2019
-  total_categories: 1
-  total_tacos: 2
-  total_varieties: 1
+  total_categories: 2
+  total_tacos: 4
+  total_varieties: 2
   varieties:
   - ALB
+  - BRG
 user:
   cover_image: making-salsa
   id: '13965962'

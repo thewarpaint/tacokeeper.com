@@ -1,4 +1,23 @@
 activities:
+- badges: []
+  created_at: '2019-08-01 23:25:11'
+  created_at_formatted: Agosto 01
+  entries:
+  - amount: 2
+    badges: []
+    category: casero
+    text: "2 \xD7 aguacate"
+    variety_key: AGU
+  - amount: 4
+    badges: []
+    category: guisado
+    text: "4 \xD7 alambre"
+    variety_key: ALA
+  id: 1157069797559062530
+  tk_data: AGU02ALA04
+  tk_url: https://tacokeeper.com/?t=AGU02ALA04
+  total_tacos: 6
+  type: daily
 - summary:
     month: junio
     total_categories: 1
@@ -231,7 +250,7 @@ summary:
   joined: '2019-04-27'
   joined_formatted: Abril 2019
   total_categories: 4
-  total_tacos: 42
+  total_tacos: 48
   total_varieties: 7
   varieties:
   - DIV

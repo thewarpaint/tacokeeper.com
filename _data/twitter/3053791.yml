@@ -1,4 +1,48 @@
 activities:
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-08-13 02:04:01'
+  created_at_formatted: Agosto 13
+  entries:
+  - amount: 2
+    badges: []
+    category: guisado
+    text: "2 \xD7 chicharr\xF3n prensado"
+    variety_key: CHG
+  - amount: 1
+    badges:
+    - variety
+    category: guisado
+    text: "1 \xD7 milanesa"
+    variety_key: MIL
+  id: 1161096033272811520
+  tk_data: CHG02MIL01
+  tk_url: https://tacokeeper.com/?t=CHG02MIL01
+  total_tacos: 3
+  type: daily
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-08-09 23:36:28'
+  created_at_formatted: Agosto 09
+  entries:
+  - amount: 3
+    badges:
+    - variety
+    category: parrilla
+    text: "3 \xD7 chorizo argentino"
+    variety_key: CAG
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 cecina"
+    variety_key: CEC
+  id: 1159971739348230149
+  tk_data: CAG03CEC01
+  tk_url: https://tacokeeper.com/?t=CAG03CEC01
+  total_tacos: 4
+  type: daily
 - badges: []
   created_at: '2019-07-26 03:05:55'
   created_at_formatted: Julio 26
@@ -333,8 +377,8 @@ summary:
   joined: 2019-03-02
   joined_formatted: marzo 2019
   total_categories: 4
-  total_tacos: 102
-  total_varieties: 13
+  total_tacos: 109
+  total_varieties: 15
   varieties:
   - CHS
   - PAS
@@ -349,6 +393,8 @@ summary:
   - LOV
   - CHG
   - PCH
+  - MIL
+  - CAG
 user:
   cover_image: making-salsa
   id: '3053791'

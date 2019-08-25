@@ -1,5 +1,33 @@
 activities:
 - badges: []
+  created_at: '2019-08-18 16:14:43'
+  created_at_formatted: Agosto 18
+  entries:
+  - amount: 4
+    badges: []
+    category: barbacoa
+    text: "4 \xD7 barbacoa"
+    variety_key: BAR
+  id: 1163122057812611072
+  tk_data: BAR04
+  tk_url: https://tacokeeper.com/?t=BAR04
+  total_tacos: 4
+  type: daily
+- badges: []
+  created_at: '2019-08-08 02:10:49'
+  created_at_formatted: Agosto 08
+  entries:
+  - amount: 6
+    badges: []
+    category: parrilla
+    text: "6 \xD7 pastor"
+    variety_key: PAS
+  id: 1159285808341196800
+  tk_data: PAS06
+  tk_url: https://tacokeeper.com/?t=PAS06
+  total_tacos: 6
+  type: daily
+- badges: []
   created_at: '2019-07-20 23:29:41'
   created_at_formatted: Julio 20
   entries:
@@ -313,7 +341,7 @@ summary:
   joined: 2019-03-31
   joined_formatted: Marzo 2019
   total_categories: 6
-  total_tacos: 72
+  total_tacos: 82
   total_varieties: 10
   varieties:
   - PPD

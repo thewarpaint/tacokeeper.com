@@ -1,4 +1,89 @@
 activities:
+- badges: []
+  created_at: '2019-08-24 05:51:39'
+  created_at_formatted: Agosto 24
+  entries:
+  - amount: 6
+    badges: []
+    category: al vapor
+    text: "6 \xD7 lengua"
+    variety_key: LEV
+  id: 1165139586273730560
+  tk_data: LEV06
+  tk_url: https://tacokeeper.com/?t=LEV06
+  total_tacos: 6
+  type: daily
+- badges: []
+  created_at: '2019-08-18 17:04:44'
+  created_at_formatted: Agosto 18
+  entries:
+  - amount: 8
+    badges: []
+    category: parrilla
+    text: "8 \xD7 pastor"
+    variety_key: PAS
+  id: 1163134646588194816
+  tk_data: PAS08
+  tk_url: https://tacokeeper.com/?t=PAS08
+  total_tacos: 8
+  type: daily
+- badges: []
+  created_at: '2019-08-17 00:47:27'
+  created_at_formatted: Agosto 17
+  entries:
+  - amount: 8
+    badges: []
+    category: guisado
+    text: "8 \xD7 cochinita pibil"
+    variety_key: CPB
+  id: 1162526316283027456
+  tk_data: CPB08
+  tk_url: https://tacokeeper.com/?t=CPB08
+  total_tacos: 8
+  type: daily
+- badges: []
+  created_at: '2019-08-12 22:17:54'
+  created_at_formatted: Agosto 12
+  entries:
+  - amount: 4
+    badges: []
+    category: parrilla
+    text: "4 \xD7 pastor"
+    variety_key: PAS
+  - amount: 4
+    badges: []
+    category: parrilla
+    text: "4 \xD7 suadero"
+    variety_key: SUA
+  id: 1161039131658600448
+  tk_data: PAS04SUA04
+  tk_url: https://tacokeeper.com/?t=PAS04SUA04
+  total_tacos: 8
+  type: daily
+- badges: []
+  created_at: '2019-08-08 01:08:36'
+  created_at_formatted: Agosto 08
+  entries:
+  - amount: 11
+    badges: []
+    category: parrilla
+    text: "11 \xD7 bistec"
+    variety_key: BIS
+  - amount: 4
+    badges: []
+    category: barbacoa
+    text: "4 \xD7 barbacoa"
+    variety_key: BAR
+  - amount: 1
+    badges: []
+    category: barbacoa
+    text: "1 \xD7 pancita"
+    variety_key: PAN
+  id: 1159270151465951234
+  tk_data: BIS11BAR04PAN01
+  tk_url: https://tacokeeper.com/?t=BIS11BAR04PAN01
+  total_tacos: 16
+  type: daily
 - badges:
   - text: 1 nueva variedad
     type: variety
@@ -836,7 +921,7 @@ summary:
   joined: 2019-02-07
   joined_formatted: febrero 2019
   total_categories: 9
-  total_tacos: 318
+  total_tacos: 364
   total_varieties: 23
   varieties:
   - SUA

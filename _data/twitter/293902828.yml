@@ -1,4 +1,128 @@
 activities:
+- badges: []
+  created_at: '2019-08-24 00:28:30'
+  created_at_formatted: Agosto 24
+  entries:
+  - amount: 4
+    badges: []
+    category: parrilla
+    text: "4 \xD7 costilla"
+    variety_key: CSP
+  - amount: 3
+    badges: []
+    category: parrilla
+    text: "3 \xD7 pastor"
+    variety_key: PAS
+  id: 1165058261860724736
+  tk_data: CSP04PAS03
+  tk_url: https://tacokeeper.com/thewarpaint?t=CSP04PAS03
+  total_tacos: 7
+  type: daily
+- badges: []
+  created_at: '2019-08-12 00:51:41'
+  created_at_formatted: Agosto 12
+  entries:
+  - amount: 3
+    badges: []
+    category: parrilla
+    text: "3 \xD7 pastor"
+    variety_key: PAS
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 suadero"
+    variety_key: SUA
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 campechano"
+    variety_key: CAM
+  - amount: 1
+    badges: []
+    category: al vapor
+    text: "1 \xD7 cabeza"
+    variety_key: CAB
+  - amount: 2
+    badges: []
+    category: carnitas
+    text: "2 \xD7 surtida"
+    variety_key: SUR
+  id: 1160715444594053121
+  tk_data: PAS03SUA01CAM01CAB01SUR02
+  tk_url: https://tacokeeper.com/?t=PAS03SUA01CAM01CAB01SUR02
+  total_tacos: 8
+  type: daily
+- badges: []
+  created_at: '2019-08-07 03:04:21'
+  created_at_formatted: Agosto 07
+  entries:
+  - amount: 2
+    badges: []
+    category: barbacoa
+    text: "2 \xD7 barbacoa"
+    variety_key: BAR
+  - amount: 1
+    badges: []
+    category: carnitas
+    text: "1 \xD7 lengua"
+    variety_key: LEN
+  - amount: 1
+    badges: []
+    category: barbacoa
+    text: "1 \xD7 pancita"
+    variety_key: PAN
+  - amount: 3
+    badges: []
+    category: parrilla
+    text: "3 \xD7 pastor"
+    variety_key: PAS
+  - amount: 1
+    badges: []
+    category: guisado
+    text: "1 \xD7 pechuga"
+    variety_key: PEC
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 suadero"
+    variety_key: SUA
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 tripa"
+    variety_key: TRI
+  id: 1158936892043354113
+  tk_data: BAR02LEN01PAN01PAS03PEC01SUA01TRI01
+  tk_url: https://tacokeeper.com/thewarpaint?t=BAR02LEN01PAN01PAS03PEC01SUA01TRI01
+  total_tacos: 10
+  type: daily
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-07-31 03:39:14'
+  created_at_formatted: Julio 31
+  entries:
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 bistec"
+    variety_key: BIS
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 campechano"
+    variety_key: CAM
+  - amount: 1
+    badges:
+    - variety
+    category: carnitas
+    text: "1 \xD7 chamorro"
+    variety_key: CHA
+  id: 1156408956270628864
+  tk_data: BIS02CAM01CHA01
+  tk_url: https://tacokeeper.com/thewarpaint?t=BIS02CAM01CHA01
+  total_tacos: 4
+  type: daily
 - badges:
   - text: 2 nuevas variedades
     type: variety
@@ -1202,8 +1326,8 @@ summary:
   joined: 2019-02-26
   joined_formatted: febrero 2019
   total_categories: 8
-  total_tacos: 200
-  total_varieties: 49
+  total_tacos: 229
+  total_varieties: 50
   varieties:
   - CAM
   - SUA
@@ -1254,6 +1378,7 @@ summary:
   - MCU
   - ARR
   - ASA
+  - CHA
 user:
   cover_image: cilantro
   id: '293902828'
