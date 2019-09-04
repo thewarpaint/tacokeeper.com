@@ -1,5 +1,19 @@
 activities:
 - badges: []
+  created_at: '2019-08-29 15:12:09'
+  created_at_formatted: Agosto 29
+  entries:
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 longaniza"
+    variety_key: LON
+  id: 1167092582956056586
+  tk_data: LON02
+  tk_url: https://tacokeeper.com/?t=LON02
+  total_tacos: 2
+  type: daily
+- badges: []
   created_at: '2019-07-20 23:08:35'
   created_at_formatted: Julio 20
   entries:
@@ -89,7 +103,7 @@ summary:
   joined: '2019-06-10'
   joined_formatted: Junio 2019
   total_categories: 2
-  total_tacos: 14
+  total_tacos: 16
   total_varieties: 5
   varieties:
   - BIS

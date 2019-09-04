@@ -1,4 +1,26 @@
 activities:
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-09-01 04:02:23'
+  created_at_formatted: Septiembre 01
+  entries:
+  - amount: 10
+    badges: []
+    category: parrilla
+    text: "10 \xD7 pastor"
+    variety_key: PAS
+  - amount: 1
+    badges:
+    - variety
+    category: parrilla
+    text: "1 \xD7 nopales"
+    variety_key: NPL
+  id: 1168011191903490048
+  tk_data: PAS10NPL01
+  tk_url: https://tacokeeper.com/?t=PAS10NPL01
+  total_tacos: 11
+  type: daily
 - summary:
     month: junio
     total_categories: 2
@@ -128,13 +150,14 @@ summary:
   joined: '2019-05-17'
   joined_formatted: Mayo 2019
   total_categories: 2
-  total_tacos: 41
-  total_varieties: 4
+  total_tacos: 52
+  total_varieties: 5
   varieties:
   - PCC
   - PAS
   - FRI
   - CHP
+  - NPL
 user:
   cover_image: tomate
   id: '18258419'

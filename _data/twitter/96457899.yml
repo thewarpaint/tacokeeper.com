@@ -1,4 +1,70 @@
 activities:
+- badges:
+  - text: "Nueva categor\xEDa: Carnitas"
+    type: category
+  - text: 3 nuevas variedades
+    type: variety
+  created_at: '2019-09-01 15:47:07'
+  created_at_formatted: Septiembre 01
+  entries:
+  - amount: 1
+    badges:
+    - variety
+    category: guisado
+    text: "1 \xD7 chicharr\xF3n prensado"
+    variety_key: CHG
+  - amount: 2
+    badges: []
+    category: al vapor
+    text: "2 \xD7 lengua"
+    variety_key: LEV
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: carnitas
+    text: "1 \xD7 buche"
+    variety_key: BUC
+  - amount: 1
+    badges:
+    - variety
+    category: guisado
+    text: "1 \xD7 pollo con mole"
+    variety_key: POL
+  id: 1168188546051538944
+  tk_data: CHG01LEV02BUC01POL01
+  tk_url: https://tacokeeper.com/?t=CHG01LEV02BUC01POL01
+  total_tacos: 5
+  type: daily
+- badges:
+  - text: 3 nuevas variedades
+    type: variety
+  created_at: '2019-08-27 02:41:55'
+  created_at_formatted: Agosto 27
+  entries:
+  - amount: 3
+    badges:
+    - variety
+    category: guisado
+    text: "3 \xD7 chicharr\xF3n en salsa"
+    variety_key: CHS
+  - amount: 1
+    badges:
+    - variety
+    category: guisado
+    text: "1 \xD7 moronga"
+    variety_key: MOR
+  - amount: 2
+    badges:
+    - variety
+    category: al vapor
+    text: "2 \xD7 cabeza"
+    variety_key: CAB
+  id: 1166179003167907840
+  tk_data: CHS03MOR01CAB02
+  tk_url: https://tacokeeper.com/?t=CHS03MOR01CAB02
+  total_tacos: 6
+  type: daily
 - badges: []
   created_at: '2019-07-21 16:31:18'
   created_at_formatted: Julio 21
@@ -139,11 +205,12 @@ summary:
   - dorados
   - al vapor
   - guisado
+  - carnitas
   joined: '2019-06-23'
   joined_formatted: Junio 2019
-  total_categories: 4
-  total_tacos: 26
-  total_varieties: 7
+  total_categories: 5
+  total_tacos: 37
+  total_varieties: 13
   varieties:
   - CAM
   - ASA
@@ -152,6 +219,12 @@ summary:
   - LEV
   - SRV
   - HUE
+  - CHG
+  - BUC
+  - POL
+  - CHS
+  - MOR
+  - CAB
 user:
   cover_image: guacamole
   id: '96457899'
