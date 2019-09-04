@@ -1,5 +1,41 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Carnitas"
+    type: category
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-09-03 02:54:36'
+  created_at_formatted: Septiembre 03
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: carnitas
+    text: "2 \xD7 costilla"
+    variety_key: COS
+  - amount: 1
+    badges:
+    - variety
+    category: parrilla
+    text: "1 \xD7 tripa"
+    variety_key: TRI
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 pastor"
+    variety_key: PAS
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 campechano"
+    variety_key: CAM
+  id: 1168718910092451840
+  tk_data: COS02TRI01PAS01CAM01
+  tk_url: https://tacokeeper.com/?t=COS02TRI01PAS01CAM01
+  total_tacos: 5
+  type: daily
+- badges:
   - text: 1 nueva variedad
     type: variety
   created_at: '2019-07-08 12:20:15'
@@ -294,11 +330,12 @@ summary:
   - parrilla
   - al vapor
   - guisado
+  - carnitas
   joined: 2019-03-02
   joined_formatted: marzo 2019
-  total_categories: 3
-  total_tacos: 58
-  total_varieties: 9
+  total_categories: 4
+  total_tacos: 63
+  total_varieties: 11
   varieties:
   - CAM
   - PAS
@@ -309,6 +346,8 @@ summary:
   - BSS
   - MIL
   - ALA
+  - COS
+  - TRI
 user:
   cover_image: chorizo
   id: '14732496'
