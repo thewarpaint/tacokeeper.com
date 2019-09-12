@@ -1,4 +1,32 @@
 activities:
+- badges:
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-09-04 03:08:12'
+  created_at_formatted: Septiembre 04
+  entries:
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 suadero"
+    variety_key: SUA
+  - amount: 2
+    badges:
+    - variety
+    category: parrilla
+    text: "2 \xD7 tripa"
+    variety_key: TRI
+  - amount: 1
+    badges:
+    - variety
+    category: parrilla
+    text: "1 \xD7 longaniza"
+    variety_key: LON
+  id: 1169084721562902528
+  tk_data: SUA02TRI02LON01
+  tk_url: https://tacokeeper.com/?t=SUA02TRI02LON01
+  total_tacos: 5
+  type: daily
 - badges: []
   created_at: '2019-08-30 02:10:58'
   created_at_formatted: Agosto 30
@@ -486,8 +514,8 @@ summary:
   joined: 2019-02-13
   joined_formatted: febrero 2019
   total_categories: 6
-  total_tacos: 115
-  total_varieties: 15
+  total_tacos: 120
+  total_varieties: 17
   varieties:
   - CAC
   - CAM
@@ -504,6 +532,8 @@ summary:
   - BIS
   - PCH
   - BIR
+  - TRI
+  - LON
 user:
   cover_image: making-salsa
   id: '97132953'

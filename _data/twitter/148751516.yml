@@ -1,4 +1,36 @@
 activities:
+- badges: []
+  created_at: '2019-09-05 04:44:32'
+  created_at_formatted: Septiembre 05
+  entries:
+  - amount: 1
+    badges: []
+    category: al vapor
+    text: "1 \xD7 lengua"
+    variety_key: LEV
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 \xE1rabe"
+    variety_key: ARA
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 campechano"
+    variety_key: CAM
+  - amount: 1
+    badges: []
+    category: al vapor
+    text: "1 \xD7 cabeza"
+    variety_key: CAB
+  id: 1169471352916459521
+  tk_data: LEV01ARA01CAM01CAB01
+  tk_url: https://tacokeeper.com/?t=LEV01ARA01CAM01CAB01
+  total_tacos: 4
+  type: daily
+  venue:
+    id: 7d93122509633720
+    name: "Benito Ju\xE1rez"
 - badges:
   - text: 1 nueva variedad
     type: variety
@@ -376,7 +408,7 @@ summary:
   joined: 2019-03-02
   joined_formatted: marzo 2019
   total_categories: 7
-  total_tacos: 37
+  total_tacos: 41
   total_varieties: 18
   varieties:
   - PAS

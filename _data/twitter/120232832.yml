@@ -1,4 +1,18 @@
 activities:
+- badges: []
+  created_at: '2019-09-08 18:55:25'
+  created_at_formatted: Septiembre 08
+  entries:
+  - amount: 5
+    badges: []
+    category: barbacoa
+    text: "5 \xD7 barbacoa"
+    variety_key: BAR
+  id: 1170772646587510790
+  tk_data: BAR05
+  tk_url: https://tacokeeper.com/?t=BAR05
+  total_tacos: 5
+  type: daily
 - badges:
   - text: 1 nueva variedad
     type: variety
@@ -363,7 +377,7 @@ summary:
   joined: 2019-03-31
   joined_formatted: Marzo 2019
   total_categories: 6
-  total_tacos: 88
+  total_tacos: 93
   total_varieties: 11
   varieties:
   - PPD
