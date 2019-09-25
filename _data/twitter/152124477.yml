@@ -1,5 +1,31 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Canasta"
+    type: category
+  - text: 2 nuevas variedades
+    type: variety
+  created_at: '2019-09-12 03:12:44'
+  created_at_formatted: Septiembre 12
+  entries:
+  - amount: 3
+    badges:
+    - variety
+    category: parrilla
+    text: "3 \xD7 adobada"
+    variety_key: ADO
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: canasta
+    text: "2 \xD7 frijol"
+    variety_key: FRI
+  id: 1171984962435854336
+  tk_data: ADO03FRI02
+  tk_url: https://tacokeeper.com/?t=ADO03FRI02
+  total_tacos: 5
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Parrilla"
     type: category
   - text: 1 nueva variedad
@@ -22,13 +48,16 @@ activities:
 summary:
   categories:
   - parrilla
+  - canasta
   joined: '2019-08-23'
   joined_formatted: Agosto 2019
-  total_categories: 1
-  total_tacos: 2
-  total_varieties: 1
+  total_categories: 2
+  total_tacos: 7
+  total_varieties: 3
   varieties:
   - ASA
+  - ADO
+  - FRI
 user:
   cover_image: making-salsa
   id: '152124477'

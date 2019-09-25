@@ -1,4 +1,55 @@
 activities:
+- badges: []
+  created_at: '2019-09-12 03:19:58'
+  created_at_formatted: Septiembre 12
+  entries:
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 pastor"
+    variety_key: PAS
+  - amount: 1
+    badges: []
+    category: al vapor
+    text: "1 \xD7 lengua"
+    variety_key: LEV
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 bistec"
+    variety_key: BIS
+  id: 1171986784466681857
+  tk_data: PAS02LEV01BIS01
+  tk_url: https://tacokeeper.com/?t=PAS02LEV01BIS01
+  total_tacos: 4
+  type: daily
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-09-12 03:18:18'
+  created_at_formatted: Septiembre 12
+  entries:
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 arrachera"
+    variety_key: ARR
+  - amount: 1
+    badges:
+    - variety
+    category: guisado
+    text: "1 \xD7 papa con chorizo"
+    variety_key: PCH
+  - amount: 1
+    badges: []
+    category: guisado
+    text: "1 \xD7 costilla en chile pasilla"
+    variety_key: CCP
+  id: 1171986365279625222
+  tk_data: ARR02PCH01CCP01
+  tk_url: https://tacokeeper.com/?t=ARR02PCH01CCP01
+  total_tacos: 4
+  type: daily
 - badges:
   - text: 1 nueva variedad
     type: variety
@@ -356,8 +407,8 @@ summary:
   joined: 2019-03-02
   joined_formatted: marzo 2019
   total_categories: 4
-  total_tacos: 65
-  total_varieties: 12
+  total_tacos: 73
+  total_varieties: 13
   varieties:
   - CAM
   - PAS
@@ -371,6 +422,7 @@ summary:
   - COS
   - TRI
   - CCP
+  - PCH
 user:
   cover_image: chorizo
   id: '14732496'

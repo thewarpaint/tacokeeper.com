@@ -1,5 +1,38 @@
 activities:
 - badges: []
+  created_at: '2019-09-16 04:04:14'
+  created_at_formatted: Septiembre 16
+  entries:
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 pastor"
+    variety_key: PAS
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 asada"
+    variety_key: ASA
+  id: 1173447474696085504
+  tk_data: PAS02ASA01
+  tk_url: https://tacokeeper.com/?t=PAS02ASA01
+  total_tacos: 3
+  type: daily
+- badges: []
+  created_at: '2019-09-12 05:17:23'
+  created_at_formatted: Septiembre 12
+  entries:
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 asada"
+    variety_key: ASA
+  id: 1172016332205940736
+  tk_data: ASA02
+  tk_url: https://tacokeeper.com/?t=ASA02
+  total_tacos: 2
+  type: daily
+- badges: []
   created_at: '2019-08-30 03:42:29'
   created_at_formatted: Agosto 30
   entries:
@@ -427,7 +460,7 @@ summary:
   joined: 2019-04-03
   joined_formatted: Abril 2019
   total_categories: 5
-  total_tacos: 55
+  total_tacos: 60
   total_varieties: 12
   varieties:
   - ASA

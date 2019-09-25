@@ -1,4 +1,123 @@
 activities:
+- badges:
+  - text: "Nueva categor\xEDa: Dorados"
+    type: category
+  - text: 3 nuevas variedades
+    type: variety
+  created_at: '2019-09-25 01:55:59'
+  created_at_formatted: Septiembre 25
+  entries:
+  - amount: 1
+    badges: []
+    category: carnitas
+    text: "1 \xD7 barriga"
+    variety_key: BRG
+  - amount: 1
+    badges: []
+    category: carnitas
+    text: "1 \xD7 maciza con cuerito"
+    variety_key: MCU
+  - amount: 1
+    badges: []
+    category: carnitas
+    text: "1 \xD7 chamorro"
+    variety_key: CHA
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: dorados
+    text: "1 \xD7 papa"
+    variety_key: PPD
+  - amount: 1
+    badges:
+    - variety
+    category: dorados
+    text: "1 \xD7 pollo"
+    variety_key: PLD
+  - amount: 1
+    badges:
+    - variety
+    category: dorados
+    text: "1 \xD7 res"
+    variety_key: RES
+  id: 1176676693173526528
+  tk_data: BRG01MCU01CHA01PPD01PLD01RES01
+  tk_url: https://tacokeeper.com/thewarpaint?t=BRG01MCU01CHA01PPD01PLD01RES01
+  total_tacos: 6
+  type: daily
+- badges: []
+  created_at: '2019-09-22 15:32:07'
+  created_at_formatted: Septiembre 22
+  entries:
+  - amount: 4
+    badges: []
+    category: parrilla
+    text: "4 \xD7 campechano"
+    variety_key: CAM
+  - amount: 1
+    badges: []
+    category: al vapor
+    text: "1 \xD7 lengua"
+    variety_key: LEV
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 tripa"
+    variety_key: TRI
+  id: 1175794915080622080
+  tk_data: CAM04LEV01TRI02
+  tk_url: https://tacokeeper.com/thewarpaint?t=CAM04LEV01TRI02
+  total_tacos: 7
+  type: daily
+- badges: []
+  created_at: '2019-09-15 16:33:14'
+  created_at_formatted: Septiembre 15
+  entries:
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 adobada"
+    variety_key: ADO
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 campechano"
+    variety_key: CAM
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 chuleta"
+    variety_key: CHU
+  id: 1173273578650951683
+  tk_data: ADO02CAM02CHU01
+  tk_url: https://tacokeeper.com/thewarpaint?t=ADO02CAM02CHU01
+  total_tacos: 5
+  type: daily
+- badges: []
+  created_at: '2019-09-12 03:19:45'
+  created_at_formatted: Septiembre 12
+  entries:
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 bistec"
+    variety_key: BIS
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 chistorra"
+    variety_key: CRR
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 chorizo argentino"
+    variety_key: CAG
+  id: 1171986730989363200
+  tk_data: BIS01CRR01CAG01
+  tk_url: https://tacokeeper.com/thewarpaint?t=BIS01CRR01CAG01
+  total_tacos: 3
+  type: daily
 - badges: []
   created_at: '2019-08-24 00:28:30'
   created_at_formatted: Agosto 24
@@ -1323,11 +1442,12 @@ summary:
   - barbacoa
   - birria
   - canasta
+  - dorados
   joined: 2019-02-26
   joined_formatted: febrero 2019
-  total_categories: 8
-  total_tacos: 229
-  total_varieties: 50
+  total_categories: 9
+  total_tacos: 250
+  total_varieties: 53
   varieties:
   - CAM
   - SUA
@@ -1379,6 +1499,9 @@ summary:
   - ARR
   - ASA
   - CHA
+  - PPD
+  - PLD
+  - RES
 user:
   cover_image: cilantro
   id: '293902828'
