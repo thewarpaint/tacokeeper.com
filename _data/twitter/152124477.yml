@@ -1,5 +1,25 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Frutos del mar"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-09-25 19:38:43'
+  created_at_formatted: Septiembre 25
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: frutos del mar
+    text: "2 \xD7 pescado"
+    variety_key: PES
+  id: 1176944137813184512
+  tk_data: PES02
+  tk_url: https://tacokeeper.com/?t=PES02
+  total_tacos: 2
+  type: daily
+- badges:
   - text: "Nueva categor\xEDa: Canasta"
     type: category
   - text: 2 nuevas variedades
@@ -49,15 +69,17 @@ summary:
   categories:
   - parrilla
   - canasta
+  - frutos del mar
   joined: '2019-08-23'
   joined_formatted: Agosto 2019
-  total_categories: 2
-  total_tacos: 7
-  total_varieties: 3
+  total_categories: 3
+  total_tacos: 9
+  total_varieties: 4
   varieties:
   - ASA
   - ADO
   - FRI
+  - PES
 user:
   cover_image: making-salsa
   id: '152124477'

@@ -1,4 +1,33 @@
 activities:
+- badges: []
+  created_at: '2019-09-29 16:04:35'
+  created_at_formatted: Septiembre 29
+  entries:
+  - amount: 3
+    badges: []
+    category: parrilla
+    text: "3 \xD7 campechano"
+    variety_key: CAM
+  - amount: 1
+    badges: []
+    category: al vapor
+    text: "1 \xD7 lengua"
+    variety_key: LEV
+  - amount: 3
+    badges: []
+    category: parrilla
+    text: "3 \xD7 pastor"
+    variety_key: PAS
+  - amount: 3
+    badges: []
+    category: guisado
+    text: "3 \xD7 cochinita pibil"
+    variety_key: CPB
+  id: 1178339801549938688
+  tk_data: CAM03LEV01PAS03CPB03
+  tk_url: https://tacokeeper.com/thewarpaint?t=CAM03LEV01PAS03CPB03
+  total_tacos: 10
+  type: daily
 - badges:
   - text: "Nueva categor\xEDa: Dorados"
     type: category
@@ -1446,7 +1475,7 @@ summary:
   joined: 2019-02-26
   joined_formatted: febrero 2019
   total_categories: 9
-  total_tacos: 250
+  total_tacos: 260
   total_varieties: 53
   varieties:
   - CAM
