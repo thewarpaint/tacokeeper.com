@@ -280,9 +280,15 @@
     key: MIX
 - category: dorados
   varieties:
+  - name: barbacoa
+    key: BAD
   - name: papa
     key: PPD
   - name: pollo
     key: PLD
   - name: res
     key: RES
+- category: lechón
+  varieties:
+  - name: lechón
+    key: LCH
