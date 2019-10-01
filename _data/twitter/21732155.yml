@@ -2,7 +2,9 @@ activities:
 - badges:
   - text: "Nueva categor\xEDa: Frutos del mar"
     type: category
-  - text: 1 nueva variedad
+  - text: "Nueva categor\xEDa: Lech\xF3n"
+    type: category
+  - text: 2 nuevas variedades
     type: variety
   created_at: '2019-09-25 02:23:26'
   created_at_formatted: Septiembre 25
@@ -14,6 +16,13 @@ activities:
     category: frutos del mar
     text: "1 \xD7 camar\xF3n"
     variety_key: CMR
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: "lech\xF3n"
+    text: "1 \xD7 lech\xF3n"
+    variety_key: LCH
   id: 1176683601364160512
   tk_data: CMR01
   tk_url: https://tacokeeper.com/?t=CMR01
