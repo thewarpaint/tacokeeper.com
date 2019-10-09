@@ -1,4 +1,26 @@
 activities:
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-10-01 03:18:57'
+  created_at_formatted: Octubre 01
+  entries:
+  - amount: 3
+    badges:
+    - variety
+    category: guisado
+    text: "3 \xD7 chicharr\xF3n prensado"
+    variety_key: CHG
+  - amount: 1
+    badges: []
+    category: frutos del mar
+    text: "1 \xD7 camar\xF3n"
+    variety_key: CMR
+  id: 1178871895871152130
+  tk_data: CHG03CMR01
+  tk_url: https://tacokeeper.com/?t=CHG03CMR01
+  total_tacos: 4
+  type: daily
 - badges: []
   created_at: '2019-09-23 03:17:34'
   created_at_formatted: Septiembre 23
@@ -533,8 +555,8 @@ summary:
   joined: 2019-02-13
   joined_formatted: febrero 2019
   total_categories: 6
-  total_tacos: 125
-  total_varieties: 17
+  total_tacos: 129
+  total_varieties: 18
   varieties:
   - CAC
   - CAM
@@ -553,6 +575,7 @@ summary:
   - BIR
   - TRI
   - LON
+  - CHG
 user:
   cover_image: making-salsa
   id: '97132953'

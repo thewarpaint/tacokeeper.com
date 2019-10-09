@@ -1,5 +1,35 @@
 activities:
 - badges:
+  - text: "Nueva categor\xEDa: Carnitas"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-10-05 07:04:21'
+  created_at_formatted: Octubre 05
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: carnitas
+    text: "2 \xD7 lengua"
+    variety_key: LEN
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 longaniza"
+    variety_key: LON
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 suadero"
+    variety_key: SUA
+  id: 1180378172401029120
+  tk_data: LEN02LON02SUA02
+  tk_url: https://tacokeeper.com/?t=LEN02LON02SUA02
+  total_tacos: 6
+  type: daily
+- badges:
   - text: 1 nueva variedad
     type: variety
   created_at: '2019-08-13 02:04:01'
@@ -374,11 +404,12 @@ summary:
   - parrilla
   - al vapor
   - mixiote
+  - carnitas
   joined: 2019-03-02
   joined_formatted: marzo 2019
-  total_categories: 4
-  total_tacos: 109
-  total_varieties: 15
+  total_categories: 5
+  total_tacos: 115
+  total_varieties: 16
   varieties:
   - CHS
   - PAS
@@ -395,6 +426,7 @@ summary:
   - PCH
   - MIL
   - CAG
+  - LEN
 user:
   cover_image: making-salsa
   id: '3053791'

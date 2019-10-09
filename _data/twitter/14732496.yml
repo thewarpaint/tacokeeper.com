@@ -1,4 +1,143 @@
 activities:
+- badges:
+  - text: "Nueva categor\xEDa: Barbacoa"
+    type: category
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-10-07 17:49:53'
+  created_at_formatted: Octubre 07
+  entries:
+  - amount: 4
+    badges:
+    - category
+    - variety
+    category: barbacoa
+    text: "4 \xD7 barbacoa"
+    variety_key: BAR
+  id: 1181265401872670720
+  tk_data: BAR04
+  tk_url: https://tacokeeper.com/?t=BAR04
+  total_tacos: 4
+  type: daily
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-10-05 02:33:10'
+  created_at_formatted: Octubre 05
+  entries:
+  - amount: 1
+    badges: []
+    category: al vapor
+    text: "1 \xD7 lengua"
+    variety_key: LEV
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 pastor"
+    variety_key: PAS
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 campechano"
+    variety_key: CAM
+  - amount: 1
+    badges:
+    - variety
+    category: parrilla
+    text: "1 \xD7 suadero"
+    variety_key: SUA
+  id: 1180309928214503424
+  tk_data: LEV01PAS02CAM01SUA01
+  tk_url: https://tacokeeper.com/?t=LEV01PAS02CAM01SUA01
+  total_tacos: 5
+  type: daily
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-10-05 01:24:11'
+  created_at_formatted: Octubre 05
+  entries:
+  - amount: 1
+    badges: []
+    category: guisado
+    text: "1 \xD7 alambre"
+    variety_key: ALA
+  - amount: 1
+    badges:
+    - variety
+    category: guisado
+    text: "1 \xD7 alb\xF3ndigas"
+    variety_key: ALB
+  - amount: 1
+    badges: []
+    category: al vapor
+    text: "1 \xD7 lengua"
+    variety_key: LEV
+  - amount: 1
+    badges: []
+    category: parrilla
+    text: "1 \xD7 suadero"
+    variety_key: SUA
+  id: 1180292566190841856
+  tk_data: ALA01ALB01LEV01SUA01
+  tk_url: https://tacokeeper.com/?t=ALA01ALB01LEV01SUA01
+  total_tacos: 4
+  type: daily
+- badges: []
+  created_at: '2019-10-04 03:40:23'
+  created_at_formatted: Octubre 04
+  entries:
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 pastor"
+    variety_key: PAS
+  id: 1179964454877855746
+  tk_data: PAS02
+  tk_url: https://tacokeeper.com/?t=PAS02
+  total_tacos: 2
+  type: daily
+- badges: []
+  created_at: '2019-10-03 07:10:52'
+  created_at_formatted: Octubre 03
+  entries:
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 pastor"
+    variety_key: PAS
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 campechano"
+    variety_key: CAM
+  id: 1179655037771014144
+  tk_data: PAS02CAM02
+  tk_url: https://tacokeeper.com/?t=PAS02CAM02
+  total_tacos: 4
+  type: daily
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-10-01 03:42:25'
+  created_at_formatted: Octubre 01
+  entries:
+  - amount: 1
+    badges: []
+    category: guisado
+    text: "1 \xD7 costilla en chile pasilla"
+    variety_key: CCP
+  - amount: 1
+    badges:
+    - variety
+    category: guisado
+    text: "1 \xD7 picadillo"
+    variety_key: PIC
+  id: 1178877804546547712
+  tk_data: CCP01PIC01
+  tk_url: https://tacokeeper.com/?t=CCP01PIC01
+  total_tacos: 2
+  type: daily
 - badges: []
   created_at: '2019-09-12 03:19:58'
   created_at_formatted: Septiembre 12
@@ -404,11 +543,12 @@ summary:
   - al vapor
   - guisado
   - carnitas
+  - barbacoa
   joined: 2019-03-02
   joined_formatted: marzo 2019
-  total_categories: 4
-  total_tacos: 73
-  total_varieties: 13
+  total_categories: 5
+  total_tacos: 94
+  total_varieties: 17
   varieties:
   - CAM
   - PAS
@@ -423,6 +563,10 @@ summary:
   - TRI
   - CCP
   - PCH
+  - BAR
+  - SUA
+  - ALB
+  - PIC
 user:
   cover_image: chorizo
   id: '14732496'
