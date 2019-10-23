@@ -1,5 +1,19 @@
 activities:
 - badges: []
+  created_at: '2019-10-18 23:07:50'
+  created_at_formatted: Octubre 18
+  entries:
+  - amount: 4
+    badges: []
+    category: barbacoa
+    text: "4 \xD7 barbacoa"
+    variety_key: BAR
+  id: 1185331684016709632
+  tk_data: BAR04
+  tk_url: https://tacokeeper.com/?t=BAR04
+  total_tacos: 4
+  type: daily
+- badges: []
   created_at: '2019-09-22 23:09:53'
   created_at_formatted: Septiembre 22
   entries:
@@ -405,7 +419,7 @@ summary:
   joined: 2019-03-31
   joined_formatted: Marzo 2019
   total_categories: 6
-  total_tacos: 103
+  total_tacos: 107
   total_varieties: 11
   varieties:
   - PPD

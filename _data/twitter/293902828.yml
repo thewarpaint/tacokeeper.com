@@ -1,5 +1,39 @@
 activities:
 - badges: []
+  created_at: '2019-10-17 02:04:15'
+  created_at_formatted: Octubre 17
+  entries:
+  - amount: 1
+    badges: []
+    category: carnitas
+    text: "1 \xD7 barriga"
+    variety_key: BRG
+  - amount: 1
+    badges: []
+    category: carnitas
+    text: "1 \xD7 buche"
+    variety_key: BUC
+  - amount: 1
+    badges: []
+    category: carnitas
+    text: "1 \xD7 costilla"
+    variety_key: COS
+  - amount: 1
+    badges: []
+    category: carnitas
+    text: "1 \xD7 maciza con cuerito"
+    variety_key: MCU
+  - amount: 1
+    badges: []
+    category: carnitas
+    text: "1 \xD7 surtida"
+    variety_key: SUR
+  id: 1184651302997037056
+  tk_data: BRG01BUC01COS01MCU01SUR01
+  tk_url: https://tacokeeper.com/thewarpaint?t=BRG01BUC01COS01MCU01SUR01
+  total_tacos: 5
+  type: daily
+- badges: []
   created_at: '2019-10-06 03:37:12'
   created_at_formatted: Octubre 06
   entries:
@@ -1541,7 +1575,7 @@ summary:
   joined: 2019-02-26
   joined_formatted: febrero 2019
   total_categories: 9
-  total_tacos: 275
+  total_tacos: 280
   total_varieties: 54
   varieties:
   - CAM

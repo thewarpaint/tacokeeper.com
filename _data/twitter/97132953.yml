@@ -2,6 +2,23 @@ activities:
 - badges:
   - text: 1 nueva variedad
     type: variety
+  created_at: '2019-10-12 04:16:16'
+  created_at_formatted: Octubre 12
+  entries:
+  - amount: 3
+    badges:
+    - variety
+    category: guisado
+    text: "3 \xD7 frijolitos con queso"
+    variety_key: FYQ
+  id: 1182872588944658433
+  tk_data: FYQ03
+  tk_url: https://tacokeeper.com/?t=FYQ03
+  total_tacos: 3
+  type: daily
+- badges:
+  - text: 1 nueva variedad
+    type: variety
   created_at: '2019-10-01 03:18:57'
   created_at_formatted: Octubre 01
   entries:
@@ -555,8 +572,8 @@ summary:
   joined: 2019-02-13
   joined_formatted: febrero 2019
   total_categories: 6
-  total_tacos: 129
-  total_varieties: 18
+  total_tacos: 132
+  total_varieties: 19
   varieties:
   - CAC
   - CAM
@@ -576,6 +593,7 @@ summary:
   - TRI
   - LON
   - CHG
+  - FYQ
 user:
   cover_image: making-salsa
   id: '97132953'
