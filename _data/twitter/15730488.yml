@@ -1,4 +1,21 @@
 activities:
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-10-31 20:01:36'
+  created_at_formatted: Octubre 31
+  entries:
+  - amount: 7
+    badges:
+    - variety
+    category: parrilla
+    text: "7 \xD7 tripa"
+    variety_key: TRI
+  id: 1189995857338175488
+  tk_data: TRI07
+  tk_url: https://tacokeeper.com/?t=TRI07
+  total_tacos: 7
+  type: daily
 - summary:
     month: mayo
     total_categories: 1
@@ -125,8 +142,8 @@ summary:
   joined: 2019-02-02
   joined_formatted: febrero 2019
   total_categories: 2
-  total_tacos: 26
-  total_varieties: 6
+  total_tacos: 33
+  total_varieties: 7
   varieties:
   - ADO
   - ASA
@@ -134,6 +151,7 @@ summary:
   - CAM
   - CHO
   - CAR
+  - TRI
 user:
   cover_image: tomate
   id: '15730488'

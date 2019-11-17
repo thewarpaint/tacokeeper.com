@@ -1,5 +1,36 @@
 activities:
 - badges: []
+  created_at: '2019-11-11 00:29:09'
+  created_at_formatted: Noviembre 11
+  entries:
+  - amount: 8
+    badges: []
+    category: parrilla
+    text: "8 \xD7 pastor"
+    variety_key: PAS
+  id: 1193687070092345345
+  tk_data: PAS08
+  tk_url: https://tacokeeper.com/?t=PAS08
+  total_tacos: 8
+  type: daily
+- badges:
+  - text: 1 nueva variedad
+    type: variety
+  created_at: '2019-10-24 02:02:33'
+  created_at_formatted: Octubre 24
+  entries:
+  - amount: 5
+    badges:
+    - variety
+    category: parrilla
+    text: "5 \xD7 campechano"
+    variety_key: CAM
+  id: 1187187593345224704
+  tk_data: CAM05
+  tk_url: https://tacokeeper.com/?t=CAM05
+  total_tacos: 5
+  type: daily
+- badges: []
   created_at: '2019-10-19 04:19:18'
   created_at_formatted: Octubre 19
   entries:
@@ -446,8 +477,8 @@ summary:
   joined: 2019-03-02
   joined_formatted: marzo 2019
   total_categories: 5
-  total_tacos: 128
-  total_varieties: 16
+  total_tacos: 141
+  total_varieties: 17
   varieties:
   - CHS
   - PAS
@@ -465,6 +496,7 @@ summary:
   - MIL
   - CAG
   - LEN
+  - CAM
 user:
   cover_image: making-salsa
   id: '3053791'

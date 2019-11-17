@@ -1,5 +1,57 @@
 activities:
 - badges: []
+  created_at: '2019-11-15 15:54:26'
+  created_at_formatted: Noviembre 15
+  entries:
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 tripa"
+    variety_key: TRI
+  id: 1195369477115920384
+  tk_data: TRI02
+  tk_url: https://tacokeeper.com/?t=TRI02
+  total_tacos: 2
+  type: daily
+- badges: []
+  created_at: '2019-11-10 01:33:02'
+  created_at_formatted: Noviembre 10
+  entries:
+  - amount: 3
+    badges: []
+    category: parrilla
+    text: "3 \xD7 suadero"
+    variety_key: SUA
+  - amount: 4
+    badges: []
+    category: parrilla
+    text: "4 \xD7 pastor"
+    variety_key: PAS
+  id: 1193340756964073472
+  tk_data: SUA03PAS04
+  tk_url: https://tacokeeper.com/?t=SUA03PAS04
+  total_tacos: 7
+  type: daily
+- badges: []
+  created_at: '2019-10-28 01:14:22'
+  created_at_formatted: Octubre 28
+  entries:
+  - amount: 4
+    badges: []
+    category: parrilla
+    text: "4 \xD7 tripa"
+    variety_key: TRI
+  - amount: 2
+    badges: []
+    category: parrilla
+    text: "2 \xD7 suadero"
+    variety_key: SUA
+  id: 1188625017074049024
+  tk_data: TRI04SUA02
+  tk_url: https://tacokeeper.com/?t=TRI04SUA02
+  total_tacos: 6
+  type: daily
+- badges: []
   created_at: '2019-10-19 03:40:10'
   created_at_formatted: Octubre 19
   entries:
@@ -1104,7 +1156,7 @@ summary:
   joined: 2019-02-07
   joined_formatted: febrero 2019
   total_categories: 9
-  total_tacos: 444
+  total_tacos: 459
   total_varieties: 24
   varieties:
   - SUA

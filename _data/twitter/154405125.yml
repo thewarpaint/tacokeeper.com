@@ -1,4 +1,36 @@
 activities:
+- badges:
+  - text: "Nueva categor\xEDa: Canasta"
+    type: category
+  - text: 3 nuevas variedades
+    type: variety
+  created_at: '2019-11-16 02:49:48'
+  created_at_formatted: Noviembre 16
+  entries:
+  - amount: 2
+    badges:
+    - category
+    - variety
+    category: canasta
+    text: "2 \xD7 chicharr\xF3n prensado"
+    variety_key: CHP
+  - amount: 1
+    badges:
+    - variety
+    category: canasta
+    text: "1 \xD7 frijol"
+    variety_key: FRI
+  - amount: 1
+    badges:
+    - variety
+    category: canasta
+    text: "1 \xD7 papa"
+    variety_key: PAP
+  id: 1195534405655285761
+  tk_data: CHP02FRI01PAP01
+  tk_url: https://tacokeeper.com/?t=CHP02FRI01PAP01
+  total_tacos: 4
+  type: daily
 - summary:
     month: marzo
     total_categories: 1
@@ -28,13 +60,17 @@ activities:
 summary:
   categories:
   - frutos del mar
+  - canasta
   joined: 2019-03-02
   joined_formatted: marzo 2019
-  total_categories: 1
-  total_tacos: 3
-  total_varieties: 1
+  total_categories: 2
+  total_tacos: 7
+  total_varieties: 4
   varieties:
   - CMR
+  - CHP
+  - FRI
+  - PAP
 user:
   cover_image: onion
   id: '154405125'
