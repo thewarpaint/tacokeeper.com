@@ -1,6 +1,6 @@
 .bundle
 .DS_Store
 _site
-twitter-bot/export_credentials.sh
+twitter-bot/.env
 vendor
 *.pyc
