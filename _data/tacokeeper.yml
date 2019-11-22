@@ -342,6 +342,13 @@ options:
       singular: de chorizo verde
       plural: de chorizo verde
 
+  - key: CHQ
+    name: choriqueso
+    category: parrilla
+    forms:
+      singular: de choriqueso
+      plural: de choriqueso
+
   - key: CQV
     name: choriqueso
     category: vegano

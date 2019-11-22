@@ -50,6 +50,8 @@
     key: CAM
   - name: cecina
     key: CEC
+  - name: choriqueso
+    key: CHQ
   - name: chorizo
     key: CHO
   - name: chorizo verde
