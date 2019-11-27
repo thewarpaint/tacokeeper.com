@@ -874,6 +874,13 @@ options:
       singular: de rajas con crema
       plural: de rajas con crema
 
+  - key: RIB
+    name: rib eye
+    category: parrilla
+    forms:
+      singular: de rib eye
+      plural: de rib eye
+
   - key: RIN
     name: riñón
     category: parrilla
