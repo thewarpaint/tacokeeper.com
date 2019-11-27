@@ -1,12 +1,48 @@
-activities: []
+activities:
+- badges:
+  - text: "Nueva categor\xEDa: Parrilla"
+    type: category
+  - text: 3 nuevas variedades
+    type: variety
+  created_at: '2019-11-27 01:27:26'
+  created_at_formatted: Noviembre 27
+  entries:
+  - amount: 1
+    badges:
+    - category
+    - variety
+    category: parrilla
+    text: "1 \xD7 asada"
+    variety_key: ASA
+  - amount: 2
+    badges:
+    - variety
+    category: parrilla
+    text: "2 \xD7 arrachera"
+    variety_key: ARR
+  - amount: 2
+    badges:
+    - variety
+    category: parrilla
+    text: "2 \xD7 chorizo"
+    variety_key: CHO
+  id: 1199499942504517632
+  tk_data: ASA01ARR02CHO02
+  tk_url: https://tacokeeper.com/?t=ASA01ARR02CHO02
+  total_tacos: 5
+  type: daily
 summary:
-  categories: []
+  categories:
+  - parrilla
   joined: '2019-11-26'
   joined_formatted: Noviembre 2019
-  total_categories: 0
-  total_tacos: 0
-  total_varieties: 0
-  varieties: []
+  total_categories: 1
+  total_tacos: 5
+  total_varieties: 3
+  varieties:
+  - ASA
+  - ARR
+  - CHO
 user:
   cover_image: cilantro
   id: '963853734374727680'
