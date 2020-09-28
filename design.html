@@ -232,6 +232,48 @@
         font-size: 1.625em;
       }
 
+      .square--cocuyos-warning-label .square-inner {
+        background: #000000;
+        color: #ffffff;
+        position: relative;
+        text-transform: uppercase;
+        transform: scale(.875);
+      }
+
+      .square--cocuyos-warning-label .square-inner:before,
+      .square--cocuyos-warning-label .square-inner:after {
+        box-sizing: border-box;
+        content: "";
+        width: 100vmin;
+        height: 0;
+        position: absolute;
+        border-left: 27.5vmin solid #ffffff;
+        border-right: 27.5vmin solid #ffffff;
+      }
+
+      .square--cocuyos-warning-label .square-inner:before {
+        top: 0;
+        left: 0;
+        border-bottom: 27.5vmin solid #000000;
+      }
+
+      .square--cocuyos-warning-label .square-inner:after {
+        bottom: 0;
+        left: 0;
+        border-top: 27.5vmin solid #000000;
+      }
+
+      .square--cocuyos-warning-label .heavy {
+        font-family: "Helvetica Neue", Helvetica, sans-serif !important;
+        font-size: 1.5em;
+        font-weight: 400;
+      }
+
+      .square--cocuyos-warning-label .light {
+        font-size: 1.25em;
+        font-weight: 400;
+      }
+
       .square--taco-count .heavy {
         font-size: 3.125em;
       }
@@ -846,6 +888,15 @@
         <div>
           <div class="light">#quédate</div>
           <div class="heavy">en casa</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="square square--cocuyos-warning-label">
+      <div class="square-inner">
+        <div>
+          <div class="light">Exceso de</div>
+          <div class="heavy">taquitos</div>
         </div>
       </div>
     </div>
