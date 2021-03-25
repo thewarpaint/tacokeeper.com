@@ -1,2 +1,2 @@
 tweepy == 3.5.0
-pyyaml == 3.10
+pyyaml == 5.4
